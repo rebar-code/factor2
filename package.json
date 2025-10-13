@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Shopify development with MCP server",
   "scripts": {
-    "mcps": "npx -y @shopify/dev-mcp@latest"
+    "mcps": "npx -y @shopify/dev-mcp@latest",
+    "check": "shopify theme check"
   },
   "keywords": ["shopify", "mcp"],
   "license": "MIT"
