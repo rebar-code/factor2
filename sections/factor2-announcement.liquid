@@ -1,0 +1,119 @@
+{{ 'factor2-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="factor2-announcement-bar color-{{ section.settings.color_scheme }}">
+  <div class="page-width factor2-announcement-bar__grid">
+    <div class="factor2-announcement-bar__links">
+      {% if section.settings.link_1_text != blank %}
+        <a href="{{ section.settings.link_1_url }}" class="factor2-announcement-bar__link">
+          {{ section.settings.link_1_text }}
+        </a>
+      {% endif %}
+      {% if section.settings.link_2_text != blank %}
+        <a href="{{ section.settings.link_2_url }}" class="factor2-announcement-bar__link">
+          {{ section.settings.link_2_text }}
+        </a>
+      {% endif %}
+      {% if section.settings.link_3_text != blank %}
+        <a href="{{ section.settings.link_3_url }}" class="factor2-announcement-bar__link">
+          {{ section.settings.link_3_text }}
+        </a>
+      {% endif %}
+    </div>
+    <div class="factor2-announcement-bar__contact">
+      {% if section.settings.phone != blank %}
+        <a href="tel:{{ section.settings.phone }}" class="factor2-announcement-bar__contact-link">
+          {{ section.settings.phone }}
+        </a>
+      {% endif %}
+      {% if section.settings.email_sales != blank %}
+        <a href="mailto:{{ section.settings.email_sales }}" class="factor2-announcement-bar__contact-link">
+          {{ section.settings.email_sales }}
+        </a>
+      {% endif %}
+      {% if section.settings.email_support != blank %}
+        <a href="mailto:{{ section.settings.email_support }}" class="factor2-announcement-bar__contact-link">
+          {{ section.settings.email_support }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Factor2 Announcement Bar",
+  "class": "factor2-announcement-section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Quick Links"
+    },
+    {
+      "type": "text",
+      "id": "link_1_text",
+      "label": "Link 1 text",
+      "default": "Learning Resources"
+    },
+    {
+      "type": "url",
+      "id": "link_1_url",
+      "label": "Link 1 URL"
+    },
+    {
+      "type": "text",
+      "id": "link_2_text",
+      "label": "Link 2 text",
+      "default": "SDS and Tech Sheets"
+    },
+    {
+      "type": "url",
+      "id": "link_2_url",
+      "label": "Link 2 URL"
+    },
+    {
+      "type": "text",
+      "id": "link_3_text",
+      "label": "Link 3 text",
+      "default": "Digital Catalog"
+    },
+    {
+      "type": "url",
+      "id": "link_3_url",
+      "label": "Link 3 URL"
+    },
+    {
+      "type": "header",
+      "content": "Contact Information"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone number",
+      "default": "1-800-332-8688"
+    },
+    {
+      "type": "text",
+      "id": "email_sales",
+      "label": "Sales email",
+      "default": "sales@factor2.com"
+    },
+    {
+      "type": "text",
+      "id": "email_support",
+      "label": "Support email",
+      "default": "techsupport@factor2.com"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Factor2 Announcement Bar"
+    }
+  ]
+}
+{% endschema %}

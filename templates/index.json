@@ -1,28 +1,43 @@
 {
   "sections": {
+    "factor2_announcement": {
+      "type": "factor2-announcement",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "link_1_text": "Learning Resources",
+        "link_1_url": "",
+        "link_2_text": "SDS and Tech Sheets",
+        "link_2_url": "",
+        "link_3_text": "Digital Catalog",
+        "link_3_url": "",
+        "phone": "1-800-332-8688",
+        "email_sales": "sales@factor2.com",
+        "email_support": "techsupport@factor2.com"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "The Art, Science and Technology of Silicones and Prosthetics",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Since 1978 Factor II, Inc. has been recognized as the innovative leader in the application and advancement of prosthetic materials.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "VIEW DEAL OF THE DAY",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -35,176 +50,199 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "factor2_features": {
+      "type": "factor2-features",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "feature_1": {
+          "type": "feature",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "title": "Fast Shipping"
           }
         },
-        "text": {
-          "type": "text",
+        "feature_2": {
+          "type": "feature",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "title": "Money Back Guarantee"
+          }
+        },
+        "feature_3": {
+          "type": "feature",
+          "settings": {
+            "title": "Customer Satisfaction"
+          }
+        },
+        "feature_4": {
+          "type": "feature",
+          "settings": {
+            "title": "Expert Support"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4"
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "FEATURED PRODUCTS",
         "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "",
+        "products_to_show": 12,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "show_view_all": false,
+        "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
-    "collage": {
-      "type": "collage",
+    "factor2_categories": {
+      "type": "factor2-categories",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "category_1": {
+          "type": "category",
           "settings": {
-            "collection": ""
+            "title": "ADHESIVE PRODUCTS"
           }
         },
-        "product": {
-          "type": "product",
+        "category_2": {
+          "type": "category",
           "settings": {
-            "product": "",
-            "second_image": false
+            "title": "CARTRIDGE SYSTEMS"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "category_3": {
+          "type": "category",
           "settings": {
-            "collection": ""
+            "title": "MOLD MAKING"
+          }
+        },
+        "category_4": {
+          "type": "category",
+          "settings": {
+            "title": "SPECIALTY PRODUCTS"
+          }
+        },
+        "category_5": {
+          "type": "category",
+          "settings": {
+            "title": "MAGNETIC COMPONENTS"
+          }
+        },
+        "category_6": {
+          "type": "category",
+          "settings": {
+            "title": "LEARNING RESOURCES"
+          }
+        },
+        "category_7": {
+          "type": "category",
+          "settings": {
+            "title": "PATIENT CARE"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "category_1",
+        "category_2",
+        "category_3",
+        "category_4",
+        "category_5",
+        "category_6",
+        "category_7"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "scheme-2",
+        "heading": "SHOP BY CATEGORY",
+        "columns_desktop": 4,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
-    "video": {
-      "type": "video",
+    "factor2_about": {
+      "type": "factor2-about",
       "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
+        "heading": "ABOUT US",
+        "subheading": "Factor II, Incorporated",
+        "tagline": "The Art, Science and Technology of Silicones and Prosthetics",
+        "description": "<p>Since 1978 Factor II, Inc. has been recognized as the innovative leader in the application and advancement of prosthetic materials. Today, Factor II, Inc. is the most comprehensive supplier of medical, prosthetic, and three dimensional make-up supplies in the world.</p>",
+        "hours_heading": "Hours of Operation:",
+        "hours_text": "<p>We are open Monday through Thursday 7:00 am to 4:00 pm. CLOSED ON FRIDAYS!!!. Arizona does not recognize Daylight Savings Time and therefore Arizona switches back and forth between Pacific Standard (Summer) and Mountain Standard Time (Winter).</p>",
+        "holidays_text": "Factor II is closed on all major holidays. If a holiday is on a Friday, Saturday or Sunday, we may also be closed on the day before or after in observation of that holiday. Please be aware that Factor II often closes for business starting December 24th (Christmas Eve) and may not return until the next business day after the New Year's holiday (approximately 1-2 weeks). During this time orders will not ship until we return from our holiday break.",
+        "button_label": "READ MORE",
         "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP FOR OUR E-NEWSLETTER FOR GREAT DEALS & NEWS IN YOUR INBOX!",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get great deals sent directly to your inbox!</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
+    "factor2_announcement",
     "image_banner",
-    "rich_text",
+    "factor2_features",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "factor2_categories",
+    "factor2_about",
+    "newsletter"
   ]
 }

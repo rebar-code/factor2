@@ -1,0 +1,348 @@
+/* Factor2 Custom Styles */
+/* Red: #cc0000, Black: #000, White: #fff */
+
+/* ===========================
+   Announcement Bar
+   =========================== */
+.factor2-announcement-bar {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.factor2-announcement-bar__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.factor2-announcement-bar__links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.factor2-announcement-bar__contact {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.factor2-announcement-bar__link,
+.factor2-announcement-bar__contact-link {
+  color: #cc0000;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.factor2-announcement-bar__link:hover,
+.factor2-announcement-bar__contact-link:hover {
+  text-decoration: underline;
+  color: #aa0000;
+}
+
+@media screen and (max-width: 749px) {
+  .factor2-announcement-bar__grid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ===========================
+   Features Section
+   =========================== */
+.factor2-features {
+  padding: 30px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.factor2-features__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.factor2-features__item {
+  padding: 20px;
+}
+
+.factor2-features__icon {
+  margin-bottom: 10px;
+}
+
+.factor2-features__icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.factor2-features__title {
+  font-size: 16px;
+  color: #cc0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.factor2-features__text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* ===========================
+   About Section
+   =========================== */
+.factor2-about {
+  background-color: #fff;
+}
+
+.factor2-about__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.factor2-about__heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #cc0000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.factor2-about__subheading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.factor2-about__tagline {
+  margin-bottom: 15px;
+}
+
+.factor2-about__description {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.factor2-about__description p {
+  margin-bottom: 15px;
+}
+
+.factor2-about__hours-heading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.factor2-about__hours {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.factor2-about__holidays {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.factor2-about__button {
+  display: inline-block;
+  background-color: #cc0000;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.factor2-about__button:hover {
+  background-color: #aa0000;
+  color: #fff;
+}
+
+/* ===========================
+   Categories Section
+   =========================== */
+.factor2-categories {
+  background-color: #f9f9f9;
+}
+
+.factor2-categories__heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #000;
+  text-transform: uppercase;
+  border-bottom: 3px solid #cc0000;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.factor2-categories__grid {
+  display: grid;
+  gap: 20px;
+}
+
+.factor2-categories__grid--2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.factor2-categories__grid--3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.factor2-categories__grid--4 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.factor2-categories__grid--5 {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.factor2-category-tile {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  display: block;
+}
+
+.factor2-category-tile:hover {
+  background-color: #cc0000;
+  color: #fff;
+  border-color: #cc0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(204, 0, 0, 0.2);
+}
+
+.factor2-category-tile__image {
+  margin-bottom: 15px;
+}
+
+.factor2-category-tile__image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.factor2-category-tile__title {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+/* ===========================
+   Custom Banner Styles
+   =========================== */
+.factor2-banner {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.factor2-banner__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.factor2-banner__subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.factor2-banner__button {
+  display: inline-block;
+  background-color: #cc0000;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.factor2-banner__button:hover {
+  background-color: #aa0000;
+  color: #fff;
+}
+
+/* ===========================
+   Product Card Customizations
+   =========================== */
+.card-wrapper .card {
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s;
+}
+
+.card-wrapper .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card__information .price {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+/* ===========================
+   Button Overrides for Factor2 Theme
+   =========================== */
+.button--primary {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+.button--primary:hover {
+  background-color: #aa0000;
+  border-color: #aa0000;
+}
+
+/* ===========================
+   Newsletter Section
+   =========================== */
+.newsletter-form__button {
+  background-color: #cc0000;
+}
+
+.newsletter-form__button:hover {
+  background-color: #aa0000;
+}
+
+/* ===========================
+   Mobile Responsive
+   =========================== */
+@media screen and (max-width: 749px) {
+  .factor2-categories__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .factor2-features__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .factor2-about__heading {
+    font-size: 20px;
+  }
+
+  .factor2-categories__heading {
+    font-size: 22px;
+  }
+}
