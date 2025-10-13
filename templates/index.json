@@ -92,7 +92,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-10-13_at_12.40.15.png",
             "title": "ADHESIVE PRODUCTS",
-            "link": ""
+            "link": "shopify://collections/adhesive"
           }
         },
         "category_2": {
@@ -100,7 +100,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-10-13_at_12.40.32.png",
             "title": "CARTRIDGE SYSTEMS",
-            "link": ""
+            "link": "shopify://collections/cartridge-systems"
           }
         },
         "category_3": {
@@ -108,7 +108,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-10-13_at_12.41.07.png",
             "title": "MOLD MAKING",
-            "link": ""
+            "link": "shopify://collections/mold-making"
           }
         },
         "category_4": {
@@ -116,7 +116,7 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2025-10-13_at_12.41.36.png",
             "title": "SPECIALTY PRODUCTS",
-            "link": ""
+            "link": "shopify://collections/specialty"
           }
         }
       },
