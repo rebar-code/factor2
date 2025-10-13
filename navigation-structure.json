@@ -1,0 +1,97 @@
+{
+  "main-menu": {
+    "name": "Main menu",
+    "items": [
+      {
+        "title": "DEAL OF THE DAY",
+        "url": "/collections/deal-of-the-day",
+        "type": "collection"
+      },
+      {
+        "title": "SILICONES",
+        "url": "/collections/silicones",
+        "type": "collection"
+      },
+      {
+        "title": "ADHESIVE PRODUCTS",
+        "url": "/collections/adhesive-products",
+        "type": "collection"
+      },
+      {
+        "title": "SOLVENTS",
+        "url": "/collections/solvents",
+        "type": "collection"
+      },
+      {
+        "title": "CARTRIDGE SYSTEMS",
+        "url": "/collections/cartridge-systems",
+        "type": "collection"
+      },
+      {
+        "title": "COLORATION MATERIALS",
+        "url": "/collections/coloration-materials",
+        "type": "collection"
+      },
+      {
+        "title": "MOLD MAKING",
+        "url": "/collections/mold-making",
+        "type": "collection"
+      },
+      {
+        "title": "MOLD RELEASES",
+        "url": "/collections/mold-releases",
+        "type": "collection"
+      },
+      {
+        "title": "SPECIAL FX PRODUCTS",
+        "url": "/collections/special-fx-products",
+        "type": "collection"
+      },
+      {
+        "title": "IMPRESSION MATERIALS",
+        "url": "/collections/impression-materials",
+        "type": "collection"
+      },
+      {
+        "title": "PRIMERS",
+        "url": "/collections/primers",
+        "type": "collection"
+      },
+      {
+        "title": "OCULAR PRODUCTS",
+        "url": "/collections/ocular-products",
+        "type": "collection"
+      },
+      {
+        "title": "ACRYLICS",
+        "url": "/collections/acrylics",
+        "type": "collection"
+      },
+      {
+        "title": "KITS",
+        "url": "/collections/kits",
+        "type": "collection"
+      },
+      {
+        "title": "MAGNETIC COMPONENTS",
+        "url": "/collections/magnetic-components",
+        "type": "collection"
+      },
+      {
+        "title": "EQUIPMENT",
+        "url": "/collections/equipment",
+        "type": "collection"
+      },
+      {
+        "title": "LAB SUPPLIES / TOOLS",
+        "url": "/collections/lab-supplies-tools",
+        "type": "collection"
+      },
+      {
+        "title": "SPECIALTY PRODUCTS",
+        "url": "/collections/specialty-products",
+        "type": "collection"
+      }
+    ]
+  }
+}
