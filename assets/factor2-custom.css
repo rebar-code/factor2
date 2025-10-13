@@ -8,11 +8,30 @@
   border-bottom: 3px solid #cc0000;
 }
 
-/* Black navigation bar */
-.header__menu {
+/* Factor2 Navigation Bar - Black bar below header */
+.factor2-nav-bar {
   background-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 
+.factor2-nav-bar .header__inline-menu {
+  width: 100%;
+  justify-content: center;
+}
+
+.factor2-nav-bar .list-menu--inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation menu items */
+.factor2-nav-bar .header__menu-item,
 .header .header__menu-item {
   color: #fff;
   text-transform: uppercase;
@@ -21,8 +40,11 @@
   white-space: nowrap;
   font-weight: 600;
   letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
+.factor2-nav-bar .header__menu-item:hover,
+.factor2-nav-bar .header__active-menu-item,
 .header .header__menu-item:hover,
 .header .header__active-menu-item {
   background-color: #cc0000;
@@ -50,15 +72,22 @@
 
 /* Compact navigation for many items */
 @media screen and (min-width: 990px) {
-  .header__inline-menu {
+  .factor2-nav-bar .header__inline-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
   }
 
-  .header .list-menu--inline {
+  .factor2-nav-bar .list-menu--inline {
     flex-wrap: wrap;
+  }
+}
+
+/* Hide navigation bar on mobile - use drawer menu instead */
+@media screen and (max-width: 989px) {
+  .factor2-nav-bar {
+    display: none;
   }
 }
 

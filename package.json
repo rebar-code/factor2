@@ -4,7 +4,14 @@
   "description": "Shopify development with MCP server",
   "scripts": {
     "mcps": "npx -y @shopify/dev-mcp@latest",
-    "check": "shopify theme check"
+    "dev": "shopify theme dev -s 'factor2inc.myshopify.com' --live-reload=hot-reload --open",
+    "dev:full": "shopify theme dev -s 'factor2inc.myshopify.com' --live-reload=full-page --open",
+    "dev:no-reload": "shopify theme dev -s 'factor2inc.myshopify.com' --live-reload=off --open",
+    "pull": "shopify theme pull -s 'factor2inc.myshopify.com'",
+    "share": "shopify theme share",
+    "check": "shopify theme check -s 'factor2inc.myshopify.com'",
+    "login": "shopify theme dev -s 'factor2inc.myshopify.com' --help && echo 'Run npm run dev to start - authentication will happen automatically'",
+    "status": "shopify theme list -s 'factor2inc.myshopify.com'"
   },
   "keywords": ["shopify", "mcp"],
   "license": "MIT"
