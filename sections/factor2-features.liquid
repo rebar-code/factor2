@@ -1,0 +1,113 @@
+{{
+
+ 'factor2-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="factor2-features color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="factor2-features__grid">
+      {% for block in section.blocks %}
+        <div class="factor2-features__item" {{ block.shopify_attributes }}>
+          {% if block.settings.icon != blank %}
+            <div class="factor2-features__icon">
+              {{ block.settings.icon | image_url: width: 60 | image_tag: alt: block.settings.title }}
+            </div>
+          {% endif %}
+          <h3 class="factor2-features__title">{{ block.settings.title }}</h3>
+          {% if block.settings.text != blank %}
+            <p class="factor2-features__text">{{ block.settings.text }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Factor2 Features",
+  "class": "factor2-features-section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Feature"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Factor2 Features",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Fast Shipping"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Money Back Guarantee"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Customer Satisfaction"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Expert Support"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

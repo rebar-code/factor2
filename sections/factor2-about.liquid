@@ -1,0 +1,146 @@
+{{ 'factor2-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="factor2-about color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="factor2-about__content">
+      {% if section.settings.heading != blank %}
+        <h2 class="factor2-about__heading">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.subheading != blank %}
+        <h4 class="factor2-about__subheading">{{ section.settings.subheading }}</h4>
+      {% endif %}
+
+      {% if section.settings.tagline != blank %}
+        <p class="factor2-about__tagline"><strong>{{ section.settings.tagline }}</strong></p>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <div class="factor2-about__description">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.hours_heading != blank %}
+        <p class="factor2-about__hours-heading"><strong>{{ section.settings.hours_heading }}</strong></p>
+      {% endif %}
+
+      {% if section.settings.hours_text != blank %}
+        <div class="factor2-about__hours">
+          {{ section.settings.hours_text }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.holidays_text != blank %}
+        <div class="factor2-about__holidays">
+          <strong>Holidays:</strong> {{ section.settings.holidays_text }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="button factor2-about__button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .factor2-about {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Factor2 About",
+  "class": "factor2-about-section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "ABOUT US"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Factor II, Incorporated"
+    },
+    {
+      "type": "text",
+      "id": "tagline",
+      "label": "Tagline",
+      "default": "The Art, Science and Technology of Silicones and Prosthetics"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Since 1978 Factor II, Inc. has been recognized as the innovative leader in the application and advancement of prosthetic materials. Today, Factor II, Inc. is the most comprehensive supplier of medical, prosthetic, and three dimensional make-up supplies in the world.</p>"
+    },
+    {
+      "type": "text",
+      "id": "hours_heading",
+      "label": "Hours heading",
+      "default": "Hours of Operation:"
+    },
+    {
+      "type": "richtext",
+      "id": "hours_text",
+      "label": "Hours text",
+      "default": "<p>We are open Monday through Thursday 7:00 am to 4:00 pm. CLOSED ON FRIDAYS!!!. Arizona does not recognize Daylight Savings Time and therefore Arizona switches back and forth between Pacific Standard (Summer) and Mountain Standard Time (Winter).</p>"
+    },
+    {
+      "type": "textarea",
+      "id": "holidays_text",
+      "label": "Holidays text",
+      "default": "Factor II is closed on all major holidays. If a holiday is on a Friday, Saturday or Sunday, we may also be closed on the day before or after in observation of that holiday."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "READ MORE"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Factor2 About"
+    }
+  ]
+}
+{% endschema %}
