@@ -1,0 +1,10 @@
+{
+  "name": "factor2",
+  "version": "1.0.0",
+  "description": "Shopify development with MCP server",
+  "scripts": {
+    "mcps": "npx -y @shopify/dev-mcp@latest"
+  },
+  "keywords": ["shopify", "mcp"],
+  "license": "MIT"
+}
