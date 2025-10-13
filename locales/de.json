@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -525,6 +534,22 @@
       "send_on_label": "Senden am (optional)",
       "expanded": "Formular für den Empfänger des Gutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Gutscheins minimiert"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "business_customer_with_bank_account_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode an der Kasse und autorisieren Sie %{company}, Ihr Konto für zukünftige Einkäufe, die Sie für diesen Standort genehmigen, zu belasten, bis Sie stornieren. Alle diesem Standort zugewiesenen Kontakte können die Zahlungsmethode verwenden.",
+        "new_bank_account_disclaimer": "Mit dem Abschluss Ihrer Bestellung ermächtigen Sie %{shop_name}, das unten stehende Konto per ACH mit dem angegebenen Betrag und zum angegebenen Zeitpunkt zu belasten.",
+        "bank_account_disclaimer": "Die Bearbeitung von ACH-Zahlungen kann bis zu 4 Werktage dauern."
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Durch das Hinzufügen einer Zahlungsmethode autorisieren Sie die Belastung Ihrer Karte oder Ihres Bankkontos für zukünftige, von Ihnen genehmigte Einkäufe, bis Sie diese stornieren."
+      }
     }
   }
 }
