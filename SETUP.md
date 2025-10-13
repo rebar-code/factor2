@@ -151,24 +151,32 @@ In the Theme Customizer:
 
 ### 4. Update Navigation
 
-Go to **Online Store** > **Navigation** and create menus matching the Factor2 categories:
-- Deal of the Day
-- Silicones
-- Adhesive Products
-- Solvents
-- Cartridge Systems
-- Coloration Materials
-- Mold Making
-- Special FX Products
-- Impression Materials
-- Primers
-- Ocular Products
-- Acrylics
-- Kits
-- Magnetic Components
-- Equipment
-- Lab Supplies / Tools
-- Specialty Products
+Go to **Online Store** > **Navigation** and edit the "Main menu":
+
+**Add all 18 Factor2 menu items in this exact order:**
+
+1. DEAL OF THE DAY → `/collections/deal-of-the-day`
+2. SILICONES → `/collections/silicones`
+3. ADHESIVE PRODUCTS → `/collections/adhesive-products`
+4. SOLVENTS → `/collections/solvents`
+5. CARTRIDGE SYSTEMS → `/collections/cartridge-systems`
+6. COLORATION MATERIALS → `/collections/coloration-materials`
+7. MOLD MAKING → `/collections/mold-making`
+8. MOLD RELEASES → `/collections/mold-releases`
+9. SPECIAL FX PRODUCTS → `/collections/special-fx-products`
+10. IMPRESSION MATERIALS → `/collections/impression-materials`
+11. PRIMERS → `/collections/primers`
+12. OCULAR PRODUCTS → `/collections/ocular-products`
+13. ACRYLICS → `/collections/acrylics`
+14. KITS → `/collections/kits`
+15. MAGNETIC COMPONENTS → `/collections/magnetic-components`
+16. EQUIPMENT → `/collections/equipment`
+17. LAB SUPPLIES / TOOLS → `/collections/lab-supplies-tools`
+18. SPECIALTY PRODUCTS → `/collections/specialty-products`
+
+**Note:** The navigation structure is also available in `navigation-structure.json` for reference.
+
+**Create Collections:** Before adding the navigation, create these collections in **Products** > **Collections**. You can create them as manual or automated collections.
 
 ## Testing
 
