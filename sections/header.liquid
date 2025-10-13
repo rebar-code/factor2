@@ -179,15 +179,6 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- liquid
-      if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
-        elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
-        endif
-      endif
-    %}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -302,6 +293,18 @@
       </a>
     </div>
   </header>
+
+  {%- if section.settings.menu != blank -%}
+    <nav class="factor2-nav-bar">
+      <div class="page-width">
+        {%- if section.settings.menu_type_desktop == 'dropdown' -%}
+          {%- render 'header-dropdown-menu' -%}
+        {%- elsif section.settings.menu_type_desktop != 'drawer' -%}
+          {%- render 'header-mega-menu' -%}
+        {%- endif -%}
+      </div>
+    </nav>
+  {%- endif -%}
 </{{ header_tag }}>
 
 {%- if settings.cart_type == 'notification' -%}
