@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "factor2_announcement": {
@@ -52,12 +61,13 @@
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
+        "image_behavior": "none",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
         "desktop_content_alignment": "center",
+        "show_text_box": true,
         "color_scheme": "scheme-1",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -67,25 +77,29 @@
         "feature_1": {
           "type": "feature",
           "settings": {
-            "title": "Fast Shipping"
+            "title": "Fast Shipping",
+            "text": ""
           }
         },
         "feature_2": {
           "type": "feature",
           "settings": {
-            "title": "Money Back Guarantee"
+            "title": "Money Back Guarantee",
+            "text": ""
           }
         },
         "feature_3": {
           "type": "feature",
           "settings": {
-            "title": "Customer Satisfaction"
+            "title": "Customer Satisfaction",
+            "text": ""
           }
         },
         "feature_4": {
           "type": "feature",
           "settings": {
-            "title": "Expert Support"
+            "title": "Expert Support",
+            "text": ""
           }
         }
       },
@@ -104,19 +118,27 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "test",
+        "products_to_show": 12,
         "title": "FEATURED PRODUCTS",
         "heading_size": "h2",
-        "collection": "",
-        "products_to_show": 12,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
+        "full_width": false,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -127,43 +149,50 @@
         "category_1": {
           "type": "category",
           "settings": {
-            "title": "ADHESIVE PRODUCTS"
+            "title": "ADHESIVE PRODUCTS",
+            "link": ""
           }
         },
         "category_2": {
           "type": "category",
           "settings": {
-            "title": "CARTRIDGE SYSTEMS"
+            "title": "CARTRIDGE SYSTEMS",
+            "link": ""
           }
         },
         "category_3": {
           "type": "category",
           "settings": {
-            "title": "MOLD MAKING"
+            "title": "MOLD MAKING",
+            "link": ""
           }
         },
         "category_4": {
           "type": "category",
           "settings": {
-            "title": "SPECIALTY PRODUCTS"
+            "title": "SPECIALTY PRODUCTS",
+            "link": ""
           }
         },
         "category_5": {
           "type": "category",
           "settings": {
-            "title": "MAGNETIC COMPONENTS"
+            "title": "MAGNETIC COMPONENTS",
+            "link": ""
           }
         },
         "category_6": {
           "type": "category",
           "settings": {
-            "title": "LEARNING RESOURCES"
+            "title": "LEARNING RESOURCES",
+            "link": ""
           }
         },
         "category_7": {
           "type": "category",
           "settings": {
-            "title": "PATIENT CARE"
+            "title": "PATIENT CARE",
+            "link": ""
           }
         }
       },
@@ -219,8 +248,7 @@
         },
         "email_form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
