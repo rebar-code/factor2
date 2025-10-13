@@ -24,6 +24,100 @@
         "email_support": "techsupport@factor2.com"
       }
     },
+    "slideshow_yD4VN6": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_H3ipX9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1601440628103.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_N3Tizp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1601980063399.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": ""
+          }
+        },
+        "slide_UAYzxe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1601980069620.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_gqwdGY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1759875717616.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_H3ipX9",
+        "slide_N3Tizp",
+        "slide_UAYzxe",
+        "slide_gqwdGY"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "settings": {
@@ -215,6 +309,7 @@
   },
   "order": [
     "factor2_announcement",
+    "slideshow_yD4VN6",
     "image_banner",
     "factor2_features",
     "factor2_categories",
