@@ -118,22 +118,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/1601440628103.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "factor2_features": {
       "type": "factor2-features",
       "blocks": {
@@ -310,7 +294,6 @@
   "order": [
     "factor2_announcement",
     "slideshow_yD4VN6",
-    "image_banner",
     "factor2_features",
     "factor2_categories",
     "featured_collection",
