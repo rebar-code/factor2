@@ -11,8 +11,20 @@
     "share": "shopify theme share",
     "check": "shopify theme check -s 'factor2inc.myshopify.com'",
     "login": "shopify theme dev -s 'factor2inc.myshopify.com' --help && echo 'Run npm run dev to start - authentication will happen automatically'",
-    "status": "shopify theme list -s 'factor2inc.myshopify.com'"
+    "status": "shopify theme list -s 'factor2inc.myshopify.com'",
+    "migrate:get-token": "tsx migration/get-token.ts",
+    "migrate:categories": "tsx migration/categories.ts",
+    "migrate:categories:dry-run": "DRY_RUN=true tsx migration/categories.ts"
   },
   "keywords": ["shopify", "mcp"],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.5.0"
+  }
 }
