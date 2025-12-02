@@ -1,0 +1,51 @@
+id,headinggroup,optioncategoriesdesc,isrequired,displaytype,arrangeoptioncategoriesby,lastmodified,lastmodby,hide_optioncategoriesdesc,include_in_search_refinement,aboutoptioncategories,use_google_size,use_google_color,use_google_material,use_google_pattern
+"1","","accessories","Y","RADIO","10","7/21/2017 10:21:00 AM","8205","N","N","choose your accessories","N","N","N","N"
+"2","","fabric","N","RADIO","5","7/21/2017 10:24:00 AM","8205","N","N","choose a fabric","","","",""
+"3","</i>Choose option and click update for pricing","size","Y","DROPDOWN","20","7/11/2019 12:52:00 PM","9210","N","Y","Choose your size","N","N","N","N"
+"4","choose a color","color","Y","DROPDOWN","20","7/21/2017 10:21:00 AM","8205","N","N","choose a color","N","N","N","N"
+"5","</i>customize","initials","N","TEXTBOX","30","7/21/2017 10:24:00 AM","8205","N","N","monogram","","","",""
+"7","</i>choose quantity","quantity","Y","DROPDOWN","20","7/21/2017 10:24:00 AM","8205","N","N","choose quantity","","","",""
+"8","</i>choose a hardness","Hardness","Y","DROPDOWN","20","12/11/2018 7:14:00 AM","9210","N","N","choose hardness","N","N","N","N"
+"9","Tool Type","tool type","Y","DROPDOWN","10","12/7/2018 8:30:00 AM","9210","N","N","Choose your Tool Type","N","N","N","N"
+"10","</i>choose a device size","device size","Y","RADIO","20","4/5/2019 1:14:00 PM","9210","N","N","choose your device size","N","N","N","N"
+"11","</i>choose viscosity","viscosity","Y","DROPDOWN","20","12/7/2018 8:28:00 AM","9210","N","N","choose viscosity preferred","N","N","N","N"
+"12","</i>choose disc size","disc size","Y","RADIO","20","7/21/2017 10:24:00 AM","8205","N","N","choose disc size","","","",""
+"13","choose an aperture size","aperture size","Y","RADIO","20","7/21/2017 10:21:00 AM","8205","N","N","choose an aperture size","N","N","N","N"
+"14","choose a color combination","color combination","Y","RADIO","20","7/21/2017 10:21:00 AM","8205","N","N","choose a color combination","N","N","N","N"
+"15","</i>choose cure rate","cure rate","Y","RADIO","20","7/21/2017 10:24:00 AM","8205","N","N","choose preferred cure rate","","","",""
+"16","Length","length","Y","DROPDOWN","10","12/10/2018 3:11:00 PM","9210","N","N","Choose the Length","N","N","N","N"
+"17","</i>choose oven size","oven size","Y","RADIO","20","7/21/2017 10:24:00 AM","8205","N","N","choose the size of oven you prefer","","","",""
+"18","</i>choose a color tone","color tone","Y","RADIO","20","7/21/2017 10:24:00 AM","8205","N","N","choose a color tone","","","",""
+"19","Type","Type","N","","300","6/8/2011 2:51:00 PM","3839","N","N","","","","",""
+"20","","B-206-1 (1oz) $5.95","N","DROPDOWN","1","11/3/2015 9:41:00 AM","9210","N","N","","N","N","N","N"
+"21","","B-208-1 (1oz)  $2.75","N","DROPDOWN","","5/17/2012 3:10:00 PM","10","N","N","","","","",""
+"22","","D-48g (1x4 Green) $4.00","N","DROPDOWN","","5/30/2012 3:59:00 PM","10","N","N","","","","",""
+"23","","400 gm( /- 1gm)(SC-4010) $295.00","N","DROPDOWN","","6/7/2012 5:41:00 PM","10","N","N","","","","",""
+"24","","J-HS Medium","N","DROPDOWN","","9/5/2012 3:41:00 PM","9","N","N","","","","",""
+"25","","GP colors","N","DROPDOWN","","6/6/2013 3:42:00 PM","10","N","N","","","","",""
+"26","</i>Eye ID Number","Eye Description Number","Y","DROPDOWN","1","7/23/2014 11:36:00 AM","8205","Y","N","Number to identify American Optical prosthetic eye","N","N","N","N"
+"27","","Spectromatch Colors","N","DROPDOWN","2","12/11/2018 8:50:00 AM","9210","N","N","","N","N","N","N"
+"28","Digital Iris Colors","Color Code For Digital Iris Button","Y","DROPDOWN","1","6/12/2023 10:03:00 AM","13244","N","N","","N","N","N","N"
+"29","<h3 style=""color:blue;"">Availability</h3>","Sold Out","N","PLAIN_TEXT","2","7/21/2017 10:24:00 AM","8205","N","N","The following items have been sold out","N","N","N","N"
+"30","Restrictions","Shipping Restriction","Y","CHECKBOX","1","4/30/2018 12:10:00 PM","8205","Y","N","<font size=""6"" color=""red"">
+<p>I understand that from October through May, Factor II will only guarantee this product if shipped second day air.</p>
+
+<P> If the product freezes somewhere in transit, it is unusable. </P>
+
+<P>We do not ship these 2nd day air shipments Thursday - Sunday.</p>
+</font>","N","N","N","N"
+"31","<P></p><font size=""5"">Affidavit Required*","Affidavit Required","Y","CHECKBOX","2","8/29/2022 10:33:00 AM","13244","Y","N","<p>This product requires an affidavit before purchase. Please download the form, fill it out, then send it to us via fax (928-537-0893) or email (sales@factor2.com).</p>
+<p> You can download the affidavit <a href=""http://www.factor2.com/v/vspfiles/downloadables/Affidavit 2022.pdf"">HERE</a></P>","N","N","N","N"
+"32","Quantity Discount","Quantity Discounts","N","PLAIN_TEXT","2","5/25/2016 9:36:00 AM","8205","N","N","discount options for ordering in larger quantities.","N","N","N","N"
+"33","Specials","Current Specials:","N","PLAIN_TEXT","1","7/21/2017 10:24:00 AM","8205","N","N","Current specials applied to this product","N","N","N","N"
+"34","Special Order Item","This Item is Special Order","N","PLAIN_TEXT","1","1/30/2018 9:28:00 AM","8205","N","N","This item is special order which means that we cannot accept returns.","N","N","N","N"
+"35","Voltage","Voltage","Y","RADIO","2","1/30/2018 9:59:00 AM","8205","N","N","<p>Chose a voltage that conforms with your local voltage standard. If you are unsure about what voltage your area uses you can check your country's voltage standard</p>
+<p><a href=""https://www.worldstandards.eu/electricity/plug-voltage-by-country/"" target=""_blank"">Country Voltage Standards</a></p","N","N","N","N"
+"36","","Shore A","N","DROPDOWN","","12/18/2018 10:01:00 AM","9210","N","N","","","","",""
+"37","","Ivory ( FE-SK03 )","N","DROPDOWN","","4/22/2019 10:18:00 AM","9210","N","N","","","","",""
+"38","","Kit","N","DROPDOWN","","6/13/2019 3:30:00 PM","9210","N","N","","","","",""
+"42","","Quantity to order","Y","DROPDOWN","1","2/1/2022 12:44:00 PM","12664","N","N","","N","N","N","N"
+"43","","Quantity to order","N","DROPDOWN","12","2/1/2022 12:55:00 PM","12664","N","N","","N","N","N","N"
+"112","","A-850-1 (1oz) $8.00","N","DROPDOWN","","10/10/2024 9:38:00 AM","14860","N","N","","","","",""
+"113","","A-850-1 (1oz) $8.00","N","DROPDOWN","","10/10/2024 9:39:00 AM","14860","N","N","","","","",""
+"114","","2lb Kit (A-RTV-4545)","N","DROPDOWN","","10/2/2025 1:45:00 PM","14860","N","N","","","","",""
