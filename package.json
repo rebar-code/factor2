@@ -12,6 +12,11 @@
     "check": "shopify theme check -s 'factor2inc.myshopify.com'",
     "login": "shopify theme dev -s 'factor2inc.myshopify.com' --help && echo 'Run npm run dev to start - authentication will happen automatically'",
     "status": "shopify theme list -s 'factor2inc.myshopify.com'",
+    "convert:categories": "tsx migration/convert-categories.ts",
+    "convert:products": "tsx migration/convert-products.ts",
+    "convert:product-collections": "tsx migration/convert-product-collections.ts",
+    "convert:redirects": "tsx migration/convert-redirects.ts",
+    "convert:all": "npm run convert:categories && npm run convert:product-collections && npm run convert:products && npm run convert:redirects",
     "migrate:get-token": "tsx migration/get-token.ts",
     "migrate:categories": "tsx migration/categories.ts",
     "migrate:categories:dry-run": "DRY_RUN=true tsx migration/categories.ts"
