@@ -1,0 +1,444 @@
+[
+  {
+    "id": "1",
+    "name": "Acrylics",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Acrylics, Acrílicos, monomer, polymer",
+    "seo_title": "Acrylics",
+    "handle": "acrylics",
+    "sort_order": 123,
+    "hierarchy_path": "Acrylics",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Acrylics, Acrílicos, monomer, polymer"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Coloration Materials",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "silicone Coloration Materials",
+    "seo_title": "Coloration Materials",
+    "handle": "coloration-materials",
+    "sort_order": 110,
+    "hierarchy_path": "Coloration Materials",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "73",
+    "name": "Lab Supplies / Tools",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "silicone kits, coloration kits, lab kits, mold making kits,tool kits",
+    "seo_title": "Lab Supplies / Tools",
+    "handle": "lab-supplies-tools",
+    "sort_order": 579,
+    "hierarchy_path": "Lab Supplies  / Tools",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "silicone kits, coloration kits, lab kits, mold making kits,tool kits"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Disposables",
+    "parent_id": "73",
+    "description": "",
+    "seo_description": "Disposables",
+    "seo_title": "Disposables",
+    "handle": "disposables",
+    "sort_order": 3,
+    "hierarchy_path": "Lab Supplies  / Tools",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "8",
+    "name": "Equipment",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Equipment",
+    "seo_title": "Equipment",
+    "handle": "equipment",
+    "sort_order": 478,
+    "hierarchy_path": "Equipment",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Equipment, lab equipment, sculpting,mold making"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Magnetic Components",
+    "parent_id": "0",
+    "description": "Need help? Check out <a href=\"http://www.factor2.com/v/vspfiles/sds tds 2023/tds 2023/NEW CATALOGUE.pdf\" target=\"_blank\">Technovent's Catalogue</a> and <a href=\"http://www.factor2.com/v/vspfiles/sds tds 2023/tds 2023/NEW CATALOGUE.pdf\" target=\"_blank\">Southern Implants Catalog </a>",
+    "seo_description": "Need help? Check out Technovent's Catalogue and Southern Implants Catalog",
+    "seo_title": "Magnetic Components",
+    "handle": "magnetic-components",
+    "sort_order": 476,
+    "hierarchy_path": "Magnetic Components",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "10",
+    "name": "Mold Making",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Mold Making",
+    "seo_title": "Mold Making",
+    "handle": "mold-making",
+    "sort_order": 113,
+    "hierarchy_path": "Mold Making",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "11",
+    "name": "Mold Releases",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Mold Releases",
+    "seo_title": "Mold Releases",
+    "handle": "mold-releases",
+    "sort_order": 115,
+    "hierarchy_path": "Mold Releases",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "13",
+    "name": "Primers",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Primers",
+    "seo_title": "Primers",
+    "handle": "primers",
+    "sort_order": 119,
+    "hierarchy_path": "Primers",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "14",
+    "name": "Silicones",
+    "parent_id": "0",
+    "description": "<div style=\"text-align: center;\"><span style=\"color: rgb(192, 80, 77);\"><b><br /></b></span><a href=\"http://www.factor2.com/v/vspfiles/downloadables/AFFIDAVIT 2023.pdf\" target=\"_blank\">Download Affidavit Here</a></div>",
+    "seo_description": "Silicone, medical grade and platinum silicone for all uses. LSR, RTV, VST, silicone elastomer, silicone adhesives and additives.",
+    "seo_title": "Silicones",
+    "handle": "silicones",
+    "sort_order": 0,
+    "hierarchy_path": "Silicones",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Silicone, medical grade and platinum silicone for all uses. LSR, RTV, VST, silicone elastomer, silicone adhesives."
+    }
+  },
+  {
+    "id": "15",
+    "name": "Adhesive Products",
+    "parent_id": "0",
+    "description": "<div style=\"text-align: center;\"><span style=\"font-size: 11.3333px; color: rgb(255, 0, 0);\"><span style=\"font-size: 14pt;\">October through April</span></span></div><div style=\"text-align: center;\"><span style=\"font-size: 11.3333px; color: rgb(255, 0, 0);\"><span style=\"font-size: 14pt;\">To guarantee shipment of our water based adhesives during the winter months,<br />Daro and Pros Aide must ship via 2nd day air.</span></span></div><div style=\"text-align: center;\"><a href=\"http://www.factor2.com/v/vspfiles/sds%20tds%202023/tds%202023/Adhesive%20Guide%202023.pdf\" target=\"_blank\"><img src=\"/v/vspfiles/assets/images/ADHESIVE PIC.png\" style=\"width: 60px;\" />ADHESIVE GUIDE</a></div>",
+    "seo_description": "Adhesives for Prosthetics, health care devices, and medical devices. We carry both water based adhesive and water resistant silicone based adhesives.",
+    "seo_title": "Adhesive Products",
+    "handle": "adhesive-products",
+    "sort_order": 1,
+    "hierarchy_path": "Adhesive Products",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "16",
+    "name": "Solvents",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Solvents",
+    "seo_title": "Solvents",
+    "handle": "solvents",
+    "sort_order": 2,
+    "hierarchy_path": "Solvents",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "34",
+    "name": "Impression Materials",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Impression Materials",
+    "seo_title": "Impression Materials",
+    "handle": "impression-materials",
+    "sort_order": 118,
+    "hierarchy_path": "Impression  Materials",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Impression  Materials, clay, wax, silicone"
+    }
+  },
+  {
+    "id": "61",
+    "name": "Alginates",
+    "parent_id": "34",
+    "description": "",
+    "seo_description": "Alginate Impression Materials, Alginates,",
+    "seo_title": "Alginate Impression Materials",
+    "handle": "alginates",
+    "sort_order": 1,
+    "hierarchy_path": "Impression  Materials",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Alginate, Impression, Materials, Los materiales de impresión de alginato"
+    }
+  },
+  {
+    "id": "63",
+    "name": "Special FX Products",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Special FX Products",
+    "seo_title": "Special FX Products",
+    "handle": "special-fx-products",
+    "sort_order": 116,
+    "hierarchy_path": "Special  FX   Products",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "65",
+    "name": "Specialty Products",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Specialty Products",
+    "seo_title": "Specialty Products",
+    "handle": "specialty-products",
+    "sort_order": 580,
+    "hierarchy_path": "Specialty Products",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "69",
+    "name": "Cartridge Systems",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Cartridge Systems",
+    "seo_title": "Cartridge Systems",
+    "handle": "cartridge-systems",
+    "sort_order": 109,
+    "hierarchy_path": "Cartridge Systems",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "71",
+    "name": "Silicone Cartridges",
+    "parent_id": "69",
+    "description": "",
+    "seo_description": "Silicone Cartridges",
+    "seo_title": "Silicone Cartridges",
+    "handle": "silicone-cartridges",
+    "sort_order": 3,
+    "hierarchy_path": "Cartridge Systems",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "Silicone Cartridges, cartridge systems, custom silicone cartridges"
+    }
+  },
+  {
+    "id": "80",
+    "name": "Ocular Products",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "Ocular Products",
+    "seo_title": "Ocular Products",
+    "handle": "ocular-products",
+    "sort_order": 120,
+    "hierarchy_path": "Ocular Products",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "94",
+    "name": "Kits",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "silicone kits, coloration kits, lab kits, mold making kits,tool kits",
+    "seo_title": "kits",
+    "handle": "kits",
+    "sort_order": 475,
+    "hierarchy_path": "Kits",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": "silicone kits, coloration kits, lab kits, mold making kits,tool kits"
+    }
+  },
+  {
+    "id": "107",
+    "name": "Gypsum / Stone",
+    "parent_id": "73",
+    "description": "",
+    "seo_description": "Gypsum / Stone",
+    "seo_title": "Gypsum / Stone",
+    "handle": "gypsum-stone",
+    "sort_order": 5,
+    "hierarchy_path": "Lab Supplies  / Tools",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "111",
+    "name": "Hand Tools",
+    "parent_id": "73",
+    "description": "",
+    "seo_description": "Hand Tools",
+    "seo_title": "Hand Tools",
+    "handle": "hand-tools",
+    "sort_order": 6,
+    "hierarchy_path": "Lab Supplies  / Tools",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "117",
+    "name": "Silicone Cartridge Starter Kits",
+    "parent_id": "69",
+    "description": "",
+    "seo_description": "Silicone Cartridge Starter Kits",
+    "seo_title": "Silicone Cartridge Starter Kits",
+    "handle": "silicone-cartridge-starter-kits",
+    "sort_order": 2,
+    "hierarchy_path": "Cartridge Systems",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "118",
+    "name": "Pigmented Silicone Cartridges",
+    "parent_id": "69",
+    "description": "",
+    "seo_description": "Pigmented Silicone Cartridges",
+    "seo_title": "Pigmented Silicone Cartridges",
+    "handle": "pigmented-silicone-cartridges",
+    "sort_order": 4,
+    "hierarchy_path": "Cartridge Systems",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "978",
+    "name": "E-Catalog",
+    "parent_id": "0",
+    "description": "",
+    "seo_description": "E-Catalog",
+    "seo_title": "E-Catalog",
+    "handle": "http-www-factor2-com-v-vspfiles-2014-catalog-20v3-mobile-index-html-p-1",
+    "sort_order": 6,
+    "hierarchy_path": "E-Catalog",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "http://www.factor2.com/v/vspfiles/2014-Catalog%20v3/mobile/index.html#p=1",
+      "description_short": "",
+      "keywords": ""
+    }
+  },
+  {
+    "id": "1981",
+    "name": "All Solvents",
+    "parent_id": "16",
+    "description": "",
+    "seo_description": "All Solvents",
+    "seo_title": "All Solvents",
+    "handle": "all-solvents",
+    "sort_order": 0,
+    "hierarchy_path": "Solvents",
+    "visible": true,
+    "original_data": {
+      "alternateurl": "",
+      "description_short": "",
+      "keywords": ""
+    }
+  }
+]

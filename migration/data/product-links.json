@@ -1,0 +1,302 @@
+[
+  {
+    "product_code": "al-203",
+    "pattern": "/product_p/al-203.htm",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "AL-",
+        "name": "ARBOR BANDS",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "al-201",
+    "pattern": "/product_p/al-201.htm",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "AL-",
+        "name": "ARBOR BANDS",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "al",
+    "pattern": "/product_p/al",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "AL-",
+        "name": "ARBOR BANDS",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "AL-",
+        "name": "ARBOR BANDS",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "hd-50ml",
+    "pattern": "/product_p/hd-50ml.htm",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-1-A",
+        "name": "DG-1-A: 50ml Manual Cartridge Dispensing Gun (A/B style)",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-1-S",
+        "name": "DG-1-S: 50ml Manual Cartridge Dispensing Gun (S style)",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "hd",
+    "pattern": "/product_p/hd",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-1-A",
+        "name": "DG-1-A: 50ml Manual Cartridge Dispensing Gun (A/B style)",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-1-S",
+        "name": "DG-1-S: 50ml Manual Cartridge Dispensing Gun (S style)",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400",
+        "name": "DG-400: 400ml Pneumatic Cartridge Dispensing Gun",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "dg-50-lsr-k",
+    "pattern": "ProductDetails.asp?ProductCode=dg-50-lsr-k",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-200-LSR-P-K",
+        "name": "DG-200-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-200-LSR-P-K",
+        "name": "DG-200-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P-K",
+        "name": "DG-400-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P-K",
+        "name": "DG-400-LSR Pneumatic Kit",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "dg-400-lsr-k",
+    "pattern": "ProductDetails.asp?ProductCode=dg-400-lsr-k",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-200-LSR-P-K",
+        "name": "DG-200-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-200-LSR-P-K",
+        "name": "DG-200-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-P-K",
+        "name": "DG-50-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-P-K",
+        "name": "DG-50-LSR Pneumatic Kit",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "hd-400ml",
+    "pattern": "/product_p/hd-400ml.htm",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-400",
+        "name": "DG-400: 400ml Pneumatic Cartridge Dispensing Gun",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "DG-400",
+    "pattern": "ProductDetails.asp?ProductCode=DG-400",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-400-LSR",
+        "name": "DG-400-LSR: Silicone Cartridge 400 ml",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR",
+        "name": "DG-400-LSR: Silicone Cartridge 400 ml",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P",
+        "name": "DG-400-LSR-P",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P",
+        "name": "DG-400-LSR-P",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "dg-200-lsr-k",
+    "pattern": "ProductDetails.asp?ProductCode=dg-200-lsr-k",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P-K",
+        "name": "DG-400-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-400-LSR-P-K",
+        "name": "DG-400-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-P-K",
+        "name": "DG-50-LSR Pneumatic Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-P-K",
+        "name": "DG-50-LSR Pneumatic Kit",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "DG-1-A",
+    "pattern": "ProductDetails.asp?ProductCode=DG-1-A",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-50-LSR",
+        "name": "DG-50-LSR: Silicone Cartridge 50 ml",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR",
+        "name": "DG-50-LSR: Silicone Cartridge 50 ml",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-MIL-P",
+        "name": "DG-50-LSR-P",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-MIL-P",
+        "name": "DG-50-LSR-P",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "dg-50-rtv-m",
+    "pattern": "ProductDetails.asp?ProductCode=dg-50-rtv-m",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-50-LSR-M-K",
+        "name": "DG-50-LSR Manual Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-M-K",
+        "name": "DG-50-LSR Manual Kit",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "dg-50-2000-m",
+    "pattern": "ProductDetails.asp?ProductCode=dg-50-2000-m",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "DG-50-LSR-M-K",
+        "name": "DG-50-LSR Manual Kit",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "DG-50-LSR-M-K",
+        "name": "DG-50-LSR Manual Kit",
+        "field": "description"
+      }
+    ]
+  },
+  {
+    "product_code": "DG-1-S",
+    "pattern": "ProductDetails.asp?ProductCode=DG-1-S",
+    "found_in": [
+      {
+        "type": "product",
+        "id": "M-517",
+        "name": "M-517: CoForm Soft, Impression Silicone",
+        "field": "description"
+      },
+      {
+        "type": "product",
+        "id": "M-517",
+        "name": "M-517: CoForm Soft, Impression Silicone",
+        "field": "description"
+      }
+    ]
+  }
+]

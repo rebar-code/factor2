@@ -92,6 +92,8 @@ function stripHtmlTags(html: string): string {
 }
 
 function sanitizeHandle(productCode: string): string {
+  if (!productCode) return '';
+
   return productCode
     .toLowerCase()
     .replace(/[^a-z0-9-]/g, '-')

@@ -1,0 +1,6392 @@
+[
+  {
+    "from": "/category_s/1.htm",
+    "to": "/collections/acrylics",
+    "type": "collection",
+    "id": "1"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=1",
+    "to": "/collections/acrylics",
+    "type": "collection",
+    "id": "1"
+  },
+  {
+    "from": "/category_s/6.htm",
+    "to": "/collections/coloration-materials",
+    "type": "collection",
+    "id": "6"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=6",
+    "to": "/collections/coloration-materials",
+    "type": "collection",
+    "id": "6"
+  },
+  {
+    "from": "/category_s/73.htm",
+    "to": "/collections/lab-supplies-tools",
+    "type": "collection",
+    "id": "73"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=73",
+    "to": "/collections/lab-supplies-tools",
+    "type": "collection",
+    "id": "73"
+  },
+  {
+    "from": "/category_s/7.htm",
+    "to": "/collections/disposables",
+    "type": "collection",
+    "id": "7"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=7",
+    "to": "/collections/disposables",
+    "type": "collection",
+    "id": "7"
+  },
+  {
+    "from": "/category_s/8.htm",
+    "to": "/collections/equipment",
+    "type": "collection",
+    "id": "8"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=8",
+    "to": "/collections/equipment",
+    "type": "collection",
+    "id": "8"
+  },
+  {
+    "from": "/category_s/9.htm",
+    "to": "/collections/magnetic-components",
+    "type": "collection",
+    "id": "9"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=9",
+    "to": "/collections/magnetic-components",
+    "type": "collection",
+    "id": "9"
+  },
+  {
+    "from": "/category_s/10.htm",
+    "to": "/collections/mold-making",
+    "type": "collection",
+    "id": "10"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=10",
+    "to": "/collections/mold-making",
+    "type": "collection",
+    "id": "10"
+  },
+  {
+    "from": "/category_s/11.htm",
+    "to": "/collections/mold-releases",
+    "type": "collection",
+    "id": "11"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=11",
+    "to": "/collections/mold-releases",
+    "type": "collection",
+    "id": "11"
+  },
+  {
+    "from": "/category_s/13.htm",
+    "to": "/collections/primers",
+    "type": "collection",
+    "id": "13"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=13",
+    "to": "/collections/primers",
+    "type": "collection",
+    "id": "13"
+  },
+  {
+    "from": "/category_s/14.htm",
+    "to": "/collections/silicones",
+    "type": "collection",
+    "id": "14"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=14",
+    "to": "/collections/silicones",
+    "type": "collection",
+    "id": "14"
+  },
+  {
+    "from": "/category_s/15.htm",
+    "to": "/collections/adhesive-products",
+    "type": "collection",
+    "id": "15"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=15",
+    "to": "/collections/adhesive-products",
+    "type": "collection",
+    "id": "15"
+  },
+  {
+    "from": "/category_s/16.htm",
+    "to": "/collections/solvents",
+    "type": "collection",
+    "id": "16"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=16",
+    "to": "/collections/solvents",
+    "type": "collection",
+    "id": "16"
+  },
+  {
+    "from": "/category_s/34.htm",
+    "to": "/collections/impression-materials",
+    "type": "collection",
+    "id": "34"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=34",
+    "to": "/collections/impression-materials",
+    "type": "collection",
+    "id": "34"
+  },
+  {
+    "from": "/category_s/61.htm",
+    "to": "/collections/alginates",
+    "type": "collection",
+    "id": "61"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=61",
+    "to": "/collections/alginates",
+    "type": "collection",
+    "id": "61"
+  },
+  {
+    "from": "/category_s/63.htm",
+    "to": "/collections/special-fx-products",
+    "type": "collection",
+    "id": "63"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=63",
+    "to": "/collections/special-fx-products",
+    "type": "collection",
+    "id": "63"
+  },
+  {
+    "from": "/category_s/65.htm",
+    "to": "/collections/specialty-products",
+    "type": "collection",
+    "id": "65"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=65",
+    "to": "/collections/specialty-products",
+    "type": "collection",
+    "id": "65"
+  },
+  {
+    "from": "/category_s/69.htm",
+    "to": "/collections/cartridge-systems",
+    "type": "collection",
+    "id": "69"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=69",
+    "to": "/collections/cartridge-systems",
+    "type": "collection",
+    "id": "69"
+  },
+  {
+    "from": "/category_s/71.htm",
+    "to": "/collections/silicone-cartridges",
+    "type": "collection",
+    "id": "71"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=71",
+    "to": "/collections/silicone-cartridges",
+    "type": "collection",
+    "id": "71"
+  },
+  {
+    "from": "/category_s/80.htm",
+    "to": "/collections/ocular-products",
+    "type": "collection",
+    "id": "80"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=80",
+    "to": "/collections/ocular-products",
+    "type": "collection",
+    "id": "80"
+  },
+  {
+    "from": "/category_s/94.htm",
+    "to": "/collections/kits",
+    "type": "collection",
+    "id": "94"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=94",
+    "to": "/collections/kits",
+    "type": "collection",
+    "id": "94"
+  },
+  {
+    "from": "/category_s/107.htm",
+    "to": "/collections/gypsum-stone",
+    "type": "collection",
+    "id": "107"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=107",
+    "to": "/collections/gypsum-stone",
+    "type": "collection",
+    "id": "107"
+  },
+  {
+    "from": "/category_s/111.htm",
+    "to": "/collections/hand-tools",
+    "type": "collection",
+    "id": "111"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=111",
+    "to": "/collections/hand-tools",
+    "type": "collection",
+    "id": "111"
+  },
+  {
+    "from": "/category_s/117.htm",
+    "to": "/collections/silicone-cartridge-starter-kits",
+    "type": "collection",
+    "id": "117"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=117",
+    "to": "/collections/silicone-cartridge-starter-kits",
+    "type": "collection",
+    "id": "117"
+  },
+  {
+    "from": "/category_s/118.htm",
+    "to": "/collections/pigmented-silicone-cartridges",
+    "type": "collection",
+    "id": "118"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=118",
+    "to": "/collections/pigmented-silicone-cartridges",
+    "type": "collection",
+    "id": "118"
+  },
+  {
+    "from": "/category_s/978.htm",
+    "to": "/collections/http-www-factor2-com-v-vspfiles-2014-catalog-20v3-mobile-index-html-p-1",
+    "type": "collection",
+    "id": "978"
+  },
+  {
+    "from": "/http://www.factor2.com/v/vspfiles/2014-catalog%20v3/mobile/index.html#p=1_s/978.htm",
+    "to": "/collections/http-www-factor2-com-v-vspfiles-2014-catalog-20v3-mobile-index-html-p-1",
+    "type": "collection",
+    "id": "978"
+  },
+  {
+    "from": "/http://www.factor2.com/v/vspfiles/2014-catalog%20v3/mobile/index.html#p=1_s/978",
+    "to": "/collections/http-www-factor2-com-v-vspfiles-2014-catalog-20v3-mobile-index-html-p-1",
+    "type": "collection",
+    "id": "978"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=978",
+    "to": "/collections/http-www-factor2-com-v-vspfiles-2014-catalog-20v3-mobile-index-html-p-1",
+    "type": "collection",
+    "id": "978"
+  },
+  {
+    "from": "/category_s/1981.htm",
+    "to": "/collections/all-solvents",
+    "type": "collection",
+    "id": "1981"
+  },
+  {
+    "from": "/SearchResults.asp?Cat=1981",
+    "to": "/collections/all-solvents",
+    "type": "collection",
+    "id": "1981"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=10005",
+    "to": "/products/10005",
+    "type": "product",
+    "id": "10005"
+  },
+  {
+    "from": "/product_p/10005.htm",
+    "to": "/products/10005",
+    "type": "product",
+    "id": "10005"
+  },
+  {
+    "from": "/product_p/10005",
+    "to": "/products/10005",
+    "type": "product",
+    "id": "10005"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=11016M",
+    "to": "/products/11016m",
+    "type": "product",
+    "id": "11016M"
+  },
+  {
+    "from": "/product_p/11016M.htm",
+    "to": "/products/11016m",
+    "type": "product",
+    "id": "11016M"
+  },
+  {
+    "from": "/product_p/11016M",
+    "to": "/products/11016m",
+    "type": "product",
+    "id": "11016M"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=11017N",
+    "to": "/products/11017n",
+    "type": "product",
+    "id": "11017N"
+  },
+  {
+    "from": "/product_p/11017N.htm",
+    "to": "/products/11017n",
+    "type": "product",
+    "id": "11017N"
+  },
+  {
+    "from": "/product_p/11017N",
+    "to": "/products/11017n",
+    "type": "product",
+    "id": "11017N"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=1192H",
+    "to": "/products/1192h",
+    "type": "product",
+    "id": "1192H"
+  },
+  {
+    "from": "/product_p/1192H.htm",
+    "to": "/products/1192h",
+    "type": "product",
+    "id": "1192H"
+  },
+  {
+    "from": "/product_p/1192H",
+    "to": "/products/1192h",
+    "type": "product",
+    "id": "1192H"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=30-3046",
+    "to": "/products/30-3046",
+    "type": "product",
+    "id": "30-3046"
+  },
+  {
+    "from": "/product_p/30-3046.htm",
+    "to": "/products/30-3046",
+    "type": "product",
+    "id": "30-3046"
+  },
+  {
+    "from": "/product_p/30-3046",
+    "to": "/products/30-3046",
+    "type": "product",
+    "id": "30-3046"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=30540",
+    "to": "/products/30540",
+    "type": "product",
+    "id": "30540"
+  },
+  {
+    "from": "/product_p/30540.htm",
+    "to": "/products/30540",
+    "type": "product",
+    "id": "30540"
+  },
+  {
+    "from": "/product_p/30540",
+    "to": "/products/30540",
+    "type": "product",
+    "id": "30540"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=30GC",
+    "to": "/products/30gc",
+    "type": "product",
+    "id": "30GC"
+  },
+  {
+    "from": "/product_p/30GC.htm",
+    "to": "/products/30gc",
+    "type": "product",
+    "id": "30GC"
+  },
+  {
+    "from": "/product_p/30GC",
+    "to": "/products/30gc",
+    "type": "product",
+    "id": "30GC"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40040",
+    "to": "/products/40040",
+    "type": "product",
+    "id": "40040"
+  },
+  {
+    "from": "/product_p/40040.htm",
+    "to": "/products/40040",
+    "type": "product",
+    "id": "40040"
+  },
+  {
+    "from": "/product_p/40040",
+    "to": "/products/40040",
+    "type": "product",
+    "id": "40040"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40350",
+    "to": "/products/40350",
+    "type": "product",
+    "id": "40350"
+  },
+  {
+    "from": "/product_p/40350.htm",
+    "to": "/products/40350",
+    "type": "product",
+    "id": "40350"
+  },
+  {
+    "from": "/product_p/40350",
+    "to": "/products/40350",
+    "type": "product",
+    "id": "40350"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40360",
+    "to": "/products/40360",
+    "type": "product",
+    "id": "40360"
+  },
+  {
+    "from": "/product_p/40360.htm",
+    "to": "/products/40360",
+    "type": "product",
+    "id": "40360"
+  },
+  {
+    "from": "/product_p/40360",
+    "to": "/products/40360",
+    "type": "product",
+    "id": "40360"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40400",
+    "to": "/products/40400",
+    "type": "product",
+    "id": "40400"
+  },
+  {
+    "from": "/product_p/40400.htm",
+    "to": "/products/40400",
+    "type": "product",
+    "id": "40400"
+  },
+  {
+    "from": "/product_p/40400",
+    "to": "/products/40400",
+    "type": "product",
+    "id": "40400"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40502",
+    "to": "/products/40502",
+    "type": "product",
+    "id": "40502"
+  },
+  {
+    "from": "/product_p/40502.htm",
+    "to": "/products/40502",
+    "type": "product",
+    "id": "40502"
+  },
+  {
+    "from": "/product_p/40502",
+    "to": "/products/40502",
+    "type": "product",
+    "id": "40502"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40512",
+    "to": "/products/40512",
+    "type": "product",
+    "id": "40512"
+  },
+  {
+    "from": "/product_p/40512.htm",
+    "to": "/products/40512",
+    "type": "product",
+    "id": "40512"
+  },
+  {
+    "from": "/product_p/40512",
+    "to": "/products/40512",
+    "type": "product",
+    "id": "40512"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40521",
+    "to": "/products/40521",
+    "type": "product",
+    "id": "40521"
+  },
+  {
+    "from": "/product_p/40521.htm",
+    "to": "/products/40521",
+    "type": "product",
+    "id": "40521"
+  },
+  {
+    "from": "/product_p/40521",
+    "to": "/products/40521",
+    "type": "product",
+    "id": "40521"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40522",
+    "to": "/products/40522",
+    "type": "product",
+    "id": "40522"
+  },
+  {
+    "from": "/product_p/40522.htm",
+    "to": "/products/40522",
+    "type": "product",
+    "id": "40522"
+  },
+  {
+    "from": "/product_p/40522",
+    "to": "/products/40522",
+    "type": "product",
+    "id": "40522"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=40GC",
+    "to": "/products/40gc",
+    "type": "product",
+    "id": "40GC"
+  },
+  {
+    "from": "/product_p/40GC.htm",
+    "to": "/products/40gc",
+    "type": "product",
+    "id": "40GC"
+  },
+  {
+    "from": "/product_p/40GC",
+    "to": "/products/40gc",
+    "type": "product",
+    "id": "40GC"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=501701",
+    "to": "/products/501701",
+    "type": "product",
+    "id": "501701"
+  },
+  {
+    "from": "/product_p/501701.htm",
+    "to": "/products/501701",
+    "type": "product",
+    "id": "501701"
+  },
+  {
+    "from": "/product_p/501701",
+    "to": "/products/501701",
+    "type": "product",
+    "id": "501701"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=501710",
+    "to": "/products/501710",
+    "type": "product",
+    "id": "501710"
+  },
+  {
+    "from": "/product_p/501710.htm",
+    "to": "/products/501710",
+    "type": "product",
+    "id": "501710"
+  },
+  {
+    "from": "/product_p/501710",
+    "to": "/products/501710",
+    "type": "product",
+    "id": "501710"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=5118",
+    "to": "/products/5118",
+    "type": "product",
+    "id": "5118"
+  },
+  {
+    "from": "/product_p/5118.htm",
+    "to": "/products/5118",
+    "type": "product",
+    "id": "5118"
+  },
+  {
+    "from": "/product_p/5118",
+    "to": "/products/5118",
+    "type": "product",
+    "id": "5118"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=5119",
+    "to": "/products/5119",
+    "type": "product",
+    "id": "5119"
+  },
+  {
+    "from": "/product_p/5119.htm",
+    "to": "/products/5119",
+    "type": "product",
+    "id": "5119"
+  },
+  {
+    "from": "/product_p/5119",
+    "to": "/products/5119",
+    "type": "product",
+    "id": "5119"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=5120",
+    "to": "/products/5120",
+    "type": "product",
+    "id": "5120"
+  },
+  {
+    "from": "/product_p/5120.htm",
+    "to": "/products/5120",
+    "type": "product",
+    "id": "5120"
+  },
+  {
+    "from": "/product_p/5120",
+    "to": "/products/5120",
+    "type": "product",
+    "id": "5120"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=5125",
+    "to": "/products/5125",
+    "type": "product",
+    "id": "5125"
+  },
+  {
+    "from": "/product_p/5125.htm",
+    "to": "/products/5125",
+    "type": "product",
+    "id": "5125"
+  },
+  {
+    "from": "/product_p/5125",
+    "to": "/products/5125",
+    "type": "product",
+    "id": "5125"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=5164-1",
+    "to": "/products/5164-1",
+    "type": "product",
+    "id": "5164-1"
+  },
+  {
+    "from": "/product_p/5164-1.htm",
+    "to": "/products/5164-1",
+    "type": "product",
+    "id": "5164-1"
+  },
+  {
+    "from": "/product_p/5164-1",
+    "to": "/products/5164-1",
+    "type": "product",
+    "id": "5164-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=564-Kit",
+    "to": "/products/564-kit",
+    "type": "product",
+    "id": "564-Kit"
+  },
+  {
+    "from": "/product_p/564-Kit.htm",
+    "to": "/products/564-kit",
+    "type": "product",
+    "id": "564-Kit"
+  },
+  {
+    "from": "/product_p/564-Kit",
+    "to": "/products/564-kit",
+    "type": "product",
+    "id": "564-Kit"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=564-NFS-Kit",
+    "to": "/products/564-nfs-kit",
+    "type": "product",
+    "id": "564-NFS-Kit"
+  },
+  {
+    "from": "/product_p/564-NFS-Kit.htm",
+    "to": "/products/564-nfs-kit",
+    "type": "product",
+    "id": "564-NFS-Kit"
+  },
+  {
+    "from": "/product_p/564-NFS-Kit",
+    "to": "/products/564-nfs-kit",
+    "type": "product",
+    "id": "564-NFS-Kit"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=62280",
+    "to": "/products/62280",
+    "type": "product",
+    "id": "62280"
+  },
+  {
+    "from": "/product_p/62280.htm",
+    "to": "/products/62280",
+    "type": "product",
+    "id": "62280"
+  },
+  {
+    "from": "/product_p/62280",
+    "to": "/products/62280",
+    "type": "product",
+    "id": "62280"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=7690",
+    "to": "/products/7690",
+    "type": "product",
+    "id": "7690"
+  },
+  {
+    "from": "/product_p/7690.htm",
+    "to": "/products/7690",
+    "type": "product",
+    "id": "7690"
+  },
+  {
+    "from": "/product_p/7690",
+    "to": "/products/7690",
+    "type": "product",
+    "id": "7690"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=78530",
+    "to": "/products/78530",
+    "type": "product",
+    "id": "78530"
+  },
+  {
+    "from": "/product_p/78530.htm",
+    "to": "/products/78530",
+    "type": "product",
+    "id": "78530"
+  },
+  {
+    "from": "/product_p/78530",
+    "to": "/products/78530",
+    "type": "product",
+    "id": "78530"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=78570",
+    "to": "/products/78570",
+    "type": "product",
+    "id": "78570"
+  },
+  {
+    "from": "/product_p/78570.htm",
+    "to": "/products/78570",
+    "type": "product",
+    "id": "78570"
+  },
+  {
+    "from": "/product_p/78570",
+    "to": "/products/78570",
+    "type": "product",
+    "id": "78570"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=7890",
+    "to": "/products/7890",
+    "type": "product",
+    "id": "7890"
+  },
+  {
+    "from": "/product_p/7890.htm",
+    "to": "/products/7890",
+    "type": "product",
+    "id": "7890"
+  },
+  {
+    "from": "/product_p/7890",
+    "to": "/products/7890",
+    "type": "product",
+    "id": "7890"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=7910",
+    "to": "/products/7910",
+    "type": "product",
+    "id": "7910"
+  },
+  {
+    "from": "/product_p/7910.htm",
+    "to": "/products/7910",
+    "type": "product",
+    "id": "7910"
+  },
+  {
+    "from": "/product_p/7910",
+    "to": "/products/7910",
+    "type": "product",
+    "id": "7910"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=7920",
+    "to": "/products/7920",
+    "type": "product",
+    "id": "7920"
+  },
+  {
+    "from": "/product_p/7920.htm",
+    "to": "/products/7920",
+    "type": "product",
+    "id": "7920"
+  },
+  {
+    "from": "/product_p/7920",
+    "to": "/products/7920",
+    "type": "product",
+    "id": "7920"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=7930",
+    "to": "/products/7930",
+    "type": "product",
+    "id": "7930"
+  },
+  {
+    "from": "/product_p/7930.htm",
+    "to": "/products/7930",
+    "type": "product",
+    "id": "7930"
+  },
+  {
+    "from": "/product_p/7930",
+    "to": "/products/7930",
+    "type": "product",
+    "id": "7930"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=9012",
+    "to": "/products/9012",
+    "type": "product",
+    "id": "9012"
+  },
+  {
+    "from": "/product_p/9012.htm",
+    "to": "/products/9012",
+    "type": "product",
+    "id": "9012"
+  },
+  {
+    "from": "/product_p/9012",
+    "to": "/products/9012",
+    "type": "product",
+    "id": "9012"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=9015",
+    "to": "/products/9015",
+    "type": "product",
+    "id": "9015"
+  },
+  {
+    "from": "/product_p/9015.htm",
+    "to": "/products/9015",
+    "type": "product",
+    "id": "9015"
+  },
+  {
+    "from": "/product_p/9015",
+    "to": "/products/9015",
+    "type": "product",
+    "id": "9015"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-100",
+    "to": "/products/a-100",
+    "type": "product",
+    "id": "A-100"
+  },
+  {
+    "from": "/product_p/A-100.htm",
+    "to": "/products/a-100",
+    "type": "product",
+    "id": "A-100"
+  },
+  {
+    "from": "/product_p/A-100",
+    "to": "/products/a-100",
+    "type": "product",
+    "id": "A-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-101",
+    "to": "/products/a-101",
+    "type": "product",
+    "id": "A-101"
+  },
+  {
+    "from": "/product_p/A-101.htm",
+    "to": "/products/a-101",
+    "type": "product",
+    "id": "A-101"
+  },
+  {
+    "from": "/product_p/A-101",
+    "to": "/products/a-101",
+    "type": "product",
+    "id": "A-101"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-103",
+    "to": "/products/a-103",
+    "type": "product",
+    "id": "A-103"
+  },
+  {
+    "from": "/product_p/A-103.htm",
+    "to": "/products/a-103",
+    "type": "product",
+    "id": "A-103"
+  },
+  {
+    "from": "/product_p/A-103",
+    "to": "/products/a-103",
+    "type": "product",
+    "id": "A-103"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-104",
+    "to": "/products/a-104",
+    "type": "product",
+    "id": "A-104"
+  },
+  {
+    "from": "/product_p/A-104.htm",
+    "to": "/products/a-104",
+    "type": "product",
+    "id": "A-104"
+  },
+  {
+    "from": "/product_p/A-104",
+    "to": "/products/a-104",
+    "type": "product",
+    "id": "A-104"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-106",
+    "to": "/products/a-106",
+    "type": "product",
+    "id": "A-106"
+  },
+  {
+    "from": "/product_p/A-106.htm",
+    "to": "/products/a-106",
+    "type": "product",
+    "id": "A-106"
+  },
+  {
+    "from": "/product_p/A-106",
+    "to": "/products/a-106",
+    "type": "product",
+    "id": "A-106"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-110",
+    "to": "/products/a-110",
+    "type": "product",
+    "id": "A-110"
+  },
+  {
+    "from": "/product_p/A-110.htm",
+    "to": "/products/a-110",
+    "type": "product",
+    "id": "A-110"
+  },
+  {
+    "from": "/product_p/A-110",
+    "to": "/products/a-110",
+    "type": "product",
+    "id": "A-110"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-135",
+    "to": "/products/a-135",
+    "type": "product",
+    "id": "A-135"
+  },
+  {
+    "from": "/product_p/A-135.htm",
+    "to": "/products/a-135",
+    "type": "product",
+    "id": "A-135"
+  },
+  {
+    "from": "/product_p/A-135",
+    "to": "/products/a-135",
+    "type": "product",
+    "id": "A-135"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-2",
+    "to": "/products/a-2",
+    "type": "product",
+    "id": "A-2"
+  },
+  {
+    "from": "/product_p/A-2.htm",
+    "to": "/products/a-2",
+    "type": "product",
+    "id": "A-2"
+  },
+  {
+    "from": "/product_p/A-2",
+    "to": "/products/a-2",
+    "type": "product",
+    "id": "A-2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-2186",
+    "to": "/products/a-2186",
+    "type": "product",
+    "id": "A-2186"
+  },
+  {
+    "from": "/product_p/A-2186.htm",
+    "to": "/products/a-2186",
+    "type": "product",
+    "id": "A-2186"
+  },
+  {
+    "from": "/product_p/A-2186",
+    "to": "/products/a-2186",
+    "type": "product",
+    "id": "A-2186"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-221-01",
+    "to": "/products/a-221-01",
+    "type": "product",
+    "id": "A-221-01"
+  },
+  {
+    "from": "/product_p/A-221-01.htm",
+    "to": "/products/a-221-01",
+    "type": "product",
+    "id": "A-221-01"
+  },
+  {
+    "from": "/product_p/A-221-01",
+    "to": "/products/a-221-01",
+    "type": "product",
+    "id": "A-221-01"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-221-05",
+    "to": "/products/a-221-05",
+    "type": "product",
+    "id": "A-221-05"
+  },
+  {
+    "from": "/product_p/A-221-05.htm",
+    "to": "/products/a-221-05",
+    "type": "product",
+    "id": "A-221-05"
+  },
+  {
+    "from": "/product_p/A-221-05",
+    "to": "/products/a-221-05",
+    "type": "product",
+    "id": "A-221-05"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-221-10",
+    "to": "/products/a-221-10",
+    "type": "product",
+    "id": "A-221-10"
+  },
+  {
+    "from": "/product_p/A-221-10.htm",
+    "to": "/products/a-221-10",
+    "type": "product",
+    "id": "A-221-10"
+  },
+  {
+    "from": "/product_p/A-221-10",
+    "to": "/products/a-221-10",
+    "type": "product",
+    "id": "A-221-10"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-223-25",
+    "to": "/products/a-223-25",
+    "type": "product",
+    "id": "A-223-25"
+  },
+  {
+    "from": "/product_p/A-223-25.htm",
+    "to": "/products/a-223-25",
+    "type": "product",
+    "id": "A-223-25"
+  },
+  {
+    "from": "/product_p/A-223-25",
+    "to": "/products/a-223-25",
+    "type": "product",
+    "id": "A-223-25"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-223-30",
+    "to": "/products/a-223-30",
+    "type": "product",
+    "id": "A-223-30"
+  },
+  {
+    "from": "/product_p/A-223-30.htm",
+    "to": "/products/a-223-30",
+    "type": "product",
+    "id": "A-223-30"
+  },
+  {
+    "from": "/product_p/A-223-30",
+    "to": "/products/a-223-30",
+    "type": "product",
+    "id": "A-223-30"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-223-30-400MIL-P-(WHITE)",
+    "to": "/products/a-223-30-400mil-p-white",
+    "type": "product",
+    "id": "A-223-30-400MIL-P-(WHITE)"
+  },
+  {
+    "from": "/product_p/A-223-30-400MIL-P-(WHITE).htm",
+    "to": "/products/a-223-30-400mil-p-white",
+    "type": "product",
+    "id": "A-223-30-400MIL-P-(WHITE)"
+  },
+  {
+    "from": "/product_p/A-223-30-400MIL-P-(WHITE)",
+    "to": "/products/a-223-30-400mil-p-white",
+    "type": "product",
+    "id": "A-223-30-400MIL-P-(WHITE)"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-223-40",
+    "to": "/products/a-223-40",
+    "type": "product",
+    "id": "A-223-40"
+  },
+  {
+    "from": "/product_p/A-223-40.htm",
+    "to": "/products/a-223-40",
+    "type": "product",
+    "id": "A-223-40"
+  },
+  {
+    "from": "/product_p/A-223-40",
+    "to": "/products/a-223-40",
+    "type": "product",
+    "id": "A-223-40"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-225-50",
+    "to": "/products/a-225-50",
+    "type": "product",
+    "id": "A-225-50"
+  },
+  {
+    "from": "/product_p/A-225-50.htm",
+    "to": "/products/a-225-50",
+    "type": "product",
+    "id": "A-225-50"
+  },
+  {
+    "from": "/product_p/A-225-50",
+    "to": "/products/a-225-50",
+    "type": "product",
+    "id": "A-225-50"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-225-60",
+    "to": "/products/a-225-60",
+    "type": "product",
+    "id": "A-225-60"
+  },
+  {
+    "from": "/product_p/A-225-60.htm",
+    "to": "/products/a-225-60",
+    "type": "product",
+    "id": "A-225-60"
+  },
+  {
+    "from": "/product_p/A-225-60",
+    "to": "/products/a-225-60",
+    "type": "product",
+    "id": "A-225-60"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-225-70",
+    "to": "/products/a-225-70",
+    "type": "product",
+    "id": "A-225-70"
+  },
+  {
+    "from": "/product_p/A-225-70.htm",
+    "to": "/products/a-225-70",
+    "type": "product",
+    "id": "A-225-70"
+  },
+  {
+    "from": "/product_p/A-225-70",
+    "to": "/products/a-225-70",
+    "type": "product",
+    "id": "A-225-70"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-244",
+    "to": "/products/a-244",
+    "type": "product",
+    "id": "A-244"
+  },
+  {
+    "from": "/product_p/A-244.htm",
+    "to": "/products/a-244",
+    "type": "product",
+    "id": "A-244"
+  },
+  {
+    "from": "/product_p/A-244",
+    "to": "/products/a-244",
+    "type": "product",
+    "id": "A-244"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-300-1",
+    "to": "/products/a-300-1",
+    "type": "product",
+    "id": "A-300-1"
+  },
+  {
+    "from": "/product_p/A-300-1.htm",
+    "to": "/products/a-300-1",
+    "type": "product",
+    "id": "A-300-1"
+  },
+  {
+    "from": "/product_p/A-300-1",
+    "to": "/products/a-300-1",
+    "type": "product",
+    "id": "A-300-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-300-8",
+    "to": "/products/a-300-8",
+    "type": "product",
+    "id": "A-300-8"
+  },
+  {
+    "from": "/product_p/A-300-8.htm",
+    "to": "/products/a-300-8",
+    "type": "product",
+    "id": "A-300-8"
+  },
+  {
+    "from": "/product_p/A-300-8",
+    "to": "/products/a-300-8",
+    "type": "product",
+    "id": "A-300-8"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-304",
+    "to": "/products/a-304",
+    "type": "product",
+    "id": "A-304"
+  },
+  {
+    "from": "/product_p/A-304.htm",
+    "to": "/products/a-304",
+    "type": "product",
+    "id": "A-304"
+  },
+  {
+    "from": "/product_p/A-304",
+    "to": "/products/a-304",
+    "type": "product",
+    "id": "A-304"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-306",
+    "to": "/products/a-306",
+    "type": "product",
+    "id": "A-306"
+  },
+  {
+    "from": "/product_p/A-306.htm",
+    "to": "/products/a-306",
+    "type": "product",
+    "id": "A-306"
+  },
+  {
+    "from": "/product_p/A-306",
+    "to": "/products/a-306",
+    "type": "product",
+    "id": "A-306"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-309",
+    "to": "/products/a-309",
+    "type": "product",
+    "id": "A-309"
+  },
+  {
+    "from": "/product_p/A-309.htm",
+    "to": "/products/a-309",
+    "type": "product",
+    "id": "A-309"
+  },
+  {
+    "from": "/product_p/A-309",
+    "to": "/products/a-309",
+    "type": "product",
+    "id": "A-309"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-310-1000",
+    "to": "/products/a-310-1000",
+    "type": "product",
+    "id": "A-310-1000"
+  },
+  {
+    "from": "/product_p/A-310-1000.htm",
+    "to": "/products/a-310-1000",
+    "type": "product",
+    "id": "A-310-1000"
+  },
+  {
+    "from": "/product_p/A-310-1000",
+    "to": "/products/a-310-1000",
+    "type": "product",
+    "id": "A-310-1000"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-310-20",
+    "to": "/products/a-310-20",
+    "type": "product",
+    "id": "A-310-20"
+  },
+  {
+    "from": "/product_p/A-310-20.htm",
+    "to": "/products/a-310-20",
+    "type": "product",
+    "id": "A-310-20"
+  },
+  {
+    "from": "/product_p/A-310-20",
+    "to": "/products/a-310-20",
+    "type": "product",
+    "id": "A-310-20"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-310-50",
+    "to": "/products/a-310-50",
+    "type": "product",
+    "id": "A-310-50"
+  },
+  {
+    "from": "/product_p/A-310-50.htm",
+    "to": "/products/a-310-50",
+    "type": "product",
+    "id": "A-310-50"
+  },
+  {
+    "from": "/product_p/A-310-50",
+    "to": "/products/a-310-50",
+    "type": "product",
+    "id": "A-310-50"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-313",
+    "to": "/products/a-313",
+    "type": "product",
+    "id": "A-313"
+  },
+  {
+    "from": "/product_p/A-313.htm",
+    "to": "/products/a-313",
+    "type": "product",
+    "id": "A-313"
+  },
+  {
+    "from": "/product_p/A-313",
+    "to": "/products/a-313",
+    "type": "product",
+    "id": "A-313"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-315",
+    "to": "/products/a-315",
+    "type": "product",
+    "id": "A-315"
+  },
+  {
+    "from": "/product_p/A-315.htm",
+    "to": "/products/a-315",
+    "type": "product",
+    "id": "A-315"
+  },
+  {
+    "from": "/product_p/A-315",
+    "to": "/products/a-315",
+    "type": "product",
+    "id": "A-315"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-317",
+    "to": "/products/a-317",
+    "type": "product",
+    "id": "A-317"
+  },
+  {
+    "from": "/product_p/A-317.htm",
+    "to": "/products/a-317",
+    "type": "product",
+    "id": "A-317"
+  },
+  {
+    "from": "/product_p/A-317",
+    "to": "/products/a-317",
+    "type": "product",
+    "id": "A-317"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-318",
+    "to": "/products/a-318",
+    "type": "product",
+    "id": "A-318"
+  },
+  {
+    "from": "/product_p/A-318.htm",
+    "to": "/products/a-318",
+    "type": "product",
+    "id": "A-318"
+  },
+  {
+    "from": "/product_p/A-318",
+    "to": "/products/a-318",
+    "type": "product",
+    "id": "A-318"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-321",
+    "to": "/products/a-321",
+    "type": "product",
+    "id": "A-321"
+  },
+  {
+    "from": "/product_p/A-321.htm",
+    "to": "/products/a-321",
+    "type": "product",
+    "id": "A-321"
+  },
+  {
+    "from": "/product_p/A-321",
+    "to": "/products/a-321",
+    "type": "product",
+    "id": "A-321"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-330-GOLD",
+    "to": "/products/a-330-gold",
+    "type": "product",
+    "id": "A-330-GOLD"
+  },
+  {
+    "from": "/product_p/A-330-GOLD.htm",
+    "to": "/products/a-330-gold",
+    "type": "product",
+    "id": "A-330-GOLD"
+  },
+  {
+    "from": "/product_p/A-330-GOLD",
+    "to": "/products/a-330-gold",
+    "type": "product",
+    "id": "A-330-GOLD"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-340",
+    "to": "/products/a-340",
+    "type": "product",
+    "id": "A-340"
+  },
+  {
+    "from": "/product_p/A-340.htm",
+    "to": "/products/a-340",
+    "type": "product",
+    "id": "A-340"
+  },
+  {
+    "from": "/product_p/A-340",
+    "to": "/products/a-340",
+    "type": "product",
+    "id": "A-340"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4100",
+    "to": "/products/a-4100",
+    "type": "product",
+    "id": "A-4100"
+  },
+  {
+    "from": "/product_p/A-4100.htm",
+    "to": "/products/a-4100",
+    "type": "product",
+    "id": "A-4100"
+  },
+  {
+    "from": "/product_p/A-4100",
+    "to": "/products/a-4100",
+    "type": "product",
+    "id": "A-4100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4200",
+    "to": "/products/a-4200",
+    "type": "product",
+    "id": "A-4200"
+  },
+  {
+    "from": "/product_p/A-4200.htm",
+    "to": "/products/a-4200",
+    "type": "product",
+    "id": "A-4200"
+  },
+  {
+    "from": "/product_p/A-4200",
+    "to": "/products/a-4200",
+    "type": "product",
+    "id": "A-4200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4300",
+    "to": "/products/a-4300",
+    "type": "product",
+    "id": "A-4300"
+  },
+  {
+    "from": "/product_p/A-4300.htm",
+    "to": "/products/a-4300",
+    "type": "product",
+    "id": "A-4300"
+  },
+  {
+    "from": "/product_p/A-4300",
+    "to": "/products/a-4300",
+    "type": "product",
+    "id": "A-4300"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4520-HCRA",
+    "to": "/products/a-4520-hcra",
+    "type": "product",
+    "id": "A-4520-HCRA"
+  },
+  {
+    "from": "/product_p/A-4520-HCRA.htm",
+    "to": "/products/a-4520-hcra",
+    "type": "product",
+    "id": "A-4520-HCRA"
+  },
+  {
+    "from": "/product_p/A-4520-HCRA",
+    "to": "/products/a-4520-hcra",
+    "type": "product",
+    "id": "A-4520-HCRA"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4530-HCRA",
+    "to": "/products/a-4530-hcra",
+    "type": "product",
+    "id": "A-4530-HCRA"
+  },
+  {
+    "from": "/product_p/A-4530-HCRA.htm",
+    "to": "/products/a-4530-hcra",
+    "type": "product",
+    "id": "A-4530-HCRA"
+  },
+  {
+    "from": "/product_p/A-4530-HCRA",
+    "to": "/products/a-4530-hcra",
+    "type": "product",
+    "id": "A-4530-HCRA"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4550-HCRA",
+    "to": "/products/a-4550-hcra",
+    "type": "product",
+    "id": "A-4550-HCRA"
+  },
+  {
+    "from": "/product_p/A-4550-HCRA.htm",
+    "to": "/products/a-4550-hcra",
+    "type": "product",
+    "id": "A-4550-HCRA"
+  },
+  {
+    "from": "/product_p/A-4550-HCRA",
+    "to": "/products/a-4550-hcra",
+    "type": "product",
+    "id": "A-4550-HCRA"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4565-HCRA",
+    "to": "/products/a-4565-hcra",
+    "type": "product",
+    "id": "A-4565-HCRA"
+  },
+  {
+    "from": "/product_p/A-4565-HCRA.htm",
+    "to": "/products/a-4565-hcra",
+    "type": "product",
+    "id": "A-4565-HCRA"
+  },
+  {
+    "from": "/product_p/A-4565-HCRA",
+    "to": "/products/a-4565-hcra",
+    "type": "product",
+    "id": "A-4565-HCRA"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-4717",
+    "to": "/products/a-4717",
+    "type": "product",
+    "id": "A-4717"
+  },
+  {
+    "from": "/product_p/A-4717.htm",
+    "to": "/products/a-4717",
+    "type": "product",
+    "id": "A-4717"
+  },
+  {
+    "from": "/product_p/A-4717",
+    "to": "/products/a-4717",
+    "type": "product",
+    "id": "A-4717"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-503",
+    "to": "/products/a-503",
+    "type": "product",
+    "id": "A-503"
+  },
+  {
+    "from": "/product_p/A-503.htm",
+    "to": "/products/a-503",
+    "type": "product",
+    "id": "A-503"
+  },
+  {
+    "from": "/product_p/A-503",
+    "to": "/products/a-503",
+    "type": "product",
+    "id": "A-503"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-515",
+    "to": "/products/a-515",
+    "type": "product",
+    "id": "A-515"
+  },
+  {
+    "from": "/product_p/A-515.htm",
+    "to": "/products/a-515",
+    "type": "product",
+    "id": "A-515"
+  },
+  {
+    "from": "/product_p/A-515",
+    "to": "/products/a-515",
+    "type": "product",
+    "id": "A-515"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-564",
+    "to": "/products/a-564",
+    "type": "product",
+    "id": "A-564"
+  },
+  {
+    "from": "/product_p/A-564.htm",
+    "to": "/products/a-564",
+    "type": "product",
+    "id": "A-564"
+  },
+  {
+    "from": "/product_p/A-564",
+    "to": "/products/a-564",
+    "type": "product",
+    "id": "A-564"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-588-1",
+    "to": "/products/a-588-1",
+    "type": "product",
+    "id": "A-588-1"
+  },
+  {
+    "from": "/product_p/A-588-1.htm",
+    "to": "/products/a-588-1",
+    "type": "product",
+    "id": "A-588-1"
+  },
+  {
+    "from": "/product_p/A-588-1",
+    "to": "/products/a-588-1",
+    "type": "product",
+    "id": "A-588-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-789",
+    "to": "/products/a-789",
+    "type": "product",
+    "id": "A-789"
+  },
+  {
+    "from": "/product_p/A-789.htm",
+    "to": "/products/a-789",
+    "type": "product",
+    "id": "A-789"
+  },
+  {
+    "from": "/product_p/A-789",
+    "to": "/products/a-789",
+    "type": "product",
+    "id": "A-789"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-801",
+    "to": "/products/a-801",
+    "type": "product",
+    "id": "A-801"
+  },
+  {
+    "from": "/product_p/A-801.htm",
+    "to": "/products/a-801",
+    "type": "product",
+    "id": "A-801"
+  },
+  {
+    "from": "/product_p/A-801",
+    "to": "/products/a-801",
+    "type": "product",
+    "id": "A-801"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-805",
+    "to": "/products/a-805",
+    "type": "product",
+    "id": "A-805"
+  },
+  {
+    "from": "/product_p/A-805.htm",
+    "to": "/products/a-805",
+    "type": "product",
+    "id": "A-805"
+  },
+  {
+    "from": "/product_p/A-805",
+    "to": "/products/a-805",
+    "type": "product",
+    "id": "A-805"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-820",
+    "to": "/products/a-820",
+    "type": "product",
+    "id": "A-820"
+  },
+  {
+    "from": "/product_p/A-820.htm",
+    "to": "/products/a-820",
+    "type": "product",
+    "id": "A-820"
+  },
+  {
+    "from": "/product_p/A-820",
+    "to": "/products/a-820",
+    "type": "product",
+    "id": "A-820"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-830",
+    "to": "/products/a-830",
+    "type": "product",
+    "id": "A-830"
+  },
+  {
+    "from": "/product_p/A-830.htm",
+    "to": "/products/a-830",
+    "type": "product",
+    "id": "A-830"
+  },
+  {
+    "from": "/product_p/A-830",
+    "to": "/products/a-830",
+    "type": "product",
+    "id": "A-830"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-840",
+    "to": "/products/a-840",
+    "type": "product",
+    "id": "A-840"
+  },
+  {
+    "from": "/product_p/A-840.htm",
+    "to": "/products/a-840",
+    "type": "product",
+    "id": "A-840"
+  },
+  {
+    "from": "/product_p/A-840",
+    "to": "/products/a-840",
+    "type": "product",
+    "id": "A-840"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-850",
+    "to": "/products/a-850",
+    "type": "product",
+    "id": "A-850"
+  },
+  {
+    "from": "/product_p/A-850.htm",
+    "to": "/products/a-850",
+    "type": "product",
+    "id": "A-850"
+  },
+  {
+    "from": "/product_p/A-850",
+    "to": "/products/a-850",
+    "type": "product",
+    "id": "A-850"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-860-G",
+    "to": "/products/a-860-g",
+    "type": "product",
+    "id": "A-860-G"
+  },
+  {
+    "from": "/product_p/A-860-G.htm",
+    "to": "/products/a-860-g",
+    "type": "product",
+    "id": "A-860-G"
+  },
+  {
+    "from": "/product_p/A-860-G",
+    "to": "/products/a-860-g",
+    "type": "product",
+    "id": "A-860-G"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-05",
+    "to": "/products/a-rtv-05",
+    "type": "product",
+    "id": "A-RTV-05"
+  },
+  {
+    "from": "/product_p/A-RTV-05.htm",
+    "to": "/products/a-rtv-05",
+    "type": "product",
+    "id": "A-RTV-05"
+  },
+  {
+    "from": "/product_p/A-RTV-05",
+    "to": "/products/a-rtv-05",
+    "type": "product",
+    "id": "A-RTV-05"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-05-GAL",
+    "to": "/products/a-rtv-05-gal",
+    "type": "product",
+    "id": "A-RTV-05-GAL"
+  },
+  {
+    "from": "/product_p/A-RTV-05-GAL.htm",
+    "to": "/products/a-rtv-05-gal",
+    "type": "product",
+    "id": "A-RTV-05-GAL"
+  },
+  {
+    "from": "/product_p/A-RTV-05-GAL",
+    "to": "/products/a-rtv-05-gal",
+    "type": "product",
+    "id": "A-RTV-05-GAL"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-1556",
+    "to": "/products/a-rtv-1556",
+    "type": "product",
+    "id": "A-RTV-1556"
+  },
+  {
+    "from": "/product_p/A-RTV-1556.htm",
+    "to": "/products/a-rtv-1556",
+    "type": "product",
+    "id": "A-RTV-1556"
+  },
+  {
+    "from": "/product_p/A-RTV-1556",
+    "to": "/products/a-rtv-1556",
+    "type": "product",
+    "id": "A-RTV-1556"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-3020",
+    "to": "/products/a-rtv-3020",
+    "type": "product",
+    "id": "A-RTV-3020"
+  },
+  {
+    "from": "/product_p/A-RTV-3020.htm",
+    "to": "/products/a-rtv-3020",
+    "type": "product",
+    "id": "A-RTV-3020"
+  },
+  {
+    "from": "/product_p/A-RTV-3020",
+    "to": "/products/a-rtv-3020",
+    "type": "product",
+    "id": "A-RTV-3020"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-3040",
+    "to": "/products/a-rtv-3040",
+    "type": "product",
+    "id": "A-RTV-3040"
+  },
+  {
+    "from": "/product_p/A-RTV-3040.htm",
+    "to": "/products/a-rtv-3040",
+    "type": "product",
+    "id": "A-RTV-3040"
+  },
+  {
+    "from": "/product_p/A-RTV-3040",
+    "to": "/products/a-rtv-3040",
+    "type": "product",
+    "id": "A-RTV-3040"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-3045",
+    "to": "/products/a-rtv-3045",
+    "type": "product",
+    "id": "A-RTV-3045"
+  },
+  {
+    "from": "/product_p/A-RTV-3045.htm",
+    "to": "/products/a-rtv-3045",
+    "type": "product",
+    "id": "A-RTV-3045"
+  },
+  {
+    "from": "/product_p/A-RTV-3045",
+    "to": "/products/a-rtv-3045",
+    "type": "product",
+    "id": "A-RTV-3045"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4020",
+    "to": "/products/a-rtv-4020",
+    "type": "product",
+    "id": "A-RTV-4020"
+  },
+  {
+    "from": "/product_p/A-RTV-4020.htm",
+    "to": "/products/a-rtv-4020",
+    "type": "product",
+    "id": "A-RTV-4020"
+  },
+  {
+    "from": "/product_p/A-RTV-4020",
+    "to": "/products/a-rtv-4020",
+    "type": "product",
+    "id": "A-RTV-4020"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4040",
+    "to": "/products/a-rtv-4040",
+    "type": "product",
+    "id": "A-RTV-4040"
+  },
+  {
+    "from": "/product_p/A-RTV-4040.htm",
+    "to": "/products/a-rtv-4040",
+    "type": "product",
+    "id": "A-RTV-4040"
+  },
+  {
+    "from": "/product_p/A-RTV-4040",
+    "to": "/products/a-rtv-4040",
+    "type": "product",
+    "id": "A-RTV-4040"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4410",
+    "to": "/products/a-rtv-4410",
+    "type": "product",
+    "id": "A-RTV-4410"
+  },
+  {
+    "from": "/product_p/A-RTV-4410.htm",
+    "to": "/products/a-rtv-4410",
+    "type": "product",
+    "id": "A-RTV-4410"
+  },
+  {
+    "from": "/product_p/A-RTV-4410",
+    "to": "/products/a-rtv-4410",
+    "type": "product",
+    "id": "A-RTV-4410"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4420",
+    "to": "/products/a-rtv-4420",
+    "type": "product",
+    "id": "A-RTV-4420"
+  },
+  {
+    "from": "/product_p/A-RTV-4420.htm",
+    "to": "/products/a-rtv-4420",
+    "type": "product",
+    "id": "A-RTV-4420"
+  },
+  {
+    "from": "/product_p/A-RTV-4420",
+    "to": "/products/a-rtv-4420",
+    "type": "product",
+    "id": "A-RTV-4420"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4510",
+    "to": "/products/a-rtv-4510",
+    "type": "product",
+    "id": "A-RTV-4510"
+  },
+  {
+    "from": "/product_p/A-RTV-4510.htm",
+    "to": "/products/a-rtv-4510",
+    "type": "product",
+    "id": "A-RTV-4510"
+  },
+  {
+    "from": "/product_p/A-RTV-4510",
+    "to": "/products/a-rtv-4510",
+    "type": "product",
+    "id": "A-RTV-4510"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-4545",
+    "to": "/products/a-rtv-4545",
+    "type": "product",
+    "id": "A-RTV-4545"
+  },
+  {
+    "from": "/product_p/A-RTV-4545.htm",
+    "to": "/products/a-rtv-4545",
+    "type": "product",
+    "id": "A-RTV-4545"
+  },
+  {
+    "from": "/product_p/A-RTV-4545",
+    "to": "/products/a-rtv-4545",
+    "type": "product",
+    "id": "A-RTV-4545"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=A-RTV-70-50mil",
+    "to": "/products/a-rtv-70-50mil",
+    "type": "product",
+    "id": "A-RTV-70-50mil"
+  },
+  {
+    "from": "/product_p/A-RTV-70-50mil.htm",
+    "to": "/products/a-rtv-70-50mil",
+    "type": "product",
+    "id": "A-RTV-70-50mil"
+  },
+  {
+    "from": "/product_p/A-RTV-70-50mil",
+    "to": "/products/a-rtv-70-50mil",
+    "type": "product",
+    "id": "A-RTV-70-50mil"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AC-104-K",
+    "to": "/products/ac-104-k",
+    "type": "product",
+    "id": "AC-104-K"
+  },
+  {
+    "from": "/product_p/AC-104-K.htm",
+    "to": "/products/ac-104-k",
+    "type": "product",
+    "id": "AC-104-K"
+  },
+  {
+    "from": "/product_p/AC-104-K",
+    "to": "/products/ac-104-k",
+    "type": "product",
+    "id": "AC-104-K"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AC-104-M",
+    "to": "/products/ac-104-m",
+    "type": "product",
+    "id": "AC-104-M"
+  },
+  {
+    "from": "/product_p/AC-104-M.htm",
+    "to": "/products/ac-104-m",
+    "type": "product",
+    "id": "AC-104-M"
+  },
+  {
+    "from": "/product_p/AC-104-M",
+    "to": "/products/ac-104-m",
+    "type": "product",
+    "id": "AC-104-M"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AC-104-P",
+    "to": "/products/ac-104-p",
+    "type": "product",
+    "id": "AC-104-P"
+  },
+  {
+    "from": "/product_p/AC-104-P.htm",
+    "to": "/products/ac-104-p",
+    "type": "product",
+    "id": "AC-104-P"
+  },
+  {
+    "from": "/product_p/AC-104-P",
+    "to": "/products/ac-104-p",
+    "type": "product",
+    "id": "AC-104-P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-",
+    "to": "/products/al",
+    "type": "product",
+    "id": "AL-"
+  },
+  {
+    "from": "/product_p/AL-.htm",
+    "to": "/products/al",
+    "type": "product",
+    "id": "AL-"
+  },
+  {
+    "from": "/product_p/AL-",
+    "to": "/products/al",
+    "type": "product",
+    "id": "AL-"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-195",
+    "to": "/products/al-195",
+    "type": "product",
+    "id": "AL-195"
+  },
+  {
+    "from": "/product_p/AL-195.htm",
+    "to": "/products/al-195",
+    "type": "product",
+    "id": "AL-195"
+  },
+  {
+    "from": "/product_p/AL-195",
+    "to": "/products/al-195",
+    "type": "product",
+    "id": "AL-195"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-201",
+    "to": "/products/al-201",
+    "type": "product",
+    "id": "AL-201"
+  },
+  {
+    "from": "/product_p/AL-201.htm",
+    "to": "/products/al-201",
+    "type": "product",
+    "id": "AL-201"
+  },
+  {
+    "from": "/product_p/AL-201",
+    "to": "/products/al-201",
+    "type": "product",
+    "id": "AL-201"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-203",
+    "to": "/products/al-203",
+    "type": "product",
+    "id": "AL-203"
+  },
+  {
+    "from": "/product_p/AL-203.htm",
+    "to": "/products/al-203",
+    "type": "product",
+    "id": "AL-203"
+  },
+  {
+    "from": "/product_p/AL-203",
+    "to": "/products/al-203",
+    "type": "product",
+    "id": "AL-203"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-204-1",
+    "to": "/products/al-204-1",
+    "type": "product",
+    "id": "AL-204-1"
+  },
+  {
+    "from": "/product_p/AL-204-1.htm",
+    "to": "/products/al-204-1",
+    "type": "product",
+    "id": "AL-204-1"
+  },
+  {
+    "from": "/product_p/AL-204-1",
+    "to": "/products/al-204-1",
+    "type": "product",
+    "id": "AL-204-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-207",
+    "to": "/products/al-207",
+    "type": "product",
+    "id": "AL-207"
+  },
+  {
+    "from": "/product_p/AL-207.htm",
+    "to": "/products/al-207",
+    "type": "product",
+    "id": "AL-207"
+  },
+  {
+    "from": "/product_p/AL-207",
+    "to": "/products/al-207",
+    "type": "product",
+    "id": "AL-207"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-339-650",
+    "to": "/products/al-339-650",
+    "type": "product",
+    "id": "AL-339-650"
+  },
+  {
+    "from": "/product_p/AL-339-650.htm",
+    "to": "/products/al-339-650",
+    "type": "product",
+    "id": "AL-339-650"
+  },
+  {
+    "from": "/product_p/AL-339-650",
+    "to": "/products/al-339-650",
+    "type": "product",
+    "id": "AL-339-650"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-502",
+    "to": "/products/al-502",
+    "type": "product",
+    "id": "AL-502"
+  },
+  {
+    "from": "/product_p/AL-502.htm",
+    "to": "/products/al-502",
+    "type": "product",
+    "id": "AL-502"
+  },
+  {
+    "from": "/product_p/AL-502",
+    "to": "/products/al-502",
+    "type": "product",
+    "id": "AL-502"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-513",
+    "to": "/products/al-513",
+    "type": "product",
+    "id": "AL-513"
+  },
+  {
+    "from": "/product_p/AL-513.htm",
+    "to": "/products/al-513",
+    "type": "product",
+    "id": "AL-513"
+  },
+  {
+    "from": "/product_p/AL-513",
+    "to": "/products/al-513",
+    "type": "product",
+    "id": "AL-513"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-517",
+    "to": "/products/al-517",
+    "type": "product",
+    "id": "AL-517"
+  },
+  {
+    "from": "/product_p/AL-517.htm",
+    "to": "/products/al-517",
+    "type": "product",
+    "id": "AL-517"
+  },
+  {
+    "from": "/product_p/AL-517",
+    "to": "/products/al-517",
+    "type": "product",
+    "id": "AL-517"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-518",
+    "to": "/products/al-518",
+    "type": "product",
+    "id": "AL-518"
+  },
+  {
+    "from": "/product_p/AL-518.htm",
+    "to": "/products/al-518",
+    "type": "product",
+    "id": "AL-518"
+  },
+  {
+    "from": "/product_p/AL-518",
+    "to": "/products/al-518",
+    "type": "product",
+    "id": "AL-518"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-520",
+    "to": "/products/al-520",
+    "type": "product",
+    "id": "AL-520"
+  },
+  {
+    "from": "/product_p/AL-520.htm",
+    "to": "/products/al-520",
+    "type": "product",
+    "id": "AL-520"
+  },
+  {
+    "from": "/product_p/AL-520",
+    "to": "/products/al-520",
+    "type": "product",
+    "id": "AL-520"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-521-C",
+    "to": "/products/al-521-c",
+    "type": "product",
+    "id": "AL-521-C"
+  },
+  {
+    "from": "/product_p/AL-521-C.htm",
+    "to": "/products/al-521-c",
+    "type": "product",
+    "id": "AL-521-C"
+  },
+  {
+    "from": "/product_p/AL-521-C",
+    "to": "/products/al-521-c",
+    "type": "product",
+    "id": "AL-521-C"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-524",
+    "to": "/products/al-524",
+    "type": "product",
+    "id": "AL-524"
+  },
+  {
+    "from": "/product_p/AL-524.htm",
+    "to": "/products/al-524",
+    "type": "product",
+    "id": "AL-524"
+  },
+  {
+    "from": "/product_p/AL-524",
+    "to": "/products/al-524",
+    "type": "product",
+    "id": "AL-524"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-5427",
+    "to": "/products/al-5427",
+    "type": "product",
+    "id": "AL-5427"
+  },
+  {
+    "from": "/product_p/AL-5427.htm",
+    "to": "/products/al-5427",
+    "type": "product",
+    "id": "AL-5427"
+  },
+  {
+    "from": "/product_p/AL-5427",
+    "to": "/products/al-5427",
+    "type": "product",
+    "id": "AL-5427"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-574",
+    "to": "/products/al-574",
+    "type": "product",
+    "id": "AL-574"
+  },
+  {
+    "from": "/product_p/AL-574.htm",
+    "to": "/products/al-574",
+    "type": "product",
+    "id": "AL-574"
+  },
+  {
+    "from": "/product_p/AL-574",
+    "to": "/products/al-574",
+    "type": "product",
+    "id": "AL-574"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-605",
+    "to": "/products/al-605",
+    "type": "product",
+    "id": "AL-605"
+  },
+  {
+    "from": "/product_p/AL-605.htm",
+    "to": "/products/al-605",
+    "type": "product",
+    "id": "AL-605"
+  },
+  {
+    "from": "/product_p/AL-605",
+    "to": "/products/al-605",
+    "type": "product",
+    "id": "AL-605"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-620",
+    "to": "/products/al-620",
+    "type": "product",
+    "id": "AL-620"
+  },
+  {
+    "from": "/product_p/AL-620.htm",
+    "to": "/products/al-620",
+    "type": "product",
+    "id": "AL-620"
+  },
+  {
+    "from": "/product_p/AL-620",
+    "to": "/products/al-620",
+    "type": "product",
+    "id": "AL-620"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-621",
+    "to": "/products/al-621",
+    "type": "product",
+    "id": "AL-621"
+  },
+  {
+    "from": "/product_p/AL-621.htm",
+    "to": "/products/al-621",
+    "type": "product",
+    "id": "AL-621"
+  },
+  {
+    "from": "/product_p/AL-621",
+    "to": "/products/al-621",
+    "type": "product",
+    "id": "AL-621"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-623",
+    "to": "/products/al-623",
+    "type": "product",
+    "id": "AL-623"
+  },
+  {
+    "from": "/product_p/AL-623.htm",
+    "to": "/products/al-623",
+    "type": "product",
+    "id": "AL-623"
+  },
+  {
+    "from": "/product_p/AL-623",
+    "to": "/products/al-623",
+    "type": "product",
+    "id": "AL-623"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-624",
+    "to": "/products/al-624",
+    "type": "product",
+    "id": "AL-624"
+  },
+  {
+    "from": "/product_p/AL-624.htm",
+    "to": "/products/al-624",
+    "type": "product",
+    "id": "AL-624"
+  },
+  {
+    "from": "/product_p/AL-624",
+    "to": "/products/al-624",
+    "type": "product",
+    "id": "AL-624"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-625",
+    "to": "/products/al-625",
+    "type": "product",
+    "id": "AL-625"
+  },
+  {
+    "from": "/product_p/AL-625.htm",
+    "to": "/products/al-625",
+    "type": "product",
+    "id": "AL-625"
+  },
+  {
+    "from": "/product_p/AL-625",
+    "to": "/products/al-625",
+    "type": "product",
+    "id": "AL-625"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-627",
+    "to": "/products/al-627",
+    "type": "product",
+    "id": "AL-627"
+  },
+  {
+    "from": "/product_p/AL-627.htm",
+    "to": "/products/al-627",
+    "type": "product",
+    "id": "AL-627"
+  },
+  {
+    "from": "/product_p/AL-627",
+    "to": "/products/al-627",
+    "type": "product",
+    "id": "AL-627"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AL-Spatula",
+    "to": "/products/al-spatula",
+    "type": "product",
+    "id": "AL-Spatula"
+  },
+  {
+    "from": "/product_p/AL-Spatula.htm",
+    "to": "/products/al-spatula",
+    "type": "product",
+    "id": "AL-Spatula"
+  },
+  {
+    "from": "/product_p/AL-Spatula",
+    "to": "/products/al-spatula",
+    "type": "product",
+    "id": "AL-Spatula"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=AUR-01",
+    "to": "/products/aur-01",
+    "type": "product",
+    "id": "AUR-01"
+  },
+  {
+    "from": "/product_p/AUR-01.htm",
+    "to": "/products/aur-01",
+    "type": "product",
+    "id": "AUR-01"
+  },
+  {
+    "from": "/product_p/AUR-01",
+    "to": "/products/aur-01",
+    "type": "product",
+    "id": "AUR-01"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-100",
+    "to": "/products/b-100",
+    "type": "product",
+    "id": "B-100"
+  },
+  {
+    "from": "/product_p/B-100.htm",
+    "to": "/products/b-100",
+    "type": "product",
+    "id": "B-100"
+  },
+  {
+    "from": "/product_p/B-100",
+    "to": "/products/b-100",
+    "type": "product",
+    "id": "B-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-105",
+    "to": "/products/b-105",
+    "type": "product",
+    "id": "B-105"
+  },
+  {
+    "from": "/product_p/B-105.htm",
+    "to": "/products/b-105",
+    "type": "product",
+    "id": "B-105"
+  },
+  {
+    "from": "/product_p/B-105",
+    "to": "/products/b-105",
+    "type": "product",
+    "id": "B-105"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-200-09",
+    "to": "/products/b-200-09",
+    "type": "product",
+    "id": "B-200-09"
+  },
+  {
+    "from": "/product_p/B-200-09.htm",
+    "to": "/products/b-200-09",
+    "type": "product",
+    "id": "B-200-09"
+  },
+  {
+    "from": "/product_p/B-200-09",
+    "to": "/products/b-200-09",
+    "type": "product",
+    "id": "B-200-09"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-200-12",
+    "to": "/products/b-200-12",
+    "type": "product",
+    "id": "B-200-12"
+  },
+  {
+    "from": "/product_p/B-200-12.htm",
+    "to": "/products/b-200-12",
+    "type": "product",
+    "id": "B-200-12"
+  },
+  {
+    "from": "/product_p/B-200-12",
+    "to": "/products/b-200-12",
+    "type": "product",
+    "id": "B-200-12"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-200-30",
+    "to": "/products/b-200-30",
+    "type": "product",
+    "id": "B-200-30"
+  },
+  {
+    "from": "/product_p/B-200-30.htm",
+    "to": "/products/b-200-30",
+    "type": "product",
+    "id": "B-200-30"
+  },
+  {
+    "from": "/product_p/B-200-30",
+    "to": "/products/b-200-30",
+    "type": "product",
+    "id": "B-200-30"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-200-ES",
+    "to": "/products/b-200-es",
+    "type": "product",
+    "id": "B-200-ES"
+  },
+  {
+    "from": "/product_p/B-200-ES.htm",
+    "to": "/products/b-200-es",
+    "type": "product",
+    "id": "B-200-ES"
+  },
+  {
+    "from": "/product_p/B-200-ES",
+    "to": "/products/b-200-es",
+    "type": "product",
+    "id": "B-200-ES"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-200-R",
+    "to": "/products/b-200-r",
+    "type": "product",
+    "id": "B-200-R"
+  },
+  {
+    "from": "/product_p/B-200-R.htm",
+    "to": "/products/b-200-r",
+    "type": "product",
+    "id": "B-200-R"
+  },
+  {
+    "from": "/product_p/B-200-R",
+    "to": "/products/b-200-r",
+    "type": "product",
+    "id": "B-200-R"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-203-15",
+    "to": "/products/b-203-15",
+    "type": "product",
+    "id": "B-203-15"
+  },
+  {
+    "from": "/product_p/B-203-15.htm",
+    "to": "/products/b-203-15",
+    "type": "product",
+    "id": "B-203-15"
+  },
+  {
+    "from": "/product_p/B-203-15",
+    "to": "/products/b-203-15",
+    "type": "product",
+    "id": "B-203-15"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-205",
+    "to": "/products/b-205",
+    "type": "product",
+    "id": "B-205"
+  },
+  {
+    "from": "/product_p/B-205.htm",
+    "to": "/products/b-205",
+    "type": "product",
+    "id": "B-205"
+  },
+  {
+    "from": "/product_p/B-205",
+    "to": "/products/b-205",
+    "type": "product",
+    "id": "B-205"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-206",
+    "to": "/products/b-206",
+    "type": "product",
+    "id": "B-206"
+  },
+  {
+    "from": "/product_p/B-206.htm",
+    "to": "/products/b-206",
+    "type": "product",
+    "id": "B-206"
+  },
+  {
+    "from": "/product_p/B-206",
+    "to": "/products/b-206",
+    "type": "product",
+    "id": "B-206"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-208",
+    "to": "/products/b-208",
+    "type": "product",
+    "id": "B-208"
+  },
+  {
+    "from": "/product_p/B-208.htm",
+    "to": "/products/b-208",
+    "type": "product",
+    "id": "B-208"
+  },
+  {
+    "from": "/product_p/B-208",
+    "to": "/products/b-208",
+    "type": "product",
+    "id": "B-208"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-225-SS",
+    "to": "/products/b-225-ss",
+    "type": "product",
+    "id": "B-225-SS"
+  },
+  {
+    "from": "/product_p/B-225-SS.htm",
+    "to": "/products/b-225-ss",
+    "type": "product",
+    "id": "B-225-SS"
+  },
+  {
+    "from": "/product_p/B-225-SS",
+    "to": "/products/b-225-ss",
+    "type": "product",
+    "id": "B-225-SS"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-227",
+    "to": "/products/b-227",
+    "type": "product",
+    "id": "B-227"
+  },
+  {
+    "from": "/product_p/B-227.htm",
+    "to": "/products/b-227",
+    "type": "product",
+    "id": "B-227"
+  },
+  {
+    "from": "/product_p/B-227",
+    "to": "/products/b-227",
+    "type": "product",
+    "id": "B-227"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-302",
+    "to": "/products/b-302",
+    "type": "product",
+    "id": "B-302"
+  },
+  {
+    "from": "/product_p/B-302.htm",
+    "to": "/products/b-302",
+    "type": "product",
+    "id": "B-302"
+  },
+  {
+    "from": "/product_p/B-302",
+    "to": "/products/b-302",
+    "type": "product",
+    "id": "B-302"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-3808",
+    "to": "/products/b-3808",
+    "type": "product",
+    "id": "B-3808"
+  },
+  {
+    "from": "/product_p/B-3808.htm",
+    "to": "/products/b-3808",
+    "type": "product",
+    "id": "B-3808"
+  },
+  {
+    "from": "/product_p/B-3808",
+    "to": "/products/b-3808",
+    "type": "product",
+    "id": "B-3808"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-400",
+    "to": "/products/b-400",
+    "type": "product",
+    "id": "B-400"
+  },
+  {
+    "from": "/product_p/B-400.htm",
+    "to": "/products/b-400",
+    "type": "product",
+    "id": "B-400"
+  },
+  {
+    "from": "/product_p/B-400",
+    "to": "/products/b-400",
+    "type": "product",
+    "id": "B-400"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-400N",
+    "to": "/products/b-400n",
+    "type": "product",
+    "id": "B-400N"
+  },
+  {
+    "from": "/product_p/B-400N.htm",
+    "to": "/products/b-400n",
+    "type": "product",
+    "id": "B-400N"
+  },
+  {
+    "from": "/product_p/B-400N",
+    "to": "/products/b-400n",
+    "type": "product",
+    "id": "B-400N"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-460",
+    "to": "/products/b-460",
+    "type": "product",
+    "id": "B-460"
+  },
+  {
+    "from": "/product_p/B-460.htm",
+    "to": "/products/b-460",
+    "type": "product",
+    "id": "B-460"
+  },
+  {
+    "from": "/product_p/B-460",
+    "to": "/products/b-460",
+    "type": "product",
+    "id": "B-460"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-460N",
+    "to": "/products/b-460n",
+    "type": "product",
+    "id": "B-460N"
+  },
+  {
+    "from": "/product_p/B-460N.htm",
+    "to": "/products/b-460n",
+    "type": "product",
+    "id": "B-460N"
+  },
+  {
+    "from": "/product_p/B-460N",
+    "to": "/products/b-460n",
+    "type": "product",
+    "id": "B-460N"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-508",
+    "to": "/products/b-508",
+    "type": "product",
+    "id": "B-508"
+  },
+  {
+    "from": "/product_p/B-508.htm",
+    "to": "/products/b-508",
+    "type": "product",
+    "id": "B-508"
+  },
+  {
+    "from": "/product_p/B-508",
+    "to": "/products/b-508",
+    "type": "product",
+    "id": "B-508"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-515",
+    "to": "/products/b-515",
+    "type": "product",
+    "id": "B-515"
+  },
+  {
+    "from": "/product_p/B-515.htm",
+    "to": "/products/b-515",
+    "type": "product",
+    "id": "B-515"
+  },
+  {
+    "from": "/product_p/B-515",
+    "to": "/products/b-515",
+    "type": "product",
+    "id": "B-515"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-608",
+    "to": "/products/b-608",
+    "type": "product",
+    "id": "B-608"
+  },
+  {
+    "from": "/product_p/B-608.htm",
+    "to": "/products/b-608",
+    "type": "product",
+    "id": "B-608"
+  },
+  {
+    "from": "/product_p/B-608",
+    "to": "/products/b-608",
+    "type": "product",
+    "id": "B-608"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-608-M",
+    "to": "/products/b-608-m",
+    "type": "product",
+    "id": "B-608-M"
+  },
+  {
+    "from": "/product_p/B-608-M.htm",
+    "to": "/products/b-608-m",
+    "type": "product",
+    "id": "B-608-M"
+  },
+  {
+    "from": "/product_p/B-608-M",
+    "to": "/products/b-608-m",
+    "type": "product",
+    "id": "B-608-M"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-708",
+    "to": "/products/b-708",
+    "type": "product",
+    "id": "B-708"
+  },
+  {
+    "from": "/product_p/B-708.htm",
+    "to": "/products/b-708",
+    "type": "product",
+    "id": "B-708"
+  },
+  {
+    "from": "/product_p/B-708",
+    "to": "/products/b-708",
+    "type": "product",
+    "id": "B-708"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-7711",
+    "to": "/products/b-7711",
+    "type": "product",
+    "id": "B-7711"
+  },
+  {
+    "from": "/product_p/B-7711.htm",
+    "to": "/products/b-7711",
+    "type": "product",
+    "id": "B-7711"
+  },
+  {
+    "from": "/product_p/B-7711",
+    "to": "/products/b-7711",
+    "type": "product",
+    "id": "B-7711"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=B-7731",
+    "to": "/products/b-7731",
+    "type": "product",
+    "id": "B-7731"
+  },
+  {
+    "from": "/product_p/B-7731.htm",
+    "to": "/products/b-7731",
+    "type": "product",
+    "id": "B-7731"
+  },
+  {
+    "from": "/product_p/B-7731",
+    "to": "/products/b-7731",
+    "type": "product",
+    "id": "B-7731"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=BT-401",
+    "to": "/products/bt-401",
+    "type": "product",
+    "id": "BT-401"
+  },
+  {
+    "from": "/product_p/BT-401.htm",
+    "to": "/products/bt-401",
+    "type": "product",
+    "id": "BT-401"
+  },
+  {
+    "from": "/product_p/BT-401",
+    "to": "/products/bt-401",
+    "type": "product",
+    "id": "BT-401"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=BT-460",
+    "to": "/products/bt-460",
+    "type": "product",
+    "id": "BT-460"
+  },
+  {
+    "from": "/product_p/BT-460.htm",
+    "to": "/products/bt-460",
+    "type": "product",
+    "id": "BT-460"
+  },
+  {
+    "from": "/product_p/BT-460",
+    "to": "/products/bt-460",
+    "type": "product",
+    "id": "BT-460"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-100",
+    "to": "/products/d-100",
+    "type": "product",
+    "id": "D-100"
+  },
+  {
+    "from": "/product_p/D-100.htm",
+    "to": "/products/d-100",
+    "type": "product",
+    "id": "D-100"
+  },
+  {
+    "from": "/product_p/D-100",
+    "to": "/products/d-100",
+    "type": "product",
+    "id": "D-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-109",
+    "to": "/products/d-109",
+    "type": "product",
+    "id": "D-109"
+  },
+  {
+    "from": "/product_p/D-109.htm",
+    "to": "/products/d-109",
+    "type": "product",
+    "id": "D-109"
+  },
+  {
+    "from": "/product_p/D-109",
+    "to": "/products/d-109",
+    "type": "product",
+    "id": "D-109"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-2",
+    "to": "/products/d-2",
+    "type": "product",
+    "id": "D-2"
+  },
+  {
+    "from": "/product_p/D-2.htm",
+    "to": "/products/d-2",
+    "type": "product",
+    "id": "D-2"
+  },
+  {
+    "from": "/product_p/D-2",
+    "to": "/products/d-2",
+    "type": "product",
+    "id": "D-2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-200-125",
+    "to": "/products/d-200-125",
+    "type": "product",
+    "id": "D-200-125"
+  },
+  {
+    "from": "/product_p/D-200-125.htm",
+    "to": "/products/d-200-125",
+    "type": "product",
+    "id": "D-200-125"
+  },
+  {
+    "from": "/product_p/D-200-125",
+    "to": "/products/d-200-125",
+    "type": "product",
+    "id": "D-200-125"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-201-P",
+    "to": "/products/d-201-p",
+    "type": "product",
+    "id": "D-201-P"
+  },
+  {
+    "from": "/product_p/D-201-P.htm",
+    "to": "/products/d-201-p",
+    "type": "product",
+    "id": "D-201-P"
+  },
+  {
+    "from": "/product_p/D-201-P",
+    "to": "/products/d-201-p",
+    "type": "product",
+    "id": "D-201-P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-203",
+    "to": "/products/d-203",
+    "type": "product",
+    "id": "D-203"
+  },
+  {
+    "from": "/product_p/D-203.htm",
+    "to": "/products/d-203",
+    "type": "product",
+    "id": "D-203"
+  },
+  {
+    "from": "/product_p/D-203",
+    "to": "/products/d-203",
+    "type": "product",
+    "id": "D-203"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-209-N",
+    "to": "/products/d-209-n",
+    "type": "product",
+    "id": "D-209-N"
+  },
+  {
+    "from": "/product_p/D-209-N.htm",
+    "to": "/products/d-209-n",
+    "type": "product",
+    "id": "D-209-N"
+  },
+  {
+    "from": "/product_p/D-209-N",
+    "to": "/products/d-209-n",
+    "type": "product",
+    "id": "D-209-N"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-210",
+    "to": "/products/d-210",
+    "type": "product",
+    "id": "D-210"
+  },
+  {
+    "from": "/product_p/D-210.htm",
+    "to": "/products/d-210",
+    "type": "product",
+    "id": "D-210"
+  },
+  {
+    "from": "/product_p/D-210",
+    "to": "/products/d-210",
+    "type": "product",
+    "id": "D-210"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-212",
+    "to": "/products/d-212",
+    "type": "product",
+    "id": "D-212"
+  },
+  {
+    "from": "/product_p/D-212.htm",
+    "to": "/products/d-212",
+    "type": "product",
+    "id": "D-212"
+  },
+  {
+    "from": "/product_p/D-212",
+    "to": "/products/d-212",
+    "type": "product",
+    "id": "D-212"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-212-1",
+    "to": "/products/d-212-1",
+    "type": "product",
+    "id": "D-212-1"
+  },
+  {
+    "from": "/product_p/D-212-1.htm",
+    "to": "/products/d-212-1",
+    "type": "product",
+    "id": "D-212-1"
+  },
+  {
+    "from": "/product_p/D-212-1",
+    "to": "/products/d-212-1",
+    "type": "product",
+    "id": "D-212-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-3",
+    "to": "/products/d-3",
+    "type": "product",
+    "id": "D-3"
+  },
+  {
+    "from": "/product_p/D-3.htm",
+    "to": "/products/d-3",
+    "type": "product",
+    "id": "D-3"
+  },
+  {
+    "from": "/product_p/D-3",
+    "to": "/products/d-3",
+    "type": "product",
+    "id": "D-3"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-303",
+    "to": "/products/d-303",
+    "type": "product",
+    "id": "D-303"
+  },
+  {
+    "from": "/product_p/D-303.htm",
+    "to": "/products/d-303",
+    "type": "product",
+    "id": "D-303"
+  },
+  {
+    "from": "/product_p/D-303",
+    "to": "/products/d-303",
+    "type": "product",
+    "id": "D-303"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-316",
+    "to": "/products/d-316",
+    "type": "product",
+    "id": "D-316"
+  },
+  {
+    "from": "/product_p/D-316.htm",
+    "to": "/products/d-316",
+    "type": "product",
+    "id": "D-316"
+  },
+  {
+    "from": "/product_p/D-316",
+    "to": "/products/d-316",
+    "type": "product",
+    "id": "D-316"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-317",
+    "to": "/products/d-317",
+    "type": "product",
+    "id": "D-317"
+  },
+  {
+    "from": "/product_p/D-317.htm",
+    "to": "/products/d-317",
+    "type": "product",
+    "id": "D-317"
+  },
+  {
+    "from": "/product_p/D-317",
+    "to": "/products/d-317",
+    "type": "product",
+    "id": "D-317"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-318",
+    "to": "/products/d-318",
+    "type": "product",
+    "id": "D-318"
+  },
+  {
+    "from": "/product_p/D-318.htm",
+    "to": "/products/d-318",
+    "type": "product",
+    "id": "D-318"
+  },
+  {
+    "from": "/product_p/D-318",
+    "to": "/products/d-318",
+    "type": "product",
+    "id": "D-318"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-36Y",
+    "to": "/products/d-36y",
+    "type": "product",
+    "id": "D-36Y"
+  },
+  {
+    "from": "/product_p/D-36Y.htm",
+    "to": "/products/d-36y",
+    "type": "product",
+    "id": "D-36Y"
+  },
+  {
+    "from": "/product_p/D-36Y",
+    "to": "/products/d-36y",
+    "type": "product",
+    "id": "D-36Y"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=D-6",
+    "to": "/products/d-6",
+    "type": "product",
+    "id": "D-6"
+  },
+  {
+    "from": "/product_p/D-6.htm",
+    "to": "/products/d-6",
+    "type": "product",
+    "id": "D-6"
+  },
+  {
+    "from": "/product_p/D-6",
+    "to": "/products/d-6",
+    "type": "product",
+    "id": "D-6"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-1-A",
+    "to": "/products/dg-1-a",
+    "type": "product",
+    "id": "DG-1-A"
+  },
+  {
+    "from": "/product_p/DG-1-A.htm",
+    "to": "/products/dg-1-a",
+    "type": "product",
+    "id": "DG-1-A"
+  },
+  {
+    "from": "/product_p/DG-1-A",
+    "to": "/products/dg-1-a",
+    "type": "product",
+    "id": "DG-1-A"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-1-S",
+    "to": "/products/dg-1-s",
+    "type": "product",
+    "id": "DG-1-S"
+  },
+  {
+    "from": "/product_p/DG-1-S.htm",
+    "to": "/products/dg-1-s",
+    "type": "product",
+    "id": "DG-1-S"
+  },
+  {
+    "from": "/product_p/DG-1-S",
+    "to": "/products/dg-1-s",
+    "type": "product",
+    "id": "DG-1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-200",
+    "to": "/products/dg-200",
+    "type": "product",
+    "id": "DG-200"
+  },
+  {
+    "from": "/product_p/DG-200.htm",
+    "to": "/products/dg-200",
+    "type": "product",
+    "id": "DG-200"
+  },
+  {
+    "from": "/product_p/DG-200",
+    "to": "/products/dg-200",
+    "type": "product",
+    "id": "DG-200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-200-LSR",
+    "to": "/products/dg-200-lsr",
+    "type": "product",
+    "id": "DG-200-LSR"
+  },
+  {
+    "from": "/product_p/DG-200-LSR.htm",
+    "to": "/products/dg-200-lsr",
+    "type": "product",
+    "id": "DG-200-LSR"
+  },
+  {
+    "from": "/product_p/DG-200-LSR",
+    "to": "/products/dg-200-lsr",
+    "type": "product",
+    "id": "DG-200-LSR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-200-LSR-P",
+    "to": "/products/dg-200-lsr-p",
+    "type": "product",
+    "id": "DG-200-LSR-P"
+  },
+  {
+    "from": "/product_p/DG-200-LSR-P.htm",
+    "to": "/products/dg-200-lsr-p",
+    "type": "product",
+    "id": "DG-200-LSR-P"
+  },
+  {
+    "from": "/product_p/DG-200-LSR-P",
+    "to": "/products/dg-200-lsr-p",
+    "type": "product",
+    "id": "DG-200-LSR-P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-200-LSR-P-K",
+    "to": "/products/dg-200-lsr-p-k",
+    "type": "product",
+    "id": "DG-200-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-200-LSR-P-K.htm",
+    "to": "/products/dg-200-lsr-p-k",
+    "type": "product",
+    "id": "DG-200-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-200-LSR-P-K",
+    "to": "/products/dg-200-lsr-p-k",
+    "type": "product",
+    "id": "DG-200-LSR-P-K"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-400",
+    "to": "/products/dg-400",
+    "type": "product",
+    "id": "DG-400"
+  },
+  {
+    "from": "/product_p/DG-400.htm",
+    "to": "/products/dg-400",
+    "type": "product",
+    "id": "DG-400"
+  },
+  {
+    "from": "/product_p/DG-400",
+    "to": "/products/dg-400",
+    "type": "product",
+    "id": "DG-400"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-400-LSR",
+    "to": "/products/dg-400-lsr",
+    "type": "product",
+    "id": "DG-400-LSR"
+  },
+  {
+    "from": "/product_p/DG-400-LSR.htm",
+    "to": "/products/dg-400-lsr",
+    "type": "product",
+    "id": "DG-400-LSR"
+  },
+  {
+    "from": "/product_p/DG-400-LSR",
+    "to": "/products/dg-400-lsr",
+    "type": "product",
+    "id": "DG-400-LSR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-400-LSR-P",
+    "to": "/products/dg-400-lsr-p",
+    "type": "product",
+    "id": "DG-400-LSR-P"
+  },
+  {
+    "from": "/product_p/DG-400-LSR-P.htm",
+    "to": "/products/dg-400-lsr-p",
+    "type": "product",
+    "id": "DG-400-LSR-P"
+  },
+  {
+    "from": "/product_p/DG-400-LSR-P",
+    "to": "/products/dg-400-lsr-p",
+    "type": "product",
+    "id": "DG-400-LSR-P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-400-LSR-P-K",
+    "to": "/products/dg-400-lsr-p-k",
+    "type": "product",
+    "id": "DG-400-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-400-LSR-P-K.htm",
+    "to": "/products/dg-400-lsr-p-k",
+    "type": "product",
+    "id": "DG-400-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-400-LSR-P-K",
+    "to": "/products/dg-400-lsr-p-k",
+    "type": "product",
+    "id": "DG-400-LSR-P-K"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-50",
+    "to": "/products/dg-50",
+    "type": "product",
+    "id": "DG-50"
+  },
+  {
+    "from": "/product_p/DG-50.htm",
+    "to": "/products/dg-50",
+    "type": "product",
+    "id": "DG-50"
+  },
+  {
+    "from": "/product_p/DG-50",
+    "to": "/products/dg-50",
+    "type": "product",
+    "id": "DG-50"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-50-LSR",
+    "to": "/products/dg-50-lsr",
+    "type": "product",
+    "id": "DG-50-LSR"
+  },
+  {
+    "from": "/product_p/DG-50-LSR.htm",
+    "to": "/products/dg-50-lsr",
+    "type": "product",
+    "id": "DG-50-LSR"
+  },
+  {
+    "from": "/product_p/DG-50-LSR",
+    "to": "/products/dg-50-lsr",
+    "type": "product",
+    "id": "DG-50-LSR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-50-LSR-M-K",
+    "to": "/products/dg-50-lsr-m-k",
+    "type": "product",
+    "id": "DG-50-LSR-M-K"
+  },
+  {
+    "from": "/product_p/DG-50-LSR-M-K.htm",
+    "to": "/products/dg-50-lsr-m-k",
+    "type": "product",
+    "id": "DG-50-LSR-M-K"
+  },
+  {
+    "from": "/product_p/DG-50-LSR-M-K",
+    "to": "/products/dg-50-lsr-m-k",
+    "type": "product",
+    "id": "DG-50-LSR-M-K"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-50-LSR-P-K",
+    "to": "/products/dg-50-lsr-p-k",
+    "type": "product",
+    "id": "DG-50-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-50-LSR-P-K.htm",
+    "to": "/products/dg-50-lsr-p-k",
+    "type": "product",
+    "id": "DG-50-LSR-P-K"
+  },
+  {
+    "from": "/product_p/DG-50-LSR-P-K",
+    "to": "/products/dg-50-lsr-p-k",
+    "type": "product",
+    "id": "DG-50-LSR-P-K"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DG-50-MIL-P",
+    "to": "/products/dg-50-mil-p",
+    "type": "product",
+    "id": "DG-50-MIL-P"
+  },
+  {
+    "from": "/product_p/DG-50-MIL-P.htm",
+    "to": "/products/dg-50-mil-p",
+    "type": "product",
+    "id": "DG-50-MIL-P"
+  },
+  {
+    "from": "/product_p/DG-50-MIL-P",
+    "to": "/products/dg-50-mil-p",
+    "type": "product",
+    "id": "DG-50-MIL-P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=DT",
+    "to": "/products/dt",
+    "type": "product",
+    "id": "DT"
+  },
+  {
+    "from": "/product_p/DT.htm",
+    "to": "/products/dt",
+    "type": "product",
+    "id": "DT"
+  },
+  {
+    "from": "/product_p/DT",
+    "to": "/products/dt",
+    "type": "product",
+    "id": "DT"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=E-1950",
+    "to": "/products/e-1950",
+    "type": "product",
+    "id": "E-1950"
+  },
+  {
+    "from": "/product_p/E-1950.htm",
+    "to": "/products/e-1950",
+    "type": "product",
+    "id": "E-1950"
+  },
+  {
+    "from": "/product_p/E-1950",
+    "to": "/products/e-1950",
+    "type": "product",
+    "id": "E-1950"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=E-Skin-FE",
+    "to": "/products/e-skin-fe",
+    "type": "product",
+    "id": "E-Skin-FE"
+  },
+  {
+    "from": "/product_p/E-Skin-FE.htm",
+    "to": "/products/e-skin-fe",
+    "type": "product",
+    "id": "E-Skin-FE"
+  },
+  {
+    "from": "/product_p/E-Skin-FE",
+    "to": "/products/e-skin-fe",
+    "type": "product",
+    "id": "E-Skin-FE"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=EA-201-001",
+    "to": "/products/ea-201-001",
+    "type": "product",
+    "id": "EA-201-001"
+  },
+  {
+    "from": "/product_p/EA-201-001.htm",
+    "to": "/products/ea-201-001",
+    "type": "product",
+    "id": "EA-201-001"
+  },
+  {
+    "from": "/product_p/EA-201-001",
+    "to": "/products/ea-201-001",
+    "type": "product",
+    "id": "EA-201-001"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=EVM-370",
+    "to": "/products/evm-370",
+    "type": "product",
+    "id": "EVM-370"
+  },
+  {
+    "from": "/product_p/EVM-370.htm",
+    "to": "/products/evm-370",
+    "type": "product",
+    "id": "EVM-370"
+  },
+  {
+    "from": "/product_p/EVM-370",
+    "to": "/products/evm-370",
+    "type": "product",
+    "id": "EVM-370"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FE-1999",
+    "to": "/products/fe-1999",
+    "type": "product",
+    "id": "FE-1999"
+  },
+  {
+    "from": "/product_p/FE-1999.htm",
+    "to": "/products/fe-1999",
+    "type": "product",
+    "id": "FE-1999"
+  },
+  {
+    "from": "/product_p/FE-1999",
+    "to": "/products/fe-1999",
+    "type": "product",
+    "id": "FE-1999"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FE-SK01",
+    "to": "/products/fe-sk01",
+    "type": "product",
+    "id": "FE-SK01"
+  },
+  {
+    "from": "/product_p/FE-SK01.htm",
+    "to": "/products/fe-sk01",
+    "type": "product",
+    "id": "FE-SK01"
+  },
+  {
+    "from": "/product_p/FE-SK01",
+    "to": "/products/fe-sk01",
+    "type": "product",
+    "id": "FE-SK01"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FE-spectromatch",
+    "to": "/products/fe-spectromatch",
+    "type": "product",
+    "id": "FE-spectromatch"
+  },
+  {
+    "from": "/product_p/FE-spectromatch.htm",
+    "to": "/products/fe-spectromatch",
+    "type": "product",
+    "id": "FE-spectromatch"
+  },
+  {
+    "from": "/product_p/FE-spectromatch",
+    "to": "/products/fe-spectromatch",
+    "type": "product",
+    "id": "FE-spectromatch"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FI",
+    "to": "/products/fi",
+    "type": "product",
+    "id": "FI"
+  },
+  {
+    "from": "/product_p/FI.htm",
+    "to": "/products/fi",
+    "type": "product",
+    "id": "FI"
+  },
+  {
+    "from": "/product_p/FI",
+    "to": "/products/fi",
+    "type": "product",
+    "id": "FI"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FI-CG",
+    "to": "/products/fi-cg",
+    "type": "product",
+    "id": "FI-CG"
+  },
+  {
+    "from": "/product_p/FI-CG.htm",
+    "to": "/products/fi-cg",
+    "type": "product",
+    "id": "FI-CG"
+  },
+  {
+    "from": "/product_p/FI-CG",
+    "to": "/products/fi-cg",
+    "type": "product",
+    "id": "FI-CG"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FI-SK-",
+    "to": "/products/fi-sk",
+    "type": "product",
+    "id": "FI-SK-"
+  },
+  {
+    "from": "/product_p/FI-SK-.htm",
+    "to": "/products/fi-sk",
+    "type": "product",
+    "id": "FI-SK-"
+  },
+  {
+    "from": "/product_p/FI-SK-",
+    "to": "/products/fi-sk",
+    "type": "product",
+    "id": "FI-SK-"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FI-SK-CG",
+    "to": "/products/fi-sk-cg",
+    "type": "product",
+    "id": "FI-SK-CG"
+  },
+  {
+    "from": "/product_p/FI-SK-CG.htm",
+    "to": "/products/fi-sk-cg",
+    "type": "product",
+    "id": "FI-SK-CG"
+  },
+  {
+    "from": "/product_p/FI-SK-CG",
+    "to": "/products/fi-sk-cg",
+    "type": "product",
+    "id": "FI-SK-CG"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FP-13",
+    "to": "/products/fp-13",
+    "type": "product",
+    "id": "FP-13"
+  },
+  {
+    "from": "/product_p/FP-13.htm",
+    "to": "/products/fp-13",
+    "type": "product",
+    "id": "FP-13"
+  },
+  {
+    "from": "/product_p/FP-13",
+    "to": "/products/fp-13",
+    "type": "product",
+    "id": "FP-13"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FP-16",
+    "to": "/products/fp-16",
+    "type": "product",
+    "id": "FP-16"
+  },
+  {
+    "from": "/product_p/FP-16.htm",
+    "to": "/products/fp-16",
+    "type": "product",
+    "id": "FP-16"
+  },
+  {
+    "from": "/product_p/FP-16",
+    "to": "/products/fp-16",
+    "type": "product",
+    "id": "FP-16"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FX-200",
+    "to": "/products/fx-200",
+    "type": "product",
+    "id": "FX-200"
+  },
+  {
+    "from": "/product_p/FX-200.htm",
+    "to": "/products/fx-200",
+    "type": "product",
+    "id": "FX-200"
+  },
+  {
+    "from": "/product_p/FX-200",
+    "to": "/products/fx-200",
+    "type": "product",
+    "id": "FX-200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FX-300",
+    "to": "/products/fx-300",
+    "type": "product",
+    "id": "FX-300"
+  },
+  {
+    "from": "/product_p/FX-300.htm",
+    "to": "/products/fx-300",
+    "type": "product",
+    "id": "FX-300"
+  },
+  {
+    "from": "/product_p/FX-300",
+    "to": "/products/fx-300",
+    "type": "product",
+    "id": "FX-300"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FX-317",
+    "to": "/products/fx-317",
+    "type": "product",
+    "id": "FX-317"
+  },
+  {
+    "from": "/product_p/FX-317.htm",
+    "to": "/products/fx-317",
+    "type": "product",
+    "id": "FX-317"
+  },
+  {
+    "from": "/product_p/FX-317",
+    "to": "/products/fx-317",
+    "type": "product",
+    "id": "FX-317"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FX-330",
+    "to": "/products/fx-330",
+    "type": "product",
+    "id": "FX-330"
+  },
+  {
+    "from": "/product_p/FX-330.htm",
+    "to": "/products/fx-330",
+    "type": "product",
+    "id": "FX-330"
+  },
+  {
+    "from": "/product_p/FX-330",
+    "to": "/products/fx-330",
+    "type": "product",
+    "id": "FX-330"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=FX-505",
+    "to": "/products/fx-505",
+    "type": "product",
+    "id": "FX-505"
+  },
+  {
+    "from": "/product_p/FX-505.htm",
+    "to": "/products/fx-505",
+    "type": "product",
+    "id": "FX-505"
+  },
+  {
+    "from": "/product_p/FX-505",
+    "to": "/products/fx-505",
+    "type": "product",
+    "id": "FX-505"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-1004",
+    "to": "/products/g-1004",
+    "type": "product",
+    "id": "G-1004"
+  },
+  {
+    "from": "/product_p/G-1004.htm",
+    "to": "/products/g-1004",
+    "type": "product",
+    "id": "G-1004"
+  },
+  {
+    "from": "/product_p/G-1004",
+    "to": "/products/g-1004",
+    "type": "product",
+    "id": "G-1004"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-102",
+    "to": "/products/g-102",
+    "type": "product",
+    "id": "G-102"
+  },
+  {
+    "from": "/product_p/G-102.htm",
+    "to": "/products/g-102",
+    "type": "product",
+    "id": "G-102"
+  },
+  {
+    "from": "/product_p/G-102",
+    "to": "/products/g-102",
+    "type": "product",
+    "id": "G-102"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-104",
+    "to": "/products/g-104",
+    "type": "product",
+    "id": "G-104"
+  },
+  {
+    "from": "/product_p/G-104.htm",
+    "to": "/products/g-104",
+    "type": "product",
+    "id": "G-104"
+  },
+  {
+    "from": "/product_p/G-104",
+    "to": "/products/g-104",
+    "type": "product",
+    "id": "G-104"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-106",
+    "to": "/products/g-106",
+    "type": "product",
+    "id": "G-106"
+  },
+  {
+    "from": "/product_p/G-106.htm",
+    "to": "/products/g-106",
+    "type": "product",
+    "id": "G-106"
+  },
+  {
+    "from": "/product_p/G-106",
+    "to": "/products/g-106",
+    "type": "product",
+    "id": "G-106"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-120",
+    "to": "/products/g-120",
+    "type": "product",
+    "id": "G-120"
+  },
+  {
+    "from": "/product_p/G-120.htm",
+    "to": "/products/g-120",
+    "type": "product",
+    "id": "G-120"
+  },
+  {
+    "from": "/product_p/G-120",
+    "to": "/products/g-120",
+    "type": "product",
+    "id": "G-120"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=G-490",
+    "to": "/products/g-490",
+    "type": "product",
+    "id": "G-490"
+  },
+  {
+    "from": "/product_p/G-490.htm",
+    "to": "/products/g-490",
+    "type": "product",
+    "id": "G-490"
+  },
+  {
+    "from": "/product_p/G-490",
+    "to": "/products/g-490",
+    "type": "product",
+    "id": "G-490"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=GP",
+    "to": "/products/gp",
+    "type": "product",
+    "id": "GP"
+  },
+  {
+    "from": "/product_p/GP.htm",
+    "to": "/products/gp",
+    "type": "product",
+    "id": "GP"
+  },
+  {
+    "from": "/product_p/GP",
+    "to": "/products/gp",
+    "type": "product",
+    "id": "GP"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=H-100",
+    "to": "/products/h-100",
+    "type": "product",
+    "id": "H-100"
+  },
+  {
+    "from": "/product_p/H-100.htm",
+    "to": "/products/h-100",
+    "type": "product",
+    "id": "H-100"
+  },
+  {
+    "from": "/product_p/H-100",
+    "to": "/products/h-100",
+    "type": "product",
+    "id": "H-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=H-135-R",
+    "to": "/products/h-135-r",
+    "type": "product",
+    "id": "H-135-R"
+  },
+  {
+    "from": "/product_p/H-135-R.htm",
+    "to": "/products/h-135-r",
+    "type": "product",
+    "id": "H-135-R"
+  },
+  {
+    "from": "/product_p/H-135-R",
+    "to": "/products/h-135-r",
+    "type": "product",
+    "id": "H-135-R"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=H-200",
+    "to": "/products/h-200",
+    "type": "product",
+    "id": "H-200"
+  },
+  {
+    "from": "/product_p/H-200.htm",
+    "to": "/products/h-200",
+    "type": "product",
+    "id": "H-200"
+  },
+  {
+    "from": "/product_p/H-200",
+    "to": "/products/h-200",
+    "type": "product",
+    "id": "H-200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=HM-1",
+    "to": "/products/hm-1",
+    "type": "product",
+    "id": "HM-1"
+  },
+  {
+    "from": "/product_p/HM-1.htm",
+    "to": "/products/hm-1",
+    "type": "product",
+    "id": "HM-1"
+  },
+  {
+    "from": "/product_p/HM-1",
+    "to": "/products/hm-1",
+    "type": "product",
+    "id": "HM-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-100",
+    "to": "/products/i-100",
+    "type": "product",
+    "id": "I-100"
+  },
+  {
+    "from": "/product_p/I-100.htm",
+    "to": "/products/i-100",
+    "type": "product",
+    "id": "I-100"
+  },
+  {
+    "from": "/product_p/I-100",
+    "to": "/products/i-100",
+    "type": "product",
+    "id": "I-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-102",
+    "to": "/products/i-102",
+    "type": "product",
+    "id": "I-102"
+  },
+  {
+    "from": "/product_p/I-102.htm",
+    "to": "/products/i-102",
+    "type": "product",
+    "id": "I-102"
+  },
+  {
+    "from": "/product_p/I-102",
+    "to": "/products/i-102",
+    "type": "product",
+    "id": "I-102"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-200",
+    "to": "/products/i-200",
+    "type": "product",
+    "id": "I-200"
+  },
+  {
+    "from": "/product_p/I-200.htm",
+    "to": "/products/i-200",
+    "type": "product",
+    "id": "I-200"
+  },
+  {
+    "from": "/product_p/I-200",
+    "to": "/products/i-200",
+    "type": "product",
+    "id": "I-200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-301",
+    "to": "/products/i-301",
+    "type": "product",
+    "id": "I-301"
+  },
+  {
+    "from": "/product_p/I-301.htm",
+    "to": "/products/i-301",
+    "type": "product",
+    "id": "I-301"
+  },
+  {
+    "from": "/product_p/I-301",
+    "to": "/products/i-301",
+    "type": "product",
+    "id": "I-301"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-LAC1",
+    "to": "/products/i-b-lac1",
+    "type": "product",
+    "id": "I-B-LAC1"
+  },
+  {
+    "from": "/product_p/I-B-LAC1.htm",
+    "to": "/products/i-b-lac1",
+    "type": "product",
+    "id": "I-B-LAC1"
+  },
+  {
+    "from": "/product_p/I-B-LAC1",
+    "to": "/products/i-b-lac1",
+    "type": "product",
+    "id": "I-B-LAC1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-LAC2",
+    "to": "/products/i-b-lac2",
+    "type": "product",
+    "id": "I-B-LAC2"
+  },
+  {
+    "from": "/product_p/I-B-LAC2.htm",
+    "to": "/products/i-b-lac2",
+    "type": "product",
+    "id": "I-B-LAC2"
+  },
+  {
+    "from": "/product_p/I-B-LAC2",
+    "to": "/products/i-b-lac2",
+    "type": "product",
+    "id": "I-B-LAC2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-LAC2-OR",
+    "to": "/products/i-b-lac2-or",
+    "type": "product",
+    "id": "I-B-LAC2-OR"
+  },
+  {
+    "from": "/product_p/I-B-LAC2-OR.htm",
+    "to": "/products/i-b-lac2-or",
+    "type": "product",
+    "id": "I-B-LAC2-OR"
+  },
+  {
+    "from": "/product_p/I-B-LAC2-OR",
+    "to": "/products/i-b-lac2-or",
+    "type": "product",
+    "id": "I-B-LAC2-OR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-MC1-S",
+    "to": "/products/i-b-mc1-s",
+    "type": "product",
+    "id": "I-B-MC1-S"
+  },
+  {
+    "from": "/product_p/I-B-MC1-S.htm",
+    "to": "/products/i-b-mc1-s",
+    "type": "product",
+    "id": "I-B-MC1-S"
+  },
+  {
+    "from": "/product_p/I-B-MC1-S",
+    "to": "/products/i-b-mc1-s",
+    "type": "product",
+    "id": "I-B-MC1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-MC2-OR-S",
+    "to": "/products/i-b-mc2-or-s",
+    "type": "product",
+    "id": "I-B-MC2-OR-S"
+  },
+  {
+    "from": "/product_p/I-B-MC2-OR-S.htm",
+    "to": "/products/i-b-mc2-or-s",
+    "type": "product",
+    "id": "I-B-MC2-OR-S"
+  },
+  {
+    "from": "/product_p/I-B-MC2-OR-S",
+    "to": "/products/i-b-mc2-or-s",
+    "type": "product",
+    "id": "I-B-MC2-OR-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-B-MC2-S",
+    "to": "/products/i-b-mc2-s",
+    "type": "product",
+    "id": "I-B-MC2-S"
+  },
+  {
+    "from": "/product_p/I-B-MC2-S.htm",
+    "to": "/products/i-b-mc2-s",
+    "type": "product",
+    "id": "I-B-MC2-S"
+  },
+  {
+    "from": "/product_p/I-B-MC2-S",
+    "to": "/products/i-b-mc2-s",
+    "type": "product",
+    "id": "I-B-MC2-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-CF1",
+    "to": "/products/i-cf1",
+    "type": "product",
+    "id": "I-CF1"
+  },
+  {
+    "from": "/product_p/I-CF1.htm",
+    "to": "/products/i-cf1",
+    "type": "product",
+    "id": "I-CF1"
+  },
+  {
+    "from": "/product_p/I-CF1",
+    "to": "/products/i-cf1",
+    "type": "product",
+    "id": "I-CF1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-CF2",
+    "to": "/products/i-cf2",
+    "type": "product",
+    "id": "I-CF2"
+  },
+  {
+    "from": "/product_p/I-CF2.htm",
+    "to": "/products/i-cf2",
+    "type": "product",
+    "id": "I-CF2"
+  },
+  {
+    "from": "/product_p/I-CF2",
+    "to": "/products/i-cf2",
+    "type": "product",
+    "id": "I-CF2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-CF3",
+    "to": "/products/i-cf3",
+    "type": "product",
+    "id": "I-CF3"
+  },
+  {
+    "from": "/product_p/I-CF3.htm",
+    "to": "/products/i-cf3",
+    "type": "product",
+    "id": "I-CF3"
+  },
+  {
+    "from": "/product_p/I-CF3",
+    "to": "/products/i-cf3",
+    "type": "product",
+    "id": "I-CF3"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-CF4",
+    "to": "/products/i-cf4",
+    "type": "product",
+    "id": "I-CF4"
+  },
+  {
+    "from": "/product_p/I-CF4.htm",
+    "to": "/products/i-cf4",
+    "type": "product",
+    "id": "I-CF4"
+  },
+  {
+    "from": "/product_p/I-CF4",
+    "to": "/products/i-cf4",
+    "type": "product",
+    "id": "I-CF4"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-IK1-S",
+    "to": "/products/i-ik1-s",
+    "type": "product",
+    "id": "I-IK1-S"
+  },
+  {
+    "from": "/product_p/I-IK1-S.htm",
+    "to": "/products/i-ik1-s",
+    "type": "product",
+    "id": "I-IK1-S"
+  },
+  {
+    "from": "/product_p/I-IK1-S",
+    "to": "/products/i-ik1-s",
+    "type": "product",
+    "id": "I-IK1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-IK2-S",
+    "to": "/products/i-ik2-s",
+    "type": "product",
+    "id": "I-IK2-S"
+  },
+  {
+    "from": "/product_p/I-IK2-S.htm",
+    "to": "/products/i-ik2-s",
+    "type": "product",
+    "id": "I-IK2-S"
+  },
+  {
+    "from": "/product_p/I-IK2-S",
+    "to": "/products/i-ik2-s",
+    "type": "product",
+    "id": "I-IK2-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-JB-AFK-1",
+    "to": "/products/i-jb-afk-1",
+    "type": "product",
+    "id": "I-JB-AFK-1"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-1.htm",
+    "to": "/products/i-jb-afk-1",
+    "type": "product",
+    "id": "I-JB-AFK-1"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-1",
+    "to": "/products/i-jb-afk-1",
+    "type": "product",
+    "id": "I-JB-AFK-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-JB-AFK-2",
+    "to": "/products/i-jb-afk-2",
+    "type": "product",
+    "id": "I-JB-AFK-2"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-2.htm",
+    "to": "/products/i-jb-afk-2",
+    "type": "product",
+    "id": "I-JB-AFK-2"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-2",
+    "to": "/products/i-jb-afk-2",
+    "type": "product",
+    "id": "I-JB-AFK-2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-JB-AFK-OR",
+    "to": "/products/i-jb-afk-or",
+    "type": "product",
+    "id": "I-JB-AFK-OR"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-OR.htm",
+    "to": "/products/i-jb-afk-or",
+    "type": "product",
+    "id": "I-JB-AFK-OR"
+  },
+  {
+    "from": "/product_p/I-JB-AFK-OR",
+    "to": "/products/i-jb-afk-or",
+    "type": "product",
+    "id": "I-JB-AFK-OR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-LAA1",
+    "to": "/products/i-laa1",
+    "type": "product",
+    "id": "I-LAA1"
+  },
+  {
+    "from": "/product_p/I-LAA1.htm",
+    "to": "/products/i-laa1",
+    "type": "product",
+    "id": "I-LAA1"
+  },
+  {
+    "from": "/product_p/I-LAA1",
+    "to": "/products/i-laa1",
+    "type": "product",
+    "id": "I-LAA1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-LAA2",
+    "to": "/products/i-laa2",
+    "type": "product",
+    "id": "I-LAA2"
+  },
+  {
+    "from": "/product_p/I-LAA2.htm",
+    "to": "/products/i-laa2",
+    "type": "product",
+    "id": "I-LAA2"
+  },
+  {
+    "from": "/product_p/I-LAA2",
+    "to": "/products/i-laa2",
+    "type": "product",
+    "id": "I-LAA2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-LR1",
+    "to": "/products/i-lr1",
+    "type": "product",
+    "id": "I-LR1"
+  },
+  {
+    "from": "/product_p/I-LR1.htm",
+    "to": "/products/i-lr1",
+    "type": "product",
+    "id": "I-LR1"
+  },
+  {
+    "from": "/product_p/I-LR1",
+    "to": "/products/i-lr1",
+    "type": "product",
+    "id": "I-LR1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-LR2",
+    "to": "/products/i-lr2",
+    "type": "product",
+    "id": "I-LR2"
+  },
+  {
+    "from": "/product_p/I-LR2.htm",
+    "to": "/products/i-lr2",
+    "type": "product",
+    "id": "I-LR2"
+  },
+  {
+    "from": "/product_p/I-LR2",
+    "to": "/products/i-lr2",
+    "type": "product",
+    "id": "I-LR2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-M0-S",
+    "to": "/products/i-m0-s",
+    "type": "product",
+    "id": "I-M0-S"
+  },
+  {
+    "from": "/product_p/I-M0-S.htm",
+    "to": "/products/i-m0-s",
+    "type": "product",
+    "id": "I-M0-S"
+  },
+  {
+    "from": "/product_p/I-M0-S",
+    "to": "/products/i-m0-s",
+    "type": "product",
+    "id": "I-M0-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-M1-S",
+    "to": "/products/i-m1-s",
+    "type": "product",
+    "id": "I-M1-S"
+  },
+  {
+    "from": "/product_p/I-M1-S.htm",
+    "to": "/products/i-m1-s",
+    "type": "product",
+    "id": "I-M1-S"
+  },
+  {
+    "from": "/product_p/I-M1-S",
+    "to": "/products/i-m1-s",
+    "type": "product",
+    "id": "I-M1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-M2-S",
+    "to": "/products/i-m2-s",
+    "type": "product",
+    "id": "I-M2-S"
+  },
+  {
+    "from": "/product_p/I-M2-S.htm",
+    "to": "/products/i-m2-s",
+    "type": "product",
+    "id": "I-M2-S"
+  },
+  {
+    "from": "/product_p/I-M2-S",
+    "to": "/products/i-m2-s",
+    "type": "product",
+    "id": "I-M2-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-M3-S",
+    "to": "/products/i-m3-s",
+    "type": "product",
+    "id": "I-M3-S"
+  },
+  {
+    "from": "/product_p/I-M3-S.htm",
+    "to": "/products/i-m3-s",
+    "type": "product",
+    "id": "I-M3-S"
+  },
+  {
+    "from": "/product_p/I-M3-S",
+    "to": "/products/i-m3-s",
+    "type": "product",
+    "id": "I-M3-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-ML0-S",
+    "to": "/products/i-ml0-s",
+    "type": "product",
+    "id": "I-ML0-S"
+  },
+  {
+    "from": "/product_p/I-ML0-S.htm",
+    "to": "/products/i-ml0-s",
+    "type": "product",
+    "id": "I-ML0-S"
+  },
+  {
+    "from": "/product_p/I-ML0-S",
+    "to": "/products/i-ml0-s",
+    "type": "product",
+    "id": "I-ML0-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-ML1-S",
+    "to": "/products/i-ml1-s",
+    "type": "product",
+    "id": "I-ML1-S"
+  },
+  {
+    "from": "/product_p/I-ML1-S.htm",
+    "to": "/products/i-ml1-s",
+    "type": "product",
+    "id": "I-ML1-S"
+  },
+  {
+    "from": "/product_p/I-ML1-S",
+    "to": "/products/i-ml1-s",
+    "type": "product",
+    "id": "I-ML1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-ML2-S",
+    "to": "/products/i-ml2-s",
+    "type": "product",
+    "id": "I-ML2-S"
+  },
+  {
+    "from": "/product_p/I-ML2-S.htm",
+    "to": "/products/i-ml2-s",
+    "type": "product",
+    "id": "I-ML2-S"
+  },
+  {
+    "from": "/product_p/I-ML2-S",
+    "to": "/products/i-ml2-s",
+    "type": "product",
+    "id": "I-ML2-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-ML3-S",
+    "to": "/products/i-ml3-s",
+    "type": "product",
+    "id": "I-ML3-S"
+  },
+  {
+    "from": "/product_p/I-ML3-S.htm",
+    "to": "/products/i-ml3-s",
+    "type": "product",
+    "id": "I-ML3-S"
+  },
+  {
+    "from": "/product_p/I-ML3-S",
+    "to": "/products/i-ml3-s",
+    "type": "product",
+    "id": "I-ML3-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-ML3-SR",
+    "to": "/products/i-ml3-sr",
+    "type": "product",
+    "id": "I-ML3-SR"
+  },
+  {
+    "from": "/product_p/I-ML3-SR.htm",
+    "to": "/products/i-ml3-sr",
+    "type": "product",
+    "id": "I-ML3-SR"
+  },
+  {
+    "from": "/product_p/I-ML3-SR",
+    "to": "/products/i-ml3-sr",
+    "type": "product",
+    "id": "I-ML3-SR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MLL2-OR-S",
+    "to": "/products/i-mll2-or-s",
+    "type": "product",
+    "id": "I-MLL2-OR-S"
+  },
+  {
+    "from": "/product_p/I-MLL2-OR-S.htm",
+    "to": "/products/i-mll2-or-s",
+    "type": "product",
+    "id": "I-MLL2-OR-S"
+  },
+  {
+    "from": "/product_p/I-MLL2-OR-S",
+    "to": "/products/i-mll2-or-s",
+    "type": "product",
+    "id": "I-MLL2-OR-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MLL3-OR-S",
+    "to": "/products/i-mll3-or-s",
+    "type": "product",
+    "id": "I-MLL3-OR-S"
+  },
+  {
+    "from": "/product_p/I-MLL3-OR-S.htm",
+    "to": "/products/i-mll3-or-s",
+    "type": "product",
+    "id": "I-MLL3-OR-S"
+  },
+  {
+    "from": "/product_p/I-MLL3-OR-S",
+    "to": "/products/i-mll3-or-s",
+    "type": "product",
+    "id": "I-MLL3-OR-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MLL3-S",
+    "to": "/products/i-mll3-s",
+    "type": "product",
+    "id": "I-MLL3-S"
+  },
+  {
+    "from": "/product_p/I-MLL3-S.htm",
+    "to": "/products/i-mll3-s",
+    "type": "product",
+    "id": "I-MLL3-S"
+  },
+  {
+    "from": "/product_p/I-MLL3-S",
+    "to": "/products/i-mll3-s",
+    "type": "product",
+    "id": "I-MLL3-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MLL3-SR",
+    "to": "/products/i-mll3-sr",
+    "type": "product",
+    "id": "I-MLL3-SR"
+  },
+  {
+    "from": "/product_p/I-MLL3-SR.htm",
+    "to": "/products/i-mll3-sr",
+    "type": "product",
+    "id": "I-MLL3-SR"
+  },
+  {
+    "from": "/product_p/I-MLL3-SR",
+    "to": "/products/i-mll3-sr",
+    "type": "product",
+    "id": "I-MLL3-SR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MM0-S",
+    "to": "/products/i-mm0-s",
+    "type": "product",
+    "id": "I-MM0-S"
+  },
+  {
+    "from": "/product_p/I-MM0-S.htm",
+    "to": "/products/i-mm0-s",
+    "type": "product",
+    "id": "I-MM0-S"
+  },
+  {
+    "from": "/product_p/I-MM0-S",
+    "to": "/products/i-mm0-s",
+    "type": "product",
+    "id": "I-MM0-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MML0-S",
+    "to": "/products/i-mml0-s",
+    "type": "product",
+    "id": "I-MML0-S"
+  },
+  {
+    "from": "/product_p/I-MML0-S.htm",
+    "to": "/products/i-mml0-s",
+    "type": "product",
+    "id": "I-MML0-S"
+  },
+  {
+    "from": "/product_p/I-MML0-S",
+    "to": "/products/i-mml0-s",
+    "type": "product",
+    "id": "I-MML0-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MPMA",
+    "to": "/products/i-mpma",
+    "type": "product",
+    "id": "I-MPMA"
+  },
+  {
+    "from": "/product_p/I-MPMA.htm",
+    "to": "/products/i-mpma",
+    "type": "product",
+    "id": "I-MPMA"
+  },
+  {
+    "from": "/product_p/I-MPMA",
+    "to": "/products/i-mpma",
+    "type": "product",
+    "id": "I-MPMA"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MPMS",
+    "to": "/products/i-mpms",
+    "type": "product",
+    "id": "I-MPMS"
+  },
+  {
+    "from": "/product_p/I-MPMS.htm",
+    "to": "/products/i-mpms",
+    "type": "product",
+    "id": "I-MPMS"
+  },
+  {
+    "from": "/product_p/I-MPMS",
+    "to": "/products/i-mpms",
+    "type": "product",
+    "id": "I-MPMS"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MPMS-NL",
+    "to": "/products/i-mpms-nl",
+    "type": "product",
+    "id": "I-MPMS-NL"
+  },
+  {
+    "from": "/product_p/I-MPMS-NL.htm",
+    "to": "/products/i-mpms-nl",
+    "type": "product",
+    "id": "I-MPMS-NL"
+  },
+  {
+    "from": "/product_p/I-MPMS-NL",
+    "to": "/products/i-mpms-nl",
+    "type": "product",
+    "id": "I-MPMS-NL"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MT1",
+    "to": "/products/i-mt1",
+    "type": "product",
+    "id": "I-MT1"
+  },
+  {
+    "from": "/product_p/I-MT1.htm",
+    "to": "/products/i-mt1",
+    "type": "product",
+    "id": "I-MT1"
+  },
+  {
+    "from": "/product_p/I-MT1",
+    "to": "/products/i-mt1",
+    "type": "product",
+    "id": "I-MT1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-MT2",
+    "to": "/products/i-mt2",
+    "type": "product",
+    "id": "I-MT2"
+  },
+  {
+    "from": "/product_p/I-MT2.htm",
+    "to": "/products/i-mt2",
+    "type": "product",
+    "id": "I-MT2"
+  },
+  {
+    "from": "/product_p/I-MT2",
+    "to": "/products/i-mt2",
+    "type": "product",
+    "id": "I-MT2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-SCD-103",
+    "to": "/products/i-scd-103",
+    "type": "product",
+    "id": "I-SCD-103"
+  },
+  {
+    "from": "/product_p/I-SCD-103.htm",
+    "to": "/products/i-scd-103",
+    "type": "product",
+    "id": "I-SCD-103"
+  },
+  {
+    "from": "/product_p/I-SCD-103",
+    "to": "/products/i-scd-103",
+    "type": "product",
+    "id": "I-SCD-103"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-SCD-118",
+    "to": "/products/i-scd-118",
+    "type": "product",
+    "id": "I-SCD-118"
+  },
+  {
+    "from": "/product_p/I-SCD-118.htm",
+    "to": "/products/i-scd-118",
+    "type": "product",
+    "id": "I-SCD-118"
+  },
+  {
+    "from": "/product_p/I-SCD-118",
+    "to": "/products/i-scd-118",
+    "type": "product",
+    "id": "I-SCD-118"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-STO",
+    "to": "/products/i-sto",
+    "type": "product",
+    "id": "I-STO"
+  },
+  {
+    "from": "/product_p/I-STO.htm",
+    "to": "/products/i-sto",
+    "type": "product",
+    "id": "I-STO"
+  },
+  {
+    "from": "/product_p/I-STO",
+    "to": "/products/i-sto",
+    "type": "product",
+    "id": "I-STO"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-LAC1",
+    "to": "/products/i-vf-lac1",
+    "type": "product",
+    "id": "I-VF-LAC1"
+  },
+  {
+    "from": "/product_p/I-VF-LAC1.htm",
+    "to": "/products/i-vf-lac1",
+    "type": "product",
+    "id": "I-VF-LAC1"
+  },
+  {
+    "from": "/product_p/I-VF-LAC1",
+    "to": "/products/i-vf-lac1",
+    "type": "product",
+    "id": "I-VF-LAC1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-LAC2",
+    "to": "/products/i-vf-lac2",
+    "type": "product",
+    "id": "I-VF-LAC2"
+  },
+  {
+    "from": "/product_p/I-VF-LAC2.htm",
+    "to": "/products/i-vf-lac2",
+    "type": "product",
+    "id": "I-VF-LAC2"
+  },
+  {
+    "from": "/product_p/I-VF-LAC2",
+    "to": "/products/i-vf-lac2",
+    "type": "product",
+    "id": "I-VF-LAC2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-LAC2-OR",
+    "to": "/products/i-vf-lac2-or",
+    "type": "product",
+    "id": "I-VF-LAC2-OR"
+  },
+  {
+    "from": "/product_p/I-VF-LAC2-OR.htm",
+    "to": "/products/i-vf-lac2-or",
+    "type": "product",
+    "id": "I-VF-LAC2-OR"
+  },
+  {
+    "from": "/product_p/I-VF-LAC2-OR",
+    "to": "/products/i-vf-lac2-or",
+    "type": "product",
+    "id": "I-VF-LAC2-OR"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-MC1-S",
+    "to": "/products/i-vf-mc1-s",
+    "type": "product",
+    "id": "I-VF-MC1-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC1-S.htm",
+    "to": "/products/i-vf-mc1-s",
+    "type": "product",
+    "id": "I-VF-MC1-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC1-S",
+    "to": "/products/i-vf-mc1-s",
+    "type": "product",
+    "id": "I-VF-MC1-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-MC2-OR-S",
+    "to": "/products/i-vf-mc2-or-s",
+    "type": "product",
+    "id": "I-VF-MC2-OR-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC2-OR-S.htm",
+    "to": "/products/i-vf-mc2-or-s",
+    "type": "product",
+    "id": "I-VF-MC2-OR-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC2-OR-S",
+    "to": "/products/i-vf-mc2-or-s",
+    "type": "product",
+    "id": "I-VF-MC2-OR-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=I-VF-MC2-S",
+    "to": "/products/i-vf-mc2-s",
+    "type": "product",
+    "id": "I-VF-MC2-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC2-S.htm",
+    "to": "/products/i-vf-mc2-s",
+    "type": "product",
+    "id": "I-VF-MC2-S"
+  },
+  {
+    "from": "/product_p/I-VF-MC2-S",
+    "to": "/products/i-vf-mc2-s",
+    "type": "product",
+    "id": "I-VF-MC2-S"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-100",
+    "to": "/products/j-100",
+    "type": "product",
+    "id": "J-100"
+  },
+  {
+    "from": "/product_p/J-100.htm",
+    "to": "/products/j-100",
+    "type": "product",
+    "id": "J-100"
+  },
+  {
+    "from": "/product_p/J-100",
+    "to": "/products/j-100",
+    "type": "product",
+    "id": "J-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-116",
+    "to": "/products/j-116",
+    "type": "product",
+    "id": "J-116"
+  },
+  {
+    "from": "/product_p/J-116.htm",
+    "to": "/products/j-116",
+    "type": "product",
+    "id": "J-116"
+  },
+  {
+    "from": "/product_p/J-116",
+    "to": "/products/j-116",
+    "type": "product",
+    "id": "J-116"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-120",
+    "to": "/products/j-120",
+    "type": "product",
+    "id": "J-120"
+  },
+  {
+    "from": "/product_p/J-120.htm",
+    "to": "/products/j-120",
+    "type": "product",
+    "id": "J-120"
+  },
+  {
+    "from": "/product_p/J-120",
+    "to": "/products/j-120",
+    "type": "product",
+    "id": "J-120"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-121",
+    "to": "/products/j-121",
+    "type": "product",
+    "id": "J-121"
+  },
+  {
+    "from": "/product_p/J-121.htm",
+    "to": "/products/j-121",
+    "type": "product",
+    "id": "J-121"
+  },
+  {
+    "from": "/product_p/J-121",
+    "to": "/products/j-121",
+    "type": "product",
+    "id": "J-121"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-122",
+    "to": "/products/j-122",
+    "type": "product",
+    "id": "J-122"
+  },
+  {
+    "from": "/product_p/J-122.htm",
+    "to": "/products/j-122",
+    "type": "product",
+    "id": "J-122"
+  },
+  {
+    "from": "/product_p/J-122",
+    "to": "/products/j-122",
+    "type": "product",
+    "id": "J-122"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-130",
+    "to": "/products/j-130",
+    "type": "product",
+    "id": "J-130"
+  },
+  {
+    "from": "/product_p/J-130.htm",
+    "to": "/products/j-130",
+    "type": "product",
+    "id": "J-130"
+  },
+  {
+    "from": "/product_p/J-130",
+    "to": "/products/j-130",
+    "type": "product",
+    "id": "J-130"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-17",
+    "to": "/products/j-17",
+    "type": "product",
+    "id": "J-17"
+  },
+  {
+    "from": "/product_p/J-17.htm",
+    "to": "/products/j-17",
+    "type": "product",
+    "id": "J-17"
+  },
+  {
+    "from": "/product_p/J-17",
+    "to": "/products/j-17",
+    "type": "product",
+    "id": "J-17"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-200",
+    "to": "/products/j-200",
+    "type": "product",
+    "id": "J-200"
+  },
+  {
+    "from": "/product_p/J-200.htm",
+    "to": "/products/j-200",
+    "type": "product",
+    "id": "J-200"
+  },
+  {
+    "from": "/product_p/J-200",
+    "to": "/products/j-200",
+    "type": "product",
+    "id": "J-200"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-200-4mm",
+    "to": "/products/j-200-4mm",
+    "type": "product",
+    "id": "J-200-4mm"
+  },
+  {
+    "from": "/product_p/J-200-4mm.htm",
+    "to": "/products/j-200-4mm",
+    "type": "product",
+    "id": "J-200-4mm"
+  },
+  {
+    "from": "/product_p/J-200-4mm",
+    "to": "/products/j-200-4mm",
+    "type": "product",
+    "id": "J-200-4mm"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-300",
+    "to": "/products/j-300",
+    "type": "product",
+    "id": "J-300"
+  },
+  {
+    "from": "/product_p/J-300.htm",
+    "to": "/products/j-300",
+    "type": "product",
+    "id": "J-300"
+  },
+  {
+    "from": "/product_p/J-300",
+    "to": "/products/j-300",
+    "type": "product",
+    "id": "J-300"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-301-3",
+    "to": "/products/j-301-3",
+    "type": "product",
+    "id": "J-301-3"
+  },
+  {
+    "from": "/product_p/J-301-3.htm",
+    "to": "/products/j-301-3",
+    "type": "product",
+    "id": "J-301-3"
+  },
+  {
+    "from": "/product_p/J-301-3",
+    "to": "/products/j-301-3",
+    "type": "product",
+    "id": "J-301-3"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-303-C",
+    "to": "/products/j-303-c",
+    "type": "product",
+    "id": "J-303-C"
+  },
+  {
+    "from": "/product_p/J-303-C.htm",
+    "to": "/products/j-303-c",
+    "type": "product",
+    "id": "J-303-C"
+  },
+  {
+    "from": "/product_p/J-303-C",
+    "to": "/products/j-303-c",
+    "type": "product",
+    "id": "J-303-C"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-305",
+    "to": "/products/j-305",
+    "type": "product",
+    "id": "J-305"
+  },
+  {
+    "from": "/product_p/J-305.htm",
+    "to": "/products/j-305",
+    "type": "product",
+    "id": "J-305"
+  },
+  {
+    "from": "/product_p/J-305",
+    "to": "/products/j-305",
+    "type": "product",
+    "id": "J-305"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-400",
+    "to": "/products/j-400",
+    "type": "product",
+    "id": "J-400"
+  },
+  {
+    "from": "/product_p/J-400.htm",
+    "to": "/products/j-400",
+    "type": "product",
+    "id": "J-400"
+  },
+  {
+    "from": "/product_p/J-400",
+    "to": "/products/j-400",
+    "type": "product",
+    "id": "J-400"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-510",
+    "to": "/products/j-510",
+    "type": "product",
+    "id": "J-510"
+  },
+  {
+    "from": "/product_p/J-510.htm",
+    "to": "/products/j-510",
+    "type": "product",
+    "id": "J-510"
+  },
+  {
+    "from": "/product_p/J-510",
+    "to": "/products/j-510",
+    "type": "product",
+    "id": "J-510"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-570",
+    "to": "/products/j-570",
+    "type": "product",
+    "id": "J-570"
+  },
+  {
+    "from": "/product_p/J-570.htm",
+    "to": "/products/j-570",
+    "type": "product",
+    "id": "J-570"
+  },
+  {
+    "from": "/product_p/J-570",
+    "to": "/products/j-570",
+    "type": "product",
+    "id": "J-570"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-572",
+    "to": "/products/j-572",
+    "type": "product",
+    "id": "J-572"
+  },
+  {
+    "from": "/product_p/J-572.htm",
+    "to": "/products/j-572",
+    "type": "product",
+    "id": "J-572"
+  },
+  {
+    "from": "/product_p/J-572",
+    "to": "/products/j-572",
+    "type": "product",
+    "id": "J-572"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-600",
+    "to": "/products/j-600",
+    "type": "product",
+    "id": "J-600"
+  },
+  {
+    "from": "/product_p/J-600.htm",
+    "to": "/products/j-600",
+    "type": "product",
+    "id": "J-600"
+  },
+  {
+    "from": "/product_p/J-600",
+    "to": "/products/j-600",
+    "type": "product",
+    "id": "J-600"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-903",
+    "to": "/products/j-903",
+    "type": "product",
+    "id": "J-903"
+  },
+  {
+    "from": "/product_p/J-903.htm",
+    "to": "/products/j-903",
+    "type": "product",
+    "id": "J-903"
+  },
+  {
+    "from": "/product_p/J-903",
+    "to": "/products/j-903",
+    "type": "product",
+    "id": "J-903"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-912",
+    "to": "/products/j-912",
+    "type": "product",
+    "id": "J-912"
+  },
+  {
+    "from": "/product_p/J-912.htm",
+    "to": "/products/j-912",
+    "type": "product",
+    "id": "J-912"
+  },
+  {
+    "from": "/product_p/J-912",
+    "to": "/products/j-912",
+    "type": "product",
+    "id": "J-912"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-914",
+    "to": "/products/j-914",
+    "type": "product",
+    "id": "J-914"
+  },
+  {
+    "from": "/product_p/J-914.htm",
+    "to": "/products/j-914",
+    "type": "product",
+    "id": "J-914"
+  },
+  {
+    "from": "/product_p/J-914",
+    "to": "/products/j-914",
+    "type": "product",
+    "id": "J-914"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-LM",
+    "to": "/products/j-lm",
+    "type": "product",
+    "id": "J-LM"
+  },
+  {
+    "from": "/product_p/J-LM.htm",
+    "to": "/products/j-lm",
+    "type": "product",
+    "id": "J-LM"
+  },
+  {
+    "from": "/product_p/J-LM",
+    "to": "/products/j-lm",
+    "type": "product",
+    "id": "J-LM"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-SC",
+    "to": "/products/j-sc",
+    "type": "product",
+    "id": "J-SC"
+  },
+  {
+    "from": "/product_p/J-SC.htm",
+    "to": "/products/j-sc",
+    "type": "product",
+    "id": "J-SC"
+  },
+  {
+    "from": "/product_p/J-SC",
+    "to": "/products/j-sc",
+    "type": "product",
+    "id": "J-SC"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=J-SI",
+    "to": "/products/j-si",
+    "type": "product",
+    "id": "J-SI"
+  },
+  {
+    "from": "/product_p/J-SI.htm",
+    "to": "/products/j-si",
+    "type": "product",
+    "id": "J-SI"
+  },
+  {
+    "from": "/product_p/J-SI",
+    "to": "/products/j-si",
+    "type": "product",
+    "id": "J-SI"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=KT-199",
+    "to": "/products/kt-199",
+    "type": "product",
+    "id": "KT-199"
+  },
+  {
+    "from": "/product_p/KT-199.htm",
+    "to": "/products/kt-199",
+    "type": "product",
+    "id": "KT-199"
+  },
+  {
+    "from": "/product_p/KT-199",
+    "to": "/products/kt-199",
+    "type": "product",
+    "id": "KT-199"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=KT-599",
+    "to": "/products/kt-599",
+    "type": "product",
+    "id": "KT-599"
+  },
+  {
+    "from": "/product_p/KT-599.htm",
+    "to": "/products/kt-599",
+    "type": "product",
+    "id": "KT-599"
+  },
+  {
+    "from": "/product_p/KT-599",
+    "to": "/products/kt-599",
+    "type": "product",
+    "id": "KT-599"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=KT-896",
+    "to": "/products/kt-896",
+    "type": "product",
+    "id": "KT-896"
+  },
+  {
+    "from": "/product_p/KT-896.htm",
+    "to": "/products/kt-896",
+    "type": "product",
+    "id": "KT-896"
+  },
+  {
+    "from": "/product_p/KT-896",
+    "to": "/products/kt-896",
+    "type": "product",
+    "id": "KT-896"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=M-511",
+    "to": "/products/m-511",
+    "type": "product",
+    "id": "M-511"
+  },
+  {
+    "from": "/product_p/M-511.htm",
+    "to": "/products/m-511",
+    "type": "product",
+    "id": "M-511"
+  },
+  {
+    "from": "/product_p/M-511",
+    "to": "/products/m-511",
+    "type": "product",
+    "id": "M-511"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=M-517",
+    "to": "/products/m-517",
+    "type": "product",
+    "id": "M-517"
+  },
+  {
+    "from": "/product_p/M-517.htm",
+    "to": "/products/m-517",
+    "type": "product",
+    "id": "M-517"
+  },
+  {
+    "from": "/product_p/M-517",
+    "to": "/products/m-517",
+    "type": "product",
+    "id": "M-517"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=MD-564",
+    "to": "/products/md-564",
+    "type": "product",
+    "id": "MD-564"
+  },
+  {
+    "from": "/product_p/MD-564.htm",
+    "to": "/products/md-564",
+    "type": "product",
+    "id": "MD-564"
+  },
+  {
+    "from": "/product_p/MD-564",
+    "to": "/products/md-564",
+    "type": "product",
+    "id": "MD-564"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=MD-564-NFS",
+    "to": "/products/md-564-nfs",
+    "type": "product",
+    "id": "MD-564-NFS"
+  },
+  {
+    "from": "/product_p/MD-564-NFS.htm",
+    "to": "/products/md-564-nfs",
+    "type": "product",
+    "id": "MD-564-NFS"
+  },
+  {
+    "from": "/product_p/MD-564-NFS",
+    "to": "/products/md-564-nfs",
+    "type": "product",
+    "id": "MD-564-NFS"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=MM-100",
+    "to": "/products/mm-100",
+    "type": "product",
+    "id": "MM-100"
+  },
+  {
+    "from": "/product_p/MM-100.htm",
+    "to": "/products/mm-100",
+    "type": "product",
+    "id": "MM-100"
+  },
+  {
+    "from": "/product_p/MM-100",
+    "to": "/products/mm-100",
+    "type": "product",
+    "id": "MM-100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=MM-105",
+    "to": "/products/mm-105",
+    "type": "product",
+    "id": "MM-105"
+  },
+  {
+    "from": "/product_p/MM-105.htm",
+    "to": "/products/mm-105",
+    "type": "product",
+    "id": "MM-105"
+  },
+  {
+    "from": "/product_p/MM-105",
+    "to": "/products/mm-105",
+    "type": "product",
+    "id": "MM-105"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=O1B",
+    "to": "/products/o1b",
+    "type": "product",
+    "id": "O1B"
+  },
+  {
+    "from": "/product_p/O1B.htm",
+    "to": "/products/o1b",
+    "type": "product",
+    "id": "O1B"
+  },
+  {
+    "from": "/product_p/O1B",
+    "to": "/products/o1b",
+    "type": "product",
+    "id": "O1B"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=O1R",
+    "to": "/products/o1r",
+    "type": "product",
+    "id": "O1R"
+  },
+  {
+    "from": "/product_p/O1R.htm",
+    "to": "/products/o1r",
+    "type": "product",
+    "id": "O1R"
+  },
+  {
+    "from": "/product_p/O1R",
+    "to": "/products/o1r",
+    "type": "product",
+    "id": "O1R"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=P",
+    "to": "/products/p",
+    "type": "product",
+    "id": "P"
+  },
+  {
+    "from": "/product_p/P.htm",
+    "to": "/products/p",
+    "type": "product",
+    "id": "P"
+  },
+  {
+    "from": "/product_p/P",
+    "to": "/products/p",
+    "type": "product",
+    "id": "P"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=PCSK-10",
+    "to": "/products/pcsk-10",
+    "type": "product",
+    "id": "PCSK-10"
+  },
+  {
+    "from": "/product_p/PCSK-10.htm",
+    "to": "/products/pcsk-10",
+    "type": "product",
+    "id": "PCSK-10"
+  },
+  {
+    "from": "/product_p/PCSK-10",
+    "to": "/products/pcsk-10",
+    "type": "product",
+    "id": "PCSK-10"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=PCSK10-NFS",
+    "to": "/products/pcsk10-nfs",
+    "type": "product",
+    "id": "PCSK10-NFS"
+  },
+  {
+    "from": "/product_p/PCSK10-NFS.htm",
+    "to": "/products/pcsk10-nfs",
+    "type": "product",
+    "id": "PCSK10-NFS"
+  },
+  {
+    "from": "/product_p/PCSK10-NFS",
+    "to": "/products/pcsk10-nfs",
+    "type": "product",
+    "id": "PCSK10-NFS"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=SC-1000",
+    "to": "/products/sc-1000",
+    "type": "product",
+    "id": "SC-1000"
+  },
+  {
+    "from": "/product_p/SC-1000.htm",
+    "to": "/products/sc-1000",
+    "type": "product",
+    "id": "SC-1000"
+  },
+  {
+    "from": "/product_p/SC-1000",
+    "to": "/products/sc-1000",
+    "type": "product",
+    "id": "SC-1000"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=SC1",
+    "to": "/products/sc1",
+    "type": "product",
+    "id": "SC1"
+  },
+  {
+    "from": "/product_p/SC1.htm",
+    "to": "/products/sc1",
+    "type": "product",
+    "id": "SC1"
+  },
+  {
+    "from": "/product_p/SC1",
+    "to": "/products/sc1",
+    "type": "product",
+    "id": "SC1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=SC3",
+    "to": "/products/sc3",
+    "type": "product",
+    "id": "SC3"
+  },
+  {
+    "from": "/product_p/SC3.htm",
+    "to": "/products/sc3",
+    "type": "product",
+    "id": "SC3"
+  },
+  {
+    "from": "/product_p/SC3",
+    "to": "/products/sc3",
+    "type": "product",
+    "id": "SC3"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=SC4",
+    "to": "/products/sc4",
+    "type": "product",
+    "id": "SC4"
+  },
+  {
+    "from": "/product_p/SC4.htm",
+    "to": "/products/sc4",
+    "type": "product",
+    "id": "SC4"
+  },
+  {
+    "from": "/product_p/SC4",
+    "to": "/products/sc4",
+    "type": "product",
+    "id": "SC4"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=SCD-2",
+    "to": "/products/scd-2",
+    "type": "product",
+    "id": "SCD-2"
+  },
+  {
+    "from": "/product_p/SCD-2.htm",
+    "to": "/products/scd-2",
+    "type": "product",
+    "id": "SCD-2"
+  },
+  {
+    "from": "/product_p/SCD-2",
+    "to": "/products/scd-2",
+    "type": "product",
+    "id": "SCD-2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=T-1",
+    "to": "/products/t-1",
+    "type": "product",
+    "id": "T-1"
+  },
+  {
+    "from": "/product_p/T-1.htm",
+    "to": "/products/t-1",
+    "type": "product",
+    "id": "T-1"
+  },
+  {
+    "from": "/product_p/T-1",
+    "to": "/products/t-1",
+    "type": "product",
+    "id": "T-1"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=T-9",
+    "to": "/products/t-9",
+    "type": "product",
+    "id": "T-9"
+  },
+  {
+    "from": "/product_p/T-9.htm",
+    "to": "/products/t-9",
+    "type": "product",
+    "id": "T-9"
+  },
+  {
+    "from": "/product_p/T-9",
+    "to": "/products/t-9",
+    "type": "product",
+    "id": "T-9"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=TS-550",
+    "to": "/products/ts-550",
+    "type": "product",
+    "id": "TS-550"
+  },
+  {
+    "from": "/product_p/TS-550.htm",
+    "to": "/products/ts-550",
+    "type": "product",
+    "id": "TS-550"
+  },
+  {
+    "from": "/product_p/TS-550",
+    "to": "/products/ts-550",
+    "type": "product",
+    "id": "TS-550"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=TS-564",
+    "to": "/products/ts-564",
+    "type": "product",
+    "id": "TS-564"
+  },
+  {
+    "from": "/product_p/TS-564.htm",
+    "to": "/products/ts-564",
+    "type": "product",
+    "id": "TS-564"
+  },
+  {
+    "from": "/product_p/TS-564",
+    "to": "/products/ts-564",
+    "type": "product",
+    "id": "TS-564"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=TS-564-NFS",
+    "to": "/products/ts-564-nfs",
+    "type": "product",
+    "id": "TS-564-NFS"
+  },
+  {
+    "from": "/product_p/TS-564-NFS.htm",
+    "to": "/products/ts-564-nfs",
+    "type": "product",
+    "id": "TS-564-NFS"
+  },
+  {
+    "from": "/product_p/TS-564-NFS",
+    "to": "/products/ts-564-nfs",
+    "type": "product",
+    "id": "TS-564-NFS"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V40047",
+    "to": "/products/v40047",
+    "type": "product",
+    "id": "V40047"
+  },
+  {
+    "from": "/product_p/V40047.htm",
+    "to": "/products/v40047",
+    "type": "product",
+    "id": "V40047"
+  },
+  {
+    "from": "/product_p/V40047",
+    "to": "/products/v40047",
+    "type": "product",
+    "id": "V40047"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V40073",
+    "to": "/products/v40073",
+    "type": "product",
+    "id": "V40073"
+  },
+  {
+    "from": "/product_p/V40073.htm",
+    "to": "/products/v40073",
+    "type": "product",
+    "id": "V40073"
+  },
+  {
+    "from": "/product_p/V40073",
+    "to": "/products/v40073",
+    "type": "product",
+    "id": "V40073"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V40098",
+    "to": "/products/v40098",
+    "type": "product",
+    "id": "V40098"
+  },
+  {
+    "from": "/product_p/V40098.htm",
+    "to": "/products/v40098",
+    "type": "product",
+    "id": "V40098"
+  },
+  {
+    "from": "/product_p/V40098",
+    "to": "/products/v40098",
+    "type": "product",
+    "id": "V40098"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V40104",
+    "to": "/products/v40104",
+    "type": "product",
+    "id": "V40104"
+  },
+  {
+    "from": "/product_p/V40104.htm",
+    "to": "/products/v40104",
+    "type": "product",
+    "id": "V40104"
+  },
+  {
+    "from": "/product_p/V40104",
+    "to": "/products/v40104",
+    "type": "product",
+    "id": "V40104"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V5050",
+    "to": "/products/v5050",
+    "type": "product",
+    "id": "V5050"
+  },
+  {
+    "from": "/product_p/V5050.htm",
+    "to": "/products/v5050",
+    "type": "product",
+    "id": "V5050"
+  },
+  {
+    "from": "/product_p/V5050",
+    "to": "/products/v5050",
+    "type": "product",
+    "id": "V5050"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V5100",
+    "to": "/products/v5100",
+    "type": "product",
+    "id": "V5100"
+  },
+  {
+    "from": "/product_p/V5100.htm",
+    "to": "/products/v5100",
+    "type": "product",
+    "id": "V5100"
+  },
+  {
+    "from": "/product_p/V5100",
+    "to": "/products/v5100",
+    "type": "product",
+    "id": "V5100"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V51000",
+    "to": "/products/v51000",
+    "type": "product",
+    "id": "V51000"
+  },
+  {
+    "from": "/product_p/V51000.htm",
+    "to": "/products/v51000",
+    "type": "product",
+    "id": "V51000"
+  },
+  {
+    "from": "/product_p/V51000",
+    "to": "/products/v51000",
+    "type": "product",
+    "id": "V51000"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V512500",
+    "to": "/products/v512500",
+    "type": "product",
+    "id": "V512500"
+  },
+  {
+    "from": "/product_p/V512500.htm",
+    "to": "/products/v512500",
+    "type": "product",
+    "id": "V512500"
+  },
+  {
+    "from": "/product_p/V512500",
+    "to": "/products/v512500",
+    "type": "product",
+    "id": "V512500"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=V5350",
+    "to": "/products/v5350",
+    "type": "product",
+    "id": "V5350"
+  },
+  {
+    "from": "/product_p/V5350.htm",
+    "to": "/products/v5350",
+    "type": "product",
+    "id": "V5350"
+  },
+  {
+    "from": "/product_p/V5350",
+    "to": "/products/v5350",
+    "type": "product",
+    "id": "V5350"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VC-11",
+    "to": "/products/vc-11",
+    "type": "product",
+    "id": "VC-11"
+  },
+  {
+    "from": "/product_p/VC-11.htm",
+    "to": "/products/vc-11",
+    "type": "product",
+    "id": "VC-11"
+  },
+  {
+    "from": "/product_p/VC-11",
+    "to": "/products/vc-11",
+    "type": "product",
+    "id": "VC-11"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VC-2",
+    "to": "/products/vc-2",
+    "type": "product",
+    "id": "VC-2"
+  },
+  {
+    "from": "/product_p/VC-2.htm",
+    "to": "/products/vc-2",
+    "type": "product",
+    "id": "VC-2"
+  },
+  {
+    "from": "/product_p/VC-2",
+    "to": "/products/vc-2",
+    "type": "product",
+    "id": "VC-2"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VST-30",
+    "to": "/products/vst-30",
+    "type": "product",
+    "id": "VST-30"
+  },
+  {
+    "from": "/product_p/VST-30.htm",
+    "to": "/products/vst-30",
+    "type": "product",
+    "id": "VST-30"
+  },
+  {
+    "from": "/product_p/VST-30",
+    "to": "/products/vst-30",
+    "type": "product",
+    "id": "VST-30"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VST-50",
+    "to": "/products/vst-50",
+    "type": "product",
+    "id": "VST-50"
+  },
+  {
+    "from": "/product_p/VST-50.htm",
+    "to": "/products/vst-50",
+    "type": "product",
+    "id": "VST-50"
+  },
+  {
+    "from": "/product_p/VST-50",
+    "to": "/products/vst-50",
+    "type": "product",
+    "id": "VST-50"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VST-50F",
+    "to": "/products/vst-50f",
+    "type": "product",
+    "id": "VST-50F"
+  },
+  {
+    "from": "/product_p/VST-50F.htm",
+    "to": "/products/vst-50f",
+    "type": "product",
+    "id": "VST-50F"
+  },
+  {
+    "from": "/product_p/VST-50F",
+    "to": "/products/vst-50f",
+    "type": "product",
+    "id": "VST-50F"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=VST-50HD",
+    "to": "/products/vst-50hd",
+    "type": "product",
+    "id": "VST-50HD"
+  },
+  {
+    "from": "/product_p/VST-50HD.htm",
+    "to": "/products/vst-50hd",
+    "type": "product",
+    "id": "VST-50HD"
+  },
+  {
+    "from": "/product_p/VST-50HD",
+    "to": "/products/vst-50hd",
+    "type": "product",
+    "id": "VST-50HD"
+  },
+  {
+    "from": "/ProductDetails.asp?ProductCode=WH-",
+    "to": "/products/wh",
+    "type": "product",
+    "id": "WH-"
+  },
+  {
+    "from": "/product_p/WH-.htm",
+    "to": "/products/wh",
+    "type": "product",
+    "id": "WH-"
+  },
+  {
+    "from": "/product_p/WH-",
+    "to": "/products/wh",
+    "type": "product",
+    "id": "WH-"
+  }
+]

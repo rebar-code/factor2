@@ -3,6 +3,7 @@
 .DS_Store
 .env
 .*
+*.pdf
 /node_modules/
 .DS_Store?
 ._*
@@ -11,5 +12,6 @@
 ehthumbs.db
 Thumbs.db
 .shopify
+*.csv
 .env.*
 

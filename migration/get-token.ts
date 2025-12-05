@@ -14,7 +14,7 @@ if (!SHOPIFY_CLIENT_ID || !SHOPIFY_SECRET || !SHOPIFY_STORE) {
   process.exit(1);
 }
 
-const SCOPES = 'write_collections,read_collections';
+const SCOPES = 'write_collections,read_collections,write_products,read_products,write_files,read_files,write_content,read_content';
 const REDIRECT_URI = 'http://localhost:3000/callback';
 
 async function getAccessToken() {
