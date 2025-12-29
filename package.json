@@ -29,6 +29,8 @@
     "migrate:categories:dry-run": "DRY_RUN=true tsx migration/categories.ts",
     "migrate:products": "tsx migration/products.ts",
     "migrate:products:dry-run": "DRY_RUN=true tsx migration/products.ts",
+    "migrate:products:update-existing": "tsx migration/update-existing-products.ts",
+    "migrate:products:update-existing:dry-run": "DRY_RUN=true tsx migration/update-existing-products.ts",
     "migrate:update-links": "tsx migration/update-product-links.ts",
     "migrate:update-links:dry-run": "DRY_RUN=true tsx migration/update-product-links.ts"
   },

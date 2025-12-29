@@ -154,5 +154,533 @@
     "shopifyGid": "gid://shopify/Collection/335887433926",
     "handle": "all-solvents",
     "title": "All Solvents"
+  },
+  {
+    "volusionId": "110",
+    "shopifyGid": "gid://shopify/Collection/335888220358",
+    "handle": "tools",
+    "title": "Tools"
+  },
+  {
+    "volusionId": "3",
+    "shopifyGid": "gid://shopify/Collection/335888253126",
+    "handle": "sculpting-medium",
+    "title": "Sculpting Medium"
+  },
+  {
+    "volusionId": "4",
+    "shopifyGid": "gid://shopify/Collection/335888285894",
+    "handle": "learning-resources",
+    "title": "Learning Resources"
+  },
+  {
+    "volusionId": "17",
+    "shopifyGid": "gid://shopify/Collection/335888318662",
+    "handle": "waxes",
+    "title": "Waxes"
+  },
+  {
+    "volusionId": "19",
+    "shopifyGid": "gid://shopify/Collection/335888351430",
+    "handle": "http-www-yahoo-com",
+    "title": "Your Other Links 3"
+  },
+  {
+    "volusionId": "20",
+    "shopifyGid": "gid://shopify/Collection/335888384198",
+    "handle": "brand",
+    "title": "Brand"
+  },
+  {
+    "volusionId": "21",
+    "shopifyGid": "gid://shopify/Collection/335888416966",
+    "handle": "price",
+    "title": "Price"
+  },
+  {
+    "volusionId": "24",
+    "shopifyGid": "gid://shopify/Collection/335888449734",
+    "handle": "aboutus-asp",
+    "title": "Contact Factor II, Inc."
+  },
+  {
+    "volusionId": "25",
+    "shopifyGid": "gid://shopify/Collection/335888482502",
+    "handle": "pindex-asp",
+    "title": "Product Index"
+  },
+  {
+    "volusionId": "27",
+    "shopifyGid": "gid://shopify/Collection/335888515270",
+    "handle": "medical-prosthetic-adhesives",
+    "title": "Medical & Prosthetic Adhesives"
+  },
+  {
+    "volusionId": "28",
+    "shopifyGid": "gid://shopify/Collection/335888548038",
+    "handle": "adhesive-removal",
+    "title": "Adhesive Removal"
+  },
+  {
+    "volusionId": "1629",
+    "shopifyGid": "gid://shopify/Collection/335888580806",
+    "handle": "silicone-coloration",
+    "title": "Silicone Coloration"
+  },
+  {
+    "volusionId": "29",
+    "shopifyGid": "gid://shopify/Collection/335888613574",
+    "handle": "extrinsic-coloration",
+    "title": "Extrinsic Coloration"
+  },
+  {
+    "volusionId": "30",
+    "shopifyGid": "gid://shopify/Collection/335888646342",
+    "handle": "intrinsic-coloration",
+    "title": "Intrinsic Coloration"
+  },
+  {
+    "volusionId": "31",
+    "shopifyGid": "gid://shopify/Collection/335888679110",
+    "handle": "books",
+    "title": "Books"
+  },
+  {
+    "volusionId": "32",
+    "shopifyGid": "gid://shopify/Collection/335888711878",
+    "handle": "videos",
+    "title": "Videos"
+  },
+  {
+    "volusionId": "33",
+    "shopifyGid": "gid://shopify/Collection/335888744646",
+    "handle": "silicone-additives",
+    "title": "Silicone Additives"
+  },
+  {
+    "volusionId": "37",
+    "shopifyGid": "gid://shopify/Collection/335888777414",
+    "handle": "platinum-vst-silicones",
+    "title": "Platinum VST Silicones"
+  },
+  {
+    "volusionId": "38",
+    "shopifyGid": "gid://shopify/Collection/335888810182",
+    "handle": "elkem-brand-silicones",
+    "title": "Elkem Brand Silicones"
+  },
+  {
+    "volusionId": "41",
+    "shopifyGid": "gid://shopify/Collection/335888842950",
+    "handle": "http-www-factor2-com-articles-asp-id-131",
+    "title": "SDS  and  Tech Sheets"
+  },
+  {
+    "volusionId": "42",
+    "shopifyGid": "gid://shopify/Collection/335888875718",
+    "handle": "technovent-usa",
+    "title": "Technovent USA"
+  },
+  {
+    "volusionId": "46",
+    "shopifyGid": "gid://shopify/Collection/335888908486",
+    "handle": "prosthetic-silicones",
+    "title": "Prosthetic Silicones"
+  },
+  {
+    "volusionId": "47",
+    "shopifyGid": "gid://shopify/Collection/335888941254",
+    "handle": "s-range-system",
+    "title": "S-Range System"
+  },
+  {
+    "volusionId": "48",
+    "shopifyGid": "gid://shopify/Collection/335888974022",
+    "handle": "laboratory-accessories",
+    "title": "Laboratory Accessories"
+  },
+  {
+    "volusionId": "49",
+    "shopifyGid": "gid://shopify/Collection/335889006790",
+    "handle": "implant-companies-information",
+    "title": "Implant Companies Information"
+  },
+  {
+    "volusionId": "50",
+    "shopifyGid": "gid://shopify/Collection/335889039558",
+    "handle": "how-to-guides",
+    "title": "How To Guides"
+  },
+  {
+    "volusionId": "51",
+    "shopifyGid": "gid://shopify/Collection/335889072326",
+    "handle": "platinum-rtv-silicones",
+    "title": "Platinum RTV Silicones"
+  },
+  {
+    "volusionId": "52",
+    "shopifyGid": "gid://shopify/Collection/335889105094",
+    "handle": "platinum-lsr-silicones",
+    "title": "Platinum LSR Silicones"
+  },
+  {
+    "volusionId": "53",
+    "shopifyGid": "gid://shopify/Collection/335889137862",
+    "handle": "hcr-high-consistency-silicones",
+    "title": "HCR High Consistency Silicones"
+  },
+  {
+    "volusionId": "54",
+    "shopifyGid": "gid://shopify/Collection/335889170630",
+    "handle": "acetoxy-silicones",
+    "title": "Acetoxy Silicones"
+  },
+  {
+    "volusionId": "55",
+    "shopifyGid": "gid://shopify/Collection/335889203398",
+    "handle": "silicone-foams",
+    "title": "Silicone Foams"
+  },
+  {
+    "volusionId": "56",
+    "shopifyGid": "gid://shopify/Collection/335889236166",
+    "handle": "silicone-gels",
+    "title": "Silicone Gels"
+  },
+  {
+    "volusionId": "57",
+    "shopifyGid": "gid://shopify/Collection/335889268934",
+    "handle": "silicone-fluids",
+    "title": "Silicone Fluids"
+  },
+  {
+    "volusionId": "60",
+    "shopifyGid": "gid://shopify/Collection/335889301702",
+    "handle": "silicone-dispersions",
+    "title": "Silicone Dispersions"
+  },
+  {
+    "volusionId": "68",
+    "shopifyGid": "gid://shopify/Collection/335889334470",
+    "handle": "discontinued-items",
+    "title": "Discontinued Items"
+  },
+  {
+    "volusionId": "70",
+    "shopifyGid": "gid://shopify/Collection/335889367238",
+    "handle": "dispensing-guns",
+    "title": "Dispensing Guns"
+  },
+  {
+    "volusionId": "81",
+    "shopifyGid": "gid://shopify/Collection/335889400006",
+    "handle": "components",
+    "title": "Components"
+  },
+  {
+    "volusionId": "83",
+    "shopifyGid": "gid://shopify/Collection/335889432774",
+    "handle": "patient-care",
+    "title": "Patient Care"
+  },
+  {
+    "volusionId": "85",
+    "shopifyGid": "gid://shopify/Collection/335889465542",
+    "handle": "monomer",
+    "title": "Monomer"
+  },
+  {
+    "volusionId": "86",
+    "shopifyGid": "gid://shopify/Collection/335889498310",
+    "handle": "polymer",
+    "title": "Polymer"
+  },
+  {
+    "volusionId": "92",
+    "shopifyGid": "gid://shopify/Collection/335889531078",
+    "handle": "daro-adhesives",
+    "title": "Daro Adhesives"
+  },
+  {
+    "volusionId": "95",
+    "shopifyGid": "gid://shopify/Collection/335889563846",
+    "handle": "samarium-cobalt",
+    "title": "Samarium Cobalt"
+  },
+  {
+    "volusionId": "96",
+    "shopifyGid": "gid://shopify/Collection/335889596614",
+    "handle": "magna-cap-components",
+    "title": "Magna Cap Components"
+  },
+  {
+    "volusionId": "99",
+    "shopifyGid": "gid://shopify/Collection/335889629382",
+    "handle": "auricular-magnets-s-range",
+    "title": "Auricular Magnets    S - Range"
+  },
+  {
+    "volusionId": "100",
+    "shopifyGid": "gid://shopify/Collection/335889662150",
+    "handle": "s-range-magnacaps",
+    "title": "S - Range Magnacaps"
+  },
+  {
+    "volusionId": "101",
+    "shopifyGid": "gid://shopify/Collection/335889694918",
+    "handle": "magnacaps-s-range",
+    "title": "Magnacaps   S - Range"
+  },
+  {
+    "volusionId": "102",
+    "shopifyGid": "gid://shopify/Collection/335889727686",
+    "handle": "magnabutments-s-range",
+    "title": "Magnabutments   S - Range"
+  },
+  {
+    "volusionId": "103",
+    "shopifyGid": "gid://shopify/Collection/335889760454",
+    "handle": "magnets-prosthesis-s-range",
+    "title": "Magnets Prosthesis   S - Range"
+  },
+  {
+    "volusionId": "104",
+    "shopifyGid": "gid://shopify/Collection/335889793222",
+    "handle": "dental-attachments-accessories",
+    "title": "Dental Attachments & Accessories"
+  },
+  {
+    "volusionId": "108",
+    "shopifyGid": "gid://shopify/Collection/335889825990",
+    "handle": "medical-patient-use",
+    "title": "Medical / Patient Use"
+  },
+  {
+    "volusionId": "109",
+    "shopifyGid": "gid://shopify/Collection/335889858758",
+    "handle": "biodegradable",
+    "title": "Biodegradable"
+  },
+  {
+    "volusionId": "113",
+    "shopifyGid": "gid://shopify/Collection/335889891526",
+    "handle": "scales",
+    "title": "Scales"
+  },
+  {
+    "volusionId": "114",
+    "shopifyGid": "gid://shopify/Collection/335889924294",
+    "handle": "ovens",
+    "title": "Ovens"
+  },
+  {
+    "volusionId": "115",
+    "shopifyGid": "gid://shopify/Collection/335889957062",
+    "handle": "two-roll-mill",
+    "title": "Two Roll Mill"
+  },
+  {
+    "volusionId": "116",
+    "shopifyGid": "gid://shopify/Collection/335889989830",
+    "handle": "vacuum-equipment",
+    "title": "Vacuum Equipment"
+  },
+  {
+    "volusionId": "395",
+    "shopifyGid": "gid://shopify/Collection/335890022598",
+    "handle": "materials",
+    "title": "Materials"
+  },
+  {
+    "volusionId": "1273",
+    "shopifyGid": "gid://shopify/Collection/335890055366",
+    "handle": "http-www-technovent-com",
+    "title": "European Distributors"
+  },
+  {
+    "volusionId": "1274",
+    "shopifyGid": "gid://shopify/Collection/335890088134",
+    "handle": "non-flammable-dispersions",
+    "title": "Non Flammable Dispersions"
+  },
+  {
+    "volusionId": "1275",
+    "shopifyGid": "gid://shopify/Collection/335890120902",
+    "handle": "impression-silicones",
+    "title": "Impression Silicones"
+  },
+  {
+    "volusionId": "1276",
+    "shopifyGid": "gid://shopify/Collection/335890153670",
+    "handle": "digital-iris-buttons",
+    "title": "Digital Iris Buttons"
+  },
+  {
+    "volusionId": "1277",
+    "shopifyGid": "gid://shopify/Collection/335890186438",
+    "handle": "http-www-factor2-com-v-vspfiles-downloadables-2023-catalog-new-pdf",
+    "title": "Digital Catalog"
+  },
+  {
+    "volusionId": "1278",
+    "shopifyGid": "gid://shopify/Collection/335890219206",
+    "handle": "skin-preparation",
+    "title": "Skin Preparation"
+  },
+  {
+    "volusionId": "1279",
+    "shopifyGid": "gid://shopify/Collection/335890251974",
+    "handle": "silicone-mold-material",
+    "title": "Silicone Mold Material"
+  },
+  {
+    "volusionId": "1627",
+    "shopifyGid": "gid://shopify/Collection/335890284742",
+    "handle": "silicone-based",
+    "title": "Silicone Based"
+  },
+  {
+    "volusionId": "1628",
+    "shopifyGid": "gid://shopify/Collection/335890317510",
+    "handle": "water-based",
+    "title": "Water Based"
+  },
+  {
+    "volusionId": "1976",
+    "shopifyGid": "gid://shopify/Collection/335890350278",
+    "handle": "acrylic-ocular-coloration",
+    "title": "Acrylic & Ocular Coloration"
+  },
+  {
+    "volusionId": "1977",
+    "shopifyGid": "gid://shopify/Collection/335890383046",
+    "handle": "flammable-dispersions",
+    "title": "Flammable Dispersions"
+  },
+  {
+    "volusionId": "1978",
+    "shopifyGid": "gid://shopify/Collection/335890415814",
+    "handle": "commercial-fluids",
+    "title": "Commercial Fluids"
+  },
+  {
+    "volusionId": "1979",
+    "shopifyGid": "gid://shopify/Collection/335890448582",
+    "handle": "personal-health-care-fluids",
+    "title": "Personal Health Care Fluids"
+  },
+  {
+    "volusionId": "1982",
+    "shopifyGid": "gid://shopify/Collection/335890481350",
+    "handle": "miscellaneous",
+    "title": "Miscellaneous"
+  },
+  {
+    "volusionId": "1983",
+    "shopifyGid": "gid://shopify/Collection/335890514118",
+    "handle": "clays",
+    "title": "Clays"
+  },
+  {
+    "volusionId": "1985",
+    "shopifyGid": "gid://shopify/Collection/335890546886",
+    "handle": "accessories",
+    "title": "Accessories"
+  },
+  {
+    "volusionId": "1986",
+    "shopifyGid": "gid://shopify/Collection/335890579654",
+    "handle": "mixing-measuring",
+    "title": "Mixing & Measuring"
+  },
+  {
+    "volusionId": "1989",
+    "shopifyGid": "gid://shopify/Collection/335890612422",
+    "handle": "tape",
+    "title": "Tape"
+  },
+  {
+    "volusionId": "1991",
+    "shopifyGid": "gid://shopify/Collection/335890645190",
+    "handle": "spectromatch",
+    "title": "Spectromatch"
+  },
+  {
+    "volusionId": "1993",
+    "shopifyGid": "gid://shopify/Collection/335890677958",
+    "handle": "aerosol",
+    "title": "Aerosol"
+  },
+  {
+    "volusionId": "1994",
+    "shopifyGid": "gid://shopify/Collection/335890710726",
+    "handle": "liquid",
+    "title": "Liquid"
+  },
+  {
+    "volusionId": "45",
+    "shopifyGid": "gid://shopify/Collection/335890809030",
+    "handle": "technovent-usa-impression-materials",
+    "title": "Impression Materials"
+  },
+  {
+    "volusionId": "82",
+    "shopifyGid": "gid://shopify/Collection/335890841798",
+    "handle": "ocular-products-acrylics",
+    "title": "Acrylics"
+  },
+  {
+    "volusionId": "89",
+    "shopifyGid": "gid://shopify/Collection/335890874566",
+    "handle": "acrylics-monomer",
+    "title": "Monomer"
+  },
+  {
+    "volusionId": "90",
+    "shopifyGid": "gid://shopify/Collection/335890907334",
+    "handle": "acrylics-polymer",
+    "title": "Polymer"
+  },
+  {
+    "volusionId": "105",
+    "shopifyGid": "gid://shopify/Collection/335890940102",
+    "handle": "magna-cap-components-laboratory-accessories",
+    "title": "Laboratory Accessories"
+  },
+  {
+    "volusionId": "106",
+    "shopifyGid": "gid://shopify/Collection/335890972870",
+    "handle": "mold-making-gypsum-stone",
+    "title": "Gypsum / Stone"
+  },
+  {
+    "volusionId": "112",
+    "shopifyGid": "gid://shopify/Collection/335891005638",
+    "handle": "equipment-dispensing-guns",
+    "title": "Dispensing Guns"
+  },
+  {
+    "volusionId": "1980",
+    "shopifyGid": "gid://shopify/Collection/335891038406",
+    "handle": "silicone-fluids-silicone-fluids",
+    "title": "Silicone Fluids"
+  },
+  {
+    "volusionId": "1987",
+    "shopifyGid": "gid://shopify/Collection/335891071174",
+    "handle": "lab-supplies-tools-accessories",
+    "title": "Accessories"
+  },
+  {
+    "volusionId": "1988",
+    "shopifyGid": "gid://shopify/Collection/335891103942",
+    "handle": "lab-supplies-tools-mold-making",
+    "title": "Mold Making"
+  },
+  {
+    "volusionId": "1992",
+    "shopifyGid": "gid://shopify/Collection/335891136710",
+    "handle": "equipment-spectromatch",
+    "title": "Spectromatch"
   }
 ]

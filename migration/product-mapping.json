@@ -607,5 +607,2255 @@
     "handle": "a-830",
     "title": "A-830: ACETONE",
     "variantId": "gid://shopify/ProductVariant/45333893349574"
+  },
+  {
+    "volusionCode": "A-840",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-840",
+    "shopify_product_id": "dry-run-A-840",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-840",
+    "handle": "a-840",
+    "title": "A-840: CCH Solvent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-840"
+  },
+  {
+    "volusionCode": "A-850",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-850",
+    "shopify_product_id": "dry-run-A-850",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-850",
+    "handle": "a-850",
+    "title": "Ethanol",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-850"
+  },
+  {
+    "volusionCode": "A-860-G",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-860-G",
+    "shopify_product_id": "dry-run-A-860-G",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-860-G",
+    "handle": "a-860-g",
+    "title": "A-860 Isopropyl Alcohol",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-860-G"
+  },
+  {
+    "volusionCode": "A-RTV-05",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-05",
+    "shopify_product_id": "dry-run-A-RTV-05",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-05",
+    "handle": "a-rtv-05",
+    "title": "A-RTV-05: Silicone Elastomer (CONTAINS SMALL PARTICLES!!!)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-05"
+  },
+  {
+    "volusionCode": "A-RTV-05-GAL",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-05-GAL",
+    "shopify_product_id": "dry-run-A-RTV-05-GAL",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-05-GAL",
+    "handle": "a-rtv-05-gal",
+    "title": "A-RTV-05-GAL: Silicone Elastomer (CONTAINS SMALL PARTICLES!!!)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-05-GAL"
+  },
+  {
+    "volusionCode": "A-RTV-1556",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-1556",
+    "shopify_product_id": "dry-run-A-RTV-1556",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-1556",
+    "handle": "a-rtv-1556",
+    "title": "Elkem RTV-1556 Silicone Elastomer (A-RTV-1556)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-1556"
+  },
+  {
+    "volusionCode": "A-RTV-3020",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-3020",
+    "shopify_product_id": "dry-run-A-RTV-3020",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-3020",
+    "handle": "a-rtv-3020",
+    "title": "Elkem RTV-3020 Silicone Elastomer (A-RTV-3020)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-3020"
+  },
+  {
+    "volusionCode": "A-RTV-3040",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-3040",
+    "shopify_product_id": "dry-run-A-RTV-3040",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-3040",
+    "handle": "a-rtv-3040",
+    "title": "Elkem RTV-3040 Silicone Elastomer (A-RTV-3040)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-3040"
+  },
+  {
+    "volusionCode": "A-RTV-3045",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-3045",
+    "shopify_product_id": "dry-run-A-RTV-3045",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-3045",
+    "handle": "a-rtv-3045",
+    "title": "Elkem RTV-3045 Silicone Elastomer (A-RTV-3045)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-3045"
+  },
+  {
+    "volusionCode": "A-RTV-4020",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4020",
+    "shopify_product_id": "dry-run-A-RTV-4020",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4020",
+    "handle": "a-rtv-4020",
+    "title": "Elkem RTV-4020 Silicone Elastomer (A-RTV-4020)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4020"
+  },
+  {
+    "volusionCode": "A-RTV-4040",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4040",
+    "shopify_product_id": "dry-run-A-RTV-4040",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4040",
+    "handle": "a-rtv-4040",
+    "title": "Elkem RTV-4040 Silicone Elastomer (A-RTV-4040)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4040"
+  },
+  {
+    "volusionCode": "A-RTV-4410",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4410",
+    "shopify_product_id": "dry-run-A-RTV-4410",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4410",
+    "handle": "a-rtv-4410",
+    "title": "Elkem RTV-4410 Silicone Elastomer (A-RTV-4410)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4410"
+  },
+  {
+    "volusionCode": "A-RTV-4420",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4420",
+    "shopify_product_id": "dry-run-A-RTV-4420",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4420",
+    "handle": "a-rtv-4420",
+    "title": "Elkem RTV-4420 Silicone Elastomer (A-RTV-4420)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4420"
+  },
+  {
+    "volusionCode": "A-RTV-4510",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4510",
+    "shopify_product_id": "dry-run-A-RTV-4510",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4510",
+    "handle": "a-rtv-4510",
+    "title": "Elkem RTV-4510 Silicone Elastomer (A-RTV-4510)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4510"
+  },
+  {
+    "volusionCode": "A-RTV-4545",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-4545",
+    "shopify_product_id": "dry-run-A-RTV-4545",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-4545",
+    "handle": "a-rtv-4545",
+    "title": "Elkem RTV-4545 Silicone Elastomer (A-RTV-4545)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-4545"
+  },
+  {
+    "volusionCode": "A-RTV-70-50mil",
+    "shopifyGid": "gid://shopify/Product/dry-run-A-RTV-70-50mil",
+    "shopify_product_id": "dry-run-A-RTV-70-50mil",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-A-RTV-70-50mil",
+    "handle": "a-rtv-70-50mil",
+    "title": "A-RTV-70 50 ml. cartridge",
+    "variantId": "gid://shopify/ProductVariant/dry-run-A-RTV-70-50mil"
+  },
+  {
+    "volusionCode": "AC-104-K",
+    "shopifyGid": "gid://shopify/Product/dry-run-AC-104-K",
+    "shopify_product_id": "dry-run-AC-104-K",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AC-104-K",
+    "handle": "ac-104-k",
+    "title": "AC-104 Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AC-104-K"
+  },
+  {
+    "volusionCode": "AC-104-M",
+    "shopifyGid": "gid://shopify/Product/dry-run-AC-104-M",
+    "shopify_product_id": "dry-run-AC-104-M",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AC-104-M",
+    "handle": "ac-104-m",
+    "title": "AC-104-M: Crystal Clear Monomer 8 oz",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AC-104-M"
+  },
+  {
+    "volusionCode": "AC-104-P",
+    "shopifyGid": "gid://shopify/Product/dry-run-AC-104-P",
+    "shopify_product_id": "dry-run-AC-104-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AC-104-P",
+    "handle": "ac-104-p",
+    "title": "AC-104-P: Crystal Clear Polymer 16 oz",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AC-104-P"
+  },
+  {
+    "volusionCode": "AL-",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-",
+    "shopify_product_id": "dry-run-AL-",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-",
+    "handle": "al",
+    "title": "ARBOR BANDS",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-"
+  },
+  {
+    "volusionCode": "AL-195",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-195",
+    "shopify_product_id": "dry-run-AL-195",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-195",
+    "handle": "al-195",
+    "title": "AL-195: Utility Wax Strips",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-195"
+  },
+  {
+    "volusionCode": "AL-201",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-201",
+    "shopify_product_id": "dry-run-AL-201",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-201",
+    "handle": "al-201",
+    "title": "AL-201 Arbor Band Mandrels 1/4",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-201"
+  },
+  {
+    "volusionCode": "AL-203",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-203",
+    "shopify_product_id": "dry-run-AL-203",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-203",
+    "handle": "al-203",
+    "title": "AL-203 Arbor Band Mandrels 1/2",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-203"
+  },
+  {
+    "volusionCode": "AL-204-1",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-204-1",
+    "shopify_product_id": "dry-run-AL-204-1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-204-1",
+    "handle": "al-204-1",
+    "title": "AL-204-1: Mandrel",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-204-1"
+  },
+  {
+    "volusionCode": "AL-207",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-207",
+    "shopify_product_id": "dry-run-AL-207",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-207",
+    "handle": "al-207",
+    "title": "AL-207: Heavy Duty Mandrel",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-207"
+  },
+  {
+    "volusionCode": "AL-339-650",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-339-650",
+    "shopify_product_id": "dry-run-AL-339-650",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-339-650",
+    "handle": "al-339-650",
+    "title": "Scalpel",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-339-650"
+  },
+  {
+    "volusionCode": "AL-502",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-502",
+    "shopify_product_id": "dry-run-AL-502",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-502",
+    "handle": "al-502",
+    "title": "Lab Knives",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-502"
+  },
+  {
+    "volusionCode": "AL-513",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-513",
+    "shopify_product_id": "dry-run-AL-513",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-513",
+    "handle": "al-513",
+    "title": "Poly Sheeting sold in net yard",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-513"
+  },
+  {
+    "volusionCode": "AL-517",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-517",
+    "shopify_product_id": "dry-run-AL-517",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-517",
+    "handle": "al-517",
+    "title": "Boley Gauge",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-517"
+  },
+  {
+    "volusionCode": "AL-518",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-518",
+    "shopify_product_id": "dry-run-AL-518",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-518",
+    "handle": "al-518",
+    "title": "Vernier Calliper",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-518"
+  },
+  {
+    "volusionCode": "AL-520",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-520",
+    "shopify_product_id": "dry-run-AL-520",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-520",
+    "handle": "al-520",
+    "title": "Inside Calipers",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-520"
+  },
+  {
+    "volusionCode": "AL-521-C",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-521-C",
+    "shopify_product_id": "dry-run-AL-521-C",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-521-C",
+    "handle": "al-521-c",
+    "title": "Hemostats Curved",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-521-C"
+  },
+  {
+    "volusionCode": "AL-524",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-524",
+    "shopify_product_id": "dry-run-AL-524",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-524",
+    "handle": "al-524",
+    "title": "Three Pronged Holder",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-524"
+  },
+  {
+    "volusionCode": "AL-5427",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-5427",
+    "shopify_product_id": "dry-run-AL-5427",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-5427",
+    "handle": "al-5427",
+    "title": "SPIRAL MANDREL",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-5427"
+  },
+  {
+    "volusionCode": "AL-574",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-574",
+    "shopify_product_id": "dry-run-AL-574",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-574",
+    "handle": "al-574",
+    "title": "Tweezers",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-574"
+  },
+  {
+    "volusionCode": "AL-605",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-605",
+    "shopify_product_id": "dry-run-AL-605",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-605",
+    "handle": "al-605",
+    "title": "ONE DOZEN Plastic Disposable Spatulas",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-605"
+  },
+  {
+    "volusionCode": "AL-620",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-620",
+    "shopify_product_id": "dry-run-AL-620",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-620",
+    "handle": "al-620",
+    "title": "Wax spatula #7",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-620"
+  },
+  {
+    "volusionCode": "AL-621",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-621",
+    "shopify_product_id": "dry-run-AL-621",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-621",
+    "handle": "al-621",
+    "title": "#31 WAX SPATULA",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-621"
+  },
+  {
+    "volusionCode": "AL-623",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-623",
+    "shopify_product_id": "dry-run-AL-623",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-623",
+    "handle": "al-623",
+    "title": "HOLLENBACK 1/2",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-623"
+  },
+  {
+    "volusionCode": "AL-624",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-624",
+    "shopify_product_id": "dry-run-AL-624",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-624",
+    "handle": "al-624",
+    "title": "HOLLENBACK #3",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-624"
+  },
+  {
+    "volusionCode": "AL-625",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-625",
+    "shopify_product_id": "dry-run-AL-625",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-625",
+    "handle": "al-625",
+    "title": "LECRON #5",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-625"
+  },
+  {
+    "volusionCode": "AL-627",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-627",
+    "shopify_product_id": "dry-run-AL-627",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-627",
+    "handle": "al-627",
+    "title": "Cement Spatula",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-627"
+  },
+  {
+    "volusionCode": "AL-Spatula",
+    "shopifyGid": "gid://shopify/Product/dry-run-AL-Spatula",
+    "shopify_product_id": "dry-run-AL-Spatula",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AL-Spatula",
+    "handle": "al-spatula",
+    "title": "Lab Spatula",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AL-Spatula"
+  },
+  {
+    "volusionCode": "AUR-01",
+    "shopifyGid": "gid://shopify/Product/dry-run-AUR-01",
+    "shopify_product_id": "dry-run-AUR-01",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-AUR-01",
+    "handle": "aur-01",
+    "title": "AURICULAR MAGNET O-RINGS (BLACK) PACK OF 10",
+    "variantId": "gid://shopify/ProductVariant/dry-run-AUR-01"
+  },
+  {
+    "volusionCode": "B-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-100",
+    "shopify_product_id": "dry-run-B-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-100",
+    "handle": "b-100",
+    "title": "B-100: Skin Prep - Wipe On",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-100"
+  },
+  {
+    "volusionCode": "B-105",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-105",
+    "shopify_product_id": "dry-run-B-105",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-105",
+    "handle": "b-105",
+    "title": "B-105: Uni-Solve Adhesive Remover Wipes",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-105"
+  },
+  {
+    "volusionCode": "B-200-09",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-200-09",
+    "shopify_product_id": "dry-run-B-200-09",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-200-09",
+    "handle": "b-200-09",
+    "title": "B-200-09: Daro Brand Antimicrobial Agent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-200-09"
+  },
+  {
+    "volusionCode": "B-200-12",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-200-12",
+    "shopify_product_id": "dry-run-B-200-12",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-200-12",
+    "handle": "b-200-12",
+    "title": "B-200-12: Daro Brand Antibacterial Soap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-200-12"
+  },
+  {
+    "volusionCode": "B-200-30",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-200-30",
+    "shopify_product_id": "dry-run-B-200-30",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-200-30",
+    "handle": "b-200-30",
+    "title": "B-200-30: Daro Adhesive Hydrobond",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-200-30"
+  },
+  {
+    "volusionCode": "B-200-ES",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-200-ES",
+    "shopify_product_id": "dry-run-B-200-ES",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-200-ES",
+    "handle": "b-200-es",
+    "title": "B-200-ES: Daro Adhesive Extra Strength",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-200-ES"
+  },
+  {
+    "volusionCode": "B-200-R",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-200-R",
+    "shopify_product_id": "dry-run-B-200-R",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-200-R",
+    "handle": "b-200-r",
+    "title": "B-200-R: Daro Adhesive Regular",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-200-R"
+  },
+  {
+    "volusionCode": "B-203-15",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-203-15",
+    "shopify_product_id": "dry-run-B-203-15",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-203-15",
+    "handle": "b-203-15",
+    "title": "B-203-15: Edge Adhesive",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-203-15"
+  },
+  {
+    "volusionCode": "B-205",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-205",
+    "shopify_product_id": "dry-run-B-205",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-205",
+    "handle": "b-205",
+    "title": "B-205: 3M Double Sided Surgical Tape",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-205"
+  },
+  {
+    "volusionCode": "B-206",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-206",
+    "shopify_product_id": "dry-run-B-206",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-206",
+    "handle": "b-206",
+    "title": "B-206: Detachol Adhesive Remover",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-206"
+  },
+  {
+    "volusionCode": "B-208",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-208",
+    "shopify_product_id": "dry-run-B-208",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-208",
+    "handle": "b-208",
+    "title": "B-208: Pros-Aide Adhesive Remover",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-208"
+  },
+  {
+    "volusionCode": "B-225-SS",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-225-SS",
+    "shopify_product_id": "dry-run-B-225-SS",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-225-SS",
+    "handle": "b-225-ss",
+    "title": "Hand Sanitizing Spray",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-225-SS"
+  },
+  {
+    "volusionCode": "B-227",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-227",
+    "shopify_product_id": "dry-run-B-227",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-227",
+    "handle": "b-227",
+    "title": "B-227 Double Sided Gel Adhesive Tape",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-227"
+  },
+  {
+    "volusionCode": "B-302",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-302",
+    "shopify_product_id": "dry-run-B-302",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-302",
+    "handle": "b-302",
+    "title": "B-302: Ocular Silicone Lubricant",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-302"
+  },
+  {
+    "volusionCode": "B-3808",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-3808",
+    "shopify_product_id": "dry-run-B-3808",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-3808",
+    "handle": "b-3808",
+    "title": "B-3808: Ethyl Acetate",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-3808"
+  },
+  {
+    "volusionCode": "B-400",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-400",
+    "shopify_product_id": "dry-run-B-400",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-400",
+    "handle": "b-400",
+    "title": "B-400: Secure Medical Adhesive",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-400"
+  },
+  {
+    "volusionCode": "B-400N",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-400N",
+    "shopify_product_id": "dry-run-B-400N",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-400N",
+    "handle": "b-400n",
+    "title": "B-400N: Secure Medical Adhesive 1/2oz",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-400N"
+  },
+  {
+    "volusionCode": "B-460",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-460",
+    "shopify_product_id": "dry-run-B-460",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-460",
+    "handle": "b-460",
+    "title": "B-460: Secure II Medical Adhesive",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-460"
+  },
+  {
+    "volusionCode": "B-460N",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-460N",
+    "shopify_product_id": "dry-run-B-460N",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-460N",
+    "handle": "b-460n",
+    "title": "B-460N: Secure II Extra Strength Medical Adhesive 1/2oz",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-460N"
+  },
+  {
+    "volusionCode": "B-508",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-508",
+    "shopify_product_id": "dry-run-B-508",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-508",
+    "handle": "b-508",
+    "title": "B-508: Secure Solvent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-508"
+  },
+  {
+    "volusionCode": "B-515",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-515",
+    "shopify_product_id": "dry-run-B-515",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-515",
+    "handle": "b-515",
+    "title": "B-515: D-Limonene",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-515"
+  },
+  {
+    "volusionCode": "B-608",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-608",
+    "shopify_product_id": "dry-run-B-608",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-608",
+    "handle": "b-608",
+    "title": "B-608: Pro Bond Solvent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-608"
+  },
+  {
+    "volusionCode": "B-608-M",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-608-M",
+    "shopify_product_id": "dry-run-B-608-M",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-608-M",
+    "handle": "b-608-m",
+    "title": "B-608-M: Pro Bond Solvent Mitts",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-608-M"
+  },
+  {
+    "volusionCode": "B-708",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-708",
+    "shopify_product_id": "dry-run-B-708",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-708",
+    "handle": "b-708",
+    "title": "B-708 Non Flammable Solvent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-708"
+  },
+  {
+    "volusionCode": "B-7711",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-7711",
+    "shopify_product_id": "dry-run-B-7711",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-7711",
+    "handle": "b-7711",
+    "title": "B-7711 Hollister Deodorizer & Germicide",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-7711"
+  },
+  {
+    "volusionCode": "B-7731",
+    "shopifyGid": "gid://shopify/Product/dry-run-B-7731",
+    "shopify_product_id": "dry-run-B-7731",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-B-7731",
+    "handle": "b-7731",
+    "title": "B-7731: Hollister Medical Adhesive Remover",
+    "variantId": "gid://shopify/ProductVariant/dry-run-B-7731"
+  },
+  {
+    "volusionCode": "BT-401",
+    "shopifyGid": "gid://shopify/Product/dry-run-BT-401",
+    "shopify_product_id": "dry-run-BT-401",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-BT-401",
+    "handle": "bt-401",
+    "title": "BT-401: Secure Medical Adhesive",
+    "variantId": "gid://shopify/ProductVariant/dry-run-BT-401"
+  },
+  {
+    "volusionCode": "BT-460",
+    "shopifyGid": "gid://shopify/Product/dry-run-BT-460",
+    "shopify_product_id": "dry-run-BT-460",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-BT-460",
+    "handle": "bt-460",
+    "title": "BT-460: Secure Medical Adhesive",
+    "variantId": "gid://shopify/ProductVariant/dry-run-BT-460"
+  },
+  {
+    "volusionCode": "D-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-100",
+    "shopify_product_id": "dry-run-D-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-100",
+    "handle": "d-100",
+    "title": "TRANSFER PIPETTE - 5ML (1 DOZEN)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-100"
+  },
+  {
+    "volusionCode": "D-109",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-109",
+    "shopify_product_id": "dry-run-D-109",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-109",
+    "handle": "d-109",
+    "title": "D-109: Cab-O-Sil",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-109"
+  },
+  {
+    "volusionCode": "D-2",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-2",
+    "shopify_product_id": "dry-run-D-2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-2",
+    "handle": "d-2",
+    "title": "Pack of 2 Sculpting Tools",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-2"
+  },
+  {
+    "volusionCode": "D-200-125",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-200-125",
+    "shopify_product_id": "dry-run-D-200-125",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-200-125",
+    "handle": "d-200-125",
+    "title": "Wide Mouth Nalgene Bottles",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-200-125"
+  },
+  {
+    "volusionCode": "D-201-P",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-201-P",
+    "shopify_product_id": "dry-run-D-201-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-201-P",
+    "handle": "d-201-p",
+    "title": "D-201-P: Polypropylene Medicine Cups",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-201-P"
+  },
+  {
+    "volusionCode": "D-203",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-203",
+    "shopify_product_id": "dry-run-D-203",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-203",
+    "handle": "d-203",
+    "title": "Patient Mirror on swivel",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-203"
+  },
+  {
+    "volusionCode": "D-209-N",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-209-N",
+    "shopify_product_id": "dry-run-D-209-N",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-209-N",
+    "handle": "d-209-n",
+    "title": "D-209-N: Primer Tip Applicators",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-209-N"
+  },
+  {
+    "volusionCode": "D-210",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-210",
+    "shopify_product_id": "dry-run-D-210",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-210",
+    "handle": "d-210",
+    "title": "D-210: Wood Tongue Depressors. Pack of 500",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-210"
+  },
+  {
+    "volusionCode": "D-212",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-212",
+    "shopify_product_id": "dry-run-D-212",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-212",
+    "handle": "d-212",
+    "title": "VACUUM CHAMBER",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-212"
+  },
+  {
+    "volusionCode": "D-212-1",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-212-1",
+    "shopify_product_id": "dry-run-D-212-1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-212-1",
+    "handle": "d-212-1",
+    "title": "D-212-1: Vacuum Chamber 1 Gallon",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-212-1"
+  },
+  {
+    "volusionCode": "D-3",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-3",
+    "shopify_product_id": "dry-run-D-3",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-3",
+    "handle": "d-3",
+    "title": "Pack of 3 Sculpting Tools",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-3"
+  },
+  {
+    "volusionCode": "D-303",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-303",
+    "shopify_product_id": "dry-run-D-303",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-303",
+    "handle": "d-303",
+    "title": "D-303 Fitzgerald thins",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-303"
+  },
+  {
+    "volusionCode": "D-316",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-316",
+    "shopify_product_id": "dry-run-D-316",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-316",
+    "handle": "d-316",
+    "title": "D-316: Alcohol Torch",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-316"
+  },
+  {
+    "volusionCode": "D-317",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-317",
+    "shopify_product_id": "dry-run-D-317",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-317",
+    "handle": "d-317",
+    "title": "D-317 HCR Pinwheel HCR Hand Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-317"
+  },
+  {
+    "volusionCode": "D-318",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-318",
+    "shopify_product_id": "dry-run-D-318",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-318",
+    "handle": "d-318",
+    "title": "D-318 HCR 3 Wheel Pinwheel",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-318"
+  },
+  {
+    "volusionCode": "D-36Y",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-36Y",
+    "shopify_product_id": "dry-run-D-36Y",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-36Y",
+    "handle": "d-36y",
+    "title": "D-36Y: Mold Banding Strap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-36Y"
+  },
+  {
+    "volusionCode": "D-6",
+    "shopifyGid": "gid://shopify/Product/dry-run-D-6",
+    "shopify_product_id": "dry-run-D-6",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-D-6",
+    "handle": "d-6",
+    "title": "Pack of 6 Sculpting Tools",
+    "variantId": "gid://shopify/ProductVariant/dry-run-D-6"
+  },
+  {
+    "volusionCode": "DG-1-A",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-1-A",
+    "shopify_product_id": "dry-run-DG-1-A",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-1-A",
+    "handle": "dg-1-a",
+    "title": "DG-1-A: 50ml Manual Cartridge Dispensing Gun (A/B style)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-1-A"
+  },
+  {
+    "volusionCode": "DG-1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-1-S",
+    "shopify_product_id": "dry-run-DG-1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-1-S",
+    "handle": "dg-1-s",
+    "title": "DG-1-S: 50ml Manual Cartridge Dispensing Gun (S style)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-1-S"
+  },
+  {
+    "volusionCode": "DG-200",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-200",
+    "shopify_product_id": "dry-run-DG-200",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-200",
+    "handle": "dg-200",
+    "title": "DG-200: 200ml Pneumatic Cartridge Dispensing Gun",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-200"
+  },
+  {
+    "volusionCode": "DG-200-LSR",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-200-LSR",
+    "shopify_product_id": "dry-run-DG-200-LSR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-200-LSR",
+    "handle": "dg-200-lsr",
+    "title": "DG-200-LSR: Silicone Cartridge 200 ml",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-200-LSR"
+  },
+  {
+    "volusionCode": "DG-200-LSR-P",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-200-LSR-P",
+    "shopify_product_id": "dry-run-DG-200-LSR-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-200-LSR-P",
+    "handle": "dg-200-lsr-p",
+    "title": "DG-200-LSR-P",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-200-LSR-P"
+  },
+  {
+    "volusionCode": "DG-200-LSR-P-K",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-200-LSR-P-K",
+    "shopify_product_id": "dry-run-DG-200-LSR-P-K",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-200-LSR-P-K",
+    "handle": "dg-200-lsr-p-k",
+    "title": "DG-200-LSR Pneumatic Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-200-LSR-P-K"
+  },
+  {
+    "volusionCode": "DG-400",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-400",
+    "shopify_product_id": "dry-run-DG-400",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-400",
+    "handle": "dg-400",
+    "title": "DG-400: 400ml Pneumatic Cartridge Dispensing Gun",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-400"
+  },
+  {
+    "volusionCode": "DG-400-LSR",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-400-LSR",
+    "shopify_product_id": "dry-run-DG-400-LSR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-400-LSR",
+    "handle": "dg-400-lsr",
+    "title": "DG-400-LSR: Silicone Cartridge 400 ml",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-400-LSR"
+  },
+  {
+    "volusionCode": "DG-400-LSR-P",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-400-LSR-P",
+    "shopify_product_id": "dry-run-DG-400-LSR-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-400-LSR-P",
+    "handle": "dg-400-lsr-p",
+    "title": "DG-400-LSR-P",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-400-LSR-P"
+  },
+  {
+    "volusionCode": "DG-400-LSR-P-K",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-400-LSR-P-K",
+    "shopify_product_id": "dry-run-DG-400-LSR-P-K",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-400-LSR-P-K",
+    "handle": "dg-400-lsr-p-k",
+    "title": "DG-400-LSR Pneumatic Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-400-LSR-P-K"
+  },
+  {
+    "volusionCode": "DG-50",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-50",
+    "shopify_product_id": "dry-run-DG-50",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-50",
+    "handle": "dg-50",
+    "title": "DG-50: 50 ml Pneumatic Cartridge Dispensing Gun",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-50"
+  },
+  {
+    "volusionCode": "DG-50-LSR",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-50-LSR",
+    "shopify_product_id": "dry-run-DG-50-LSR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-50-LSR",
+    "handle": "dg-50-lsr",
+    "title": "DG-50-LSR: Silicone Cartridge 50 ml",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-50-LSR"
+  },
+  {
+    "volusionCode": "DG-50-LSR-M-K",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-50-LSR-M-K",
+    "shopify_product_id": "dry-run-DG-50-LSR-M-K",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-50-LSR-M-K",
+    "handle": "dg-50-lsr-m-k",
+    "title": "DG-50-LSR Manual Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-50-LSR-M-K"
+  },
+  {
+    "volusionCode": "DG-50-LSR-P-K",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-50-LSR-P-K",
+    "shopify_product_id": "dry-run-DG-50-LSR-P-K",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-50-LSR-P-K",
+    "handle": "dg-50-lsr-p-k",
+    "title": "DG-50-LSR Pneumatic Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-50-LSR-P-K"
+  },
+  {
+    "volusionCode": "DG-50-MIL-P",
+    "shopifyGid": "gid://shopify/Product/dry-run-DG-50-MIL-P",
+    "shopify_product_id": "dry-run-DG-50-MIL-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DG-50-MIL-P",
+    "handle": "dg-50-mil-p",
+    "title": "DG-50-LSR-P",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DG-50-MIL-P"
+  },
+  {
+    "volusionCode": "DT",
+    "shopifyGid": "gid://shopify/Product/dry-run-DT",
+    "shopify_product_id": "dry-run-DT",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-DT",
+    "handle": "dt",
+    "title": "Silicone Cartridge Mixing Tips (Tips Only)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-DT"
+  },
+  {
+    "volusionCode": "E-1950",
+    "shopifyGid": "gid://shopify/Product/dry-run-E-1950",
+    "shopify_product_id": "dry-run-E-1950",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-E-1950",
+    "handle": "e-1950",
+    "title": "E-1950: Desktop Two Roll Mill",
+    "variantId": "gid://shopify/ProductVariant/dry-run-E-1950"
+  },
+  {
+    "volusionCode": "E-Skin-FE",
+    "shopifyGid": "gid://shopify/Product/dry-run-E-Skin-FE",
+    "shopify_product_id": "dry-run-E-Skin-FE",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-E-Skin-FE",
+    "handle": "e-skin-fe",
+    "title": "E-Skin-FE: Spectromatch Individual colors",
+    "variantId": "gid://shopify/ProductVariant/dry-run-E-Skin-FE"
+  },
+  {
+    "volusionCode": "EA-201-001",
+    "shopifyGid": "gid://shopify/Product/dry-run-EA-201-001",
+    "shopify_product_id": "dry-run-EA-201-001",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-EA-201-001",
+    "handle": "ea-201-001",
+    "title": "ERICH ARCH BAR",
+    "variantId": "gid://shopify/ProductVariant/dry-run-EA-201-001"
+  },
+  {
+    "volusionCode": "EVM-370",
+    "shopifyGid": "gid://shopify/Product/dry-run-EVM-370",
+    "shopify_product_id": "dry-run-EVM-370",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-EVM-370",
+    "handle": "evm-370",
+    "title": "VORTEX MIXER",
+    "variantId": "gid://shopify/ProductVariant/dry-run-EVM-370"
+  },
+  {
+    "volusionCode": "FE-1999",
+    "shopifyGid": "gid://shopify/Product/dry-run-FE-1999",
+    "shopify_product_id": "dry-run-FE-1999",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FE-1999",
+    "handle": "fe-1999",
+    "title": "FE-1999: Extrinsic Coloration System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FE-1999"
+  },
+  {
+    "volusionCode": "FE-SK01",
+    "shopifyGid": "gid://shopify/Product/dry-run-FE-SK01",
+    "shopify_product_id": "dry-run-FE-SK01",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FE-SK01",
+    "handle": "fe-sk01",
+    "title": "FE: Functional Extrinsic - Silicone Coloring System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FE-SK01"
+  },
+  {
+    "volusionCode": "FE-spectromatch",
+    "shopifyGid": "gid://shopify/Product/dry-run-FE-spectromatch",
+    "shopify_product_id": "dry-run-FE-spectromatch",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FE-spectromatch",
+    "handle": "fe-spectromatch",
+    "title": "E-Skin Spectromatch Spectrometer kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FE-spectromatch"
+  },
+  {
+    "volusionCode": "FI",
+    "shopifyGid": "gid://shopify/Product/dry-run-FI",
+    "shopify_product_id": "dry-run-FI",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FI",
+    "handle": "fi",
+    "title": "FI: Functional Intrinsic II - Silicone Coloring System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FI"
+  },
+  {
+    "volusionCode": "FI-CG",
+    "shopifyGid": "gid://shopify/Product/dry-run-FI-CG",
+    "shopify_product_id": "dry-run-FI-CG",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FI-CG",
+    "handle": "fi-cg",
+    "title": "FI- Color Guide",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FI-CG"
+  },
+  {
+    "volusionCode": "FI-SK-",
+    "shopifyGid": "gid://shopify/Product/dry-run-FI-SK-",
+    "shopify_product_id": "dry-run-FI-SK-",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FI-SK-",
+    "handle": "fi-sk",
+    "title": "FI-SK: Functional Intrinsic Skin Colors - Silicone Coloring System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FI-SK-"
+  },
+  {
+    "volusionCode": "FI-SK-CG",
+    "shopifyGid": "gid://shopify/Product/dry-run-FI-SK-CG",
+    "shopify_product_id": "dry-run-FI-SK-CG",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FI-SK-CG",
+    "handle": "fi-sk-cg",
+    "title": "FI-Sk Color Guide",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FI-SK-CG"
+  },
+  {
+    "volusionCode": "FP-13",
+    "shopifyGid": "gid://shopify/Product/dry-run-FP-13",
+    "shopify_product_id": "dry-run-FP-13",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FP-13",
+    "handle": "fp-13",
+    "title": "FP-13: Spirit Gum From Ben Nye",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FP-13"
+  },
+  {
+    "volusionCode": "FP-16",
+    "shopifyGid": "gid://shopify/Product/dry-run-FP-16",
+    "shopify_product_id": "dry-run-FP-16",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FP-16",
+    "handle": "fp-16",
+    "title": "FP-16: Spirit Gum Remover from Ben Nye",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FP-16"
+  },
+  {
+    "volusionCode": "FX-200",
+    "shopifyGid": "gid://shopify/Product/dry-run-FX-200",
+    "shopify_product_id": "dry-run-FX-200",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FX-200",
+    "handle": "fx-200",
+    "title": "L2 ADHESIVE",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FX-200"
+  },
+  {
+    "volusionCode": "FX-300",
+    "shopifyGid": "gid://shopify/Product/dry-run-FX-300",
+    "shopify_product_id": "dry-run-FX-300",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FX-300",
+    "handle": "fx-300",
+    "title": "FX-300: Impression Lubricant",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FX-300"
+  },
+  {
+    "volusionCode": "FX-317",
+    "shopifyGid": "gid://shopify/Product/dry-run-FX-317",
+    "shopify_product_id": "dry-run-FX-317",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FX-317",
+    "handle": "fx-317",
+    "title": "On Skin Silicone (Red Tone)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FX-317"
+  },
+  {
+    "volusionCode": "FX-330",
+    "shopifyGid": "gid://shopify/Product/dry-run-FX-330",
+    "shopify_product_id": "dry-run-FX-330",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FX-330",
+    "handle": "fx-330",
+    "title": "FX-330: Bruise Powder",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FX-330"
+  },
+  {
+    "volusionCode": "FX-505",
+    "shopifyGid": "gid://shopify/Product/dry-run-FX-505",
+    "shopify_product_id": "dry-run-FX-505",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-FX-505",
+    "handle": "fx-505",
+    "title": "FX-505: Platinum Mold Making Silicone",
+    "variantId": "gid://shopify/ProductVariant/dry-run-FX-505"
+  },
+  {
+    "volusionCode": "G-1004",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-1004",
+    "shopify_product_id": "dry-run-G-1004",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-1004",
+    "handle": "g-1004",
+    "title": "G-1004 KAOLIN CALCINED 90A-1",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-1004"
+  },
+  {
+    "volusionCode": "G-102",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-102",
+    "shopify_product_id": "dry-run-G-102",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-102",
+    "handle": "g-102",
+    "title": "G-102: Beeswax",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-102"
+  },
+  {
+    "volusionCode": "G-104",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-104",
+    "shopify_product_id": "dry-run-G-104",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-104",
+    "handle": "g-104",
+    "title": "G-104: Chavant Fill-It Clay",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-104"
+  },
+  {
+    "volusionCode": "G-106",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-106",
+    "shopify_product_id": "dry-run-G-106",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-106",
+    "handle": "g-106",
+    "title": "G-106: Clayette Modeling Clay (medium)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-106"
+  },
+  {
+    "volusionCode": "G-120",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-120",
+    "shopify_product_id": "dry-run-G-120",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-120",
+    "handle": "g-120",
+    "title": "G-120: Sculpting Wax",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-120"
+  },
+  {
+    "volusionCode": "G-490",
+    "shopifyGid": "gid://shopify/Product/dry-run-G-490",
+    "shopify_product_id": "dry-run-G-490",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-G-490",
+    "handle": "g-490",
+    "title": "Red Sable Brush",
+    "variantId": "gid://shopify/ProductVariant/dry-run-G-490"
+  },
+  {
+    "volusionCode": "GP",
+    "shopifyGid": "gid://shopify/Product/dry-run-GP",
+    "shopify_product_id": "dry-run-GP",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-GP",
+    "handle": "gp",
+    "title": "GP: Oil Colors",
+    "variantId": "gid://shopify/ProductVariant/dry-run-GP"
+  },
+  {
+    "volusionCode": "H-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-H-100",
+    "shopify_product_id": "dry-run-H-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-H-100",
+    "handle": "h-100",
+    "title": "H- Flocking - Individual Colors",
+    "variantId": "gid://shopify/ProductVariant/dry-run-H-100"
+  },
+  {
+    "volusionCode": "H-135-R",
+    "shopifyGid": "gid://shopify/Product/dry-run-H-135-R",
+    "shopify_product_id": "dry-run-H-135-R",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-H-135-R",
+    "handle": "h-135-r",
+    "title": "H-135-R Long Red Rayon Fiber Flocking",
+    "variantId": "gid://shopify/ProductVariant/dry-run-H-135-R"
+  },
+  {
+    "volusionCode": "H-200",
+    "shopifyGid": "gid://shopify/Product/dry-run-H-200",
+    "shopify_product_id": "dry-run-H-200",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-H-200",
+    "handle": "h-200",
+    "title": "Dry Pigment",
+    "variantId": "gid://shopify/ProductVariant/dry-run-H-200"
+  },
+  {
+    "volusionCode": "HM-1",
+    "shopifyGid": "gid://shopify/Product/dry-run-HM-1",
+    "shopify_product_id": "dry-run-HM-1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-HM-1",
+    "handle": "hm-1",
+    "title": "HM-1: Illuminated Multi-Power Head Magnifier",
+    "variantId": "gid://shopify/ProductVariant/dry-run-HM-1"
+  },
+  {
+    "volusionCode": "I-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-100",
+    "shopify_product_id": "dry-run-I-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-100",
+    "handle": "i-100",
+    "title": "I-100: Silicone Paste - Silicone Coloring System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-100"
+  },
+  {
+    "volusionCode": "I-102",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-102",
+    "shopify_product_id": "dry-run-I-102",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-102",
+    "handle": "i-102",
+    "title": "I-102: Hicorex Cobalt Rare Earth Magnets",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-102"
+  },
+  {
+    "volusionCode": "I-200",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-200",
+    "shopify_product_id": "dry-run-I-200",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-200",
+    "handle": "i-200",
+    "title": "Intrinsic Silicone Pigments",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-200"
+  },
+  {
+    "volusionCode": "I-301",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-301",
+    "shopify_product_id": "dry-run-I-301",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-301",
+    "handle": "i-301",
+    "title": "I-301: Extrinsic Tri-Fluid",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-301"
+  },
+  {
+    "volusionCode": "I-B-LAC1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-LAC1",
+    "shopify_product_id": "dry-run-I-B-LAC1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-LAC1",
+    "handle": "i-b-lac1",
+    "title": "B-LAC1: Mini Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-LAC1"
+  },
+  {
+    "volusionCode": "I-B-LAC2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-LAC2",
+    "shopify_product_id": "dry-run-I-B-LAC2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-LAC2",
+    "handle": "i-b-lac2",
+    "title": "B-LAC2: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-LAC2"
+  },
+  {
+    "volusionCode": "I-B-LAC2-OR",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-LAC2-OR",
+    "shopify_product_id": "dry-run-I-B-LAC2-OR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-LAC2-OR",
+    "handle": "i-b-lac2-or",
+    "title": "B-LAC2-OR: Maxi Magnacap Auricular Lab Analogue Gen 2",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-LAC2-OR"
+  },
+  {
+    "volusionCode": "I-B-MC1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-MC1-S",
+    "shopify_product_id": "dry-run-I-B-MC1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-MC1-S",
+    "handle": "i-b-mc1-s",
+    "title": "B-MC1-S: Mini Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-MC1-S"
+  },
+  {
+    "volusionCode": "I-B-MC2-OR-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-MC2-OR-S",
+    "shopify_product_id": "dry-run-I-B-MC2-OR-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-MC2-OR-S",
+    "handle": "i-b-mc2-or-s",
+    "title": "B-MC2-OR-S: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-MC2-OR-S"
+  },
+  {
+    "volusionCode": "I-B-MC2-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-B-MC2-S",
+    "shopify_product_id": "dry-run-I-B-MC2-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-B-MC2-S",
+    "handle": "i-b-mc2-s",
+    "title": "B-MC2-S: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-B-MC2-S"
+  },
+  {
+    "volusionCode": "I-CF1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-CF1",
+    "shopify_product_id": "dry-run-I-CF1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-CF1",
+    "handle": "i-cf1",
+    "title": "CF1: Mini Hand Capfit Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-CF1"
+  },
+  {
+    "volusionCode": "I-CF2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-CF2",
+    "shopify_product_id": "dry-run-I-CF2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-CF2",
+    "handle": "i-cf2",
+    "title": "CF2: Maxi Hand Capfit Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-CF2"
+  },
+  {
+    "volusionCode": "I-CF3",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-CF3",
+    "shopify_product_id": "dry-run-I-CF3",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-CF3",
+    "handle": "i-cf3",
+    "title": "CF3: Mini Latch Capfit Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-CF3"
+  },
+  {
+    "volusionCode": "I-CF4",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-CF4",
+    "shopify_product_id": "dry-run-I-CF4",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-CF4",
+    "handle": "i-cf4",
+    "title": "CF4: Maxi Latch Capfit Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-CF4"
+  },
+  {
+    "volusionCode": "I-IK1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-IK1-S",
+    "shopify_product_id": "dry-run-I-IK1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-IK1-S",
+    "handle": "i-ik1-s",
+    "title": "IK1-S: Insert Keeper (Mini)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-IK1-S"
+  },
+  {
+    "volusionCode": "I-IK2-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-IK2-S",
+    "shopify_product_id": "dry-run-I-IK2-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-IK2-S",
+    "handle": "i-ik2-s",
+    "title": "IK2-S: Insert Keeper (Maxi)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-IK2-S"
+  },
+  {
+    "volusionCode": "I-JB-AFK-1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-JB-AFK-1",
+    "shopify_product_id": "dry-run-I-JB-AFK-1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-JB-AFK-1",
+    "handle": "i-jb-afk-1",
+    "title": "JB-AFK-1: Mini Impression Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-JB-AFK-1"
+  },
+  {
+    "volusionCode": "I-JB-AFK-2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-JB-AFK-2",
+    "shopify_product_id": "dry-run-I-JB-AFK-2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-JB-AFK-2",
+    "handle": "i-jb-afk-2",
+    "title": "JB-AFK-2: Maxi Impression Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-JB-AFK-2"
+  },
+  {
+    "volusionCode": "I-JB-AFK-OR",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-JB-AFK-OR",
+    "shopify_product_id": "dry-run-I-JB-AFK-OR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-JB-AFK-OR",
+    "handle": "i-jb-afk-or",
+    "title": "JB-AFK-OR: Auricular Impression Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-JB-AFK-OR"
+  },
+  {
+    "volusionCode": "I-LAA1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-LAA1",
+    "shopify_product_id": "dry-run-I-LAA1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-LAA1",
+    "handle": "i-laa1",
+    "title": "LAA1: Mini Lab Analogue Abutment",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-LAA1"
+  },
+  {
+    "volusionCode": "I-LAA2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-LAA2",
+    "shopify_product_id": "dry-run-I-LAA2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-LAA2",
+    "handle": "i-laa2",
+    "title": "LAA2: Maxi Lab Analogue Abutment",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-LAA2"
+  },
+  {
+    "volusionCode": "I-LR1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-LR1",
+    "shopify_product_id": "dry-run-I-LR1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-LR1",
+    "handle": "i-lr1",
+    "title": "LR1: Mini Locator Ring",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-LR1"
+  },
+  {
+    "volusionCode": "I-LR2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-LR2",
+    "shopify_product_id": "dry-run-I-LR2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-LR2",
+    "handle": "i-lr2",
+    "title": "LR2: Maxi Locator Ring",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-LR2"
+  },
+  {
+    "volusionCode": "I-M0-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-M0-S",
+    "shopify_product_id": "dry-run-I-M0-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-M0-S",
+    "handle": "i-m0-s",
+    "title": "M0-S: Micro Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-M0-S"
+  },
+  {
+    "volusionCode": "I-M1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-M1-S",
+    "shopify_product_id": "dry-run-I-M1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-M1-S",
+    "handle": "i-m1-s",
+    "title": "M1-S: Mini Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-M1-S"
+  },
+  {
+    "volusionCode": "I-M2-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-M2-S",
+    "shopify_product_id": "dry-run-I-M2-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-M2-S",
+    "handle": "i-m2-s",
+    "title": "M2-S: Midi Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-M2-S"
+  },
+  {
+    "volusionCode": "I-M3-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-M3-S",
+    "shopify_product_id": "dry-run-I-M3-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-M3-S",
+    "handle": "i-m3-s",
+    "title": "M3-S: Maxi Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-M3-S"
+  },
+  {
+    "volusionCode": "I-ML0-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-ML0-S",
+    "shopify_product_id": "dry-run-I-ML0-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-ML0-S",
+    "handle": "i-ml0-s",
+    "title": "ML0-S: Micro Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-ML0-S"
+  },
+  {
+    "volusionCode": "I-ML1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-ML1-S",
+    "shopify_product_id": "dry-run-I-ML1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-ML1-S",
+    "handle": "i-ml1-s",
+    "title": "ML1-S: Mini Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-ML1-S"
+  },
+  {
+    "volusionCode": "I-ML2-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-ML2-S",
+    "shopify_product_id": "dry-run-I-ML2-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-ML2-S",
+    "handle": "i-ml2-s",
+    "title": "ML2-S: Midi Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-ML2-S"
+  },
+  {
+    "volusionCode": "I-ML3-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-ML3-S",
+    "shopify_product_id": "dry-run-I-ML3-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-ML3-S",
+    "handle": "i-ml3-s",
+    "title": "ML3-S: Maxi Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-ML3-S"
+  },
+  {
+    "volusionCode": "I-ML3-SR",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-ML3-SR",
+    "shopify_product_id": "dry-run-I-ML3-SR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-ML3-SR",
+    "handle": "i-ml3-sr",
+    "title": "ML3-SR: Maxi Lip SR Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-ML3-SR"
+  },
+  {
+    "volusionCode": "I-MLL2-OR-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MLL2-OR-S",
+    "shopify_product_id": "dry-run-I-MLL2-OR-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MLL2-OR-S",
+    "handle": "i-mll2-or-s",
+    "title": "MLL2-OR-S, Auricular Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MLL2-OR-S"
+  },
+  {
+    "volusionCode": "I-MLL3-OR-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MLL3-OR-S",
+    "shopify_product_id": "dry-run-I-MLL3-OR-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MLL3-OR-S",
+    "handle": "i-mll3-or-s",
+    "title": "MLL3-OR-S: Maxi Long Lip S Range Magnet with O-Ring",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MLL3-OR-S"
+  },
+  {
+    "volusionCode": "I-MLL3-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MLL3-S",
+    "shopify_product_id": "dry-run-I-MLL3-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MLL3-S",
+    "handle": "i-mll3-s",
+    "title": "MLL3-S: Maxi Long Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MLL3-S"
+  },
+  {
+    "volusionCode": "I-MLL3-SR",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MLL3-SR",
+    "shopify_product_id": "dry-run-I-MLL3-SR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MLL3-SR",
+    "handle": "i-mll3-sr",
+    "title": "MLL3-SR: Maxi Long Lip SR Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MLL3-SR"
+  },
+  {
+    "volusionCode": "I-MM0-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MM0-S",
+    "shopify_product_id": "dry-run-I-MM0-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MM0-S",
+    "handle": "i-mm0-s",
+    "title": "MM0-S: Mini Micro Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MM0-S"
+  },
+  {
+    "volusionCode": "I-MML0-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MML0-S",
+    "shopify_product_id": "dry-run-I-MML0-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MML0-S",
+    "handle": "i-mml0-s",
+    "title": "MML0-S: Mini Micro Lip Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MML0-S"
+  },
+  {
+    "volusionCode": "I-MPMA",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MPMA",
+    "shopify_product_id": "dry-run-I-MPMA",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MPMA",
+    "handle": "i-mpma",
+    "title": "MPMA: Multi-Purpose Lab Analogue",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MPMA"
+  },
+  {
+    "volusionCode": "I-MPMS",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MPMS",
+    "shopify_product_id": "dry-run-I-MPMS",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MPMS",
+    "handle": "i-mpms",
+    "title": "MPMS: Multi-Purpose Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MPMS"
+  },
+  {
+    "volusionCode": "I-MPMS-NL",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MPMS-NL",
+    "shopify_product_id": "dry-run-I-MPMS-NL",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MPMS-NL",
+    "handle": "i-mpms-nl",
+    "title": "MPMS-NL: Multi Purpose Magnet (No Lip)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MPMS-NL"
+  },
+  {
+    "volusionCode": "I-MT1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MT1",
+    "shopify_product_id": "dry-run-I-MT1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MT1",
+    "handle": "i-mt1",
+    "title": "MT1: Mini Transfer Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MT1"
+  },
+  {
+    "volusionCode": "I-MT2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-MT2",
+    "shopify_product_id": "dry-run-I-MT2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-MT2",
+    "handle": "i-mt2",
+    "title": "MT2: Maxi Transfer Magnet",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-MT2"
+  },
+  {
+    "volusionCode": "I-SCD-103",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-SCD-103",
+    "shopify_product_id": "dry-run-I-SCD-103",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-SCD-103",
+    "handle": "i-scd-103",
+    "title": "SCD-103: Samarium Cobalt Magnets",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-SCD-103"
+  },
+  {
+    "volusionCode": "I-SCD-118",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-SCD-118",
+    "shopify_product_id": "dry-run-I-SCD-118",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-SCD-118",
+    "handle": "i-scd-118",
+    "title": "SCD-118: Samarium Cobalt Magnets",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-SCD-118"
+  },
+  {
+    "volusionCode": "I-STO",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-STO",
+    "shopify_product_id": "dry-run-I-STO",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-STO",
+    "handle": "i-sto",
+    "title": "STO: Seating Tool",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-STO"
+  },
+  {
+    "volusionCode": "I-VF-LAC1",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-LAC1",
+    "shopify_product_id": "dry-run-I-VF-LAC1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-LAC1",
+    "handle": "i-vf-lac1",
+    "title": "VF-LAC1: Mini Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-LAC1"
+  },
+  {
+    "volusionCode": "I-VF-LAC2",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-LAC2",
+    "shopify_product_id": "dry-run-I-VF-LAC2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-LAC2",
+    "handle": "i-vf-lac2",
+    "title": "VF-LAC2: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-LAC2"
+  },
+  {
+    "volusionCode": "I-VF-LAC2-OR",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-LAC2-OR",
+    "shopify_product_id": "dry-run-I-VF-LAC2-OR",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-LAC2-OR",
+    "handle": "i-vf-lac2-or",
+    "title": "VF-LAC2-OR: Maxi Magnacap Auricular Lab Analogue Gen 3",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-LAC2-OR"
+  },
+  {
+    "volusionCode": "I-VF-MC1-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-MC1-S",
+    "shopify_product_id": "dry-run-I-VF-MC1-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-MC1-S",
+    "handle": "i-vf-mc1-s",
+    "title": "VF-MC1-S:Mini Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-MC1-S"
+  },
+  {
+    "volusionCode": "I-VF-MC2-OR-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-MC2-OR-S",
+    "shopify_product_id": "dry-run-I-VF-MC2-OR-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-MC2-OR-S",
+    "handle": "i-vf-mc2-or-s",
+    "title": "VF-MC2-OR-S: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-MC2-OR-S"
+  },
+  {
+    "volusionCode": "I-VF-MC2-S",
+    "shopifyGid": "gid://shopify/Product/dry-run-I-VF-MC2-S",
+    "shopify_product_id": "dry-run-I-VF-MC2-S",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-I-VF-MC2-S",
+    "handle": "i-vf-mc2-s",
+    "title": "VF-MC2-S: Maxi Magnacap",
+    "variantId": "gid://shopify/ProductVariant/dry-run-I-VF-MC2-S"
+  },
+  {
+    "volusionCode": "J-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-100",
+    "shopify_product_id": "dry-run-J-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-100",
+    "handle": "j-100",
+    "title": "J-100: Ocular Disc Black",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-100"
+  },
+  {
+    "volusionCode": "J-116",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-116",
+    "shopify_product_id": "dry-run-J-116",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-116",
+    "handle": "j-116",
+    "title": "J-116 Ocular Prosthetic Pupil Ink 1oz",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-116"
+  },
+  {
+    "volusionCode": "J-120",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-120",
+    "shopify_product_id": "dry-run-J-120",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-120",
+    "handle": "j-120",
+    "title": "J-120: Ocular Disc Clear",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-120"
+  },
+  {
+    "volusionCode": "J-121",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-121",
+    "shopify_product_id": "dry-run-J-121",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-121",
+    "handle": "j-121",
+    "title": "J-121: Ocular Disc Clear",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-121"
+  },
+  {
+    "volusionCode": "J-122",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-122",
+    "shopify_product_id": "dry-run-J-122",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-122",
+    "handle": "j-122",
+    "title": "BUTTONS LT GRY",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-122"
+  },
+  {
+    "volusionCode": "J-130",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-130",
+    "shopify_product_id": "dry-run-J-130",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-130",
+    "handle": "j-130",
+    "title": "J-130: Ocular Disc Black",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-130"
+  },
+  {
+    "volusionCode": "J-17",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-17",
+    "shopify_product_id": "dry-run-J-17",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-17",
+    "handle": "j-17",
+    "title": "J-17: Ocular Impression Tray",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-17"
+  },
+  {
+    "volusionCode": "J-200",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-200",
+    "shopify_product_id": "dry-run-J-200",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-200",
+    "handle": "j-200",
+    "title": "J-200: Ocular Button, Clear",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-200"
+  },
+  {
+    "volusionCode": "J-200-4mm",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-200-4mm",
+    "shopify_product_id": "dry-run-J-200-4mm",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-200-4mm",
+    "handle": "j-200-4mm",
+    "title": "J-200: Ocular Button, Clear (4mm)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-200-4mm"
+  },
+  {
+    "volusionCode": "J-300",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-300",
+    "shopify_product_id": "dry-run-J-300",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-300",
+    "handle": "j-300",
+    "title": "J-300: Ocular Veining Thread",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-300"
+  },
+  {
+    "volusionCode": "J-301-3",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-301-3",
+    "shopify_product_id": "dry-run-J-301-3",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-301-3",
+    "handle": "j-301-3",
+    "title": "SILICONE EYE PATCH-ADULT",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-301-3"
+  },
+  {
+    "volusionCode": "J-303-C",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-303-C",
+    "shopify_product_id": "dry-run-J-303-C",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-303-C",
+    "handle": "j-303-c",
+    "title": "J-303: Eye Patch, Child Size",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-303-C"
+  },
+  {
+    "volusionCode": "J-305",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-305",
+    "shopify_product_id": "dry-run-J-305",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-305",
+    "handle": "j-305",
+    "title": "J-305: Monopoly Syrup",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-305"
+  },
+  {
+    "volusionCode": "J-400",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-400",
+    "shopify_product_id": "dry-run-J-400",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-400",
+    "handle": "j-400",
+    "title": "J-400: Suction Cups",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-400"
+  },
+  {
+    "volusionCode": "J-510",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-510",
+    "shopify_product_id": "dry-run-J-510",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-510",
+    "handle": "j-510",
+    "title": "J-510: Scleral Polymer (White)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-510"
+  },
+  {
+    "volusionCode": "J-570",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-570",
+    "shopify_product_id": "dry-run-J-570",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-570",
+    "handle": "j-570",
+    "title": "J-570: Monomer Non Cross-linked",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-570"
+  },
+  {
+    "volusionCode": "J-572",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-572",
+    "shopify_product_id": "dry-run-J-572",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-572",
+    "handle": "j-572",
+    "title": "J-572: Monomer Cross-linked",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-572"
+  },
+  {
+    "volusionCode": "J-600",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-600",
+    "shopify_product_id": "dry-run-J-600",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-600",
+    "handle": "j-600",
+    "title": "J-600: Clear Polymer (Powder)",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-600"
+  },
+  {
+    "volusionCode": "J-903",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-903",
+    "shopify_product_id": "dry-run-J-903",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-903",
+    "handle": "j-903",
+    "title": "J-903: HCR Introductory Handbook",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-903"
+  },
+  {
+    "volusionCode": "J-912",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-912",
+    "shopify_product_id": "dry-run-J-912",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-912",
+    "handle": "j-912",
+    "title": "J-912: Dictionary of Prosthetic Rehabilitation",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-912"
+  },
+  {
+    "volusionCode": "J-914",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-914",
+    "shopify_product_id": "dry-run-J-914",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-914",
+    "handle": "j-914",
+    "title": "FUNDAMENTALS OF FACIAL PROSTHETICS ***INCLUDES J-912 DICTIONARY***",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-914"
+  },
+  {
+    "volusionCode": "J-LM",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-LM",
+    "shopify_product_id": "dry-run-J-LM",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-LM",
+    "handle": "j-lm",
+    "title": "J-LM: Jiffy Mixer Small",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-LM"
+  },
+  {
+    "volusionCode": "J-SC",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-SC",
+    "shopify_product_id": "dry-run-J-SC",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-SC",
+    "handle": "j-sc",
+    "title": "OCULAR CONFORMERS",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-SC"
+  },
+  {
+    "volusionCode": "J-SI",
+    "shopifyGid": "gid://shopify/Product/dry-run-J-SI",
+    "shopify_product_id": "dry-run-J-SI",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-J-SI",
+    "handle": "j-si",
+    "title": "J-SI: OCULAR IMPRESSION TRAY",
+    "variantId": "gid://shopify/ProductVariant/dry-run-J-SI"
+  },
+  {
+    "volusionCode": "KT-199",
+    "shopifyGid": "gid://shopify/Product/dry-run-KT-199",
+    "shopify_product_id": "dry-run-KT-199",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-KT-199",
+    "handle": "kt-199",
+    "title": "KT-199: Extrinsic Coloration System",
+    "variantId": "gid://shopify/ProductVariant/dry-run-KT-199"
+  },
+  {
+    "volusionCode": "KT-599",
+    "shopifyGid": "gid://shopify/Product/dry-run-KT-599",
+    "shopify_product_id": "dry-run-KT-599",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-KT-599",
+    "handle": "kt-599",
+    "title": "KT-599: Functional Intrinsic Kit 23 Colors",
+    "variantId": "gid://shopify/ProductVariant/dry-run-KT-599"
+  },
+  {
+    "volusionCode": "KT-896",
+    "shopifyGid": "gid://shopify/Product/dry-run-KT-896",
+    "shopify_product_id": "dry-run-KT-896",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-KT-896",
+    "handle": "kt-896",
+    "title": "KT-896: Flocking Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-KT-896"
+  },
+  {
+    "volusionCode": "M-511",
+    "shopifyGid": "gid://shopify/Product/dry-run-M-511",
+    "shopify_product_id": "dry-run-M-511",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-M-511",
+    "handle": "m-511",
+    "title": "M-511: Maxillofacial Silicone Elastomer Kilo Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-M-511"
+  },
+  {
+    "volusionCode": "M-517",
+    "shopifyGid": "gid://shopify/Product/dry-run-M-517",
+    "shopify_product_id": "dry-run-M-517",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-M-517",
+    "handle": "m-517",
+    "title": "M-517: CoForm Soft, Impression Silicone",
+    "variantId": "gid://shopify/ProductVariant/dry-run-M-517"
+  },
+  {
+    "volusionCode": "MD-564",
+    "shopifyGid": "gid://shopify/Product/dry-run-MD-564",
+    "shopify_product_id": "dry-run-MD-564",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-MD-564",
+    "handle": "md-564",
+    "title": "MD-564: Matting Dispersion",
+    "variantId": "gid://shopify/ProductVariant/dry-run-MD-564"
+  },
+  {
+    "volusionCode": "MD-564-NFS",
+    "shopifyGid": "gid://shopify/Product/dry-run-MD-564-NFS",
+    "shopify_product_id": "dry-run-MD-564-NFS",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-MD-564-NFS",
+    "handle": "md-564-nfs",
+    "title": "MD-564-NFS: Nonflammable Matting Dispersion",
+    "variantId": "gid://shopify/ProductVariant/dry-run-MD-564-NFS"
+  },
+  {
+    "volusionCode": "MM-100",
+    "shopifyGid": "gid://shopify/Product/dry-run-MM-100",
+    "shopify_product_id": "dry-run-MM-100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-MM-100",
+    "handle": "mm-100",
+    "title": "MM-100: Epoxy Surface Coat Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-MM-100"
+  },
+  {
+    "volusionCode": "MM-105",
+    "shopifyGid": "gid://shopify/Product/dry-run-MM-105",
+    "shopify_product_id": "dry-run-MM-105",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-MM-105",
+    "handle": "mm-105",
+    "title": "MM-105: Thinning Agent",
+    "variantId": "gid://shopify/ProductVariant/dry-run-MM-105"
+  },
+  {
+    "volusionCode": "O1B",
+    "shopifyGid": "gid://shopify/Product/dry-run-O1B",
+    "shopify_product_id": "dry-run-O1B",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-O1B",
+    "handle": "o1b",
+    "title": "O-RINGS (BLACK) PACK OF 10",
+    "variantId": "gid://shopify/ProductVariant/dry-run-O1B"
+  },
+  {
+    "volusionCode": "O1R",
+    "shopifyGid": "gid://shopify/Product/dry-run-O1R",
+    "shopify_product_id": "dry-run-O1R",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-O1R",
+    "handle": "o1r",
+    "title": "O-RINGS (RED) PACK OF 10",
+    "variantId": "gid://shopify/ProductVariant/dry-run-O1R"
+  },
+  {
+    "volusionCode": "P",
+    "shopifyGid": "gid://shopify/Product/dry-run-P",
+    "shopify_product_id": "dry-run-P",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-P",
+    "handle": "p",
+    "title": "P: Disposable Brushes \"P\" Series",
+    "variantId": "gid://shopify/ProductVariant/dry-run-P"
+  },
+  {
+    "volusionCode": "PCSK-10",
+    "shopifyGid": "gid://shopify/Product/dry-run-PCSK-10",
+    "shopify_product_id": "dry-run-PCSK-10",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-PCSK-10",
+    "handle": "pcsk-10",
+    "title": "PCSK-10: Platinum Cure Silicone Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-PCSK-10"
+  },
+  {
+    "volusionCode": "PCSK10-NFS",
+    "shopifyGid": "gid://shopify/Product/dry-run-PCSK10-NFS",
+    "shopify_product_id": "dry-run-PCSK10-NFS",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-PCSK10-NFS",
+    "handle": "pcsk10-nfs",
+    "title": "PCSK10-NFS: Platinum Cure Silicone Kit",
+    "variantId": "gid://shopify/ProductVariant/dry-run-PCSK10-NFS"
+  },
+  {
+    "volusionCode": "SC-1000",
+    "shopifyGid": "gid://shopify/Product/dry-run-SC-1000",
+    "shopify_product_id": "dry-run-SC-1000",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-SC-1000",
+    "handle": "sc-1000",
+    "title": "SC-1000 Digital Gram Scale",
+    "variantId": "gid://shopify/ProductVariant/dry-run-SC-1000"
+  },
+  {
+    "volusionCode": "SC1",
+    "shopifyGid": "gid://shopify/Product/dry-run-SC1",
+    "shopify_product_id": "dry-run-SC1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-SC1",
+    "handle": "sc1",
+    "title": "Scissors",
+    "variantId": "gid://shopify/ProductVariant/dry-run-SC1"
+  },
+  {
+    "volusionCode": "SC3",
+    "shopifyGid": "gid://shopify/Product/dry-run-SC3",
+    "shopify_product_id": "dry-run-SC3",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-SC3",
+    "handle": "sc3",
+    "title": "Shears #61",
+    "variantId": "gid://shopify/ProductVariant/dry-run-SC3"
+  },
+  {
+    "volusionCode": "SC4",
+    "shopifyGid": "gid://shopify/Product/dry-run-SC4",
+    "shopify_product_id": "dry-run-SC4",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-SC4",
+    "handle": "sc4",
+    "title": "#64 A Straight Shears",
+    "variantId": "gid://shopify/ProductVariant/dry-run-SC4"
+  },
+  {
+    "volusionCode": "SCD-2",
+    "shopifyGid": "gid://shopify/Product/dry-run-SCD-2",
+    "shopify_product_id": "dry-run-SCD-2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-SCD-2",
+    "handle": "scd-2",
+    "title": "Heavy Duty Shears Scissor Style",
+    "variantId": "gid://shopify/ProductVariant/dry-run-SCD-2"
+  },
+  {
+    "volusionCode": "T-1",
+    "shopifyGid": "gid://shopify/Product/dry-run-T-1",
+    "shopify_product_id": "dry-run-T-1",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-T-1",
+    "handle": "t-1",
+    "title": "T-1: Sculpting Tools",
+    "variantId": "gid://shopify/ProductVariant/dry-run-T-1"
+  },
+  {
+    "volusionCode": "T-9",
+    "shopifyGid": "gid://shopify/Product/dry-run-T-9",
+    "shopify_product_id": "dry-run-T-9",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-T-9",
+    "handle": "t-9",
+    "title": "SCRATCH & LIFT DUSTER",
+    "variantId": "gid://shopify/ProductVariant/dry-run-T-9"
+  },
+  {
+    "volusionCode": "TS-550",
+    "shopifyGid": "gid://shopify/Product/dry-run-TS-550",
+    "shopify_product_id": "dry-run-TS-550",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-TS-550",
+    "handle": "ts-550",
+    "title": "TS-550",
+    "variantId": "gid://shopify/ProductVariant/dry-run-TS-550"
+  },
+  {
+    "volusionCode": "TS-564",
+    "shopifyGid": "gid://shopify/Product/dry-run-TS-564",
+    "shopify_product_id": "dry-run-TS-564",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-TS-564",
+    "handle": "ts-564",
+    "title": "TS-564: Acetoxy Silicone Dispersion",
+    "variantId": "gid://shopify/ProductVariant/dry-run-TS-564"
+  },
+  {
+    "volusionCode": "TS-564-NFS",
+    "shopifyGid": "gid://shopify/Product/dry-run-TS-564-NFS",
+    "shopify_product_id": "dry-run-TS-564-NFS",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-TS-564-NFS",
+    "handle": "ts-564-nfs",
+    "title": "TS-564-NFS: Nonflammable Acetoxy Silicone Dispersion",
+    "variantId": "gid://shopify/ProductVariant/dry-run-TS-564-NFS"
+  },
+  {
+    "volusionCode": "V40047",
+    "shopifyGid": "gid://shopify/Product/dry-run-V40047",
+    "shopify_product_id": "dry-run-V40047",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V40047",
+    "handle": "v40047",
+    "title": "V40047: 1000 cps Silicone Fluid",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V40047"
+  },
+  {
+    "volusionCode": "V40073",
+    "shopifyGid": "gid://shopify/Product/dry-run-V40073",
+    "shopify_product_id": "dry-run-V40073",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V40073",
+    "handle": "v40073",
+    "title": "V40073: 350 cps Silicone Fluid",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V40073"
+  },
+  {
+    "volusionCode": "V40098",
+    "shopifyGid": "gid://shopify/Product/dry-run-V40098",
+    "shopify_product_id": "dry-run-V40098",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V40098",
+    "handle": "v40098",
+    "title": "V40098: 12,500 cps Silicone Fluid",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V40098"
+  },
+  {
+    "volusionCode": "V40104",
+    "shopifyGid": "gid://shopify/Product/dry-run-V40104",
+    "shopify_product_id": "dry-run-V40104",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V40104",
+    "handle": "v40104",
+    "title": "V40104: 100 cps Silicone Fluid",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V40104"
+  },
+  {
+    "volusionCode": "V5050",
+    "shopifyGid": "gid://shopify/Product/dry-run-V5050",
+    "shopify_product_id": "dry-run-V5050",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V5050",
+    "handle": "v5050",
+    "title": "V5050: Silicone Fluid 50 cps Personal Health Care",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V5050"
+  },
+  {
+    "volusionCode": "V5100",
+    "shopifyGid": "gid://shopify/Product/dry-run-V5100",
+    "shopify_product_id": "dry-run-V5100",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V5100",
+    "handle": "v5100",
+    "title": "V5100: Silicone Fluid 100 cps Personal Health Care",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V5100"
+  },
+  {
+    "volusionCode": "V51000",
+    "shopifyGid": "gid://shopify/Product/dry-run-V51000",
+    "shopify_product_id": "dry-run-V51000",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V51000",
+    "handle": "v51000",
+    "title": "V51000: Silicone Fluid 1000 cps Personal Health Care",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V51000"
+  },
+  {
+    "volusionCode": "V512500",
+    "shopifyGid": "gid://shopify/Product/dry-run-V512500",
+    "shopify_product_id": "dry-run-V512500",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V512500",
+    "handle": "v512500",
+    "title": "V512500: Silicone Fluid 12,500 cps Personal Health Care",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V512500"
+  },
+  {
+    "volusionCode": "V5350",
+    "shopifyGid": "gid://shopify/Product/dry-run-V5350",
+    "shopify_product_id": "dry-run-V5350",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-V5350",
+    "handle": "v5350",
+    "title": "V5350: Silicone Fluid 350 cps Personal Health Care",
+    "variantId": "gid://shopify/ProductVariant/dry-run-V5350"
+  },
+  {
+    "volusionCode": "VC-11",
+    "shopifyGid": "gid://shopify/Product/dry-run-VC-11",
+    "shopify_product_id": "dry-run-VC-11",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VC-11",
+    "handle": "vc-11",
+    "title": "VC-11: Better One-Piece Head Molds From Life",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VC-11"
+  },
+  {
+    "volusionCode": "VC-2",
+    "shopifyGid": "gid://shopify/Product/dry-run-VC-2",
+    "shopify_product_id": "dry-run-VC-2",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VC-2",
+    "handle": "vc-2",
+    "title": "VC-2: Eyes Made Easy Volume 1",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VC-2"
+  },
+  {
+    "volusionCode": "VST-30",
+    "shopifyGid": "gid://shopify/Product/dry-run-VST-30",
+    "shopify_product_id": "dry-run-VST-30",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VST-30",
+    "handle": "vst-30",
+    "title": "VST-30: VerSilTal Silicone Elastomer",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VST-30"
+  },
+  {
+    "volusionCode": "VST-50",
+    "shopifyGid": "gid://shopify/Product/dry-run-VST-50",
+    "shopify_product_id": "dry-run-VST-50",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VST-50",
+    "handle": "vst-50",
+    "title": "VST-50: VerSilTal Silicone Elastomer",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VST-50"
+  },
+  {
+    "volusionCode": "VST-50F",
+    "shopifyGid": "gid://shopify/Product/dry-run-VST-50F",
+    "shopify_product_id": "dry-run-VST-50F",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VST-50F",
+    "handle": "vst-50f",
+    "title": "VST-50F: VerSilTal Silicone Elastomer",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VST-50F"
+  },
+  {
+    "volusionCode": "VST-50HD",
+    "shopifyGid": "gid://shopify/Product/dry-run-VST-50HD",
+    "shopify_product_id": "dry-run-VST-50HD",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-VST-50HD",
+    "handle": "vst-50hd",
+    "title": "VST-50HD: VerSilTal Silicone Elastomer",
+    "variantId": "gid://shopify/ProductVariant/dry-run-VST-50HD"
+  },
+  {
+    "volusionCode": "WH-",
+    "shopifyGid": "gid://shopify/Product/dry-run-WH-",
+    "shopify_product_id": "dry-run-WH-",
+    "shopifyUrl": "https://factor2inc.myshopify.com/admin/products/dry-run-WH-",
+    "handle": "wh",
+    "title": "WH-: Crepe Hair",
+    "variantId": "gid://shopify/ProductVariant/dry-run-WH-"
   }
 ]

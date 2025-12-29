@@ -59,7 +59,13 @@ function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function sanitizeHandle(name: string, altUrl: string, categoryId: string): string {
+function sanitizeHandle(
+  name: string,
+  altUrl: string,
+  categoryId: string,
+  parentId: string,
+  categoryMap: Map<string, VolusionCategory>
+): string {
   // Prefer alternateurl if available
   if (altUrl && altUrl.trim()) {
     return altUrl.trim().toLowerCase().replace(/[^a-z0-9-]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
@@ -71,6 +77,19 @@ function sanitizeHandle(name: string, altUrl: string, categoryId: string): strin
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '');
+
+  // If has parent and not root, append parent name to avoid duplicates
+  if (parentId !== '0') {
+    const parent = categoryMap.get(parentId);
+    if (parent) {
+      const parentHandle = parent.categoryname.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+      handle = `${parentHandle}-${handle}`;
+    }
+  }
 
   // If handle is empty, use category ID
   if (!handle) {
@@ -141,9 +160,10 @@ async function shopifyGraphQL(query: string, variables: any = {}): Promise<any> 
 
 async function createCollection(
   category: VolusionCategory,
-  hierarchyPath: string
+  hierarchyPath: string,
+  categoryMap: Map<string, VolusionCategory>
 ): Promise<{ id: string; handle: string } | null> {
-  const handle = sanitizeHandle(category.categoryname, category.alternateurl, category.categoryid);
+  const handle = sanitizeHandle(category.categoryname, category.alternateurl, category.categoryid, category.parentid, categoryMap);
 
   const input = {
     title: category.categoryname,
@@ -230,13 +250,19 @@ async function migrateCategories() {
 
   console.log(`✓ Parsed ${records.length} categories from CSV\n`);
 
-  // Step 2: Filter visible categories
-  const visibleCategories = records.filter(cat => cat.categoryvisible === '1');
-  console.log(`✓ Filtered to ${visibleCategories.length} visible categories (categoryvisible=1)\n`);
+  // Step 2: Filter out invalid categories (ones with HTML/malformed data)
+  const validCategories = records.filter(cat => {
+    // Skip categories with no name or invalid structure
+    if (!cat.categoryname || cat.categoryname.includes('<') || cat.categoryname.includes('http')) {
+      return false;
+    }
+    return true;
+  });
+  console.log(`✓ Filtered to ${validCategories.length} valid categories (excluded ${records.length - validCategories.length} malformed)\n`);
 
   // Step 3: Build category map for hierarchy lookups
   const categoryMap = new Map<string, VolusionCategory>();
-  visibleCategories.forEach(cat => categoryMap.set(cat.categoryid, cat));
+  validCategories.forEach(cat => categoryMap.set(cat.categoryid, cat));
 
   // Step 4: Sort categories by dependency (parents before children)
   const sortedCategories: VolusionCategory[] = [];
@@ -258,34 +284,61 @@ async function migrateCategories() {
     processed.add(category.categoryid);
   }
 
-  visibleCategories.forEach(cat => addCategoryAndParents(cat));
+  validCategories.forEach(cat => addCategoryAndParents(cat));
   console.log(`✓ Sorted ${sortedCategories.length} categories by dependency order\n`);
 
-  // Step 5: Migrate categories
-  const mapping: CategoryMapping[] = [];
-  let successCount = 0;
+  // Step 5: Load existing mappings to prevent duplicates
+  let existingMappings = new Map<string, CategoryMapping>();
+  try {
+    const existingContent = readFileSync(MAPPING_OUTPUT_PATH, 'utf-8');
+    const existingArray = JSON.parse(existingContent) as CategoryMapping[];
+    for (const mapping of existingArray) {
+      existingMappings.set(mapping.volusionId, mapping);
+    }
+    console.log(`✓ Found ${existingMappings.size} existing category mappings\n`);
+  } catch (error) {
+    console.log(`ℹ️  No existing category mappings found (will create new file)\n`);
+  }
+
+  // Filter out already migrated categories
+  const categoriesToMigrate = sortedCategories.filter(cat => !existingMappings.has(cat.categoryid));
+  console.log(`✓ Will migrate ${categoriesToMigrate.length} categories (${existingMappings.size} already exist)\n`);
+
+  if (categoriesToMigrate.length === 0) {
+    console.log('✨ All categories already migrated!\n');
+    return;
+  }
+
+  // Step 6: Migrate categories
+  const mapping: CategoryMapping[] = Array.from(existingMappings.values());
+  let successCount = existingMappings.size;
   let errorCount = 0;
 
   console.log('🔄 Creating collections...\n');
   console.log('='.repeat(60) + '\n');
 
-  for (let i = 0; i < sortedCategories.length; i++) {
-    const category = sortedCategories[i];
+  for (let i = 0; i < categoriesToMigrate.length; i++) {
+    const category = categoriesToMigrate[i];
     const hierarchyPath = buildHierarchyPath(category, categoryMap);
 
-    console.log(`[${i + 1}/${sortedCategories.length}] Processing "${category.categoryname}"`);
+    console.log(`[${i + 1}/${categoriesToMigrate.length}] Processing "${category.categoryname}"`);
     console.log(`   ID: ${category.categoryid} | Parent: ${category.parentid} | Path: ${hierarchyPath}`);
 
-    const result = await createCollection(category, hierarchyPath);
+    const result = await createCollection(category, hierarchyPath, categoryMap);
 
     if (result) {
-      mapping.push({
+      const newMapping = {
         volusionId: category.categoryid,
         shopifyGid: result.id,
         handle: result.handle,
         title: category.categoryname,
-      });
+      };
+      mapping.push(newMapping);
       successCount++;
+
+      // Save mapping immediately
+      writeFileSync(MAPPING_OUTPUT_PATH, JSON.stringify(mapping, null, 2));
+
       console.log(`   ✓ Created: ${result.handle}\n`);
     } else {
       errorCount++;
@@ -298,16 +351,11 @@ async function migrateCategories() {
     }
   }
 
-  // Step 6: Save mapping
-  console.log('='.repeat(60));
-  console.log(`\n💾 Saving category mapping to ${MAPPING_OUTPUT_PATH}`);
-  writeFileSync(MAPPING_OUTPUT_PATH, JSON.stringify(mapping, null, 2));
-  console.log(`✓ Mapping file saved\n`);
-
   // Summary
   console.log('='.repeat(60));
   console.log('✨ Migration Complete!\n');
-  console.log(`Total categories processed: ${sortedCategories.length}`);
+  console.log(`Total categories in CSV: ${records.length}`);
+  console.log(`Valid categories: ${validCategories.length}`);
   console.log(`✓ Successful: ${successCount}`);
   console.log(`✗ Failed: ${errorCount}`);
   console.log(`\nMapping saved to: ${MAPPING_OUTPUT_PATH}`);

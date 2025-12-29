@@ -136,7 +136,7 @@ function replaceFileUrls(html: string, fileMappings: FileMappings): string {
 
 // GraphQL queries and mutations
 const CREATE_PRODUCT_WITH_OPTIONS_MUTATION = `
-  mutation productSet($input: ProductInput!) {
+  mutation productSet($input: ProductSetInput!) {
     productSet(input: $input) {
       product {
         id
@@ -197,6 +197,31 @@ async function shopifyGraphQL(query: string, variables: any = {}): Promise<any> 
   return json;
 }
 
+async function shopifyREST(endpoint: string, method: string = 'GET', body?: any): Promise<any> {
+  const url = `https://${SHOPIFY_STORE}/admin/api/${API_VERSION}${endpoint}`;
+
+  const options: RequestInit = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Shopify-Access-Token': SHOPIFY_CLI_TOKEN!,
+    },
+  };
+
+  if (body) {
+    options.body = JSON.stringify(body);
+  }
+
+  const response = await fetch(url, options);
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`HTTP ${response.status}: ${errorText}`);
+  }
+
+  return await response.json();
+}
+
 async function createProduct(
   product: Product,
   fileMappings: FileMappings,
@@ -240,25 +265,14 @@ async function createProduct(
       title: product.seo_title || product.title,
       description: product.seo_description || '',
     },
-    metafields: [
-      {
-        namespace: 'custom',
-        key: 'volusion_product_code',
-        value: product.code,
-        type: 'single_line_text_field',
-      },
-    ],
     variants: [{
+      optionValues: [{ optionName: 'Title', name: 'Default Title' }],
       price: product.price.toFixed(2),
       compareAtPrice: product.compare_at_price && product.compare_at_price > product.price
         ? product.compare_at_price.toFixed(2)
         : null,
       sku: product.code,
       barcode: product.barcode || null,
-      weight: weightInGrams,
-      weightUnit: 'GRAMS',
-      inventoryPolicy: 'DENY',
-      requiresShipping: true,
     }],
   };
 
@@ -307,14 +321,52 @@ async function createProduct(
     }
 
     console.log(`      ✓ Product created: ${createdProduct.handle}`);
-    console.log(`      💰 Price: $${product.price} | ⚖️  Weight: ${weightInGrams}g (${product.weight} lbs)`);
 
     if (media.length > 0) {
       console.log(`      📸 Image attached`);
     }
 
-    // Get variant ID
+    // Get variant ID and update weight via REST API
     const variantId = createdProduct.variants?.edges?.[0]?.node?.id;
+    const variantNumericId = variantId ? variantId.split('/').pop() : null;
+
+    if (variantNumericId) {
+      const variantData = {
+        variant: {
+          id: variantNumericId,
+          weight: weightInGrams,
+          weight_unit: 'g',
+          inventory_policy: 'deny',
+        }
+      };
+
+      try {
+        await shopifyREST(`/variants/${variantNumericId}.json`, 'PUT', variantData);
+        console.log(`      ⚖️  Weight set: ${weightInGrams}g (${product.weight} lbs)`);
+      } catch (weightError: any) {
+        console.log(`      ⚠️  Warning: Failed to set weight:`, weightError.message);
+      }
+    }
+
+    // Set metafield via REST API
+    const productNumericId = createdProduct.id.split('/').pop();
+    if (productNumericId) {
+      const metafieldData = {
+        metafield: {
+          namespace: 'custom',
+          key: 'volusion_product_code',
+          value: product.code,
+          type: 'single_line_text_field',
+        }
+      };
+
+      try {
+        await shopifyREST(`/products/${productNumericId}/metafields.json`, 'POST', metafieldData);
+        console.log(`      🏷️  Metafield set: ${product.code}`);
+      } catch (metafieldError: any) {
+        console.log(`      ⚠️  Warning: Failed to set metafield:`, metafieldError.message);
+      }
+    }
 
     // Assign to collections
     if (collectionIds.length > 0) {

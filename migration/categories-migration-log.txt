@@ -1,0 +1,398 @@
+
+> factor2@1.0.0 migrate:categories
+> tsx migration/categories.ts
+
+🚀 Starting category migration...
+
+Mode: 🔴 LIVE
+
+Store: factor2inc.myshopify.com
+
+📖 Reading CSV file: ./old_site/export/Categories_MJBQJCMTGG.csv
+✓ Parsed 116 categories from CSV
+
+✓ Filtered to 114 valid categories (excluded 2 malformed)
+
+✓ Sorted 114 categories by dependency order
+
+✓ Found 26 existing category mappings
+
+✓ Will migrate 88 categories (26 already exist)
+
+🔄 Creating collections...
+
+============================================================
+
+[1/88] Processing "Tools"
+   ID: 110 | Parent: 10 | Path: Mold Making
+   ✓ Created: tools
+
+[2/88] Processing "Sculpting Medium"
+   ID: 3 | Parent: 73 | Path: Lab Supplies  / Tools
+   ✓ Created: sculpting-medium
+
+[3/88] Processing "Learning Resources"
+   ID: 4 | Parent: 0 | Path: Learning Resources
+   ✓ Created: learning-resources
+
+[4/88] Processing "Waxes"
+   ID: 17 | Parent: 3 | Path: Lab Supplies  / Tools > Sculpting Medium
+   ✓ Created: waxes
+
+[5/88] Processing "Your Other Links 3"
+   ID: 19 | Parent: 0 | Path: Your Other Links 3
+   ✓ Created: http-www-yahoo-com
+
+[6/88] Processing "Brand"
+   ID: 20 | Parent: 0 | Path: Brand
+   ✓ Created: brand
+
+[7/88] Processing "Price"
+   ID: 21 | Parent: 0 | Path: Price
+   ✓ Created: price
+
+[8/88] Processing "Contact Factor II, Inc."
+   ID: 24 | Parent: 0 | Path: Contact Factor II, Inc.
+   ✓ Created: aboutus-asp
+
+[9/88] Processing "Product Index"
+   ID: 25 | Parent: 0 | Path: Product Index
+   ✓ Created: pindex-asp
+
+[10/88] Processing "Medical & Prosthetic Adhesives"
+   ID: 27 | Parent: 15 | Path: Adhesive Products
+   ✓ Created: medical-prosthetic-adhesives
+
+[11/88] Processing "Adhesive Removal"
+   ID: 28 | Parent: 15 | Path: Adhesive Products
+   ✓ Created: adhesive-removal
+
+[12/88] Processing "Silicone Coloration"
+   ID: 1629 | Parent: 6 | Path: Coloration Materials
+   ✓ Created: silicone-coloration
+
+[13/88] Processing "Extrinsic Coloration"
+   ID: 29 | Parent: 1629 | Path: Coloration Materials > Silicone Coloration
+   ✓ Created: extrinsic-coloration
+
+[14/88] Processing "Intrinsic Coloration"
+   ID: 30 | Parent: 1629 | Path: Coloration Materials > Silicone Coloration
+   ✓ Created: intrinsic-coloration
+
+[15/88] Processing "Books"
+   ID: 31 | Parent: 4 | Path: Learning Resources
+   ✓ Created: books
+
+[16/88] Processing "Videos"
+   ID: 32 | Parent: 4 | Path: Learning Resources
+   ✓ Created: videos
+
+[17/88] Processing "Silicone Additives"
+   ID: 33 | Parent: 14 | Path: Silicones
+   ✓ Created: silicone-additives
+
+[18/88] Processing "Platinum VST Silicones"
+   ID: 37 | Parent: 14 | Path: Silicones
+   ✓ Created: platinum-vst-silicones
+
+[19/88] Processing "Elkem Brand Silicones"
+   ID: 38 | Parent: 14 | Path: Silicones
+   ✓ Created: elkem-brand-silicones
+
+[20/88] Processing "SDS  and  Tech Sheets"
+   ID: 41 | Parent: 0 | Path: SDS  and  Tech Sheets
+   ✓ Created: http-www-factor2-com-articles-asp-id-131
+
+[21/88] Processing "Technovent USA"
+   ID: 42 | Parent: 9 | Path: Magnetic Components
+   ✓ Created: technovent-usa
+
+[22/88] Processing "Prosthetic Silicones"
+   ID: 46 | Parent: 42 | Path: Magnetic Components > Technovent USA
+   ✓ Created: prosthetic-silicones
+
+[23/88] Processing "S-Range System"
+   ID: 47 | Parent: 42 | Path: Magnetic Components > Technovent USA
+   ✓ Created: s-range-system
+
+[24/88] Processing "Laboratory Accessories"
+   ID: 48 | Parent: 42 | Path: Magnetic Components > Technovent USA
+   ✓ Created: laboratory-accessories
+
+[25/88] Processing "Impression Materials"
+   ID: 45 | Parent: 42 | Path: Magnetic Components > Technovent USA
+❌ Error creating collection "Impression Materials": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[26/88] Processing "Implant Companies Information"
+   ID: 49 | Parent: 42 | Path: Magnetic Components > Technovent USA
+   ✓ Created: implant-companies-information
+
+[27/88] Processing "How To Guides"
+   ID: 50 | Parent: 42 | Path: Magnetic Components > Technovent USA
+   ✓ Created: how-to-guides
+
+[28/88] Processing "Platinum RTV Silicones"
+   ID: 51 | Parent: 14 | Path: Silicones
+   ✓ Created: platinum-rtv-silicones
+
+[29/88] Processing "Platinum LSR Silicones"
+   ID: 52 | Parent: 14 | Path: Silicones
+   ✓ Created: platinum-lsr-silicones
+
+[30/88] Processing "HCR High Consistency Silicones"
+   ID: 53 | Parent: 14 | Path: Silicones
+   ✓ Created: hcr-high-consistency-silicones
+
+[31/88] Processing "Acetoxy Silicones"
+   ID: 54 | Parent: 14 | Path: Silicones
+   ✓ Created: acetoxy-silicones
+
+[32/88] Processing "Silicone Foams"
+   ID: 55 | Parent: 14 | Path: Silicones
+   ✓ Created: silicone-foams
+
+[33/88] Processing "Silicone Gels"
+   ID: 56 | Parent: 14 | Path: Silicones
+   ✓ Created: silicone-gels
+
+[34/88] Processing "Silicone Fluids"
+   ID: 57 | Parent: 14 | Path: Silicones
+   ✓ Created: silicone-fluids
+
+[35/88] Processing "Silicone Dispersions"
+   ID: 60 | Parent: 14 | Path: Silicones
+   ✓ Created: silicone-dispersions
+
+[36/88] Processing "Discontinued Items"
+   ID: 68 | Parent: 0 | Path: Discontinued Items
+   ✓ Created: discontinued-items
+
+[37/88] Processing "Dispensing Guns"
+   ID: 70 | Parent: 69 | Path: Cartridge Systems
+   ✓ Created: dispensing-guns
+
+[38/88] Processing "Components"
+   ID: 81 | Parent: 80 | Path: Ocular Products
+   ✓ Created: components
+
+[39/88] Processing "Acrylics"
+   ID: 82 | Parent: 80 | Path: Ocular Products
+❌ Error creating collection "Acrylics": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[40/88] Processing "Patient Care"
+   ID: 83 | Parent: 80 | Path: Ocular Products
+   ✓ Created: patient-care
+
+[41/88] Processing "Monomer"
+   ID: 85 | Parent: 1 | Path: Acrylics
+   ✓ Created: monomer
+
+[42/88] Processing "Polymer"
+   ID: 86 | Parent: 1 | Path: Acrylics
+   ✓ Created: polymer
+
+[43/88] Processing "Monomer"
+   ID: 89 | Parent: 82 | Path: Ocular Products > Acrylics
+❌ Error creating collection "Monomer": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[44/88] Processing "Polymer"
+   ID: 90 | Parent: 82 | Path: Ocular Products > Acrylics
+❌ Error creating collection "Polymer": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[45/88] Processing "Daro Adhesives"
+   ID: 92 | Parent: 15 | Path: Adhesive Products
+   ✓ Created: daro-adhesives
+
+[46/88] Processing "Samarium Cobalt"
+   ID: 95 | Parent: 9 | Path: Magnetic Components
+   ✓ Created: samarium-cobalt
+
+[47/88] Processing "Magna Cap Components"
+   ID: 96 | Parent: 9 | Path: Magnetic Components
+   ✓ Created: magna-cap-components
+
+[48/88] Processing "Auricular Magnets    S - Range"
+   ID: 99 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+   ✓ Created: auricular-magnets-s-range
+
+[49/88] Processing "S - Range Magnacaps"
+   ID: 100 | Parent: 0 | Path: S - Range Magnacaps
+   ✓ Created: s-range-magnacaps
+
+[50/88] Processing "Magnacaps   S - Range"
+   ID: 101 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+   ✓ Created: magnacaps-s-range
+
+[51/88] Processing "Magnabutments   S - Range"
+   ID: 102 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+   ✓ Created: magnabutments-s-range
+
+[52/88] Processing "Magnets Prosthesis   S - Range"
+   ID: 103 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+   ✓ Created: magnets-prosthesis-s-range
+
+[53/88] Processing "Dental Attachments & Accessories"
+   ID: 104 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+   ✓ Created: dental-attachments-accessories
+
+[54/88] Processing "Laboratory Accessories"
+   ID: 105 | Parent: 96 | Path: Magnetic Components > Magna Cap Components
+❌ Error creating collection "Laboratory Accessories": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[55/88] Processing "Gypsum / Stone"
+   ID: 106 | Parent: 10 | Path: Mold Making
+❌ Error creating collection "Gypsum / Stone": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[56/88] Processing "Medical / Patient Use"
+   ID: 108 | Parent: 16 | Path: Solvents
+   ✓ Created: medical-patient-use
+
+[57/88] Processing "Biodegradable"
+   ID: 109 | Parent: 16 | Path: Solvents
+   ✓ Created: biodegradable
+
+[58/88] Processing "Dispensing Guns"
+   ID: 112 | Parent: 8 | Path: Equipment
+❌ Error creating collection "Dispensing Guns": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[59/88] Processing "Scales"
+   ID: 113 | Parent: 8 | Path: Equipment
+   ✓ Created: scales
+
+[60/88] Processing "Ovens"
+   ID: 114 | Parent: 8 | Path: Equipment
+   ✓ Created: ovens
+
+[61/88] Processing "Two Roll Mill"
+   ID: 115 | Parent: 8 | Path: Equipment
+   ✓ Created: two-roll-mill
+
+[62/88] Processing "Vacuum Equipment"
+   ID: 116 | Parent: 8 | Path: Equipment
+   ✓ Created: vacuum-equipment
+
+[63/88] Processing "Materials"
+   ID: 395 | Parent: 10 | Path: Mold Making
+   ✓ Created: materials
+
+[64/88] Processing "European Distributors"
+   ID: 1273 | Parent: 0 | Path: European Distributors
+   ✓ Created: http-www-technovent-com
+
+[65/88] Processing "Non Flammable Dispersions"
+   ID: 1274 | Parent: 60 | Path: Silicones > Silicone Dispersions
+   ✓ Created: non-flammable-dispersions
+
+[66/88] Processing "Impression Silicones"
+   ID: 1275 | Parent: 34 | Path: Impression  Materials
+   ✓ Created: impression-silicones
+
+[67/88] Processing "Digital Iris Buttons"
+   ID: 1276 | Parent: 80 | Path: Ocular Products
+   ✓ Created: digital-iris-buttons
+
+[68/88] Processing "Digital Catalog"
+   ID: 1277 | Parent: 0 | Path: Digital Catalog
+   ✓ Created: http-www-factor2-com-v-vspfiles-downloadables-2023-catalog-new-pdf
+
+[69/88] Processing "Skin Preparation"
+   ID: 1278 | Parent: 15 | Path: Adhesive Products
+   ✓ Created: skin-preparation
+
+[70/88] Processing "Silicone Mold Material"
+   ID: 1279 | Parent: 10 | Path: Mold Making
+   ✓ Created: silicone-mold-material
+
+[71/88] Processing "Silicone Based"
+   ID: 1627 | Parent: 27 | Path: Adhesive Products > Medical & Prosthetic Adhesives
+   ✓ Created: silicone-based
+
+[72/88] Processing "Water Based"
+   ID: 1628 | Parent: 27 | Path: Adhesive Products > Medical & Prosthetic Adhesives
+   ✓ Created: water-based
+
+[73/88] Processing "Acrylic & Ocular Coloration"
+   ID: 1976 | Parent: 6 | Path: Coloration Materials
+   ✓ Created: acrylic-ocular-coloration
+
+[74/88] Processing "Flammable Dispersions"
+   ID: 1977 | Parent: 60 | Path: Silicones > Silicone Dispersions
+   ✓ Created: flammable-dispersions
+
+[75/88] Processing "Commercial Fluids"
+   ID: 1978 | Parent: 57 | Path: Silicones > Silicone Fluids
+   ✓ Created: commercial-fluids
+
+[76/88] Processing "Personal Health Care Fluids"
+   ID: 1979 | Parent: 57 | Path: Silicones > Silicone Fluids
+   ✓ Created: personal-health-care-fluids
+
+[77/88] Processing "Silicone Fluids"
+   ID: 1980 | Parent: 57 | Path: Silicones > Silicone Fluids
+❌ Error creating collection "Silicone Fluids": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[78/88] Processing "Miscellaneous"
+   ID: 1982 | Parent: 80 | Path: Ocular Products
+   ✓ Created: miscellaneous
+
+[79/88] Processing "Clays"
+   ID: 1983 | Parent: 3 | Path: Lab Supplies  / Tools > Sculpting Medium
+   ✓ Created: clays
+
+[80/88] Processing "Accessories"
+   ID: 1985 | Parent: 3 | Path: Lab Supplies  / Tools > Sculpting Medium
+   ✓ Created: accessories
+
+[81/88] Processing "Mixing & Measuring"
+   ID: 1986 | Parent: 7 | Path: Lab Supplies  / Tools > Disposables
+   ✓ Created: mixing-measuring
+
+[82/88] Processing "Accessories"
+   ID: 1987 | Parent: 73 | Path: Lab Supplies  / Tools
+❌ Error creating collection "Accessories": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[83/88] Processing "Mold Making"
+   ID: 1988 | Parent: 73 | Path: Lab Supplies  / Tools
+❌ Error creating collection "Mold Making": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[84/88] Processing "Tape"
+   ID: 1989 | Parent: 15 | Path: Adhesive Products
+   ✓ Created: tape
+
+[85/88] Processing "Spectromatch"
+   ID: 1991 | Parent: 0 | Path: Spectromatch
+   ✓ Created: spectromatch
+
+[86/88] Processing "Spectromatch"
+   ID: 1992 | Parent: 8 | Path: Equipment
+❌ Error creating collection "Spectromatch": [ { field: [ 'handle' ], message: 'Handle has already been taken' } ]
+   ✗ Failed
+
+[87/88] Processing "Aerosol"
+   ID: 1993 | Parent: 11 | Path: Mold Releases
+   ✓ Created: aerosol
+
+[88/88] Processing "Liquid"
+   ID: 1994 | Parent: 11 | Path: Mold Releases
+   ✓ Created: liquid
+
+============================================================
+✨ Migration Complete!
+
+Total categories in CSV: 116
+Valid categories: 114
+✓ Successful: 103
+✗ Failed: 11
+
+Mapping saved to: ./migration/category-mapping.json
+============================================================
