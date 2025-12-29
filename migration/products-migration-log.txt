@@ -1,0 +1,714 @@
+
+> factor2@1.0.0 migrate:products
+> tsx migration/products.ts
+
+🚀 Starting product migration...
+
+Mode: 🔴 LIVE
+
+Store: factor2inc.myshopify.com
+
+📖 Loading products: ./migration/data/products.json
+✓ Loaded 337 products
+
+📖 Loading file mappings: ./migration/data/file-mapping.json
+✓ Loaded 176 file mappings
+
+📖 Loading category mappings: ./migration/category-mapping.json
+✓ Loaded 26 category mappings
+
+✓ Found 0 existing product mappings
+
+✓ Will migrate 337 products (0 already exist)
+
+🔄 Creating products...
+
+============================================================
+
+[1/337] Processing "Lubricant Oiler"
+   Code: 10005 | Price: $11.95 | Categories: 2
+      ❌ Error creating product: [
+  {
+    field: [ 'input', 'handle' ],
+    message: "Handle '10005' already in use. Please provide a new handle."
+  }
+]
+   ✗ Failed
+
+[2/337] Processing "Needle Tool"
+   Code: 11016M | Price: $2.25 | Categories: 4
+      ❌ Error creating product: [
+  {
+    field: [ 'input', 'handle' ],
+    message: "Handle '11016m' already in use. Please provide a new handle."
+  }
+]
+   ✗ Failed
+
+[3/337] Processing "Wire Clay Cutter"
+   Code: 11017N | Price: $3.99 | Categories: 7
+      ❌ Error creating product: [
+  {
+    field: [ 'input', 'handle' ],
+    message: "Handle '11017n' already in use. Please provide a new handle."
+  }
+]
+   ✗ Failed
+
+[4/337] Processing "Fettling Knife"
+   Code: 1192H | Price: $4 | Categories: 5
+      ❌ Error creating product: [
+  {
+    field: [ 'input', 'handle' ],
+    message: "Handle '1192h' already in use. Please provide a new handle."
+  }
+]
+   ✗ Failed
+
+[5/337] Processing "Plaster Bandages 6 inch by 5 yards"
+   Code: 30-3046 | Price: $6.95 | Categories: 9
+      ✓ Product created: 30-3046
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727561699526","variants":[{"id":"gid://shopify/ProductVariant/45333724922054","price":"6.95","sku":"30-3046","weight":1,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[6/337] Processing "BUFFALO #30540 NO. 6L LEFT TAPER CHUCK"
+   Code: 30540 | Price: $12.99 | Categories: 1
+      ✓ Product created: 30540
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727561830598","variants":[{"id":"gid://shopify/ProductVariant/45333725380806","price":"12.99","sku":"30540","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[7/337] Processing "Convection Laboratory Oven"
+   Code: 30GC | Price: $795 | Categories: 2
+      ✓ Product created: 30gc
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562027206","variants":[{"id":"gid://shopify/ProductVariant/45333725905094","price":"795.00","sku":"30GC","weight":180,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[8/337] Processing "Minim Felt Cone Buff 5C"
+   Code: 40040 | Price: $6.95 | Categories: 1
+      ✓ Product created: 40040
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562158278","variants":[{"id":"gid://shopify/ProductVariant/45333726855366","price":"6.95","sku":"40040","weight":1,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[9/337] Processing "Minim Felts Cone 3/8"
+   Code: 40350 | Price: $10.95 | Categories: 1
+      ✓ Product created: 40350
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562354886","variants":[{"id":"gid://shopify/ProductVariant/45333727871174","price":"10.95","sku":"40350","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[10/337] Processing "Minim Felts Cone 1/2"
+   Code: 40360 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40360
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562485958","variants":[{"id":"gid://shopify/ProductVariant/45333728329926","price":"12.95","sku":"40360","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[11/337] Processing "Minim Felt Knife Edge 1/2"
+   Code: 40400 | Price: $10.95 | Categories: 1
+      ✓ Product created: 40400
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562682566","variants":[{"id":"gid://shopify/ProductVariant/45333729018054","price":"10.95","sku":"40400","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[12/337] Processing "Minim Felts Hard 1/2 or Soft 5/8 Qty: 100"
+   Code: 40502 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40502
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562813638","variants":[{"id":"gid://shopify/ProductVariant/45333729640646","price":"12.95","sku":"40502","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[13/337] Processing "Minim Felts hard 5/8"
+   Code: 40512 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40512
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727562977478","variants":[{"id":"gid://shopify/ProductVariant/45333730263238","price":"12.95","sku":"40512","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[14/337] Processing "Minim Felts 3/4"
+   Code: 40521 | Price: $7.95 | Categories: 1
+      ✓ Product created: 40521
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727563174086","variants":[{"id":"gid://shopify/ProductVariant/45333731115206","price":"7.95","sku":"40521","weight":1,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[15/337] Processing "Minim Felts 3/4"
+   Code: 40522 | Price: $19.95 | Categories: 1
+      ✓ Product created: 40522
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727563305158","variants":[{"id":"gid://shopify/ProductVariant/45333731737798","price":"19.95","sku":"40522","weight":2,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[16/337] Processing "Convection Laboratory Oven"
+   Code: 40GC | Price: $1195 | Categories: 2
+      ✓ Product created: 40gc
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727563468998","variants":[{"id":"gid://shopify/ProductVariant/45333732556998","price":"1195.00","sku":"40GC","weight":195,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[17/337] Processing "Eyebrows"
+   Code: 501701 | Price: $34.5 | Categories: 4
+      ✓ Product created: 501701
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727563632838","variants":[{"id":"gid://shopify/ProductVariant/45333733048518","price":"34.50","sku":"501701","weight":1,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+[18/337] Processing "Eyelashes"
+   Code: 501710 | Price: $5 | Categories: 5
+      ✓ Product created: 501710
+      📸 Image attached
+      ❌ Exception creating product: GraphQL errors: [{"message":"Variable $input of type ProductInput! was provided invalid value for variants (Field is not defined on ProductInput)","locations":[{"line":2,"column":26}],"extensions":{"value":{"id":"gid://shopify/Product/8727563796678","variants":[{"id":"gid://shopify/ProductVariant/45333733998790","price":"5.00","sku":"501710","weight":1,"weightUnit":"POUNDS"}]},"problems":[{"path":["variants"],"explanation":"Field is not defined on ProductInput"}]}}]
+   ✗ Failed
+
+
+> factor2@1.0.0 migrate:products
+> tsx migration/products.ts
+
+🚀 Starting product migration...
+
+Mode: 🔴 LIVE
+
+Store: factor2inc.myshopify.com
+
+📖 Loading products: ./migration/data/products.json
+✓ Loaded 337 products
+
+📖 Loading file mappings: ./migration/data/file-mapping.json
+✓ Loaded 176 file mappings
+
+📖 Loading category mappings: ./migration/category-mapping.json
+✓ Loaded 26 category mappings
+
+✓ Found 0 existing product mappings
+
+✓ Will migrate 337 products (0 already exist, 0 skipped)
+
+🔄 Creating products...
+
+============================================================
+
+[1/337] Processing "Lubricant Oiler"
+   Code: 10005 | Price: $11.95 | Categories: 2
+      ✓ Product created: 10005
+      📸 Image attached
+   ✓ Complete
+
+[2/337] Processing "Needle Tool"
+   Code: 11016M | Price: $2.25 | Categories: 4
+      ✓ Product created: 11016m
+      📸 Image attached
+   ✓ Complete
+
+[3/337] Processing "Wire Clay Cutter"
+   Code: 11017N | Price: $3.99 | Categories: 7
+      ✓ Product created: 11017n
+      📸 Image attached
+   ✓ Complete
+
+[4/337] Processing "Fettling Knife"
+   Code: 1192H | Price: $4 | Categories: 5
+      ✓ Product created: 1192h
+      📸 Image attached
+   ✓ Complete
+
+[5/337] Processing "Plaster Bandages 6 inch by 5 yards"
+   Code: 30-3046 | Price: $6.95 | Categories: 9
+      ✓ Product created: 30-3046
+      📸 Image attached
+   ✓ Complete
+
+[6/337] Processing "BUFFALO #30540 NO. 6L LEFT TAPER CHUCK"
+   Code: 30540 | Price: $12.99 | Categories: 1
+      ✓ Product created: 30540
+      📸 Image attached
+   ✓ Complete
+
+[7/337] Processing "Convection Laboratory Oven"
+   Code: 30GC | Price: $795 | Categories: 2
+      ✓ Product created: 30gc
+      📸 Image attached
+   ✓ Complete
+
+[8/337] Processing "Minim Felt Cone Buff 5C"
+   Code: 40040 | Price: $6.95 | Categories: 1
+      ✓ Product created: 40040
+      📸 Image attached
+   ✓ Complete
+
+[9/337] Processing "Minim Felts Cone 3/8"
+   Code: 40350 | Price: $10.95 | Categories: 1
+      ✓ Product created: 40350
+      📸 Image attached
+   ✓ Complete
+
+[10/337] Processing "Minim Felts Cone 1/2"
+   Code: 40360 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40360
+      📸 Image attached
+   ✓ Complete
+
+[11/337] Processing "Minim Felt Knife Edge 1/2"
+   Code: 40400 | Price: $10.95 | Categories: 1
+      ✓ Product created: 40400
+      📸 Image attached
+   ✓ Complete
+
+[12/337] Processing "Minim Felts Hard 1/2 or Soft 5/8 Qty: 100"
+   Code: 40502 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40502
+      📸 Image attached
+   ✓ Complete
+
+[13/337] Processing "Minim Felts hard 5/8"
+   Code: 40512 | Price: $12.95 | Categories: 1
+      ✓ Product created: 40512
+      📸 Image attached
+   ✓ Complete
+
+[14/337] Processing "Minim Felts 3/4"
+   Code: 40521 | Price: $7.95 | Categories: 1
+      ✓ Product created: 40521
+      📸 Image attached
+   ✓ Complete
+
+[15/337] Processing "Minim Felts 3/4"
+   Code: 40522 | Price: $19.95 | Categories: 1
+      ✓ Product created: 40522
+      📸 Image attached
+   ✓ Complete
+
+[16/337] Processing "Convection Laboratory Oven"
+   Code: 40GC | Price: $1195 | Categories: 2
+      ✓ Product created: 40gc
+      📸 Image attached
+   ✓ Complete
+
+[17/337] Processing "Eyebrows"
+   Code: 501701 | Price: $34.5 | Categories: 4
+      ✓ Product created: 501701
+      📸 Image attached
+   ✓ Complete
+
+[18/337] Processing "Eyelashes"
+   Code: 501710 | Price: $5 | Categories: 5
+      ✓ Product created: 501710
+      📸 Image attached
+   ✓ Complete
+
+[19/337] Processing "Silicone Trimming Wheel Large 2S Fine"
+   Code: 5118 | Price: $6.95 | Categories: 5
+      ✓ Product created: 5118
+      📸 Image attached
+   ✓ Complete
+
+[20/337] Processing "Silicone Trimming Wheel 7/8 x 1/8"
+   Code: 5119 | Price: $4.5 | Categories: 5
+      ✓ Product created: 5119
+      📸 Image attached
+   ✓ Complete
+
+[21/337] Processing "Silicone Trimming Wheel 2 x 1/4 x 1/16"
+   Code: 5120 | Price: $8.5 | Categories: 5
+      ✓ Product created: 5120
+      📸 Image attached
+   ✓ Complete
+
+[22/337] Processing "Silicone Wheels - 3M Wheels"
+   Code: 5125 | Price: $35.95 | Categories: 6
+      ✓ Product created: 5125
+      📸 Image attached
+   ✓ Complete
+
+[23/337] Processing "Roughing Discs"
+   Code: 5164-1 | Price: $1 | Categories: 1
+      ✓ Product created: 5164-1
+      📸 Image attached
+   ✓ Complete
+
+[24/337] Processing "Extrinsic Sealing Kit"
+   Code: 564-Kit | Price: $72.95 | Categories: 7
+      ✓ Product created: 564-kit
+      📸 Image attached
+   ✓ Complete
+
+[25/337] Processing "Extrinsic Sealing Kit Non Flammable"
+   Code: 564-NFS-Kit | Price: $86.95 | Categories: 7
+      ✓ Product created: 564-nfs-kit
+      📸 Image attached
+   ✓ Complete
+
+[26/337] Processing "62280: Mollocutters"
+   Code: 62280 | Price: $110.95 | Categories: 7
+      ✓ Product created: 62280
+      📸 Image attached
+   ✓ Complete
+
+[27/337] Processing "Mini Chamois Wheel 5/8 (1dz)"
+   Code: 7690 | Price: $12.95 | Categories: 2
+      ✓ Product created: 7690
+      📸 Image attached
+   ✓ Complete
+
+[28/337] Processing "GLASS CEMENT SLABS"
+   Code: 78530 | Price: $10.99 | Categories: 1
+      ✓ Product created: 78530
+      📸 Image attached
+   ✓ Complete
+
+[29/337] Processing "GLASS CEMENT SLABS"
+   Code: 78570 | Price: $10.99 | Categories: 1
+      ✓ Product created: 78570
+      📸 Image attached
+   ✓ Complete
+
+[30/337] Processing "Muslin 3 Buffering wheel 3X24 ply"
+   Code: 7890 | Price: $3.95 | Categories: 3
+      ✓ Product created: 7890
+      📸 Image attached
+   ✓ Complete
+
+[31/337] Processing "7910 Muslin Buffering Wheel"
+   Code: 7910 | Price: $4.95 | Categories: 1
+      ✓ Product created: 7910
+      📸 Image attached
+   ✓ Complete
+
+[32/337] Processing "Chamois Buffering Wheel 2 1/2"
+   Code: 7920 | Price: $12.95 | Categories: 3
+      ✓ Product created: 7920
+      📸 Image attached
+   ✓ Complete
+
+[33/337] Processing "Muslin 3 buffing wheels 3X35 ply"
+   Code: 7930 | Price: $4.95 | Categories: 1
+      ✓ Product created: 7930
+      📸 Image attached
+   ✓ Complete
+
+[34/337] Processing "Mixing Pads"
+   Code: 9012 | Price: $26.95 | Categories: 6
+      ✓ Product created: 9012
+      📸 Image attached
+   ✓ Complete
+
+[35/337] Processing "Mixing Pad"
+   Code: 9015 | Price: $15.95 | Categories: 5
+      ✓ Product created: 9015
+      📸 Image attached
+   ✓ Complete
+
+[36/337] Processing "A-100: Medical Silicone Adhesive"
+   Code: A-100 | Price: $44.95 | Categories: 2
+      ✓ Product created: a-100
+      📸 Image attached
+   ✓ Complete
+
+[37/337] Processing "A-101: Prosthetic Silicone Elastomer"
+   Code: A-101 | Price: $135.95 | Categories: 3
+      ✓ Product created: a-101
+      📸 Image attached
+   ✓ Complete
+
+[38/337] Processing "A-103: Silicone Elastomer"
+   Code: A-103 | Price: $204.95 | Categories: 4
+      ✓ Product created: a-103
+      📸 Image attached
+   ✓ Complete
+
+[39/337] Processing "A-104: Medical Grade Dispersion"
+   Code: A-104 | Price: $199.95 | Categories: 3
+      ✓ Product created: a-104
+      📸 Image attached
+   ✓ Complete
+
+[40/337] Processing "A-106: Silicone Foam Tin Cure"
+   Code: A-106 | Price: $158.95 | Categories: 2
+      ✓ Product created: a-106
+      📸 Image attached
+   ✓ Complete
+
+[41/337] Processing "A-110 Factor II Silicone 10A (HCR) High Consistency Rubber"
+   Code: A-110 | Price: $156.95 | Categories: 2
+      ✓ Product created: a-110
+      📸 Image attached
+   ✓ Complete
+
+[42/337] Processing "A-135 Factor II Silicone 36A (HCR) High Consistency Rubber"
+   Code: A-135 | Price: $135.95 | Categories: 2
+      ✓ Product created: a-135
+      📸 Image attached
+   ✓ Complete
+
+[43/337] Processing "Brass Denture Articulator"
+   Code: A-2 | Price: $10.99 | Categories: 1
+      ✓ Product created: a-2
+      📸 Image attached
+   ✓ Complete
+
+[44/337] Processing "A-2186: Platinum Silicone Elastomer"
+   Code: A-2186 | Price: $129.95 | Categories: 2
+      ✓ Product created: a-2186
+      📸 Image attached
+   ✓ Complete
+
+[45/337] Processing "Elkem LSR-4301 Silicone Elastomer (A-221-01)"
+   Code: A-221-01 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-221-01
+      📸 Image attached
+   ✓ Complete
+
+[46/337] Processing "Elkem LSR-4305 Silicone Elastomer (A-221-05)"
+   Code: A-221-05 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-221-05
+      📸 Image attached
+   ✓ Complete
+
+[47/337] Processing "Elkem LSR-4310 Silicone Elastomer (A-221-10)"
+   Code: A-221-10 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-221-10
+      📸 Image attached
+   ✓ Complete
+
+[48/337] Processing "Elkem LSR-4325 Silicone Elastomer (A-223-25)"
+   Code: A-223-25 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-223-25
+      📸 Image attached
+   ✓ Complete
+
+[49/337] Processing "Elkem LSR-4330 Silicone Elastomer (A-223-30)"
+   Code: A-223-30 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-223-30
+      📸 Image attached
+   ✓ Complete
+
+[50/337] Processing "ELKEM LSR 4330 400MIL CARTRIDGE (WHITE)"
+   Code: A-223-30-400MIL-P-(WHITE) | Price: $82.95 | Categories: 6
+      ✓ Product created: a-223-30-400mil-p-white
+      📸 Image attached
+   ✓ Complete
+
+[51/337] Processing "Elkem LSR-4340 Silicone Elastomer (A-223-40)"
+   Code: A-223-40 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-223-40
+      📸 Image attached
+   ✓ Complete
+
+[52/337] Processing "Elkem LSR-4350 Silicone Elastomer (A-225-50)"
+   Code: A-225-50 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-225-50
+      📸 Image attached
+   ✓ Complete
+
+[53/337] Processing "Elkem LSR-4360 Silicone Elastomer (A-225-60)"
+   Code: A-225-60 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-225-60
+      📸 Image attached
+   ✓ Complete
+
+[54/337] Processing "Elkem LSR-4370 Silicone Elastomer (A-225-70)"
+   Code: A-225-70 | Price: $49.95 | Categories: 3
+      ✓ Product created: a-225-70
+      📸 Image attached
+   ✓ Complete
+
+[55/337] Processing "A-244: Silicone Fluid"
+   Code: A-244 | Price: $19.95 | Categories: 5
+      ✓ Product created: a-244
+      📸 Image attached
+   ✓ Complete
+
+[56/337] Processing "A-300-1: Thixotropic Agent"
+   Code: A-300-1 | Price: $22.95 | Categories: 2
+      ✓ Product created: a-300-1
+      📸 Image attached
+   ✓ Complete
+
+[57/337] Processing "A-300-8: Thixotropic Agent"
+   Code: A-300-8 | Price: $10.95 | Categories: 2
+      ✓ Product created: a-300-8
+      📸 Image attached
+   ✓ Complete
+
+[58/337] Processing "A-304: Platinum Primer"
+   Code: A-304 | Price: $18.95 | Categories: 1
+      ✓ Product created: a-304
+      📸 Image attached
+   ✓ Complete
+
+[59/337] Processing "A-306: Platinum Primer"
+   Code: A-306 | Price: $59.95 | Categories: 1
+      ✓ Product created: a-306
+      📸 Image attached
+   ✓ Complete
+
+[60/337] Processing "A-309 O-RING LUBRICANT"
+   Code: A-309 | Price: $6.95 | Categories: 3
+      ✓ Product created: a-309
+      📸 Image attached
+   ✓ Complete
+
+[61/337] Processing "A-310-1000: Silicone Fluid"
+   Code: A-310-1000 | Price: $16.95 | Categories: 5
+      ✓ Product created: a-310-1000
+      📸 Image attached
+   ✓ Complete
+
+[62/337] Processing "A-310-20: Silicone Fluid"
+   Code: A-310-20 | Price: $16.95 | Categories: 5
+      ✓ Product created: a-310-20
+      📸 Image attached
+   ✓ Complete
+
+[63/337] Processing "A-310-50: Silicone Fluid"
+   Code: A-310-50 | Price: $16.95 | Categories: 7
+      ✓ Product created: a-310-50
+      📸 Image attached
+   ✓ Complete
+
+[64/337] Processing "A-313: Functional Silicone Fluid"
+   Code: A-313 | Price: $55.95 | Categories: 5
+      ✓ Product created: a-313
+      📸 Image attached
+   ✓ Complete
+
+[65/337] Processing "A-315: HD Solution"
+   Code: A-315 | Price: $35.95 | Categories: 5
+      ✓ Product created: a-315
+      📸 Image attached
+   ✓ Complete
+
+[66/337] Processing "Platinum accelerator"
+   Code: A-317 | Price: $39.95 | Categories: 1
+      ✓ Product created: a-317
+      📸 Image attached
+   ✓ Complete
+
+[67/337] Processing "A-318: Silicone Fluid OH Thinner"
+   Code: A-318 | Price: $24.95 | Categories: 5
+      ✓ Product created: a-318
+      📸 Image attached
+   ✓ Complete
+
+[68/337] Processing "Bonding Enhancer"
+   Code: A-321 | Price: $24.95 | Categories: 1
+      ✓ Product created: a-321
+      📸 Image attached
+   ✓ Complete
+
+[69/337] Processing "A-330-G: Platinum Primer"
+   Code: A-330-GOLD | Price: $39.95 | Categories: 1
+      ✓ Product created: a-330-gold
+      📸 Image attached
+   ✓ Complete
+
+[70/337] Processing "A-340 HS Firm Gel"
+   Code: A-340 | Price: $77.95 | Categories: 2
+      ✓ Product created: a-340
+      📸 Image attached
+   ✓ Complete
+
+[71/337] Processing "Elkem RTV Silicone Adhesive MED-4100 (A-4100)"
+   Code: A-4100 | Price: $139.95 | Categories: 3
+      ✓ Product created: a-4100
+      📸 Image attached
+   ✓ Complete
+
+[72/337] Processing "Elkem RTV Silicone Adhesive MED-4200 (A-4200)"
+   Code: A-4200 | Price: $174.95 | Categories: 2
+      ✓ Product created: a-4200
+      📸 Image attached
+   ✓ Complete
+
+[73/337] Processing "Elkem RTV Silicone Adhesive MED-4300 (A-4300)"
+   Code: A-4300 | Price: $272.95 | Categories: 3
+      ✓ Product created: a-4300
+      📸 Image attached
+   ✓ Complete
+
+[74/337] Processing "Elkem Silicone HCRA 4520 20A (HCR) High Consistency Rubber (A-4520-HCRA)"
+   Code: A-4520-HCRA | Price: $96.95 | Categories: 3
+      ✓ Product created: a-4520-hcra
+      📸 Image attached
+   ✓ Complete
+
+[75/337] Processing "Elkem Silicone HCRA 4530 30A (HCR) High Consistency Rubber (A-4530-HCRA)"
+   Code: A-4530-HCRA | Price: $96.95 | Categories: 3
+      ✓ Product created: a-4530-hcra
+      📸 Image attached
+   ✓ Complete
+
+[76/337] Processing "Elkem Silicone HCRA 4550 50A (HCR) High Consistency Rubber (A-4550-HCRA)"
+   Code: A-4550-HCRA | Price: $96.95 | Categories: 3
+      ✓ Product created: a-4550-hcra
+      📸 Image attached
+   ✓ Complete
+
+[77/337] Processing "Elkem Silicone HCRA 4565 65A (HCR) High Consistency Rubber (A-4565-HCRA)"
+   Code: A-4565-HCRA | Price: $96.95 | Categories: 3
+      ✓ Product created: a-4565-hcra
+      📸 Image attached
+   ✓ Complete
+
+[78/337] Processing "Elkem RT Gel 4717: High Tack Silicone Gel (A-4717)"
+   Code: A-4717 | Price: $87.95 | Categories: 4
+      ✓ Product created: a-4717
+      📸 Image attached
+   ✓ Complete
+
+[79/337] Processing "A-503: Silicone Mold Release"
+   Code: A-503 | Price: $9.95 | Categories: 2
+      ✓ Product created: a-503
+      📸 Image attached
+   ✓ Complete
+
+[80/337] Processing "A-515: Ease Release 200"
+   Code: A-515 | Price: $21.95 | Categories: 2
+      ✓ Product created: a-515
+      📸 Image attached
+   ✓ Complete
+
+[81/337] Processing "A-564: Medical Silicone Adhesive"
+   Code: A-564 | Price: $38.95 | Categories: 3
+      ✓ Product created: a-564
+      📸 Image attached
+   ✓ Complete
+
+[82/337] Processing "A-588-1: Realistic Silicone Elastomer"
+   Code: A-588-1 | Price: $149.95 | Categories: 2
+      ✓ Product created: a-588-1
+      📸 Image attached
+   ✓ Complete
+
+[83/337] Processing "Alginate 1LB"
+   Code: A-789 | Price: $17.95 | Categories: 2
+      ✓ Product created: a-789
+      📸 Image attached
+   ✓ Complete
+
+[84/337] Processing "A-801 PVA Clear"
+   Code: A-801 | Price: $10.95 | Categories: 2
+      ✓ Product created: a-801
+      📸 Image attached
+   ✓ Complete
+
+[85/337] Processing "Roller Protectant"
+   Code: A-805 | Price: $9.95 | Categories: 3
+      ✓ Product created: a-805
+      📸 Image attached
+   ✓ Complete
+
+[86/337] Processing "CHOPPED FIBERGLASS FILLER"
+   Code: A-820 | Price: $25.95 | Categories: 3
+      ✓ Product created: a-820
+      📸 Image attached
+   ✓ Complete
+
+[87/337] Processing "A-830: ACETONE"
+   Code: A-830 | Price: $10.95 | Categories: 2
+      ✓ Product created: a-830
+      📸 Image attached
+   ✓ Complete
+
