@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Factor II Affidavit - Test Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+    h1 { text-align: center; }
+    label { display: block; margin: 10px 0 5px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; }
+    .required::after { content: " *"; color: red; }
+    .section { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+    #signature-pad { border: 2px solid #000; background: #fff; width: 100%; height: 200px; }
+    button { padding: 10px 20px; font-size: 16px; margin-right: 10px; }
+    .hidden { display: none; }
+    .note { font-style: italic; color: #555; }
+  </style>
+
+  <!-- Signature Pad CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.2.0/dist/signature_pad.umd.min.js"></script>
+  <!-- jsPDF CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+  <h1>Factor II, Inc. Affidavit of Intended Use</h1>
+  <p class="note">ALL FIELDS WITH * MUST BE FILLED OUT!!! THE AFFIDAVIT MUST BE FILLED OUT COMPLETELY!!!!<br>
+  THIS FORM SHOULD NOT BE ALTERED IN ANY MANNER.</p>
+
+  <form id="affidavitForm">
+    <div class="section">
+      <label class="required">Name: INDIVIDUAL Responsible for product</label>
+      <input type="text" id="name" required />
+
+      <label class="required">Company or Organization</label>
+      <input type="text" id="company" required />
+
+      <label class="required">Address 1</label>
+      <input type="text" id="address1" required />
+
+      <label>Address 2</label>
+      <input type="text" id="address2" />
+
+      <label class="required">City</label>
+      <input type="text" id="city" required />
+
+      <label class="required">State</label>
+      <input type="text" id="state" required />
+
+      <label class="required">Postal Code</label>
+      <input type="text" id="postal" required />
+
+      <label class="required">Country</label>
+      <input type="text" id="country" required />
+
+      <label class="required">Telephone</label>
+      <input type="tel" id="telephone" required />
+
+      <label class="required">Email</label>
+      <input type="email" id="email" required />
+    </div>
+
+    <div class="section">
+      <p style="font-weight: bold; color: red; margin: 15px 0;">***ALL QUESTIONS MUST BE ANSWERED ***</p>
+      <label class="required">Factor II Product Code(s): (Aforementioned product)</label>
+      <input type="text" id="productCodes" placeholder="e.g., A-100, B-200" required />
+
+      <label class="required">Is the final product to be in contact with tissue externally?</label>
+      <select id="contactTissue" required>
+        <option value="">Select...</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+
+      <label class="required">How and in what form (Cured or Uncured)?</label>
+      <textarea id="howForm" rows="3" required></textarea>
+
+      <label class="required">Will the final product be implanted?</label>
+      <select id="implanted" required onchange="toggleImplantFields()">
+        <option value="">Select...</option>
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+      </select>
+
+      <div id="implantFields" class="hidden">
+        <p class="note" style="margin: 10px 0;">If YES, please attach additional information/protocol, along with this document.<br>
+        We may contact you for further information.</p>
+        <label class="required">How long will the product be implanted? (Days)</label>
+        <input type="number" id="implantDays" min="0" required />
+
+        <label>Attach additional information/protocol (PDF, DOC, etc.)</label>
+        <input type="file" id="attachment" accept=".pdf,.doc,.docx,.jpg,.png" />
+      </div>
+
+      <label class="required">Please briefly describe below (or on separate page if necessary) the protocol for your application of the aforementioned product(s).</label>
+      <textarea id="protocol" rows="6" required></textarea>
+    </div>
+
+    <div class="section">
+      <label class="required">Print Name: , being duly sworn, depose and say as follows:</label>
+      <input type="text" id="printName" required />
+
+      <p style="margin: 15px 0; line-height: 1.6;">
+        I certify that I will not use, either in its pure state or as a component of some other material, any of the
+        aforementioned product(s) hereafter received by me from Factor II, Inc. for injection or implantation into
+        any areas of the human body in a cured or uncured state, or onto any areas of the human body in a cured
+        or uncured state for an un-approved application, nor will I supply the aforementioned product(s) to others
+        for such purposes. Factor II cannot advise if the product you are using will be suitable for your
+        application. All companies and/or individuals are responsible for final testing of their products
+        to determine their safety and use.
+      </p>
+
+      <label class="required">Signature:</label>
+      <canvas id="signature-pad"></canvas>
+      <button type="button" id="clearSig">Clear Signature</button>
+
+      <label class="required">Title:</label>
+      <input type="text" id="title" required />
+
+      <label class="required">Date:</label>
+      <input type="date" id="date" required value="2025-12-31" />
+    </div>
+
+    <button type="button" id="submitBtn">Generate & Download Signed PDF</button>
+  </form>
+
+  <script>
+    // Initialize Signature Pad with proper canvas sizing
+    const canvas = document.getElementById('signature-pad');
+    let signaturePad;
+    
+    // Function to resize canvas for high DPI displays
+    function resizeCanvas() {
+      const rect = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      
+      // Set actual size in memory (scaled for DPI)
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      
+      // Scale down using CSS
+      canvas.style.width = rect.width + 'px';
+      canvas.style.height = rect.height + 'px';
+      
+      // Scale the drawing context so everything draws at the correct size
+      const ctx = canvas.getContext('2d');
+      ctx.scale(dpr, dpr);
+      
+      // Clear signature pad if it exists
+      if (signaturePad) {
+        signaturePad.clear();
+      }
+    }
+    
+    // Initial resize
+    resizeCanvas();
+    
+    // Initialize Signature Pad
+    signaturePad = new SignaturePad(canvas, {
+      backgroundColor: 'rgb(255,255,255)',
+      penColor: 'rgb(0,0,0)'
+    });
+
+    // Handle window resize
+    window.addEventListener('resize', resizeCanvas);
+
+    document.getElementById('clearSig').addEventListener('click', () => {
+      signaturePad.clear();
+    });
+
+    // Toggle implanted fields
+    function toggleImplantFields() {
+      const implanted = document.getElementById('implanted').value;
+      const implantFields = document.getElementById('implantFields');
+      const implantDaysInput = document.getElementById('implantDays');
+      
+      if (implanted === 'Yes') {
+        implantFields.classList.remove('hidden');
+        implantDaysInput.required = true;
+      } else {
+        implantFields.classList.add('hidden');
+        implantDaysInput.required = false;
+        implantDaysInput.value = '';
+      }
+    }
+
+    // Generate PDF
+    document.getElementById('submitBtn').addEventListener('click', () => {
+      // Check if implanted is Yes and implantDays is required
+      const implanted = document.getElementById('implanted').value;
+      if (implanted === 'Yes') {
+        const implantDays = document.getElementById('implantDays').value;
+        if (!implantDays || implantDays === '') {
+          alert('Please fill out "How long will the product be implanted?" field.');
+          return;
+        }
+      }
+
+      if (!document.getElementById('affidavitForm').checkValidity()) {
+        alert('Please fill out all required fields.');
+        return;
+      }
+
+      if (signaturePad.isEmpty()) {
+        alert('Please provide a signature.');
+        return;
+      }
+
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const pageHeight = doc.internal.pageSize.getHeight();
+      const margin = 20;
+      const maxWidth = pageWidth - (margin * 2);
+      let y = margin;
+      const lineHeight = 7;
+      const sectionSpacing = 5;
+
+      // Helper to check if we need a new page
+      function checkPageBreak(requiredSpace) {
+        if (y + requiredSpace > pageHeight - margin) {
+          doc.addPage();
+          y = margin;
+        }
+      }
+
+      // Helper to add text with wrapping
+      function addText(text, bold = false, fontSize = 10, textColor = [0, 0, 0]) {
+        checkPageBreak(lineHeight * 2);
+        doc.setFontSize(fontSize);
+        doc.setFont(undefined, bold ? 'bold' : 'normal');
+        doc.setTextColor(textColor[0], textColor[1], textColor[2]);
+        const lines = doc.splitTextToSize(text, maxWidth);
+        lines.forEach(line => {
+          checkPageBreak(lineHeight);
+          doc.text(line, margin, y);
+          y += lineHeight;
+        });
+        // Reset to black for next text
+        doc.setTextColor(0, 0, 0);
+      }
+
+      // Helper to add a field label and value (value in blue)
+      function addField(label, value, required = false) {
+        const labelText = required ? `${label} *` : label;
+        const displayValue = value || 'N/A';
+        
+        // Add label in black
+        checkPageBreak(lineHeight * 2);
+        doc.setFontSize(10);
+        doc.setFont(undefined, 'normal');
+        doc.setTextColor(0, 0, 0);
+        doc.text(`${labelText}: `, margin, y);
+        const labelWidth = doc.getTextWidth(`${labelText}: `);
+        
+        // Add value in blue on the same line if it fits, otherwise on next line
+        doc.setTextColor(0, 0, 255); // Blue
+        const remainingWidth = maxWidth - labelWidth;
+        const valueLines = doc.splitTextToSize(displayValue, remainingWidth);
+        
+        if (valueLines.length === 1 && valueLines[0].length < 60) {
+          // Fit on same line
+          doc.text(valueLines[0], margin + labelWidth, y);
+          y += lineHeight;
+        } else {
+          // Move to next line for value
+          y += lineHeight;
+          const valueLinesFull = doc.splitTextToSize(displayValue, maxWidth);
+          valueLinesFull.forEach(line => {
+            checkPageBreak(lineHeight);
+            doc.text(line, margin + 5, y);
+            y += lineHeight;
+          });
+        }
+        doc.setTextColor(0, 0, 0); // Reset to black
+      }
+
+      // Header
+      addText('FACTOR II, INC. AFFIDAVIT OF INTENDED USE', true, 14);
+      y += sectionSpacing;
+
+      // Warning text
+      addText('ALL FIELDS WITH * MUST BE FILLED OUT!!! THE AFFIDAVIT MUST BE FILLED OUT COMPLETELY!!!!', false, 9);
+      addText('THIS FORM SHOULD NOT BE ALTERED IN ANY MANNER.', false, 9);
+      y += sectionSpacing * 2;
+
+      // Contact Information Section
+      addText('CONTACT INFORMATION', true, 12);
+      y += sectionSpacing;
+      addField('Name: INDIVIDUAL Responsible for product', document.getElementById('name').value, true);
+      addField('Company or Organization', document.getElementById('company').value, true);
+      addField('Address 1', document.getElementById('address1').value, true);
+      if (document.getElementById('address2').value) {
+        addField('Address 2', document.getElementById('address2').value, false);
+      }
+      addField('City', document.getElementById('city').value, true);
+      addField('State', document.getElementById('state').value, true);
+      addField('Postal Code', document.getElementById('postal').value, true);
+      addField('Country', document.getElementById('country').value, true);
+      addField('Telephone', document.getElementById('telephone').value, true);
+      addField('Email', document.getElementById('email').value, true);
+      y += sectionSpacing * 2;
+
+      // Product Information Section
+      addText('***ALL QUESTIONS MUST BE ANSWERED ***', true, 10);
+      y += sectionSpacing;
+      addText('PRODUCT INFORMATION', true, 12);
+      y += sectionSpacing;
+      addField('Factor II Product Code(s): (Aforementioned product)', document.getElementById('productCodes').value, true);
+      addField('Is the final product to be in contact with tissue externally?', document.getElementById('contactTissue').value, true);
+      
+      // How and in what form
+      addText('How and in what form (Cured or Uncured)? *', false);
+      const howForm = document.getElementById('howForm').value;
+      if (howForm) {
+        doc.setTextColor(0, 0, 255); // Blue
+        const howFormLines = doc.splitTextToSize(howForm, maxWidth);
+        howFormLines.forEach(line => {
+          checkPageBreak(lineHeight);
+          doc.text(line, margin + 5, y);
+          y += lineHeight;
+        });
+        doc.setTextColor(0, 0, 0); // Reset to black
+      } else {
+        doc.setTextColor(0, 0, 255); // Blue
+        addText('N/A', false);
+        doc.setTextColor(0, 0, 0); // Reset to black
+      }
+      y += sectionSpacing;
+
+      addField('Will the final product be implanted?', document.getElementById('implanted').value, true);
+      
+      if (document.getElementById('implanted').value === 'Yes') {
+        addText('If YES, please attach additional information/protocol, along with this document.', false, 9);
+        addText('We may contact you for further information.', false, 9);
+        y += sectionSpacing;
+        addField('How long will the product be implanted? (Days)', document.getElementById('implantDays').value, true);
+        y += sectionSpacing;
+      }
+
+      // Protocol description
+      addText('Please briefly describe below (or on separate page if necessary) the protocol for your application of the aforementioned product(s). *', false);
+      const protocol = document.getElementById('protocol').value;
+      if (protocol) {
+        doc.setTextColor(0, 0, 255); // Blue
+        const protocolLines = doc.splitTextToSize(protocol, maxWidth);
+        protocolLines.forEach(line => {
+          checkPageBreak(lineHeight);
+          doc.text(line, margin + 5, y);
+          y += lineHeight;
+        });
+        doc.setTextColor(0, 0, 0); // Reset to black
+      } else {
+        doc.setTextColor(0, 0, 255); // Blue
+        addText('N/A', false);
+        doc.setTextColor(0, 0, 0); // Reset to black
+      }
+      y += sectionSpacing * 2;
+
+      // Signature Section
+      addText('AFFIDAVIT AND SIGNATURE', true, 12);
+      y += sectionSpacing;
+      
+      // Print Name with value in blue
+      const printName = document.getElementById('printName').value;
+      checkPageBreak(lineHeight * 2);
+      doc.setFontSize(10);
+      doc.setFont(undefined, 'bold');
+      doc.setTextColor(0, 0, 0);
+      doc.text('Print Name: ', margin, y);
+      const nameWidth = doc.getTextWidth('Print Name: ');
+      doc.setFont(undefined, 'normal');
+      doc.setTextColor(0, 0, 255); // Blue
+      doc.text(`${printName}, being duly sworn, depose and say as follows:`, margin + nameWidth, y);
+      doc.setTextColor(0, 0, 0); // Reset to black
+      y += lineHeight;
+      y += sectionSpacing;
+
+      // Certification statement
+      const certText = 'I certify that I will not use, either in its pure state or as a component of some other material, any of the aforementioned product(s) hereafter received by me from Factor II, Inc. for injection or implantation into any areas of the human body in a cured or uncured state, or onto any areas of the human body in a cured or uncured state for an un-approved application, nor will I supply the aforementioned product(s) to others for such purposes. Factor II cannot advise if the product you are using will be suitable for your application. All companies and/or individuals are responsible for final testing of their products to determine their safety and use.';
+      
+      const certLines = doc.splitTextToSize(certText, maxWidth);
+      certLines.forEach(line => {
+        checkPageBreak(lineHeight);
+        doc.text(line, margin, y);
+        y += lineHeight;
+      });
+      
+      y += sectionSpacing * 2;
+
+      // Signature image
+      checkPageBreak(60);
+      addText('Signature: *', false);
+      y += sectionSpacing;
+      const signatureData = signaturePad.toDataURL('image/png');
+      doc.addImage(signatureData, 'PNG', margin, y, 100, 50);
+      y += 60;
+
+      addField('Title', document.getElementById('title').value, true);
+      addField('Date', document.getElementById('date').value, true);
+
+      // Save
+      const fileName = `Affidavit_${document.getElementById('name').value.replace(/\s+/g, '_')}_${Date.now()}.pdf`;
+      doc.save(fileName);
+      alert('PDF generated and downloaded successfully!');
+    });
+  </script>
+</body>
+</html>
