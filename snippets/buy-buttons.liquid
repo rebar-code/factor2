@@ -69,32 +69,108 @@
             if product.selected_or_first_available_variant.quantity_rule.min > product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
               assign quantity_rule_soldout = true
             endif
+
+            # Check if product requires affidavit
+            assign requires_affidavit = false
+            assign product_codes = ''
+            if product.metafields.affidavit.requires_affidavit.value == true
+              assign requires_affidavit = true
+              assign product_codes = product.metafields.affidavit.product_codes.value
+            endif
+
+            # Check if customer has valid affidavit
+            assign has_valid_affidavit = false
+            if requires_affidavit and customer
+              assign customer_affidavits_metafield = customer.metafields.app--factor2-affidavit.approved_affidavits
+              if customer_affidavits_metafield.value
+                # JSON metafields are automatically parsed in Shopify Liquid
+                assign customer_affidavits = customer_affidavits_metafield.value
+                assign product_codes_array = product_codes | split: ','
+                assign now_timestamp = 'now' | date: '%s' | plus: 0
+                
+                for code in product_codes_array
+                  assign code_trimmed = code | strip
+                  for affidavit in customer_affidavits
+                    if affidavit.product_code == code_trimmed and affidavit.status == 'approved'
+                      if affidavit.expires_at != blank
+                        assign expires_timestamp = affidavit.expires_at | date: '%s' | plus: 0
+                        if expires_timestamp > now_timestamp
+                          assign has_valid_affidavit = true
+                          break
+                        endif
+                      else
+                        assign has_valid_affidavit = true
+                        break
+                      endif
+                    endif
+                  endfor
+                  if has_valid_affidavit
+                    break
+                  endif
+                endfor
+              endif
+            endif
           -%}
-          <button
-            id="ProductSubmitButton-{{ section_id }}"
-            type="submit"
-            name="add"
-            class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
-            {% if product.selected_or_first_available_variant.available == false
-              or quantity_rule_soldout
-              or product.selected_or_first_available_variant == null
-            %}
-              disabled
-            {% endif %}
-          >
-            <span>
-              {%- if product.selected_or_first_available_variant == null -%}
-                {{ 'products.product.unavailable' | t }}
-              {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                {{ 'products.product.sold_out' | t }}
-              {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
-              {%- endif -%}
-            </span>
-            {%- render 'loading-spinner' -%}
-          </button>
-          {%- if show_dynamic_checkout -%}
-            {{ form | payment_button }}
+
+          {%- if requires_affidavit and customer == blank -%}
+            {# Force login #}
+            <a
+              href="{{ routes.account_login_url }}?return_url={{ request.path }}"
+              class="product-form__submit button button--full-width button--primary"
+            >
+              <span>{{ 'customer.login.title' | t }} to Continue</span>
+            </a>
+          {%- elsif requires_affidavit and has_valid_affidavit == false -%}
+            {# Show Sign Affidavit button #}
+            <button
+              type="button"
+              id="SignAffidavitButton-{{ section_id }}"
+              class="product-form__submit button button--full-width button--primary"
+              data-product-id="{{ product.id }}"
+              data-product-codes="{{ product_codes }}"
+              onclick="openAffidavitModal(this)"
+            >
+              <span>Sign Affidavit Required</span>
+            </button>
+            <script>
+              function openAffidavitModal(button) {
+                const productId = button.dataset.productId;
+                const productCodes = button.dataset.productCodes;
+                // Trigger affidavit modal (will be implemented in affidavit-modal.liquid)
+                const event = new CustomEvent('openAffidavitModal', {
+                  detail: { productId, productCodes }
+                });
+                document.dispatchEvent(event);
+              }
+            </script>
+          {%- else -%}
+            {# Normal Add to Cart button #}
+            <button
+              id="ProductSubmitButton-{{ section_id }}"
+              type="submit"
+              name="add"
+              class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+              {% if product.selected_or_first_available_variant.available == false
+                or quantity_rule_soldout
+                or product.selected_or_first_available_variant == null
+              %}
+                disabled
+              {% endif %}
+            >
+              <span>
+                {%- if product.selected_or_first_available_variant == null -%}
+                  {{ 'products.product.unavailable' | t }}
+                {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- else -%}
+                  {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
+              </span>
+              {%- render 'loading-spinner' -%}
+            </button>
+            {%- if show_dynamic_checkout and has_valid_affidavit != false -%}
+              {{ form | payment_button }}
+            {%- endif -%}
           {%- endif -%}
         </div>
       {%- endform -%}
