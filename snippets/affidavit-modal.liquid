@@ -406,33 +406,48 @@
 
     // Try app proxy URL first, fallback to full app URL
     const appProxyUrl = '/apps/affidavit/api/affidavits/submit';
-    const fullAppUrl = 'https://factor2.vercel.app/api/affidavits/submit';
+    // Get app URL from Liquid or use default
+    const fullAppUrl =
+      '{{ shop.metafields.app.affidavit_app_url.value | default: "https://factor2.vercel.app" }}/api/affidavits/submit';
 
     let response;
     let result;
+    let lastError;
 
     try {
       // Try app proxy first (if configured in Shopify)
-      response = await fetch(appProxyUrl, {
-        method: 'POST',
-        body: formData,
-      });
-
-      // If 404, try full app URL
-      if (response.status === 404) {
-        console.log('App proxy returned 404, trying full app URL...');
-        response = await fetch(fullAppUrl, {
+      try {
+        response = await fetch(appProxyUrl, {
           method: 'POST',
           body: formData,
-          headers: {
-            'X-Requested-With': 'XMLHttpRequest',
-          },
         });
-      }
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`API error: ${response.status} - ${errorText}`);
+        // If 404 or network error, try full app URL
+        if (response.status === 404 || !response.ok) {
+          throw new Error(`App proxy failed: ${response.status}`);
+        }
+      } catch (proxyError) {
+        console.log('App proxy failed, trying full app URL...', proxyError);
+        // Try full app URL
+        try {
+          response = await fetch(fullAppUrl, {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest',
+            },
+          });
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`API error: ${response.status} - ${errorText}`);
+          }
+        } catch (fullUrlError) {
+          console.error('Full URL also failed:', fullUrlError);
+          throw new Error(
+            `Failed to submit affidavit. Please check that the app is deployed and accessible. Error: ${fullUrlError.message}`
+          );
+        }
       }
 
       result = await response.json();

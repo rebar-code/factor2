@@ -1,6 +1,28 @@
-import { json, type ActionFunctionArgs } from "@remix-run/node";
+import { json, type ActionFunctionArgs, type LoaderFunctionArgs } from "@remix-run/node";
 import { randomUUID } from "crypto";
 import { addSubmission, type AffidavitFormData } from "~/lib/metafields";
+
+export async function loader({ request }: LoaderFunctionArgs) {
+  // Handle CORS preflight and GET requests
+  if (request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type",
+      },
+    });
+  }
+  
+  return json({ error: "Method not allowed. Use POST to submit an affidavit." }, { 
+    status: 405,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+    },
+  });
+}
 
 export async function action({ request }: ActionFunctionArgs) {
   // Handle CORS for storefront requests
