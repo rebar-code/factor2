@@ -1,12 +1,15 @@
 import { redirect, type LoaderFunctionArgs } from "@remix-run/node";
 import crypto from "crypto";
 
-// OAuth configuration
-const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY!;
-const SHOPIFY_API_SECRET = process.env.SHOPIFY_API_SECRET!;
 const SCOPES = "read_customers,write_customers,read_orders,write_orders";
 
 export async function loader({ request }: LoaderFunctionArgs) {
+  const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY;
+
+  if (!SHOPIFY_API_KEY) {
+    return new Response(`Missing SHOPIFY_API_KEY environment variable. Current env keys: ${Object.keys(process.env).filter(k => k.includes('SHOPIFY')).join(', ')}`, { status: 500 });
+  }
+
   const url = new URL(request.url);
   const shop = url.searchParams.get("shop");
 

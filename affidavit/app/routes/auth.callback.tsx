@@ -1,10 +1,7 @@
 import { json, type LoaderFunctionArgs } from "@remix-run/node";
 import crypto from "crypto";
 
-const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY!;
-const SHOPIFY_API_SECRET = process.env.SHOPIFY_API_SECRET!;
-
-function verifyHmac(query: URLSearchParams): boolean {
+function verifyHmac(query: URLSearchParams, secret: string): boolean {
   const hmac = query.get("hmac");
   if (!hmac) return false;
 
@@ -19,7 +16,7 @@ function verifyHmac(query: URLSearchParams): boolean {
     .join("&");
 
   const hash = crypto
-    .createHmac("sha256", SHOPIFY_API_SECRET)
+    .createHmac("sha256", secret)
     .update(sortedParams)
     .digest("hex");
 
@@ -27,6 +24,17 @@ function verifyHmac(query: URLSearchParams): boolean {
 }
 
 export async function loader({ request }: LoaderFunctionArgs) {
+  const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY;
+  const SHOPIFY_API_SECRET = process.env.SHOPIFY_API_SECRET;
+
+  if (!SHOPIFY_API_KEY || !SHOPIFY_API_SECRET) {
+    return json({
+      error: "Missing environment variables",
+      hasApiKey: !!SHOPIFY_API_KEY,
+      hasApiSecret: !!SHOPIFY_API_SECRET,
+    }, { status: 500 });
+  }
+
   const url = new URL(request.url);
   const shop = url.searchParams.get("shop");
   const code = url.searchParams.get("code");
@@ -36,7 +44,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
   }
 
   // Verify HMAC
-  if (!verifyHmac(url.searchParams)) {
+  if (!verifyHmac(url.searchParams, SHOPIFY_API_SECRET)) {
     return json({ error: "Invalid HMAC" }, { status: 401 });
   }
 
