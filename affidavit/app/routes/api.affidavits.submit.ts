@@ -10,7 +10,8 @@ export async function loader({ request }: LoaderFunctionArgs) {
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
+        "Access-Control-Max-Age": "86400",
       },
     });
   }
@@ -20,6 +21,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
     },
   });
 }
@@ -32,7 +34,8 @@ export async function action({ request }: ActionFunctionArgs) {
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
+        "Access-Control-Max-Age": "86400",
       },
     });
   }
@@ -133,7 +136,7 @@ export async function action({ request }: ActionFunctionArgs) {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Methods": "POST, OPTIONS",
-          "Access-Control-Allow-Headers": "Content-Type",
+          "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
         },
       }
     );
@@ -146,7 +149,7 @@ export async function action({ request }: ActionFunctionArgs) {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Methods": "POST, OPTIONS",
-          "Access-Control-Allow-Headers": "Content-Type",
+          "Access-Control-Allow-Headers": "Content-Type, X-Requested-With",
         },
       }
     );
