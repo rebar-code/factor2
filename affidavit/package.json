@@ -6,7 +6,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "remix vite:build",
     "dev": "vite",
     "start": "vite preview",
     "typecheck": "tsc"
