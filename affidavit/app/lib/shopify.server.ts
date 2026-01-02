@@ -1,74 +1,29 @@
-import "@shopify/shopify-app-remix/adapters/node";
-import {
-  ApiVersion,
-  AppDistribution,
-  shopifyApp,
-} from "@shopify/shopify-app-remix/server";
-import { MemorySessionStorage } from "@shopify/shopify-app-session-storage-memory";
+// Simple Shopify API client without the full app SDK
+// This avoids bundling issues with @shopify/shopify-app-remix
 
-// Session storage - for production, use a persistent storage like Redis or Prisma
-const sessionStorage = new MemorySessionStorage();
+const API_VERSION = "2024-10";
 
-// Use a placeholder URL during build if SHOPIFY_APP_URL is not set
-// This allows the build to complete even if env vars aren't set yet
-const appUrl = process.env.SHOPIFY_APP_URL || process.env.VERCEL_URL 
-  ? `https://${process.env.VERCEL_URL}` 
-  : "https://factor2.vercel.app";
+export const apiVersion = API_VERSION;
 
-const shopify = shopifyApp({
-  apiKey: process.env.SHOPIFY_CLIENT_ID || "placeholder",
-  apiSecretKey: process.env.SHOPIFY_SECRET || "placeholder",
-  apiVersion: ApiVersion.October24,
-  scopes: process.env.SHOPIFY_SCOPES?.split(",") || [
-    "read_customers",
-    "write_customers",
-    "read_products",
-    "read_orders",
-    "write_orders",
-  ],
-  appUrl: appUrl,
-  authPathPrefix: "/auth",
-  sessionStorage,
-  distribution: AppDistribution.SingleMerchant,
-  isEmbeddedApp: false,
-  future: {
-    unstable_newEmbeddedAuthStrategy: false,
-  },
-});
-
-export default shopify;
-export const apiVersion = ApiVersion.October24;
-export const addDocumentResponseHeaders = shopify.addDocumentResponseHeaders;
-export const authenticate = shopify.authenticate;
-export const unauthenticated = shopify.unauthenticated;
-export const login = shopify.login;
-export const registerWebhooks = shopify.registerWebhooks;
-
-// Helper to make GraphQL calls using offline session
-// For API endpoints called from storefront (without OAuth context)
+// Simple GraphQL helper using access token from env
 export async function adminGraphQL(
   query: string,
   variables?: Record<string, any>
 ) {
-  const shop = process.env.SHOPIFY_STORE!;
+  const shop = process.env.SHOPIFY_STORE;
+  const accessToken = process.env.SHOPIFY_ACCESS_TOKEN;
 
-  // Get offline session for the shop
-  const sessionId = `offline_${shop}`;
-  const session = await sessionStorage.loadSession(sessionId);
-
-  if (!session?.accessToken) {
-    throw new Error(
-      `No offline session found for ${shop}. Please install the app first by visiting /auth?shop=${shop}`
-    );
+  if (!shop || !accessToken) {
+    throw new Error("SHOPIFY_STORE and SHOPIFY_ACCESS_TOKEN environment variables are required");
   }
 
   const response = await fetch(
-    `https://${shop}/admin/api/${ApiVersion.October24}/graphql.json`,
+    `https://${shop}/admin/api/${API_VERSION}/graphql.json`,
     {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X-Shopify-Access-Token": session.accessToken,
+        "X-Shopify-Access-Token": accessToken,
       },
       body: JSON.stringify({ query, variables }),
     }
@@ -81,3 +36,8 @@ export async function adminGraphQL(
 
   return response.json();
 }
+
+// Export a default object for backward compatibility
+export default {
+  adminGraphQL,
+};
