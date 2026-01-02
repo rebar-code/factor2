@@ -9,9 +9,15 @@ import { MemorySessionStorage } from "@shopify/shopify-app-session-storage-memor
 // Session storage - for production, use a persistent storage like Redis or Prisma
 const sessionStorage = new MemorySessionStorage();
 
+// Use a placeholder URL during build if SHOPIFY_APP_URL is not set
+// This allows the build to complete even if env vars aren't set yet
+const appUrl = process.env.SHOPIFY_APP_URL || process.env.VERCEL_URL 
+  ? `https://${process.env.VERCEL_URL}` 
+  : "https://factor2.vercel.app";
+
 const shopify = shopifyApp({
-  apiKey: process.env.SHOPIFY_CLIENT_ID!,
-  apiSecretKey: process.env.SHOPIFY_SECRET!,
+  apiKey: process.env.SHOPIFY_CLIENT_ID || "placeholder",
+  apiSecretKey: process.env.SHOPIFY_SECRET || "placeholder",
   apiVersion: ApiVersion.October24,
   scopes: process.env.SHOPIFY_SCOPES?.split(",") || [
     "read_customers",
@@ -20,7 +26,7 @@ const shopify = shopifyApp({
     "read_orders",
     "write_orders",
   ],
-  appUrl: process.env.SHOPIFY_APP_URL || "",
+  appUrl: appUrl,
   authPathPrefix: "/auth",
   sessionStorage,
   distribution: AppDistribution.SingleMerchant,
