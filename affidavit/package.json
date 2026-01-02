@@ -6,10 +6,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev -c 'node server.js'",
-    "shopify:dev": "shopify app dev",
-    "start": "node server.js",
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite preview",
     "typecheck": "tsc"
   },
   "dependencies": {
