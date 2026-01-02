@@ -189,6 +189,26 @@ async function extractFiles() {
         });
       }
     }
+
+    if (product.image_url) {
+        const normalized = normalizeUrl(product.image_url);
+        const type = getFileType(normalized);
+
+        if (!fileMap.has(normalized)) {
+            fileMap.set(normalized, {
+            url: normalized,
+            type,
+            found_in: [],
+            });
+        }
+
+        fileMap.get(normalized)!.found_in.push({
+            type: 'product',
+            id: product.code,
+            name: product.title,
+            field: 'image_url',
+        });
+    }
   }
 
   console.log(`✓ Found file references in products\n`);

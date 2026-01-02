@@ -1,3 +1,17 @@
+import {
+  readFileSync,
+  writeFileSync
+} from 'fs';
+import * as dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
+
+// Configuration
+const PRODUCTS_PATH = './migration/data/products.json';
+const FILE_MAPPING_PATH = './migration/data/file-mapping.json';
+const CATEGORY_MAPPING_PATH = './migration/category-mapping.json';
+const PRODUCT_MAPPING_PATH = './migration/product-mapping.json';
 const PRODUCT_OPTIONS_PATH = './migration/data/product-options.json';
 const ERRORS_PATH = './migration/data/product-migration-errors.json';
 const DRY_RUN = process.env.DRY_RUN === 'true';
@@ -109,14 +123,6 @@ function getShopifyProductId(gid: string): string {
 function getShopifyProductUrl(gid: string): string {
   const id = getShopifyProductId(gid);
   return `https://${SHOPIFY_STORE}/admin/products/${id}`;
-}
-
-async function getFirstLocationId(): Promise<string> {
-  const result = await shopifyREST('/locations.json');
-  if (result.locations && result.locations.length > 0) {
-    return `gid://shopify/Location/${result.locations[0].id}`;
-  }
-  throw new Error('Could not find any locations in Shopify store.');
 }
 
 function replaceFileUrls(html: string, fileMappings: FileMappings): string {

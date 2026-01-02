@@ -29,11 +29,6 @@ Required variables:
 - `SHOPIFY_SECRET` - Your Shopify app Client Secret
 - `SHOPIFY_SCOPES` - Comma-separated scopes (already set in shopify.app.toml)
 - `SHOPIFY_APP_URL` - Your deployed app URL (e.g., https://your-app.vercel.app)
-- `SUPABASE_URL` - Your Supabase project URL
-- `SUPABASE_SERVICE_ROLE_KEY` - Supabase service role key (for admin access)
-- `SUPABASE_ANON_KEY` - Supabase anon key
-- `SENDGRID_API_KEY` - SendGrid API key for emails
-- `ADMIN_EMAIL` - Email address to receive affidavit notifications
 
 ### 3. Setup Supabase Storage
 
