@@ -28,7 +28,7 @@ export interface AffidavitFormData {
   date: string;
 }
 
-export function generateAffidavitPDF(data: AffidavitFormData): Buffer {
+export function generateAffidavitPDF(data: AffidavitFormData): ArrayBuffer {
   const doc = new jsPDF();
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
@@ -50,7 +50,7 @@ export function generateAffidavitPDF(data: AffidavitFormData): Buffer {
   function addText(text: string, bold = false, fontSize = 10, textColor: [number, number, number] = [0, 0, 0]) {
     checkPageBreak(lineHeight * 2);
     doc.setFontSize(fontSize);
-    doc.setFont(undefined, bold ? "bold" : "normal");
+    doc.setFont("helvetica", bold ? "bold" : "normal");
     doc.setTextColor(textColor[0], textColor[1], textColor[2]);
     const lines = doc.splitTextToSize(text, maxWidth);
     lines.forEach((line: string) => {
@@ -68,7 +68,7 @@ export function generateAffidavitPDF(data: AffidavitFormData): Buffer {
     
     checkPageBreak(lineHeight * 2);
     doc.setFontSize(10);
-    doc.setFont(undefined, "normal");
+    doc.setFont("helvetica", "normal");
     doc.setTextColor(0, 0, 0);
     doc.text(`${labelText}: `, margin, y);
     const labelWidth = doc.getTextWidth(`${labelText}: `);
@@ -172,11 +172,11 @@ export function generateAffidavitPDF(data: AffidavitFormData): Buffer {
   const printName = data.printName;
   checkPageBreak(lineHeight * 2);
   doc.setFontSize(10);
-  doc.setFont(undefined, "bold");
+  doc.setFont("helvetica", "bold");
   doc.setTextColor(0, 0, 0);
   doc.text("Print Name: ", margin, y);
   const nameWidth = doc.getTextWidth("Print Name: ");
-  doc.setFont(undefined, "normal");
+  doc.setFont("helvetica", "normal");
   doc.setTextColor(0, 0, 255);
   doc.text(`${printName}, being duly sworn, depose and say as follows:`, margin + nameWidth, y);
   doc.setTextColor(0, 0, 0);
@@ -210,7 +210,7 @@ export function generateAffidavitPDF(data: AffidavitFormData): Buffer {
   addField("Title", data.title, true);
   addField("Date", data.date, true);
 
-  // Return as Buffer
-  return Buffer.from(doc.output("arraybuffer"));
+  // Return as ArrayBuffer (compatible with Response)
+  return doc.output("arraybuffer");
 }
 

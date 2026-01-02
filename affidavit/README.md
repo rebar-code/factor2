@@ -16,6 +16,10 @@ cp env.example .env
 
 3. Run development server:
 ```bash
+# For Shopify app development (recommended - handles tunneling)
+npm run shopify:dev
+
+# OR for local Remix development
 npm run dev
 ```
 

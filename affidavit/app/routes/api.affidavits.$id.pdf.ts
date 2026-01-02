@@ -1,5 +1,6 @@
 import { json, type LoaderFunctionArgs } from "@remix-run/node";
-import { supabase } from "~/lib/supabase.server";
+import { getSubmission } from "~/lib/metafields";
+import { generateAffidavitPDF } from "~/lib/pdf.server";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
   const submissionId = params.id;
@@ -10,32 +11,32 @@ export async function loader({ params, request }: LoaderFunctionArgs) {
     return json({ error: "Submission ID required" }, { status: 400 });
   }
 
+  if (!customerId) {
+    return json({ error: "Customer ID required" }, { status: 400 });
+  }
+
   try {
-    // Verify customer owns this submission or is admin
-    // In production, verify Shopify session here
-    const fileName = customerId 
-      ? `${customerId}/${submissionId}/affidavit.pdf`
-      : `**/${submissionId}/affidavit.pdf`; // Admin can access any
+    // Get submission from customer metafield
+    const submission = await getSubmission(customerId, submissionId);
 
-    // Generate signed URL (1 hour expiration)
-    const { data, error } = await supabase.storage
-      .from("affidavits")
-      .createSignedUrl(fileName, 60 * 60); // 1 hour
-
-    if (error || !data) {
-      return json({ error: "Failed to generate PDF URL" }, { status: 500 });
+    if (!submission) {
+      return json({ error: "Submission not found" }, { status: 404 });
     }
 
-    // Redirect to signed URL
-    return new Response(null, {
-      status: 302,
+    // Generate PDF from stored form_data
+    const pdfBuffer = generateAffidavitPDF(submission.form_data);
+
+    // Return PDF as download
+    return new Response(pdfBuffer, {
+      status: 200,
       headers: {
-        Location: data.signedUrl,
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="affidavit_${submissionId}.pdf"`,
+        "Content-Length": pdfBuffer.byteLength.toString(),
       },
     });
   } catch (error: any) {
-    console.error("Error generating PDF URL:", error);
-    return json({ error: "Failed to access PDF" }, { status: 500 });
+    console.error("Error generating PDF:", error);
+    return json({ error: "Failed to generate PDF" }, { status: 500 });
   }
 }
-

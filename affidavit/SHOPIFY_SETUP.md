@@ -8,11 +8,11 @@
 4. Choose **Create app manually** (not from template)
 5. Fill in:
    - **App name**: Factor II Affidavit Manager (or your preferred name)
-   - **App URL**: This will be your deployed app URL (e.g., `https://your-app.vercel.app`)
+   - **App URL**: This will be your deployed app URL (e.g., `https://factor2.vercel.app`)
    - **Allowed redirection URL(s)**: 
-     - `https://your-app.vercel.app/auth/callback`
-     - `https://your-app.vercel.app/auth/shopify/callback`
-     - `https://your-app.vercel.app/api/auth/callback`
+     - `https://factor2.vercel.app/auth/callback`
+     - `https://factor2.vercel.app/auth/shopify/callback`
+     - `https://factor2.vercel.app/api/auth/callback`
    - Click **Create app**
 
 ## Step 2: Configure App Settings
@@ -39,7 +39,7 @@
 ### App URL Configuration
 1. Go to **Configuration** > **App URL**
 2. Set:
-   - **App URL**: `https://your-app.vercel.app`
+   - **App URL**: `https://factor2.vercel.app`
    - **Allowed redirection URL(s)**: (same as above)
 3. Click **Save**
 
@@ -50,7 +50,7 @@ Update your `shopify.app.toml` file with the Client ID:
 ```toml
 name = "factor2-affidavit"
 client_id = "your_client_id_here"  # From Partners dashboard
-application_url = "https://your-app.vercel.app"
+application_url = "https://factor2.vercel.app"
 embedded = true
 
 [access_scopes]
@@ -58,9 +58,9 @@ scopes = "read_customers,write_customers,read_products,read_orders,write_orders"
 
 [auth]
 redirect_urls = [
-  "https://your-app.vercel.app/auth/callback",
-  "https://your-app.vercel.app/auth/shopify/callback",
-  "https://your-app.vercel.app/api/auth/callback"
+  "https://factor2.vercel.app/auth/callback",
+  "https://factor2.vercel.app/auth/shopify/callback",
+  "https://factor2.vercel.app/api/auth/callback"
 ]
 ```
 
@@ -71,7 +71,7 @@ redirect_urls = [
 3. Configure:
    - **Event**: `Order creation`
    - **Format**: JSON
-   - **URL**: `https://your-app.vercel.app/api/webhooks/orders/create`
+   - **URL**: `https://factor2.vercel.app/api/webhooks/orders/create`
    - **API version**: `2024-10`
 4. Click **Save**
 
@@ -94,10 +94,18 @@ redirect_urls = [
 
 3. Start development server:
    ```bash
+   npm run shopify:dev
+   ```
+   - This uses `shopify app dev` which handles tunneling automatically
+   - The CLI will provide a preview URL and handle authentication
+   - The app will be accessible through the tunnel
+   
+   **OR** use Remix dev server directly:
+   ```bash
    npm run dev
    ```
-   - This will start a tunnel and give you a preview URL
-   - The app will be accessible through the tunnel
+   - This runs Remix dev server on localhost (for local testing)
+   - You'll need to set up tunneling separately for Shopify to access it
 
 4. Install on your development store:
    - The CLI will provide a URL to install the app

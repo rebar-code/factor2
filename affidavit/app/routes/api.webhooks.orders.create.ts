@@ -1,6 +1,6 @@
 import { json, type ActionFunctionArgs } from "@remix-run/node";
-import { shopify } from "~/lib/shopify.server";
-import { getCustomerAffidavits } from "~/lib/metafields";
+import { adminGraphQL } from "~/lib/shopify.server";
+import { getCustomerSubmissions, hasPendingSubmission } from "~/lib/metafields";
 
 export async function action({ request }: ActionFunctionArgs) {
   if (request.method !== "POST") {
@@ -20,8 +20,8 @@ export async function action({ request }: ActionFunctionArgs) {
       return json({ success: true });
     }
 
-    // Check if order contains restricted products
-    const restrictedProducts: string[] = [];
+    // Check if order contains restricted products and collect their product codes
+    const restrictedProductCodes: string[] = [];
     const productIds = order.line_items
       .map((item: any) => item.product_id?.toString().split("/").pop())
       .filter(Boolean);
@@ -32,49 +32,53 @@ export async function action({ request }: ActionFunctionArgs) {
         query GetProduct($id: ID!) {
           product(id: $id) {
             id
-            metafield(namespace: "affidavit", key: "requires_affidavit") {
+            requiresAffidavit: metafield(namespace: "affidavit", key: "requires_affidavit") {
               value
             }
-            metafield(namespace: "affidavit", key: "product_codes") {
+            productCodes: metafield(namespace: "affidavit", key: "product_codes") {
               value
             }
           }
         }
       `;
 
-      const productResponse = await shopify.graphql(productQuery, {
-        variables: { id: `gid://shopify/Product/${productId}` },
+      const productData = await adminGraphQL(productQuery, {
+        id: `gid://shopify/Product/${productId}`,
       });
-      const productData = await productResponse.json();
       const product = productData.data?.product;
 
-      if (product?.metafield?.value === "true") {
-        restrictedProducts.push(productId);
+      if (product?.requiresAffidavit?.value === "true" && product?.productCodes?.value) {
+        const codes = product.productCodes.value
+          .split(",")
+          .map((c: string) => c.trim())
+          .filter(Boolean);
+        restrictedProductCodes.push(...codes);
       }
     }
 
-    if (restrictedProducts.length === 0) {
+    if (restrictedProductCodes.length === 0) {
       return json({ success: true }); // No restricted products
     }
 
-    // Get customer affidavits
-    const affidavits = await getCustomerAffidavits(customerId);
+    // Get customer submissions
+    const submissions = await getCustomerSubmissions(customerId);
 
-    // Check if customer has pending affidavits for these products
-    const hasPendingAffidavit = affidavits.some(
-      (affidavit) => affidavit.status === "pending"
-    );
+    // Check if customer has pending submissions for these product codes
+    const hasPending = hasPendingSubmission(submissions, restrictedProductCodes);
 
-    if (hasPendingAffidavit) {
-      // Store affidavit reference in order metafield
-      const pendingAffidavit = affidavits.find(
-        (affidavit) => affidavit.status === "pending"
+    if (hasPending) {
+      // Find the pending submission
+      const pendingSubmission = submissions.find(
+        (s) =>
+          s.status === "pending" &&
+          s.product_codes.some((code) => restrictedProductCodes.includes(code))
       );
 
-      if (pendingAffidavit) {
+      if (pendingSubmission) {
+        // Store submission reference in order metafield
         const mutation = `
-          mutation UpdateOrderMetafield($id: ID!, $metafield: MetafieldInput!) {
-            metafieldsSet(metafields: [{ownerId: $id, ...$metafield}]) {
+          mutation UpdateOrderMetafield($input: [MetafieldsSetInput!]!) {
+            metafieldsSet(metafields: $input) {
               metafields {
                 id
                 value
@@ -87,21 +91,22 @@ export async function action({ request }: ActionFunctionArgs) {
           }
         `;
 
-        await shopify.graphql(mutation, {
-          variables: {
-            id: `gid://shopify/Order/${order.id}`,
-            metafield: {
+        await adminGraphQL(mutation, {
+          input: [
+            {
+              ownerId: `gid://shopify/Order/${order.id}`,
               namespace: "app--factor2-affidavit",
               key: "affidavit_submission",
               value: JSON.stringify({
-                submission_id: pendingAffidavit.submission_id,
-                product_codes: [pendingAffidavit.product_code],
+                submission_id: pendingSubmission.id,
+                customer_id: customerId,
+                product_codes: pendingSubmission.product_codes,
                 status: "pending",
-                submitted_at: pendingAffidavit.submitted_at,
+                submitted_at: pendingSubmission.submitted_at,
               }),
               type: "json",
             },
-          },
+          ],
         });
 
         // Put order on hold
@@ -120,11 +125,9 @@ export async function action({ request }: ActionFunctionArgs) {
         `;
 
         try {
-          await shopify.graphql(holdMutation, {
-            variables: {
-              id: `gid://shopify/Order/${order.id}`,
-              reason: "Pending affidavit approval",
-            },
+          await adminGraphQL(holdMutation, {
+            id: `gid://shopify/Order/${order.id}`,
+            reason: "Pending affidavit approval",
           });
         } catch (error) {
           console.log("Order hold skipped:", error);
@@ -138,4 +141,3 @@ export async function action({ request }: ActionFunctionArgs) {
     return json({ success: false, error: error.message }, { status: 500 });
   }
 }
-

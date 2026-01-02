@@ -1,0 +1,22 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7bc3f34688b8c59a334e6c8e0c52dc1a"
+name = "factor-2-affidavit"
+application_url = "https://factor2.vercel.app"
+embedded = false
+
+[webhooks]
+api_version = "2025-10"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_customers,write_customers,read_orders,write_orders,read_products"
+optional_scopes = [ ]
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [
+  "https://factor2.vercel.app/auth/callback",
+  "https://factor2.vercel.app/auth/shopify/callback",
+  "https://factor2.vercel.app/api/auth/callback"
+]

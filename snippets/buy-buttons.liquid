@@ -78,29 +78,43 @@
               assign product_codes = product.metafields.affidavit.product_codes.value
             endif
 
-            # Check if customer has valid affidavit
+            # Check if customer has valid affidavit (using new submissions format)
             assign has_valid_affidavit = false
+            assign has_pending_affidavit = false
             if requires_affidavit and customer
-              assign customer_affidavits_metafield = customer.metafields.app--factor2-affidavit.approved_affidavits
-              if customer_affidavits_metafield.value
+              assign customer_submissions_metafield = customer.metafields.app--factor2-affidavit.submissions
+              if customer_submissions_metafield.value
                 # JSON metafields are automatically parsed in Shopify Liquid
-                assign customer_affidavits = customer_affidavits_metafield.value
+                assign customer_submissions = customer_submissions_metafield.value
                 assign product_codes_array = product_codes | split: ','
                 assign now_timestamp = 'now' | date: '%s' | plus: 0
-                
+
                 for code in product_codes_array
                   assign code_trimmed = code | strip
-                  for affidavit in customer_affidavits
-                    if affidavit.product_code == code_trimmed and affidavit.status == 'approved'
-                      if affidavit.expires_at != blank
-                        assign expires_timestamp = affidavit.expires_at | date: '%s' | plus: 0
-                        if expires_timestamp > now_timestamp
+                  for submission in customer_submissions
+                    # Check if this submission covers the product code
+                    assign covers_code = false
+                    for sub_code in submission.product_codes
+                      if sub_code == code_trimmed
+                        assign covers_code = true
+                        break
+                      endif
+                    endfor
+
+                    if covers_code
+                      if submission.status == 'approved'
+                        if submission.expires_at != blank
+                          assign expires_timestamp = submission.expires_at | date: '%s' | plus: 0
+                          if expires_timestamp > now_timestamp
+                            assign has_valid_affidavit = true
+                            break
+                          endif
+                        else
                           assign has_valid_affidavit = true
                           break
                         endif
-                      else
-                        assign has_valid_affidavit = true
-                        break
+                      elsif submission.status == 'pending'
+                        assign has_pending_affidavit = true
                       endif
                     endif
                   endfor
@@ -120,6 +134,18 @@
             >
               <span>{{ 'customer.login.title' | t }} to Continue</span>
             </a>
+          {%- elsif requires_affidavit and has_pending_affidavit -%}
+            {# Show Pending Review message #}
+            <button
+              type="button"
+              class="product-form__submit button button--full-width button--secondary"
+              disabled
+            >
+              <span>Affidavit Pending Review</span>
+            </button>
+            <p class="product-form__note" style="text-align: center; margin-top: 10px; color: #666;">
+              Your affidavit has been submitted and is pending review. You will be able to purchase this product once approved.
+            </p>
           {%- elsif requires_affidavit and has_valid_affidavit == false -%}
             {# Show Sign Affidavit button #}
             <button

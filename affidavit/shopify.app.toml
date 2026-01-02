@@ -2,7 +2,7 @@
 
 name = "factor2-affidavit"
 client_id = "YOUR_CLIENT_ID"
-application_url = "https://YOUR_APP_URL"
+application_url = "https://factor2.vercel.app"
 embedded = true
 
 [access_scopes]
@@ -10,9 +10,9 @@ scopes = "read_customers,write_customers,read_products,read_orders,write_orders"
 
 [auth]
 redirect_urls = [
-  "https://YOUR_APP_URL/auth/callback",
-  "https://YOUR_APP_URL/auth/shopify/callback",
-  "https://YOUR_APP_URL/api/auth/callback"
+  "https://factor2.vercel.app/auth/callback",
+  "https://factor2.vercel.app/auth/shopify/callback",
+  "https://factor2.vercel.app/api/auth/callback"
 ]
 
 [webhooks]
@@ -27,7 +27,7 @@ dev_store_url = "factor2inc.myshopify.com"
 include_config_on_deploy = true
 
 [app_proxy]
-url = "https://YOUR_APP_URL"
+url = "https://factor2.vercel.app"
 subpath = "apps"
 prefix = "affidavit"
 

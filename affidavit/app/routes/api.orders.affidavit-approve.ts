@@ -1,7 +1,6 @@
 import { json, type ActionFunctionArgs } from "@remix-run/node";
-import { approveAffidavit } from "~/lib/metafields";
-import { sendAffidavitApprovalEmail } from "~/lib/email.server";
-import { shopify } from "~/lib/shopify.server";
+import { approveSubmission } from "~/lib/metafields";
+import { adminGraphQL } from "~/lib/shopify.server";
 
 export async function action({ request }: ActionFunctionArgs) {
   if (request.method !== "POST") {
@@ -12,23 +11,24 @@ export async function action({ request }: ActionFunctionArgs) {
     const formData = await request.formData();
     const submissionId = formData.get("submissionId") as string;
     const customerId = formData.get("customerId") as string;
-    const productCodesStr = formData.get("productCodes") as string;
 
-    if (!submissionId || !customerId || !productCodesStr) {
+    if (!submissionId || !customerId) {
       return json({ error: "Missing required parameters" }, { status: 400 });
     }
 
-    const productCodes = productCodesStr.split(",").map((code) => code.trim());
+    // Approve submission in customer metafield
+    const approvedSubmission = await approveSubmission(customerId, submissionId);
 
-    // Approve affidavit in customer metafield
-    await approveAffidavit(customerId, productCodes, submissionId);
+    if (!approvedSubmission) {
+      return json({ error: "Submission not found or already processed" }, { status: 404 });
+    }
 
     // Update order metafield if order exists
     const orderId = formData.get("orderId") as string | null;
     if (orderId) {
       const mutation = `
-        mutation UpdateOrderMetafield($id: ID!, $metafield: MetafieldInput!) {
-          metafieldsSet(metafields: [{ownerId: $id, ...$metafield}]) {
+        mutation UpdateOrderMetafield($input: [MetafieldsSetInput!]!) {
+          metafieldsSet(metafields: $input) {
             metafields {
               id
               value
@@ -41,21 +41,20 @@ export async function action({ request }: ActionFunctionArgs) {
         }
       `;
 
-      await shopify.graphql(mutation, {
-        variables: {
-          id: `gid://shopify/Order/${orderId}`,
-          metafield: {
-            namespace: "app--factor2-affidavit",
-            key: "affidavit_submission",
-            value: JSON.stringify({
-              submission_id: submissionId,
-              product_codes: productCodes,
-              status: "approved",
-              approved_at: new Date().toISOString(),
-            }),
-            type: "json",
-          },
-        },
+      await adminGraphQL(mutation, {
+        input: [{
+          ownerId: `gid://shopify/Order/${orderId}`,
+          namespace: "app--factor2-affidavit",
+          key: "affidavit_submission",
+          value: JSON.stringify({
+            submission_id: submissionId,
+            product_codes: approvedSubmission.product_codes,
+            status: "approved",
+            approved_at: approvedSubmission.approved_at,
+            expires_at: approvedSubmission.expires_at,
+          }),
+          type: "json",
+        }],
       });
 
       // Release order hold if on hold
@@ -74,8 +73,8 @@ export async function action({ request }: ActionFunctionArgs) {
       `;
 
       try {
-        await shopify.graphql(releaseHoldMutation, {
-          variables: { id: `gid://shopify/Order/${orderId}` },
+        await adminGraphQL(releaseHoldMutation, {
+          id: `gid://shopify/Order/${orderId}`,
         });
       } catch (error) {
         // Order might not be on hold, ignore error
@@ -83,36 +82,15 @@ export async function action({ request }: ActionFunctionArgs) {
       }
     }
 
-    // Get customer info for email
-    const customerQuery = `
-      query GetCustomer($id: ID!) {
-        customer(id: $id) {
-          id
-          firstName
-          lastName
-          email
-        }
-      }
-    `;
-
-    const customerResponse = await shopify.graphql(customerQuery, {
-      variables: { id: `gid://shopify/Customer/${customerId}` },
-    });
-    const customerData = await customerResponse.json();
-    const customer = customerData.data?.customer;
-
-    // Send approval email
-    if (customer) {
-      await sendAffidavitApprovalEmail(
-        customer.email,
-        `${customer.firstName} ${customer.lastName}`,
-        productCodes
-      );
-    }
-
     return json({
       success: true,
       message: "Affidavit approved successfully",
+      submission: {
+        id: approvedSubmission.id,
+        product_codes: approvedSubmission.product_codes,
+        approved_at: approvedSubmission.approved_at,
+        expires_at: approvedSubmission.expires_at,
+      },
     });
   } catch (error: any) {
     console.error("Error approving affidavit:", error);
@@ -122,4 +100,3 @@ export async function action({ request }: ActionFunctionArgs) {
     );
   }
 }
-
