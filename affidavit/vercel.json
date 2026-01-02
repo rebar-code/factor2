@@ -1,8 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "outputDirectory": ".vercel/output",
+  "framework": "remix",
   "headers": [
     {
       "source": "/api/(.*)",
