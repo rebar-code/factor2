@@ -405,7 +405,7 @@
     submitBtn.textContent = 'Submitting...';
 
     // Try app proxy URL first, fallback to full app URL
-    const appProxyUrl = '/apps/affidavit/api/affidavits/submit';
+    const appProxyUrl = 'https://factor2.vercel.app/apps/affidavit/api/affidavits/submit';
     // Get app URL from Liquid or use default
     const fullAppUrl =
       '{{ shop.metafields.app.affidavit_app_url.value | default: "https://factor2.vercel.app" }}/api/affidavits/submit';
