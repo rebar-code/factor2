@@ -24,6 +24,8 @@
     "upload:files": "tsx migration/upload-files.ts",
     "upload:files:dry-run": "DRY_RUN=true tsx migration/upload-files.ts",
     "upload:skip": "tsx migration/skip-file-upload.ts",
+    "upload:retry": "tsx migration/retry-failed-uploads.ts",
+    "upload:update-urls": "tsx migration/update-file-urls.ts",
     "enrich:file-errors": "tsx migration/enrich-file-errors.ts",
     "migrate:get-token": "tsx migration/get-token.ts",
     "migrate:categories": "tsx migration/categories.ts",
