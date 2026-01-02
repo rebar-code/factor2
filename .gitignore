@@ -15,3 +15,7 @@ Thumbs.db
 *.csv
 .env.*
 
+# Exception - include affidavit config files
+!affidavit/.npmrc
+!affidavit/.gitignore
+
