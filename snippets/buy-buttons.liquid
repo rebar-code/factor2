@@ -71,68 +71,111 @@
             endif
 
             # Check if product requires affidavit
+            # Use direct dot notation (metafield filter doesn't work reliably for boolean values)
+            # Try both namespaces: affidavit.* (what Shopify Admin shows) and custom.affidavit_* (what definitions exist)
             assign requires_affidavit = false
             assign product_codes = ''
-            if product.metafields.affidavit.requires_affidavit.value == true
+
+            # Check custom namespace first (direct dot notation - this works!)
+            if product.metafields.custom.affidavit_requires_affidavit.value == true
+              assign requires_affidavit = true
+              assign product_codes = product.metafields.custom.affidavit_product_codes.value
+              # Fallback to affidavit namespace (what Shopify Admin shows)
+            elsif product.metafields.affidavit.requires_affidavit.value == true
               assign requires_affidavit = true
               assign product_codes = product.metafields.affidavit.product_codes.value
             endif
 
-            # Check if customer has valid affidavit (using new submissions format)
+            # Check if customer has valid affidavit FOR THIS SPECIFIC PRODUCT
             assign has_valid_affidavit = false
             assign has_pending_affidavit = false
             if requires_affidavit and customer
-              assign customer_submissions_metafield = customer.metafields.app--factor2-affidavit.submissions
+              assign customer_submissions_metafield = customer.metafields['app--factor2-affidavit'].submissions
               if customer_submissions_metafield.value
                 # JSON metafields are automatically parsed in Shopify Liquid
                 assign customer_submissions = customer_submissions_metafield.value
-                assign product_codes_array = product_codes | split: ','
                 assign now_timestamp = 'now' | date: '%s' | plus: 0
 
-                for code in product_codes_array
-                  assign code_trimmed = code | strip
-                  for submission in customer_submissions
-                    # Check if this submission covers the product code
-                    assign covers_code = false
-                    for sub_code in submission.product_codes
-                      if sub_code == code_trimmed
-                        assign covers_code = true
-                        break
-                      endif
-                    endfor
+                # Get this product's codes to match against customer submissions
+                if product_codes != blank
+                  assign product_codes_array = product_codes | split: ','
 
-                    if covers_code
-                      if submission.status == 'approved'
-                        if submission.expires_at != blank
-                          assign expires_timestamp = submission.expires_at | date: '%s' | plus: 0
-                          if expires_timestamp > now_timestamp
+                  # Check each product code to see if customer has an approved affidavit for it
+                  for code in product_codes_array
+                    assign code_trimmed = code | strip
+                    for submission in customer_submissions
+                      # Check if this submission covers the product code for THIS product
+                      assign covers_this_product = false
+                      for sub_code in submission.product_codes
+                        if sub_code == code_trimmed
+                          assign covers_this_product = true
+                          break
+                        endif
+                      endfor
+
+                      # If submission covers this product, check status and expiration
+                      if covers_this_product
+                        if submission.status == 'approved'
+                          # Check expiration if set
+                          if submission.expires_at != blank
+                            assign expires_timestamp = submission.expires_at | date: '%s' | plus: 0
+                            if expires_timestamp > now_timestamp
+                              assign has_valid_affidavit = true
+                              break
+                            endif
+                          else
+                            # No expiration date, so it's valid for this product
                             assign has_valid_affidavit = true
                             break
                           endif
-                        else
+                        elsif submission.status == 'pending'
+                          assign has_pending_affidavit = true
+                        endif
+                      endif
+                    endfor
+                    # If we found a valid affidavit for this product, no need to check other codes
+                    if has_valid_affidavit
+                      break
+                    endif
+                  endfor
+                else
+                  # Product requires affidavit but has no product codes set
+                  # Fall back to checking if customer has ANY approved affidavit
+                  for submission in customer_submissions
+                    if submission.status == 'approved'
+                      if submission.expires_at != blank
+                        assign expires_timestamp = submission.expires_at | date: '%s' | plus: 0
+                        if expires_timestamp > now_timestamp
                           assign has_valid_affidavit = true
                           break
                         endif
-                      elsif submission.status == 'pending'
-                        assign has_pending_affidavit = true
+                      else
+                        assign has_valid_affidavit = true
+                        break
                       endif
+                    elsif submission.status == 'pending'
+                      assign has_pending_affidavit = true
                     endif
                   endfor
-                  if has_valid_affidavit
-                    break
-                  endif
-                endfor
+                endif
               endif
             endif
           -%}
 
           {%- if requires_affidavit and customer == blank -%}
             {# Force login #}
+            {%- liquid
+              # Preserve preview parameters in return URL
+              assign return_url = request.path
+              if request.path contains 'preview_key'
+                assign return_url = request.path | append: request.search
+              endif
+            -%}
             <a
-              href="{{ routes.account_login_url }}?return_url={{ request.path }}"
+              href="{{ routes.account_login_url }}?return_url={{ return_url | url_encode }}"
               class="product-form__submit button button--full-width button--primary"
             >
-              <span>{{ 'customer.login.title' | t }} to Continue</span>
+              <span>{{ 'customer.login_page.title' | t }} to Continue</span>
             </a>
           {%- elsif requires_affidavit and has_pending_affidavit -%}
             {# Show Pending Review message #}
@@ -144,16 +187,22 @@
               <span>Affidavit Pending Review</span>
             </button>
             <p class="product-form__note" style="text-align: center; margin-top: 10px; color: #666;">
-              Your affidavit has been submitted and is pending review. You will be able to purchase this product once approved.
+              Your affidavit has been submitted and is pending review. You will be able to purchase this product once
+              approved.
             </p>
           {%- elsif requires_affidavit and has_valid_affidavit == false -%}
             {# Show Sign Affidavit button #}
+            {%- assign product_codes_for_button = product.metafields.custom.affidavit_product_codes.value
+              | default: product.metafields.affidavit.product_codes.value
+            -%}
             <button
               type="button"
               id="SignAffidavitButton-{{ section_id }}"
               class="product-form__submit button button--full-width button--primary"
               data-product-id="{{ product.id }}"
-              data-product-codes="{{ product_codes }}"
+              {% if product_codes_for_button != blank -%}
+                data-product-codes="{{ product_codes_for_button }}"
+              {% endif -%}
               onclick="openAffidavitModal(this)"
             >
               <span>Sign Affidavit Required</span>
@@ -161,15 +210,345 @@
             <script>
               function openAffidavitModal(button) {
                 const productId = button.dataset.productId;
-                const productCodes = button.dataset.productCodes;
+                const productCodes = button.dataset.productCodes || '';
                 // Trigger affidavit modal (will be implemented in affidavit-modal.liquid)
                 const event = new CustomEvent('openAffidavitModal', {
-                  detail: { productId, productCodes }
+                  detail: { productId, productCodes },
                 });
                 document.dispatchEvent(event);
               }
             </script>
           {%- else -%}
+            {# Debug: Check metafield structure #}
+            <div style="background: #f0f0f0; padding: 10px; margin: 10px 0; font-family: monospace; font-size: 12px;">
+              <strong>Customer Debug:</strong><br>
+              Customer exists: {% if customer %}YES{% else %}NO{% endif -%}
+              <br>
+              Customer ID: {{ customer.id | default: 'N/A' -}}
+              <br>
+              Customer email: {{ customer.email | default: 'N/A' -}}
+              <br>
+              Request path: {{ request.path -}}
+              <br>
+              Is preview mode:
+              {% if request.path contains 'products_preview' or request.path contains 'preview' -%}
+                YES
+              {%- else -%}
+                NO
+              {%- endif -%}
+              <br>
+              <br>
+              <strong>Product Fields:</strong><br>
+              <pre style="background: #fff; padding: 10px; border: 1px solid #ccc; overflow-x: auto; font-size: 11px;">
+id: {{ product.id }}
+title: {{ product.title }}
+handle: {{ product.handle }}
+vendor: {{ product.vendor }}
+type: {{ product.type }}
+tags: {{ product.tags | join: ', ' }}
+available: {{ product.available }}
+price: {{ product.price }}
+price_min: {{ product.price_min }}
+price_max: {{ product.price_max }}
+compare_at_price: {{ product.compare_at_price }}
+compare_at_price_min: {{ product.compare_at_price_min }}
+compare_at_price_max: {{ product.compare_at_price_max }}
+published_at: {{ product.published_at }}
+created_at: {{ product.created_at }}
+description: {{ product.description | truncate: 200 }}
+options: {{ product.options | join: ', ' }}
+variants_count: {{ product.variants.size }}
+selected_or_first_available_variant.id: {{ product.selected_or_first_available_variant.id }}
+selected_or_first_available_variant.available: {{ product.selected_or_first_available_variant.available }}
+              </pre>
+              <br>
+              <strong>Product JSON (via JavaScript - check browser console):</strong><br>
+              <script>
+                // Output product data to console
+                window.productDebugData = {
+                  id: {{ product.id }},
+                  handle: '{{ product.handle }}',
+                  title: {{ product.title | json }},
+                  vendor: '{{ product.vendor }}',
+                  type: '{{ product.type }}',
+                  tags: {{ product.tags | json }},
+                  available: {{ product.available }},
+                  price: {{ product.price }},
+                  price_min: {{ product.price_min }},
+                  price_max: {{ product.price_max }},
+                  compare_at_price: {{ product.compare_at_price }},
+                  published_at: '{{ product.published_at }}',
+                  created_at: '{{ product.created_at }}',
+                  description: {{ product.description | json }},
+                  options: {{ product.options | json }},
+                  variants_count: {{ product.variants.size }},
+                  selected_variant: {
+                    id: {{ product.selected_or_first_available_variant.id }},
+                    available: {{ product.selected_or_first_available_variant.available }},
+                    price: {{ product.selected_or_first_available_variant.price }}
+                  }
+                };
+                console.log('=== PRODUCT DEBUG DATA ===');
+                console.log(JSON.stringify(window.productDebugData, null, 2));
+                console.log('=== END PRODUCT DEBUG ===');
+                // Also log to page
+                document.addEventListener('DOMContentLoaded', function() {
+                  const debugDiv = document.querySelector('.product-debug-json');
+                  if (debugDiv) {
+                    debugDiv.textContent = JSON.stringify(window.productDebugData, null, 2);
+                  }
+                });
+              </script>
+              <pre
+                class="product-debug-json"
+                style="background: #fff; padding: 10px; border: 1px solid #ccc; overflow-x: auto; max-height: 400px; overflow-y: auto; font-size: 11px; white-space: pre-wrap;">Loading...</pre>
+              <br>
+              <strong>Note:</strong> Open browser console (F12) to see formatted JSON output
+              <br>
+              <br>
+              <strong>Metafield Debug:</strong><br>
+              Product ID: {{ product.id -}}
+              <br>
+              Product Handle: {{ product.handle -}}
+              <br>
+              <br>
+
+              <strong>Method 1 (dot notation):</strong><br>
+              product.metafields.affidavit.requires_affidavit.value:
+              {{ product.metafields.affidavit.requires_affidavit.value -}}
+              <br>
+              product.metafields.affidavit.requires_affidavit: {{ product.metafields.affidavit.requires_affidavit -}}
+              <br>
+              <br>
+
+              <strong>Method 2 (bracket notation):</strong><br>
+              product.metafields['affidavit']['requires_affidavit'].value:
+              {{ product.metafields.affidavit.requires_affidavit.value -}}
+              <br>
+              product.metafields['affidavit']['requires_affidavit']:
+              {{ product.metafields.affidavit.requires_affidavit -}}
+              <br>
+              <br>
+
+              <strong>Namespace check:</strong><br>
+              product.metafields.affidavit exists: {% if product.metafields.affidavit %}YES{% else %}NO{% endif -%}
+              <br>
+              affidavit is blank: {% if product.metafields.affidavit == blank %}YES{% else %}NO{% endif -%}
+              <br>
+              <br>
+
+              <strong>Try accessing metafield directly:</strong><br>
+              {% assign test_metafield = product.metafields.affidavit.requires_affidavit -%}
+              test_metafield: {{ test_metafield -}}
+              <br>
+              test_metafield.value: {{ test_metafield.value -}}
+              <br>
+              test_metafield exists: {% if test_metafield %}YES{% else %}NO{% endif -%}
+              <br>
+              test_metafield is blank: {% if test_metafield == blank %}YES{% else %}NO{% endif -%}
+              <br>
+              <br>
+
+              <strong>Try using metafield filter (RECOMMENDED METHOD):</strong><br>
+              {% assign mf = 'affidavit.requires_affidavit' | metafield: product -%}
+              metafield filter object: {{ mf -}}
+              <br>
+              metafield filter value: {{ mf.value -}}
+              <br>
+              metafield filter type: {{ mf.type -}}
+              <br>
+              metafield filter namespace: {{ mf.namespace -}}
+              <br>
+              metafield filter key: {{ mf.key -}}
+              <br>
+              metafield filter exists: {% if mf %}YES{% else %}NO{% endif -%}
+              <br>
+              metafield filter is blank: {% if mf == blank %}YES{% else %}NO{% endif -%}
+              <br>
+              metafield value is blank: {% if mf.value == blank %}YES{% else %}NO{% endif -%}
+              <br>
+              metafield value == true: {% if mf.value == true %}YES{% else %}NO{% endif -%}
+              <br>
+              metafield value == 'true': {% if mf.value == 'true' %}YES{% else %}NO{% endif -%}
+              <br>
+              metafield value type check: {% if mf.value %}HAS VALUE (truthy){% else %}NO VALUE (falsy){% endif -%}
+              <br>
+              <strong style="color: {% if mf.value == true or mf.value == 'true' %}green{% else %}red{% endif %};">
+                Using metafield filter: requires_affidavit = {{ mf.value }} (type: {{ mf.type }})
+              </strong>
+              <br>
+              <br>
+
+              <strong>ALL METAFIELDS ON THIS PRODUCT:</strong><br>
+              {% assign metafield_count = 0 -%}
+              {% assign affidavit_found = false -%}
+
+              {# Method 1: Iterate through namespaces #}
+              <strong>Method 1 - By Namespace:</strong><br>
+              {% for namespace_pair in product.metafields -%}
+                {% assign namespace_name = namespace_pair[0] -%}
+                {% assign namespace_obj = namespace_pair[1] -%}
+                <div style="margin: 10px 0; padding: 10px; border: 2px solid #333;">
+                  <strong>Namespace: {{ namespace_name }}</strong><br>
+                  {% for key_pair in namespace_obj -%}
+                    {% assign metafield_count = metafield_count | plus: 1 -%}
+                    {% assign key_name = key_pair[0] -%}
+                    {% assign metafield_obj = key_pair[1] -%}
+                    <div style="margin: 5px 0; padding: 5px; background: {% if namespace_name == 'affidavit' %}#ffffcc{% else %}#f9f9f9{% endif %};">
+                      <strong>#{{ metafield_count }}</strong><br>
+                      Key: <strong>{{ key_name }}</strong><br>
+                      Value (direct):
+                      <strong style="color: {% if metafield_obj.value == blank %}red{% else %}green{% endif %};">
+                        {{- metafield_obj.value -}}</strong
+                      ><br>
+                      Value (via .value): <strong>{{ metafield_obj.value }}</strong><br>
+                      Full path: <code>{{ namespace_name }}.{{ key_name }}</code><br>
+                      Using filter:
+                      {% assign test_mf = namespace_name | append: '.' | append: key_name | metafield: product -%}
+                      Filter value:
+                      <strong style="color: {% if test_mf.value == blank %}red{% else %}green{% endif %};">
+                        {{- test_mf.value -}}</strong
+                      ><br>
+                      {% if namespace_name == 'affidavit' and key_name == 'requires_affidavit' -%}
+                        {% assign affidavit_found = true -%}
+                        <strong style="color: green;">✅ FOUND affidavit.requires_affidavit!</strong><br>
+                      {% endif -%}
+                      <hr style="margin: 5px 0; border: 1px solid #ddd;">
+                    </div>
+                  {% endfor -%}
+                </div>
+              {% endfor -%}
+
+              {# Method 2: Try direct metafield filter for known ones #}
+              <br>
+              <strong>Method 2 - Direct Filter Tests (BOTH NAMESPACES):</strong><br>
+
+              {# Test affidavit namespace (what Shopify Admin shows) #}
+              {% assign test1a = 'affidavit.requires_affidavit' | metafield: product -%}
+              <div style="margin: 10px 0; padding: 10px; border: 2px solid #333; background: #e3f2fd;">
+                <strong>affidavit.requires_affidavit (Shopify Admin shows this):</strong><br>
+                Value:
+                <strong style="color: {% if test1a.value == blank %}red{% else %}green{% endif %}; font-size: 18px;">
+                  {{- test1a.value -}}</strong
+                ><br>
+                Exists: {% if test1a %}YES{% else %}NO{% endif -%}
+                <br>
+                Value is blank: {% if test1a.value == blank %}YES{% else %}NO{% endif -%}
+                <br>
+                Value == true: {% if test1a.value == true %}YES{% else %}NO{% endif -%}
+                <br>
+                {% if test1a.value == blank and test1a -%}
+                  <strong style="color: orange;"
+                    >⚠️ Metafield exists but value is blank - check storefront access!</strong
+                  >
+                {% endif -%}
+              </div>
+
+              {# Test custom namespace #}
+              {% assign test1 = 'custom.affidavit_requires_affidavit' | metafield: product -%}
+              <div style="margin: 10px 0; padding: 10px; border: 2px solid #333; background: #fff3cd;">
+                <strong>custom.affidavit_requires_affidavit (CORRECT):</strong><br>
+                Object: {{ test1 -}}
+                <br>
+                Raw value output: [{{ test1.value }}]<br>
+                Value (with default): {{ test1.value | default: 'NO_VALUE' -}}
+                <br>
+                Value:
+                <strong style="color: {% if test1.value == blank %}red{% else %}green{% endif %}; font-size: 18px;">
+                  {% if test1.value == blank %}BLANK{% else %}{{ test1.value }}{% endif -%}</strong
+                ><br>
+                Type: {{ test1.type -}}
+                <br>
+                Namespace: {{ test1.namespace -}}
+                <br>
+                Key: {{ test1.key -}}
+                <br>
+                Exists: {% if test1 %}YES{% else %}NO{% endif -%}
+                <br>
+                Is blank: {% if test1 == blank %}YES{% else %}NO{% endif -%}
+                <br>
+                Value is blank: {% if test1.value == blank %}YES{% else %}NO{% endif -%}
+                <br>
+                Value == true: {% if test1.value == true %}YES{% else %}NO{% endif -%}
+                <br>
+                Value == 'true': {% if test1.value == 'true' %}YES{% else %}NO{% endif -%}
+                <br>
+                Value == 1: {% if test1.value == 1 %}YES{% else %}NO{% endif -%}
+                <br>
+                Value truthy check: {% if test1.value %}YES (truthy){% else %}NO (falsy){% endif -%}
+                <br>
+                <br>
+                <strong>Alternative access methods:</strong><br>
+                Using dot notation: {{ product.metafields.custom.affidavit_requires_affidavit.value -}}
+                <br>
+                Using bracket: {{ product.metafields.custom.affidavit_requires_affidavit.value -}}
+                <br>
+                <br>
+                {% if test1.value == blank -%}
+                  <strong style="color: red;">⚠️ VALUE IS EMPTY/BLANK!</strong><br>
+                  Script confirmed value is set to 'true', but Liquid can't access it.<br>
+                  This might be a caching issue - try:<br>
+                  1. Wait a few minutes for Shopify cache to clear<br>
+                  2. Publish/unpublish the product<br>
+                  3. Check if metafield definition has correct storefront access<br>
+                {% else -%}
+                  <strong style="color: green;">✅ VALUE FOUND!</strong>
+                {% endif -%}
+              </div>
+
+              {% assign test2 = 'custom.affidavit_product_codes' | metafield: product -%}
+              <div style="margin: 10px 0; padding: 10px; border: 2px solid #333; background: #fff3cd;">
+                <strong>custom.affidavit_product_codes (CORRECT):</strong><br>
+                Value:
+                <strong style="color: {% if test2.value == blank %}red{% else %}green{% endif %}; font-size: 18px;">
+                  {{- test2.value -}}</strong
+                ><br>
+                Exists: {% if test2 %}YES{% else %}NO{% endif -%}
+                <br>
+                Value is blank: {% if test2.value == blank %}YES{% else %}NO{% endif -%}
+                <br>
+                {% if test2.value == blank -%}
+                  <strong style="color: orange;">⚠️ Product codes not set (optional)</strong>
+                {% else -%}
+                  <strong style="color: green;">✅ Product codes found!</strong>
+                {% endif -%}
+              </div>
+
+              {% assign test3 = 'custom.features' | metafield: product -%}
+              <div style="margin: 10px 0; padding: 10px; border: 1px solid #ccc; background: #f9f9f9;">
+                <strong>custom.features (for comparison):</strong><br>
+                Value: {{ test3.value | truncate: 50 }} (exists: {% if test3 %}YES{% else %}NO{% endif %})<br>
+              </div>
+
+              <br>
+              <strong>⚠️ IMPORTANT:</strong><br>
+              "Storefront API access" is different from "Liquid template access"!<br>
+              For Liquid templates, you need to enable <strong>"Storefront access"</strong> or
+              <strong>"Public read"</strong> access.<br>
+              Check: Settings → Custom data → Products → [metafield] → Look for "Storefront access" or "Public read"
+              option
+
+              {# Summary #}
+              <br>
+              <strong>Summary:</strong><br>
+              Total metafields found: {{ metafield_count -}}
+              <br>
+              {% if metafield_count == 0 -%}
+                <strong style="color: red;">⚠️ NO METAFIELDS FOUND!</strong><br>
+                This could mean:<br>
+                1. Metafields aren't being loaded in the product object<br>
+                2. Metafields don't have storefront access enabled<br>
+                3. The product doesn't have any metafields set<br>
+              {% else -%}
+                {% unless affidavit_found -%}
+                  <strong style="color: orange;">⚠️ 'affidavit.requires_affidavit' NOT FOUND in the list above!</strong
+                  ><br>
+                  Check if it has storefront access enabled in Shopify Admin.
+                {% else -%}
+                  <strong style="color: green;">✅ affidavit.requires_affidavit was found!</strong>
+                {% endunless -%}
+              {% endif -%}
+            </div>
             {# Normal Add to Cart button #}
             <button
               id="ProductSubmitButton-{{ section_id }}"

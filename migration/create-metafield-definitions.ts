@@ -61,7 +61,7 @@ async function createMetafieldDefinition(definition: any) {
 }
 
 async function createAllMetafieldDefinitions() {
-  console.log("Creating metafield definitions for Factor II Affidavit App...\n");
+  console.log("Creating metafield definitions for products...\n");
 
   if (!SHOPIFY_CLI_TOKEN) {
     console.error("❌ SHOPIFY_CLI_TOKEN environment variable is required");
@@ -69,31 +69,6 @@ async function createAllMetafieldDefinitions() {
   }
 
   const definitions = [
-    // Product metafields
-    {
-      name: "Requires Affidavit",
-      namespace: "affidavit",
-      key: "requires_affidavit",
-      description: "Whether this product requires an affidavit",
-      type: "boolean",
-      ownerType: "PRODUCT",
-      access: {
-        admin: "MERCHANT_READ_WRITE",
-        storefront: "PUBLIC_READ",
-      },
-    },
-    {
-      name: "Product Codes",
-      namespace: "affidavit",
-      key: "product_codes",
-      description: "Factor II product codes for this product (comma-separated)",
-      type: "list.single_line_text_field",
-      ownerType: "PRODUCT",
-      access: {
-        admin: "MERCHANT_READ_WRITE",
-        storefront: "PUBLIC_READ",
-      },
-    },
     {
       name: "Features",
       namespace: "custom",
@@ -126,24 +101,6 @@ async function createAllMetafieldDefinitions() {
         type: "multi_line_text_field",
         ownerType: "PRODUCT",
     },
-    // Customer metafields
-    {
-      name: "Approved Affidavits",
-      namespace: "app--factor2-affidavit",
-      key: "approved_affidavits",
-      description: "Customer's affidavit approvals and statuses",
-      type: "json",
-      ownerType: "CUSTOMER",
-    },
-    // Order metafields
-    {
-      name: "Affidavit Submission",
-      namespace: "app--factor2-affidavit",
-      key: "affidavit_submission",
-      description: "Affidavit submission reference for this order",
-      type: "json",
-      ownerType: "ORDER",
-    },
   ];
 
   let created = 0;
@@ -167,4 +124,3 @@ createAllMetafieldDefinitions().catch((error) => {
   console.error("❌ Fatal error:", error);
   process.exit(1);
 });
-

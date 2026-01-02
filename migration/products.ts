@@ -1,14 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs';
-import * as dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config();
-
-// Configuration
-const PRODUCTS_PATH = './migration/data/products.json';
-const FILE_MAPPING_PATH = './migration/data/file-mapping.json';
-const CATEGORY_MAPPING_PATH = './migration/category-mapping.json';
-const PRODUCT_MAPPING_PATH = './migration/product-mapping.json';
+const PRODUCT_OPTIONS_PATH = './migration/data/product-options.json';
 const ERRORS_PATH = './migration/data/product-migration-errors.json';
 const DRY_RUN = process.env.DRY_RUN === 'true';
 const START_INDEX = process.env.START_INDEX ? parseInt(process.env.START_INDEX, 10) : 0;
@@ -34,6 +24,14 @@ if (!SHOPIFY_CLI_TOKEN) {
 }
 
 // Types
+interface ProductOptions {
+  [productCode: string]: {
+    optionName: string;
+    optionValue: string;
+    priceDiff: number;
+  }[];
+}
+
 interface Product {
   code: string;
   title: string;
@@ -58,6 +56,7 @@ interface Product {
     tech_specs: string;
     extended_info: string;
     keywords: string;
+    tech_specs_links?: string[];
   };
 }
 
@@ -112,6 +111,14 @@ function getShopifyProductUrl(gid: string): string {
   return `https://${SHOPIFY_STORE}/admin/products/${id}`;
 }
 
+async function getFirstLocationId(): Promise<string> {
+  const result = await shopifyREST('/locations.json');
+  if (result.locations && result.locations.length > 0) {
+    return `gid://shopify/Location/${result.locations[0].id}`;
+  }
+  throw new Error('Could not find any locations in Shopify store.');
+}
+
 function replaceFileUrls(html: string, fileMappings: FileMappings): string {
   if (!html) return '';
 
@@ -135,14 +142,14 @@ function replaceFileUrls(html: string, fileMappings: FileMappings): string {
 }
 
 // GraphQL queries and mutations
-const CREATE_PRODUCT_WITH_OPTIONS_MUTATION = `
-  mutation productSet($input: ProductSetInput!) {
-    productSet(input: $input) {
+const CREATE_PRODUCT_WITH_VARIANTS_MUTATION = `
+  mutation productCreate($input: ProductInput!, $media: [CreateMediaInput!]) {
+    productCreate(input: $input, media: $media) {
       product {
         id
         title
         handle
-        variants(first: 1) {
+        variants(first: 10) {
           edges {
             node {
               id
@@ -222,29 +229,27 @@ async function shopifyREST(endpoint: string, method: string = 'GET', body?: any)
   return await response.json();
 }
 
+async function getFirstLocationId(): Promise<string> {
+    const result = await shopifyREST('/locations.json');
+    if (result.locations && result.locations.length > 0) {
+      return `gid://shopify/Location/${result.locations[0].id}`;
+    }
+    throw new Error('Could not find any locations in Shopify store.');
+  }
+
 async function createProduct(
   product: Product,
   fileMappings: FileMappings,
-  categoryMappings: Map<string, string>
+  categoryMappings: Map<string, string>,
+  productOptions: ProductOptions,
+  locationId: string
 ): Promise<{ id: string; handle: string; variantId?: string } | null> {
 
   // Replace file URLs in all content
   const description = replaceFileUrls(product.description, fileMappings);
-  const features = replaceFileUrls(product.original_data.features, fileMappings);
-  const techSpecs = replaceFileUrls(product.original_data.tech_specs, fileMappings);
-  const extendedInfo = replaceFileUrls(product.original_data.extended_info, fileMappings);
-
-  // Combine all descriptions
-  let fullDescription = description;
-  if (features) {
-    fullDescription += `\n\n<h3>Features</h3>\n${features}`;
-  }
-  if (techSpecs) {
-    fullDescription += `\n\n<h3>Technical Specifications</h3>\n${techSpecs}`;
-  }
-  if (extendedInfo) {
-    fullDescription += `\n\n<h3>Additional Information</h3>\n${extendedInfo}`;
-  }
+  const features = product.original_data.features;
+  const techSpecs = product.original_data.tech_specs;
+  const extendedInfo = product.original_data.extended_info;
 
   // Get Shopify collection IDs
   const collectionIds = product.category_ids
@@ -254,10 +259,13 @@ async function createProduct(
   // Convert pounds to grams (Shopify uses grams)
   const weightInGrams = Math.round(product.weight * 453.592);
 
+  const productVariants = productOptions[product.code];
+  const hasVariants = productVariants && productVariants.length > 0;
+
   const input: any = {
     title: product.title,
     handle: product.handle,
-    descriptionHtml: fullDescription,
+    descriptionHtml: description,
     vendor: product.vendor || product.manufacturer || '',
     productType: '',
     status: 'ACTIVE',
@@ -265,24 +273,41 @@ async function createProduct(
       title: product.seo_title || product.title,
       description: product.seo_description || '',
     },
-    variants: [{
-      optionValues: [{ optionName: 'Title', name: 'Default Title' }],
+  };
+
+  if (hasVariants) {
+    input.options = [...new Set(productVariants.map(v => v.optionName))];
+    input.variants = productVariants.map(variant => ({
+      options: [variant.optionValue],
+      price: (product.price + variant.priceDiff).toFixed(2),
+      sku: `${product.code}-${variant.optionValue.replace(/[^a-zA-Z0-9]/g, '')}`,
+      barcode: product.barcode || null,
+      weight: weightInGrams,
+      weightUnit: 'GRAMS',
+      inventoryPolicy: 'DENY',
+    }));
+  } else {
+    input.variants = [{
       price: product.price.toFixed(2),
       compareAtPrice: product.compare_at_price && product.compare_at_price > product.price
         ? product.compare_at_price.toFixed(2)
         : null,
       sku: product.code,
       barcode: product.barcode || null,
-    }],
-  };
+      weight: weightInGrams,
+      weightUnit: 'GRAMS',
+      inventoryPolicy: 'DENY',
+    }];
+  }
 
   // Prepare media for product image
   const media: any[] = [];
   if (product.image_url) {
+    const newImageUrl = fileMappings[product.image_url]?.new_url || product.image_url;
     media.push({
       alt: product.image_alt || product.title,
       mediaContentType: 'IMAGE',
-      originalSource: product.image_url,
+      originalSource: newImageUrl,
     });
   }
 
@@ -292,6 +317,7 @@ async function createProduct(
       handle: input.handle,
       price: product.price,
       collections: collectionIds.length,
+      variants: input.variants.length
     });
     return {
       id: `gid://shopify/Product/dry-run-${product.code}`,
@@ -307,14 +333,14 @@ async function createProduct(
       variables.media = media;
     }
 
-    const result = await shopifyGraphQL(CREATE_PRODUCT_WITH_OPTIONS_MUTATION, variables);
+    const result = await shopifyGraphQL(CREATE_PRODUCT_WITH_VARIANTS_MUTATION, variables);
 
-    if (result.data?.productSet?.userErrors?.length > 0) {
-      console.error(`      ❌ Error creating product:`, result.data.productSet.userErrors);
+    if (result.data?.productCreate?.userErrors?.length > 0) {
+      console.error(`      ❌ Error creating product:`, result.data.productCreate.userErrors);
       return null;
     }
 
-    const createdProduct = result.data?.productSet?.product;
+    const createdProduct = result.data?.productCreate?.product;
     if (!createdProduct) {
       console.error(`      ❌ No product returned`);
       return null;
@@ -322,51 +348,29 @@ async function createProduct(
 
     console.log(`      ✓ Product created: ${createdProduct.handle}`);
 
-    if (media.length > 0) {
-      console.log(`      📸 Image attached`);
-    }
-
-    // Get variant ID and update weight via REST API
-    const variantId = createdProduct.variants?.edges?.[0]?.node?.id;
-    const variantNumericId = variantId ? variantId.split('/').pop() : null;
-
-    if (variantNumericId) {
-      const variantData = {
-        variant: {
-          id: variantNumericId,
-          weight: weightInGrams,
-          weight_unit: 'g',
-          inventory_policy: 'deny',
-        }
-      };
-
-      try {
-        await shopifyREST(`/variants/${variantNumericId}.json`, 'PUT', variantData);
-        console.log(`      ⚖️  Weight set: ${weightInGrams}g (${product.weight} lbs)`);
-      } catch (weightError: any) {
-        console.log(`      ⚠️  Warning: Failed to set weight:`, weightError.message);
-      }
-    }
-
-    // Set metafield via REST API
+    // Set metafields via REST API
     const productNumericId = createdProduct.id.split('/').pop();
     if (productNumericId) {
-      const metafieldData = {
-        metafield: {
-          namespace: 'custom',
-          key: 'volusion_product_code',
-          value: product.code,
-          type: 'single_line_text_field',
-        }
-      };
+        const metafields = [
+            { namespace: 'custom', key: 'features', value: features, type: 'multi_line_text_field' },
+            { namespace: 'custom', key: 'technical_specifications', value: techSpecs, type: 'json' },
+            { namespace: 'custom', key: 'datasheet', value: JSON.stringify(product.original_data.tech_specs_links), type: 'list.file_reference' },
+            { namespace: 'custom', key: 'extended_information', value: extendedInfo, type: 'multi_line_text_field' },
+            { namespace: 'custom', key: 'volusion_product_code', value: product.code, type: 'single_line_text_field' }
+        ];
 
-      try {
-        await shopifyREST(`/products/${productNumericId}/metafields.json`, 'POST', metafieldData);
-        console.log(`      🏷️  Metafield set: ${product.code}`);
-      } catch (metafieldError: any) {
-        console.log(`      ⚠️  Warning: Failed to set metafield:`, metafieldError.message);
-      }
+        for (const metafield of metafields) {
+            if (metafield.value) {
+                try {
+                    await shopifyREST(`/products/${productNumericId}/metafields.json`, 'POST', { metafield });
+                    console.log(`      🏷️  Metafield set: ${metafield.key}`);
+                } catch (metafieldError: any) {
+                    console.log(`      ⚠️  Warning: Failed to set metafield ${metafield.key}:`, metafieldError.message);
+                }
+            }
+        }
     }
+
 
     // Assign to collections
     if (collectionIds.length > 0) {
@@ -394,7 +398,7 @@ async function createProduct(
     return {
       id: createdProduct.id,
       handle: createdProduct.handle,
-      variantId: variantId || undefined
+      variantId: createdProduct.variants?.edges?.[0]?.node?.id || undefined
     };
   } catch (error: any) {
     console.error(`      ❌ Exception creating product:`, error.message);
@@ -429,6 +433,15 @@ async function migrateProducts() {
     categoryMappings.set(mapping.volusionId, mapping.shopifyGid);
   }
   console.log(`✓ Loaded ${categoryMappings.size} category mappings\n`);
+
+  // Step 3a: Load product options
+  console.log('📖 Loading product options:', PRODUCT_OPTIONS_PATH);
+  const productOptionsContent = readFileSync(PRODUCT_OPTIONS_PATH, 'utf-8');
+  const productOptions = JSON.parse(productOptionsContent) as ProductOptions;
+  console.log(`✓ Loaded ${Object.keys(productOptions).length} product options\n`);
+
+  const locationId = await getFirstLocationId();
+  console.log(`✓ Using location ID: ${locationId}\n`);
 
   // Step 4: Load existing product mappings to prevent duplicates
   let existingMappings = new Map<string, ProductMapping>();
@@ -493,7 +506,7 @@ async function migrateProducts() {
     console.log(`[${globalIndex + 1}/${productsToMigrate.length}] Processing "${product.title}"`);
     console.log(`   Code: ${product.code} | Price: $${product.price} | Categories: ${product.category_ids.length}`);
 
-    const result = await createProduct(product, fileMappings, categoryMappings);
+    const result = await createProduct(product, fileMappings, categoryMappings, productOptions, locationId);
 
     if (result) {
       const newMapping: ProductMapping = {

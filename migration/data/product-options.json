@@ -1,0 +1,4050 @@
+{
+  "9012": [
+    {
+      "optionName": "size",
+      "optionValue": "Small (6x8 cm) (9012)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Medium (12x8 cm) (9013)",
+      "priceDiff": 2
+    }
+  ],
+  "40502": [
+    {
+      "optionName": "size",
+      "optionValue": "HARD 1/2\" (100)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "SOFT 5/8\" (100)",
+      "priceDiff": 0
+    }
+  ],
+  "501701": [
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (501703)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Brown - (501701LB)",
+      "priceDiff": 0
+    }
+  ],
+  "501710": [
+    {
+      "optionName": "color",
+      "optionValue": "Black (501710)",
+      "priceDiff": 0
+    }
+  ],
+  "J-303-C": [
+    {
+      "optionName": "color",
+      "optionValue": "Black w/ Blue liner",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Purple",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Orange",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blue",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red",
+      "priceDiff": 0
+    }
+  ],
+  "WH-": [
+    {
+      "optionName": "color",
+      "optionValue": "White (WH1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Blonde (WH2)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ash Blond (WH3)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Strawberry Blond (WH4)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Auburn (WH6)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Auburn (WH7)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Brown (WH9)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Brunette (WH11)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (WH12)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ginger (WH15)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Grey (WH19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Grey (WH21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rusty Red (WH-16)",
+      "priceDiff": 0
+    }
+  ],
+  "FE-SK01": [
+    {
+      "optionName": "color",
+      "optionValue": "Beard Stipple (FE-208)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Umber (FE-217)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (FE-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Sienna (FE-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Monastral Red (FE-225)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Liver Spot (FE-305)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "C. Stipple (FE-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (FE-230)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (FE-215)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "White (FE-200)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (FE-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Burnt Sienna (FE-218)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (FE-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (FE-202.1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold Pearl (FE-238)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (FE-SK01)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Marine Blue (FE-235)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ivory  (FE-SK03 )",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Almond  (FE-SK49)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raisin (FE-307)",
+      "priceDiff": 0
+    }
+  ],
+  "G-490": [
+    {
+      "optionName": "size",
+      "optionValue": "Size 000 (G-490-000)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 00 (G-490-00)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 0 (G-490-0)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 1 (G-490-1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 3 (G-490-3)",
+      "priceDiff": 0.5
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 5 (G-490-5)",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 000 - 6 Pack (G-490-000-6)",
+      "priceDiff": 11.5
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 00 - 6 Pack (G-490-00-6)",
+      "priceDiff": 11.5
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 0 - 6 Pack (G-490-0-6)",
+      "priceDiff": 11.5
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 1 - 6 Pack (G-490-1-6)",
+      "priceDiff": 11.5
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 3 - 6 Pack (G-490-3-6)",
+      "priceDiff": 12
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size 5 - 6 Pack (G-490-5-6)",
+      "priceDiff": 15.5
+    }
+  ],
+  "DG-200-LSR-P": [
+    {
+      "optionName": "color",
+      "optionValue": "White (FI-200)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (FI-202.1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (FI-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (FI-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Purple (FI-211)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (FI-215)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Umber (FI-217)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Burnt Sienna (FI-218)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (FI-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Sienna (FI-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Monastral Red (FI-225)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red D&C (FI-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (FI-230)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (FI-232)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (FI-SK01)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ivory (FI-SK03)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Bisque (FI-SK05)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cream (FI-SK07)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Honey (FI-SK09)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Sante Fe (FI-SK11)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blush (FI-SK13)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Soft Brown (FI-SK15)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dusk (FI-SK17)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Mocha (FI-SK19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (FI-SK21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Warm Brown (FI-SK23)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chocolate (FI-SK25)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chestnut (FI-SK27)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rose Silk (FI-SK29)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Velvet Rose (FI-SK31)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink Tint (FI-SK33)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Etruscan Pink (FI-SK35)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Hyancinth Pink (FI-SK37)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tuscany Red (FI-SK39)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Freckle Stipple (FI-SK43)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Victoria Rose (FI-SK41)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold Pearl (FI-238)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-200mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-200mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Blue (FI-235)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-200MIL",
+      "priceDiff": 0
+    }
+  ],
+  "DG-400-LSR-P": [
+    {
+      "optionName": "color",
+      "optionValue": "White (FI-200)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (FI-202.1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (FI-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (FI-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Purple (FI-211)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (FI-215)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Umber (FI-217)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Burnt Sienna (FI-218)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (FI-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Sienna (FI-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Monastral Red (FI-225)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red D&C (FI-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (FI-230)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (FI-232)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (FI-SK01)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ivory (FI-SK03)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Bisque (FI-SK05)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cream (FI-SK07)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Honey (FI-SK09)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Sante Fe (FI-SK11)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blush (FI-SK13)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Soft Brown (FI-SK15)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dusk (FI-SK17)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Mocha (FI-SK19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (FI-SK21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Warm Brown (FI-SK23)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chocolate (FI-SK25)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chestnut (FI-SK27)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rose Silk (FI-SK29)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Velvet Rose (FI-SK31)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink Tint (FI-SK33)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Etruscan Pink (FI-SK35)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Hyancinth Pink (FI-SK37)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tuscany Red (FI-SK39)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Freckle Stipple (FI-SK43)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Victoria Rose (FI-SK41)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold Pearl (FI-238)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-400mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-400mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Blue (FI-235)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-400MIL",
+      "priceDiff": 0
+    }
+  ],
+  "DG-50-MIL-P": [
+    {
+      "optionName": "color",
+      "optionValue": "White (FI-200)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (FI-202.1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (FI-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (FI-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Purple (FI-211)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (FI-215)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Umber (FI-217)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Burnt Sienna (FI-218)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (FI-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Sienna (FI-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Monastral Red (FI-225)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red D&C (FI-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (FI-230)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (FI-232)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (FI-SK01)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ivory (FI-SK03)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Bisque (FI-SK05)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cream (FI-SK07)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Honey (FI-SK09)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Sante Fe (FI-SK11)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blush (FI-SK13)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Soft Brown (FI-SK15)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dusk (FI-SK17)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Mocha (FI-SK19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (FI-SK21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Warm Brown (FI-SK23)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chocolate (FI-SK25)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chestnut (FI-SK27)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rose Silk (FI-SK29)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Velvet Rose (FI-SK31)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink Tint (FI-SK33)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Etruscan Pink (FI-SK35)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Hyancinth Pink (FI-SK37)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tuscany Red (FI-SK39)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Freckle Stipple (FI-SK43)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Victoria Rose (FI-SK41)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold Pearl (FI-238)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Blue (FI-235)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-221-05-50MIL",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-50MIL",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-50MIL",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-50MIL",
+      "priceDiff": 0
+    }
+  ],
+  "FI": [
+    {
+      "optionName": "color",
+      "optionValue": "White (FI-200)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (FI-202.1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (FI-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (FI-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Purple (FI-211)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (FI-215)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Umber (FI-217)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Burnt Sienna (FI-218)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (FI-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Sienna (FI-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Suntan (FI-227)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red D&C (FI-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (FI-230)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (FI-232)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold Pearl (FI-238)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Blue (FI-235)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz Bottle of FI Pigment",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16 oz Bottle of FI Pigment",
+      "priceDiff": 183
+    }
+  ],
+  "FI-SK-": [
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (FI-SK01)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ivory (FI-SK03)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Bisque (FI-SK05)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cream (FI-SK07)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Honey (FI-SK09)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Sante Fe (FI-SK11)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blush (FI-SK13)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Soft Brown (FI-SK15)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dusk (FI-SK17)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Mocha (FI-SK19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Brown (FI-SK21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Warm Brown (FI-SK23)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chocolate (FI-SK25)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Chestnut (FI-SK27)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rose Silk (FI-SK29)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Velvet Rose (FI-SK31)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink Tint (FI-SK33)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Etruscan Pink (FI-SK35)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Hyancinth Pink (FI-SK37)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tuscany Red (FI-SK39)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Victoria Rose (FI-SK41)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Freckle Stipple (FI-SK43)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Deep Bisque (FI-SK55)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cocoa (FI-SK47)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Almond (FI-SK49)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Golden (FI-SK45)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dusty Pink (FI-SK57)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Biscotte (FI-SK53)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Auburn (FI-SK51)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz Bottle of FI-SK Pigment",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Mason's Magic (FI-SK59)",
+      "priceDiff": 0
+    }
+  ],
+  "H-100": [
+    {
+      "optionName": "color",
+      "optionValue": "Red (H-101-R)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "White (H-102-W)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (H-103-Y)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Blue (H-104-B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Blue (H-105-B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Plum (H-107-P)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Tan (H-108-T)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Pink (H-109-P)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Brown (H-110-B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Violet (H-111-V)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (H-112-B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Charcoal Grey (H-113-G)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Gold (H-115-G)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Hot Pink (H-116-P)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Peach (H-119-P)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Light Buff (H-120-LB)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Red (H-121-R)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Dark Blue (H-122-B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Orchid (H-123-O)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (H-131-G)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Flesh (H-132-F)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 lb.",
+      "priceDiff": 24.45
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Alizarin  (H-136-A)",
+      "priceDiff": 0
+    }
+  ],
+  "P": [
+    {
+      "optionName": "size",
+      "optionValue": "Size P7 - Extra Small",
+      "priceDiff": 14.95
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size P13 - Small",
+      "priceDiff": 16.95
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size P14 - Medium",
+      "priceDiff": 20.95
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size P15 - Large",
+      "priceDiff": 23.95
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size P16 - Extra Large",
+      "priceDiff": 42.95
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size PSAMPLE - 5 OF EACH SIZE",
+      "priceDiff": 0
+    }
+  ],
+  "AL-204-1": [
+    {
+      "optionName": "quantity",
+      "optionValue": "Price for 12 Pack (AL-204)",
+      "priceDiff": 22
+    },
+    {
+      "optionName": "quantity",
+      "optionValue": "Price for 1 (AL-204-1)",
+      "priceDiff": 0
+    }
+  ],
+  "AL-627": [
+    {
+      "optionName": "size",
+      "optionValue": "Large (AL-627)",
+      "priceDiff": 2
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Medium (AL-627)",
+      "priceDiff": 1
+    }
+  ],
+  "D-212-1": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon (D-212-1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon (D-212-2)",
+      "priceDiff": 116
+    }
+  ],
+  "B-302": [
+    {
+      "optionName": "viscosity",
+      "optionValue": "B-302 Light",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "viscosity",
+      "optionValue": "B-303 Heavy",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "viscosity",
+      "optionValue": "B-304 Extra Heavy",
+      "priceDiff": 0
+    }
+  ],
+  "J-100": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "9.5 mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-120": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.7mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-121": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5mm w/3mm aperture",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.7mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-122": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-130": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-200": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "aperture size",
+      "optionValue": "2mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "aperture size",
+      "optionValue": "3mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-200-4mm": [
+    {
+      "optionName": "disc size",
+      "optionValue": "11.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "11.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "12.5 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "disc size",
+      "optionValue": "13.0 mm",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "aperture size",
+      "optionValue": "4mm",
+      "priceDiff": 0
+    }
+  ],
+  "J-400": [
+    {
+      "optionName": "quantity",
+      "optionValue": "1 Each (J-400)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "quantity",
+      "optionValue": "Quantity of 12 (J-412)",
+      "priceDiff": 30.45
+    },
+    {
+      "optionName": "quantity",
+      "optionValue": "Quantity of 100 (J-400-100)",
+      "priceDiff": 261.5
+    }
+  ],
+  "A-RTV-05": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb Kit (A-RTV-05)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-05-GAL": [
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit (A-RTV-05-GAL)",
+      "priceDiff": 300
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "FE-100": [
+    {
+      "optionName": "size",
+      "optionValue": "4 oz.",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 18
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz",
+      "priceDiff": 0
+    }
+  ],
+  "B-205": [
+    {
+      "optionName": "length",
+      "optionValue": "B-205-SR (.5 inch x 3 yards) (1.27 cm x 91.44 cm)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "length",
+      "optionValue": "B-205-1 (1 inch x 24 yards) (2.54 cm x  7.3 m)",
+      "priceDiff": 15
+    },
+    {
+      "optionName": "length",
+      "optionValue": "B-205 (.5 inch x 36 yards) (1.27 cm x 11 m)",
+      "priceDiff": 9
+    }
+  ],
+  "A-223-25": [
+    {
+      "optionName": "size",
+      "optionValue": "2lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-223-30": [
+    {
+      "optionName": "size",
+      "optionValue": "2lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-223-40": [
+    {
+      "optionName": "size",
+      "optionValue": "2lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-225-50": [
+    {
+      "optionName": "size",
+      "optionValue": "2lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-225-60": [
+    {
+      "optionName": "size",
+      "optionValue": "2lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-221-01": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-221-05": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-221-10": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-225-70": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit",
+      "priceDiff": 289.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-103": [
+    {
+      "optionName": "size",
+      "optionValue": "1 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-104": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz. (A-104)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "J-17": [
+    {
+      "optionName": "size",
+      "optionValue": "J-26 (26mm)",
+      "priceDiff": 0
+    }
+  ],
+  "J-570": [
+    {
+      "optionName": "size",
+      "optionValue": "8oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "32oz.",
+      "priceDiff": 41
+    }
+  ],
+  "J-572": [
+    {
+      "optionName": "size",
+      "optionValue": "8oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "32oz.",
+      "priceDiff": 58
+    }
+  ],
+  "J-510": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 lb.",
+      "priceDiff": 316
+    }
+  ],
+  "J-600": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 lb.",
+      "priceDiff": 296
+    }
+  ],
+  "MD-564": [
+    {
+      "optionName": "size",
+      "optionValue": "MD-564  1 oz",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "MD-564 4 oz.",
+      "priceDiff": 14
+    }
+  ],
+  "B-3808": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 11
+    },
+    {
+      "optionName": "size",
+      "optionValue": "8 oz.",
+      "priceDiff": 0
+    }
+  ],
+  "V40047": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40047-1 (1 GALLON)",
+      "priceDiff": 360
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40047-5  (5GALLON)",
+      "priceDiff": 1929.05
+    }
+  ],
+  "V40073": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40073-1 (1 GALLON)",
+      "priceDiff": 360
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40073-5 (5 GALLON)",
+      "priceDiff": 1929.05
+    }
+  ],
+  "V40098": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40098-1 (1 GALLON)",
+      "priceDiff": 352
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40098-5 (5 GALLON)",
+      "priceDiff": 1921.05
+    }
+  ],
+  "V40104": [
+    {
+      "optionName": "size",
+      "optionValue": "16oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40104-1 (1 GALLON)",
+      "priceDiff": 360
+    },
+    {
+      "optionName": "size",
+      "optionValue": "V40104-5 (5 GALLON)",
+      "priceDiff": 1929.05
+    }
+  ],
+  "TS-564": [
+    {
+      "optionName": "size",
+      "optionValue": "TS-564  1 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "TS-564  4 oz.",
+      "priceDiff": 20
+    }
+  ],
+  "A-840": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon  (A-840-G)",
+      "priceDiff": 121.25
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz. (A-840-1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16 oz. (A-840)",
+      "priceDiff": 19.2
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon (A-840-5Gal)",
+      "priceDiff": 286.2
+    }
+  ],
+  "FP-13": [
+    {
+      "optionName": "size",
+      "optionValue": "1 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "FP-14 8oz",
+      "priceDiff": 15
+    }
+  ],
+  "I-301": [
+    {
+      "optionName": "size",
+      "optionValue": "1 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 45
+    }
+  ],
+  "B-508": [
+    {
+      "optionName": "size",
+      "optionValue": "B-508 (4oz)",
+      "priceDiff": 2.75
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-508-16 (16oz)",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-508-1 (1oz)",
+      "priceDiff": 0
+    }
+  ],
+  "B-608": [
+    {
+      "optionName": "size",
+      "optionValue": "B-608-1 (1 oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-608 (4oz)",
+      "priceDiff": 15
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-608-16 (16oz)",
+      "priceDiff": 62.5
+    }
+  ],
+  "B-7731": [
+    {
+      "optionName": "quantity",
+      "optionValue": "B-7731 (1 Can)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "quantity",
+      "optionValue": "B-7731-4 (Box of 4)",
+      "priceDiff": 72.05
+    }
+  ],
+  "B-206": [
+    {
+      "optionName": "size",
+      "optionValue": "B-206-1 (1oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-206 (4 oz)",
+      "priceDiff": 12
+    }
+  ],
+  "B-208": [
+    {
+      "optionName": "size",
+      "optionValue": "B-208-1 (1oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-208 (8oz)",
+      "priceDiff": 15.96
+    }
+  ],
+  "B-400": [
+    {
+      "optionName": "size",
+      "optionValue": "B-400 (1oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-401 (2oz)",
+      "priceDiff": 12.45
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-402 (16oz)",
+      "priceDiff": 163.45
+    }
+  ],
+  "B-460": [
+    {
+      "optionName": "size",
+      "optionValue": "B-460 (1oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-461 (2oz)",
+      "priceDiff": 12.45
+    },
+    {
+      "optionName": "size",
+      "optionValue": "B-462 (16oz)",
+      "priceDiff": 170.45
+    }
+  ],
+  "BT-401": [
+    {
+      "optionName": "size",
+      "optionValue": "BT-401 (2oz)",
+      "priceDiff": 23
+    },
+    {
+      "optionName": "size",
+      "optionValue": "BT-402 (16oz)",
+      "priceDiff": 329.05
+    },
+    {
+      "optionName": "size",
+      "optionValue": "BT-401-1 (1oz)",
+      "priceDiff": 0
+    }
+  ],
+  "BT-460": [
+    {
+      "optionName": "size",
+      "optionValue": "BT-460-1 (1oz)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "BT-460 (2oz)",
+      "priceDiff": 19
+    },
+    {
+      "optionName": "size",
+      "optionValue": "BT-461 (16oz)",
+      "priceDiff": 360.05
+    }
+  ],
+  "D-36Y": [
+    {
+      "optionName": "size",
+      "optionValue": "D-48G 1 inch x 48 inch Green (Add 2.00)",
+      "priceDiff": 2
+    },
+    {
+      "optionName": "size",
+      "optionValue": "D-180R 1 inch x180 inch Red (Add 4.00)",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "size",
+      "optionValue": "D-36Y 1 inch x 36 inch Yellow",
+      "priceDiff": 0
+    }
+  ],
+  "A-315": [
+    {
+      "optionName": "size",
+      "optionValue": "A-315-4  4 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-315  16 oz",
+      "priceDiff": 102
+    }
+  ],
+  "B-515": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 0
+    }
+  ],
+  "A-244": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz - (A-244)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "V5050": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon    (V5)",
+      "priceDiff": 152
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon  (V5)",
+      "priceDiff": 667.05
+    }
+  ],
+  "V5100": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon    (V5)",
+      "priceDiff": 152
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon  (V5)",
+      "priceDiff": 667.05
+    }
+  ],
+  "V51000": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon    (V5)",
+      "priceDiff": 152
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon  (V5)",
+      "priceDiff": 667.05
+    }
+  ],
+  "V512500": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon    (V5)",
+      "priceDiff": 152
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon  (V5)",
+      "priceDiff": 667.05
+    }
+  ],
+  "A-135": [
+    {
+      "optionName": "size",
+      "optionValue": "A-135 / 3 lb kit",
+      "priceDiff": 0
+    }
+  ],
+  "A-150": [
+    {
+      "optionName": "size",
+      "optionValue": "A-150-10 lb",
+      "priceDiff": 216
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-150 / 3 lb kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-150-M / 3 lb kit MILLED",
+      "priceDiff": 75
+    }
+  ],
+  "A-165": [
+    {
+      "optionName": "size",
+      "optionValue": "A-165-30",
+      "priceDiff": 736
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-165-10 LB",
+      "priceDiff": 216
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-165 / 3 lb kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "A-165-M / 3 lb kit MILLED",
+      "priceDiff": 85
+    }
+  ],
+  "GP": [
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-001 Alizarin Crimson",
+      "priceDiff": 6
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-023 Burnt Sienna",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-024 Burnt Umber",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-025 Cadmium Orange",
+      "priceDiff": 14
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-026 Cadmium Red Deep",
+      "priceDiff": 19
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-027 Cadmium Red Light",
+      "priceDiff": 19
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-029 Cadmium Red Medium",
+      "priceDiff": 20
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-030 Cadmium Barium Red",
+      "priceDiff": 19
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-031 Cadmium Yellow Deep",
+      "priceDiff": 14
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-034 Cadmium Barium Yellow Medium",
+      "priceDiff": 14
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-036 Cadmium Yellow Pale",
+      "priceDiff": 14
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-039 Cerulean Blue Hue",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-049 Cobalt Blue",
+      "priceDiff": 20
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-071 Pale Pink (previously named Flesh - No color change)",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-115 Ivory Black",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-146 Naples Yellow",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-156 Payne's Gray",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-160 Permanent Blue",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-171 Raw Sienna",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-172 Raw Umber",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-182 Rose Madder",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-211 Thio Violet",
+      "priceDiff": 4
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-212-11 Titanium White 150ml",
+      "priceDiff": 17
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-212-9 Titanium White",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-232 Viridian Green",
+      "priceDiff": 19
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-244 Yellow Ochre",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-085 Green Earth Hue",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-016 Burnt Sienna Deep",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "GP colors",
+      "optionValue": "GP-033 Cadmium Yellow Light",
+      "priceDiff": 14
+    }
+  ],
+  "B-204": [
+    {
+      "optionName": "size",
+      "optionValue": "2 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shipping Restriction",
+      "optionValue": "*I understand the shipping restrictions on this item.",
+      "priceDiff": 0
+    }
+  ],
+  "A-4717": [
+    {
+      "optionName": "size",
+      "optionValue": "A-4717 2 lb. kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "30-3046": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Roll",
+      "priceDiff": 0
+    }
+  ],
+  "VST-30": [
+    {
+      "optionName": "size",
+      "optionValue": "Gallon Kit",
+      "priceDiff": 258
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1lb Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 1483
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "VST-50": [
+    {
+      "optionName": "size",
+      "optionValue": "Gallon Kit",
+      "priceDiff": 258
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1lb Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 1483
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "VST-50HD": [
+    {
+      "optionName": "size",
+      "optionValue": "1lb Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon Kit",
+      "priceDiff": 290
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "T-1": [
+    {
+      "optionName": "tool type",
+      "optionValue": "T-2",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "T-4",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "T-6",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "T-3",
+      "priceDiff": 1
+    }
+  ],
+  "DG-200-LSR": [
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-200mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-200mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-200mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-200MIL",
+      "priceDiff": 0
+    }
+  ],
+  "AL-Spatula": [
+    {
+      "optionName": "tool type",
+      "optionValue": "AL-601 (16R)",
+      "priceDiff": 12.95
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "AL-602 (8R)",
+      "priceDiff": 7.95
+    }
+  ],
+  "A-106": [
+    {
+      "optionName": "size",
+      "optionValue": "1 lb. Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-300-1": [
+    {
+      "optionName": "size",
+      "optionValue": "1 oz. (A-300-1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16 oz. (A-300-1 pt.)",
+      "priceDiff": 177
+    }
+  ],
+  "E-Skin-FE": [
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Aubergine FE-ES13",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Orange-Brown FE-ES09",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Deep Grey FE-ES08",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Ochre FE-ES07",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Red FE-ES06",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Deep Orange FE-ES12",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Light Grey FE-ES04",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Cream FE-ES02",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Orange FE-ES03",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Red Brown FE-ES11",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Pink FE-ES05",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Deep Mottle FE-ES16",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Dark Dapple FE-ES17",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Red Mottle FE-ES15",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Light Dapple FE-ES14",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "White FE-ES01",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Spectromatch Colors",
+      "optionValue": "Olive FE-ES10",
+      "priceDiff": 0
+    }
+  ],
+  "DG-400-LSR": [
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-400mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-400mil",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-400mil",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-400MIL",
+      "priceDiff": 0
+    }
+  ],
+  "J-305": [
+    {
+      "optionName": "size",
+      "optionValue": "4 oz",
+      "priceDiff": 16
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz",
+      "priceDiff": 0
+    }
+  ],
+  "A-830": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz",
+      "priceDiff": 0
+    }
+  ],
+  "V5350": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Gallon    (V5)",
+      "priceDiff": 152
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon  (V5)",
+      "priceDiff": 667.05
+    }
+  ],
+  "B-200-30": [
+    {
+      "optionName": "Shipping Restriction",
+      "optionValue": "*I understand the shipping restrictions on this item.",
+      "priceDiff": 0
+    }
+  ],
+  "B-200-ES": [
+    {
+      "optionName": "Shipping Restriction",
+      "optionValue": "*I understand the shipping restrictions on this item.",
+      "priceDiff": 0
+    }
+  ],
+  "B-200-R": [
+    {
+      "optionName": "Shipping Restriction",
+      "optionValue": "*I understand the shipping restrictions on this item.",
+      "priceDiff": 0
+    }
+  ],
+  "FX-200": [
+    {
+      "optionName": "Shipping Restriction",
+      "optionValue": "*I understand the shipping restrictions on this item.",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-3020": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon Kit",
+      "priceDiff": 228
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 848
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-RTV-3020 (Shore A 20)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-3040": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon Kit",
+      "priceDiff": 228
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 848
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-3045": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon Kit",
+      "priceDiff": 228
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 848
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4020": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4040": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-RTV-4040 (Shore A-40 )",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon Kit",
+      "priceDiff": 309
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 1319.05
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "TS-564-NFS": [
+    {
+      "optionName": "size",
+      "optionValue": "TS-564-1NFS  1 oz.",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "TS-564-NFS  4 oz.",
+      "priceDiff": 25
+    }
+  ],
+  "MD-564-NFS": [
+    {
+      "optionName": "size",
+      "optionValue": "MD-564-1NFS  1 oz",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "MD-564-NFS 4 oz.",
+      "priceDiff": 34
+    }
+  ],
+  "B-708": [
+    {
+      "optionName": "size",
+      "optionValue": "1oz (B-708-1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "4oz (B-708-4)",
+      "priceDiff": 21
+    }
+  ],
+  "I-100": [
+    {
+      "optionName": "color",
+      "optionValue": "White (I-100W)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (I-100R)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (I-100Y)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Naturelle (I-100F)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Ultra Blue (I-100ULB)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red Brown (I-100RB)",
+      "priceDiff": 0
+    }
+  ],
+  "A-304": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz. (A-304-P)",
+      "priceDiff": 417
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz. (A-304)",
+      "priceDiff": 15
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1/2 oz. (A-304.5)",
+      "priceDiff": 0
+    }
+  ],
+  "A-306": [
+    {
+      "optionName": "size",
+      "optionValue": "16 oz. (A-306-P)",
+      "priceDiff": 1440.05
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 oz. (A-306)",
+      "priceDiff": 50
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1/2 oz. (A-306.5)",
+      "priceDiff": 0
+    }
+  ],
+  "DT": [
+    {
+      "optionName": "tool type",
+      "optionValue": "DT-A for 50ml 10:1, A Style Cartridges",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "DT-B/S for 50ml 1:1, B & S Style Cartridges",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "DT-C for 200ml & 400ml 1:1, Cartridges",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4410": [
+    {
+      "optionName": "size",
+      "optionValue": "2 lb Kit RTV-4410",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit RTV-4410-GAL",
+      "priceDiff": 364
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "E-1217": [
+    {
+      "optionName": "This Item is Special Order",
+      "optionValue": "<p style=\"font-size:14px;color:red;\">Special Order Items are Non-Returnable</p>",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Voltage",
+      "optionValue": "110-120 Volt (U.S. Standard)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Voltage",
+      "optionValue": "210-240 Volt (EU Standard)",
+      "priceDiff": 0
+    }
+  ],
+  "E-1827": [
+    {
+      "optionName": "This Item is Special Order",
+      "optionValue": "<p style=\"font-size:14px;color:red;\">Special Order Items are Non-Returnable</p>",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Voltage",
+      "optionValue": "110-120 Volt (U.S. Standard)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Voltage",
+      "optionValue": "210-240 Volt (EU Standard)",
+      "priceDiff": 0
+    }
+  ],
+  "AL-605": [
+    {
+      "optionName": "size",
+      "optionValue": "Package of 12",
+      "priceDiff": 0
+    }
+  ],
+  "AL-502": [
+    {
+      "optionName": "Type",
+      "optionValue": "NO.6 (AL-502)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Type",
+      "optionValue": "NO.7R (AL-506)",
+      "priceDiff": 5
+    },
+    {
+      "optionName": "Type",
+      "optionValue": "NO.6R (AL-505)",
+      "priceDiff": 5
+    },
+    {
+      "optionName": "Type",
+      "optionValue": "NO.7 (AL-503)",
+      "priceDiff": 3
+    },
+    {
+      "optionName": "Type",
+      "optionValue": "NO.12 (AL-500)",
+      "priceDiff": 12
+    }
+  ],
+  "AL-517": [
+    {
+      "optionName": "tool type",
+      "optionValue": "AL-518 (Vernier Calipers)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "tool type",
+      "optionValue": "AL-517 (Boley Gauge)",
+      "priceDiff": 0
+    }
+  ],
+  "DG-200-LSR-P-K": [
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4330 / A-223-30 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4340 / A-223-40 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4350 / A-225-50 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4360 / A-225-60 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4370 / A-225-70 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4325 / A-223-25 For Injection Molding",
+      "priceDiff": 0
+    }
+  ],
+  "DG-400-LSR-P-K": [
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4330 / A-223-30 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4340 / A-223-40 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4350 / A-225-50 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4360 / A-225-60 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4370 / A-225-70 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4325 / A-223-25 For Injection Molding",
+      "priceDiff": 0
+    }
+  ],
+  "DG-50-LSR-M-K": [
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4330 / A-223-30 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4340 / A-223-40 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4325 / A-223-25 For Injection Molding",
+      "priceDiff": 0
+    }
+  ],
+  "DG-50-LSR-P-K": [
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4330 / A-223-30 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4340 / A-223-40 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4350 / A-225-50 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4360 / A-225-60 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4370 / A-225-70 For Injection Molding",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Shore A",
+      "optionValue": "LSR-4325 / A-223-25 For Injection Molding",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4420": [
+    {
+      "optionName": "size",
+      "optionValue": "2 Gallon Kit RTV-4420",
+      "priceDiff": 364
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 LB Kit",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-1556": [
+    {
+      "optionName": "size",
+      "optionValue": "1 Pound Kit",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1 Gallon Kit",
+      "priceDiff": 309
+    },
+    {
+      "optionName": "size",
+      "optionValue": "5 Gallon Kit",
+      "priceDiff": 1319.05
+    },
+    {
+      "optionName": "cure rate",
+      "optionValue": "A-RTV-1556-F (30 Minute Cure)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "cure rate",
+      "optionValue": "A-RTV-1556 (8 to 12 Hour Cure)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-4520-HCRA": [
+    {
+      "optionName": "size",
+      "optionValue": "4 LB Kit, 2 Pounds of A & 2 Pounds of B",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "44 LB Kit  22 Pounds A & 22 Pounds B",
+      "priceDiff": 761
+    }
+  ],
+  "A-4530-HCRA": [
+    {
+      "optionName": "size",
+      "optionValue": "4 LB Kit, 2 Pounds of A & 2 Pounds of B",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "44 LB Kit  22 Pounds A & 22 Pounds B",
+      "priceDiff": 761
+    }
+  ],
+  "A-4550-HCRA": [
+    {
+      "optionName": "size",
+      "optionValue": "4 LB Kit, 2 Pounds of A & 2 Pounds of B",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "44 LB Kit  22 Pounds A & 22 Pounds B",
+      "priceDiff": 761
+    }
+  ],
+  "A-4565-HCRA": [
+    {
+      "optionName": "size",
+      "optionValue": "4 LB Kit, 2 Pounds of A & 2 Pounds of B",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "44 LB Kit  22 Pounds A & 22 Pounds B",
+      "priceDiff": 761
+    }
+  ],
+  "7047V12": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-100": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-101": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-2186": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-223-30-400MIL-P-(WHITE)": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-310-1000": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-310-20": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-310-50": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-313": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-318": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-340": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-4100": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-4200": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-4300": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-588-1": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4510": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size: 2lb Kit (A-RTV-4545)",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4528": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size: 2 lb KIT (A-RTV-4528)",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-4545": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Size: 2lb Kit (A-RTV-4545)",
+      "priceDiff": 0
+    }
+  ],
+  "A-RTV-70-50mil": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "DG-50-LSR": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-50-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-60-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-225-70-50MIL",
+      "priceDiff": 10
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-30-50MIL",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-40-50MIL",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "Hardness",
+      "optionValue": "A-223-25-50MIL",
+      "priceDiff": 0
+    }
+  ],
+  "M-511": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "VST-50F": [
+    {
+      "optionName": "Affidavit Required",
+      "optionValue": "Affidavit Required Download below",
+      "priceDiff": 0
+    }
+  ],
+  "A-321": [
+    {
+      "optionName": "size",
+      "optionValue": "8 oz (4 oz A and 4 oz B)",
+      "priceDiff": 35
+    },
+    {
+      "optionName": "size",
+      "optionValue": "4 oz (2 oz A and 2 oz B)",
+      "priceDiff": 20
+    },
+    {
+      "optionName": "size",
+      "optionValue": "2 oz (1 oz A and 1 oz B)",
+      "priceDiff": 0
+    }
+  ],
+  "TS-550": [
+    {
+      "optionName": "size",
+      "optionValue": "2 oz (1 oz of A and 1 oz of B)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "8 oz (4 oz of A and 4 oz of B)",
+      "priceDiff": 27
+    }
+  ],
+  "J-SI": [
+    {
+      "optionName": "size",
+      "optionValue": "4mm (J-SI04)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "7mm (J-SI07)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "16mm (J-SI16)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "17mm (J-SI17)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "18mm (J-SI18)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "19mm (J-SI19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "20mm (J-SI20)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "21mm (J-SI21)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "Kit One of each size (J-SI10)",
+      "priceDiff": 306
+    }
+  ],
+  "J-SC": [
+    {
+      "optionName": "size",
+      "optionValue": "22mm X 16mm (J-SC3)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "17mm X 12mm (J-SC6)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "21mm X 14mm (J-SC7)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "24mm X 16mm (J-SC8)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "27mm X 18mm (J-SC9)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "19mm X 16mm (J-SC12)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "30mm X 23mm (J-SC18)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "19mm X 14mm (J-SC19)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "19mm X 14mm (J-SC22)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "23mm X 17mm (J-SC23)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "30mm X 23mm (J-SC24)",
+      "priceDiff": 0
+    }
+  ],
+  "D-200-125": [
+    {
+      "optionName": "size",
+      "optionValue": "125 ML (D-200-125)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "250 ML (D-200-250)",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "size",
+      "optionValue": "1000 ML (D-200-1000)",
+      "priceDiff": 3
+    }
+  ],
+  "H-200": [
+    {
+      "optionName": "color",
+      "optionValue": "Turquoise (H-212T)",
+      "priceDiff": 0
+    }
+  ],
+  "I-200": [
+    {
+      "optionName": "color",
+      "optionValue": "Blue",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow (I-202)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red (I-204)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Black (I-205)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red Brown (I-207)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Yellow Ochre (I-219)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cosmetic Tan (I-220)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Raw Seinna (I-222)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Cosmetic Red (I-224)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Monastral Red (I-225)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Red D&C (I-228)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Green (I-232)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Rust (I-233)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Barium Red (I-234)",
+      "priceDiff": 0
+    }
+  ],
+  "J-301-3": [
+    {
+      "optionName": "color",
+      "optionValue": "Black",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "color",
+      "optionValue": "Creme",
+      "priceDiff": 0
+    }
+  ],
+  "AL-": [
+    {
+      "optionName": "size",
+      "optionValue": "AL-101-2761 3/8 inch Coarse",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-101-2781 3/8 inch Fine",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-101-2771 3/8 inch Medium",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-102-2801 1/4 inch Medium",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-103-2732 1/2 inch Coarse",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-103-2742 1/2 inch Medium",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-103-2752 1/2 inch Fine",
+      "priceDiff": 1
+    },
+    {
+      "optionName": "size",
+      "optionValue": "AL-100-2711 3/4 inch Medium",
+      "priceDiff": 1
+    }
+  ],
+  "A-850": [
+    {
+      "optionName": "A-850-1 (1oz) $8.00",
+      "optionValue": "A-850 (8oz) $18.95",
+      "priceDiff": 0
+    }
+  ],
+  "5164-1": [
+    {
+      "optionName": "quantity",
+      "optionValue": "5164-1 (Quantity 1)",
+      "priceDiff": 0
+    },
+    {
+      "optionName": "quantity",
+      "optionValue": "5164-12 (Quantity 12)",
+      "priceDiff": 7.97
+    }
+  ]
+}

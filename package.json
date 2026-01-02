@@ -16,6 +16,7 @@
     "convert:products": "tsx migration/convert-products.ts",
     "convert:product-collections": "tsx migration/convert-product-collections.ts",
     "convert:redirects": "tsx migration/convert-redirects.ts",
+    "convert:product-options": "tsx migration/convert-product-options.ts",
     "convert:all": "npm run convert:categories && npm run convert:product-collections && npm run convert:products && npm run convert:redirects",
     "extract:files": "tsx migration/extract-files.ts",
     "extract:product-links": "tsx migration/extract-product-links.ts",
@@ -32,7 +33,8 @@
     "migrate:products:update-existing": "tsx migration/update-existing-products.ts",
     "migrate:products:update-existing:dry-run": "DRY_RUN=true tsx migration/update-existing-products.ts",
     "migrate:update-links": "tsx migration/update-product-links.ts",
-    "migrate:update-links:dry-run": "DRY_RUN=true tsx migration/update-product-links.ts"
+    "migrate:update-links:dry-run": "DRY_RUN=true tsx migration/update-product-links.ts",
+    "migrate:metafield-definitions": "tsx migration/create-metafield-definitions.ts"
   },
   "keywords": ["shopify", "mcp"],
   "license": "MIT",
