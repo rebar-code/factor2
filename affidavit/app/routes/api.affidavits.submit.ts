@@ -3,6 +3,18 @@ import { randomUUID } from "crypto";
 import { addSubmission, type AffidavitFormData } from "~/lib/metafields";
 
 export async function action({ request }: ActionFunctionArgs) {
+  // Handle CORS for storefront requests
+  if (request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type",
+      },
+    });
+  }
+
   if (request.method !== "POST") {
     return json({ error: "Method not allowed" }, { status: 405 });
   }
@@ -88,17 +100,33 @@ export async function action({ request }: ActionFunctionArgs) {
     // Save submission to customer metafield (includes full form_data)
     await addSubmission(customerId, submissionId, productCodes, affidavitData);
 
-    return json({
-      success: true,
-      submissionId,
-      message:
-        "Affidavit submitted successfully. Your submission is pending review.",
-    });
+    return json(
+      {
+        success: true,
+        submissionId,
+        message:
+          "Affidavit submitted successfully. Your submission is pending review.",
+      },
+      {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "POST, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type",
+        },
+      }
+    );
   } catch (error: any) {
     console.error("Error submitting affidavit:", error);
     return json(
       { error: error.message || "Failed to submit affidavit" },
-      { status: 500 }
+      {
+        status: 500,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "POST, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type",
+        },
+      }
     );
   }
 }
